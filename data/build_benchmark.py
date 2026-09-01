@@ -137,6 +137,7 @@ for p, pdata in policies.items():
 
 # We need to save the change_points into manifest.json
 manifest['change_points'] = change_points
+manifest['data_seed'] = seed
 
 # Generator for random attr based on policy
 def get_random_attr(p):
@@ -239,6 +240,12 @@ def gen_task(policy_id, ts, pos_slice, doc_slice):
             decision_bool = pdata['eval'](attr_val, val)
             return pdata['action_true'] if decision_bool else pdata['action_false']
             
+        
+        if pos_slice == 'window_pre_detection':
+            assert change_points[policy_id]['t_practice'] <= ts < change_points[policy_id]['t_practice'] + get_delay(policy_id)
+        elif pos_slice == 'window_detected_doc_stale':
+            assert change_points[policy_id]['t_practice'] + get_delay(policy_id) <= ts < change_points[policy_id]['t_doc']
+
         correct_action = eval_v(actual_v)
         stale_action = eval_v(stale_v)
         
@@ -277,9 +284,9 @@ dist = [
     # 60 pre-change
     *[gen_task(p, 200, 'pre-change', policies[p]['type']) for p in random.choices(['refund_window', 'price_match_cap', 'exchange_eligibility', 'exception_approval', 'shipping_upgrade', 'loyalty_discount'], k=60)],
     # 20 window_pre_detection
-    *[gen_task(p, random.randint(change_points[p]['t_practice'], change_points[p]['t_practice'] + get_delay(p) - 1), 'window_pre_detection', 'lagged') for p in random.choices(['exception_approval', 'shipping_upgrade'], k=20)],
+    *[gen_task(p, random.randrange(change_points[p]['t_practice'], change_points[p]['t_practice'] + get_delay(p)), 'window_pre_detection', 'lagged') for p in random.choices(['exception_approval', 'shipping_upgrade'], k=20)],
     # 20 window_detected_doc_stale
-    *[gen_task(p, random.randint(change_points[p]['t_practice'] + get_delay(p), change_points[p]['t_doc'] - 1), 'window_detected_doc_stale', 'lagged') for p in random.choices(['exception_approval', 'shipping_upgrade'], k=20)],
+    *[gen_task(p, random.randrange(change_points[p]['t_practice'] + get_delay(p), change_points[p]['t_doc']), 'window_detected_doc_stale', 'lagged') for p in random.choices(['exception_approval', 'shipping_upgrade'], k=20)],
     # 80 post-detection on changed
     *[gen_task(p, 700, 'post-detection', policies[p]['type']) for p in random.choices(['refund_window', 'price_match_cap', 'exchange_eligibility', 'exception_approval', 'shipping_upgrade', 'loyalty_discount'], k=80)],
     # 60 unchanged

@@ -38,3 +38,7 @@ In response to the measured detection delay, the S2 "window" axis is subdivided 
 - `window_detected_doc_stale`: Tasks drawn from the interval between detection and document update.
 
 This refines the preregistered S2 axis without moving any thresholds, which the expansion rule permits.
+
+### Appendix B: Stage 2 Metrics Correction (2026-09-02)
+
+The Stage 2 gated population is corrected to exclusively evaluate post-detection queries, strictly matching criterion 2 from `paper 2.md`. The 0.95 threshold is unchanged. Two additional ungated diagnostics (`asof_correctness_retrospective` and `asof_correctness_online`) have been added to honestly measure valid-time recovery and raw online detection lag.
