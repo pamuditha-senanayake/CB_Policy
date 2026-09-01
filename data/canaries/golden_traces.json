@@ -1,201 +1,101 @@
 [
   {
-    "trace_id": "gold_0",
+    "trace_id": "gold_refund_match",
     "ts": 0,
     "policy_id": "refund_window",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "approve_refund"
-      }
+      { "attrs": { "days_since_purchase": 10 }, "decision": "approve_refund" },
+      { "attrs": { "days_since_purchase": 20 }, "decision": "approve_refund" }
     ],
     "expected_fitness": 1.0
   },
   {
-    "trace_id": "gold_1",
+    "trace_id": "gold_refund_viol",
     "ts": 1,
     "policy_id": "refund_window",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "approve_refund"
-      }
+      { "attrs": { "days_since_purchase": 10 }, "decision": "approve_refund" },
+      { "attrs": { "days_since_purchase": 20 }, "decision": "deny_refund" }
     ],
-    "expected_fitness": 1.0
+    "expected_fitness": 0.5
   },
   {
-    "trace_id": "gold_2",
+    "trace_id": "gold_ship_match",
     "ts": 2,
-    "policy_id": "refund_window",
+    "policy_id": "shipping_upgrade",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "approve_refund"
-      }
+      { "attrs": { "cart_total": 60 }, "decision": "upgrade_shipping" },
+      { "attrs": { "cart_total": 80 }, "decision": "upgrade_shipping" }
     ],
     "expected_fitness": 1.0
   },
   {
-    "trace_id": "gold_3",
+    "trace_id": "gold_ship_viol",
     "ts": 3,
-    "policy_id": "refund_window",
+    "policy_id": "shipping_upgrade",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "approve_refund"
-      }
+      { "attrs": { "cart_total": 60 }, "decision": "upgrade_shipping" },
+      { "attrs": { "cart_total": 80 }, "decision": "deny_upgrade" }
     ],
-    "expected_fitness": 1.0
+    "expected_fitness": 0.5
   },
   {
-    "trace_id": "gold_4",
+    "trace_id": "gold_exch_match",
     "ts": 4,
-    "policy_id": "refund_window",
+    "policy_id": "exchange_eligibility",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "approve_refund"
-      }
+      { "attrs": { "has_item": "receipt" }, "decision": "approve_exchange" },
+      { "attrs": { "has_item": "receipt" }, "decision": "approve_exchange" }
     ],
     "expected_fitness": 1.0
   },
   {
-    "trace_id": "viol_0",
+    "trace_id": "gold_exch_viol",
     "ts": 5,
-    "policy_id": "refund_window",
+    "policy_id": "exchange_eligibility",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "deny_refund"
-      }
+      { "attrs": { "has_item": "receipt" }, "decision": "approve_exchange" },
+      { "attrs": { "has_item": "receipt" }, "decision": "deny_exchange" }
     ],
     "expected_fitness": 0.5
   },
   {
-    "trace_id": "viol_1",
+    "trace_id": "gold_cancel_match",
     "ts": 6,
-    "policy_id": "refund_window",
+    "policy_id": "cancellation_fee",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "deny_refund"
-      }
+      { "attrs": { "hours_notice": 48 }, "decision": "waive_fee" },
+      { "attrs": { "hours_notice": 24 }, "decision": "waive_fee" }
     ],
-    "expected_fitness": 0.5
+    "expected_fitness": 1.0
   },
   {
-    "trace_id": "viol_2",
+    "trace_id": "gold_cancel_viol",
     "ts": 7,
-    "policy_id": "refund_window",
+    "policy_id": "cancellation_fee",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "deny_refund"
-      }
+      { "attrs": { "hours_notice": 48 }, "decision": "waive_fee" },
+      { "attrs": { "hours_notice": 24 }, "decision": "charge_fee" }
     ],
     "expected_fitness": 0.5
   },
   {
-    "trace_id": "viol_3",
+    "trace_id": "gold_except_match",
     "ts": 8,
-    "policy_id": "refund_window",
+    "policy_id": "exception_approval",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "deny_refund"
-      }
+      { "attrs": { "approver": "manager" }, "decision": "approve_exception" },
+      { "attrs": { "approver": "manager" }, "decision": "approve_exception" }
     ],
-    "expected_fitness": 0.5
+    "expected_fitness": 1.0
   },
   {
-    "trace_id": "viol_4",
+    "trace_id": "gold_except_viol",
     "ts": 9,
-    "policy_id": "refund_window",
+    "policy_id": "exception_approval",
     "events": [
-      {
-        "attrs": {
-          "days_since_purchase": 10
-        },
-        "decision": "approve_refund"
-      },
-      {
-        "attrs": {
-          "days_since_purchase": 20
-        },
-        "decision": "deny_refund"
-      }
+      { "attrs": { "approver": "manager" }, "decision": "approve_exception" },
+      { "attrs": { "approver": "manager" }, "decision": "deny_exception" }
     ],
     "expected_fitness": 0.5
   }

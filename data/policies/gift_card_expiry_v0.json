@@ -1,0 +1,1 @@
+{"policy_id": "gift_card_expiry", "version": 0, "prose": "Policy gift_card_expiry is 5", "constraint": "years_since_issue == 5", "action_true": "accept_card", "action_false": "reject_card"}

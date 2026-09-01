@@ -28,3 +28,13 @@ A bi-temporal policy graph, invalidated by a conformance-fitness drift signal, r
 ### 2026-09-01
 - Added an alternative ADWIN configuration with `delta=0.1` (increased sensitivity, default is 0.002) to evaluate its effect on the mean delay threshold. The < 50 threshold itself remains untouched. Both default and `delta=0.1` ADWIN configurations will be reported.
   **Selection Rule:** The parameter `delta=0.1` was chosen as the centre of the widest contiguous region that satisfies all four thresholds across six independent data seeds (0, 1, 2, 3, 7, 11), ensuring the parameter generalizes rather than overfitting to a single seed.
+
+### Appendix A: S2 Axis Refinement (2026-09-02)
+
+The original S2 (Doc Status) axis specified a single "window" slice for lagged policies between practice change and document update. However, measured detection delay means tasks immediately following the practice change occur before drift is detected. Measuring the mechanism's performance across this entire block conflates two distinct states: pre-detection and post-detection.
+
+In response to the measured detection delay, the S2 "window" axis is subdivided into two sub-slices:
+- `window_pre_detection`: Tasks drawn from the interval between practice change and detection.
+- `window_detected_doc_stale`: Tasks drawn from the interval between detection and document update.
+
+This refines the preregistered S2 axis without moving any thresholds, which the expansion rule permits.

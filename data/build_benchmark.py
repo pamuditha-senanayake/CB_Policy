@@ -92,6 +92,14 @@ policies = {
         'eval': lambda attr, val: attr == val,
         'action_true': 'verify_pass', 'action_false': 'verify_fail',
         'msg_template': 'Here is my {attr} for verification.'
+    },
+    'gift_card_expiry': {
+        'type': 'unchanged',
+        'attr': 'years_since_issue',
+        'v0': {'val': 5}, 'v1': None,
+        'eval': lambda attr, val: attr <= val,
+        'action_true': 'accept_card', 'action_false': 'reject_card',
+        'msg_template': 'This gift card was issued {attr} years ago.'
     }
 }
 
@@ -141,6 +149,7 @@ def get_random_attr(p):
     if p == 'loyalty_discount': return random.choice(['gold', 'platinum', 'silver'])
     if p == 'cancellation_fee': return random.choice([12, 24, 48])
     if p == 'id_verification': return random.choice(['photo_id', 'credit_card'])
+    if p == 'gift_card_expiry': return random.randint(1, 10)
     return 0
 
 # Generator logs
@@ -234,7 +243,7 @@ def gen_task(policy_id, ts, pos_slice, doc_slice):
         stale_action = eval_v(stale_v)
         
         # Condition: must differ if changed policy post-change
-        if pos_slice in ['window', 'post-detection'] and policy_id != 'cancellation_fee' and policy_id != 'id_verification':
+        if pos_slice in ['window', 'window_pre_detection', 'window_detected_doc_stale', 'post-detection'] and policies[policy_id]['type'] != 'unchanged' and policy_id != 'id_verification':
             if correct_action == stale_action:
                 continue # Regenerate attribute until they differ
                 
@@ -252,17 +261,29 @@ def gen_task(policy_id, ts, pos_slice, doc_slice):
             'task_params': {pdata['attr']: attr_val} # Optional but useful
         }
 
+# Read delays
+import os
+delay_file = f"runs/stage1_adwin_delta_0.1_seed{seed}.json"
+measured_delays = {}
+if os.path.exists(delay_file):
+    with open(delay_file, 'r') as f:
+        measured_delays = json.load(f).get('per_change_delays', {})
+
+def get_delay(policy_id):
+    return measured_delays.get(policy_id, 47)
+
 # Distribution
 dist = [
     # 60 pre-change
     *[gen_task(p, 200, 'pre-change', policies[p]['type']) for p in random.choices(['refund_window', 'price_match_cap', 'exchange_eligibility', 'exception_approval', 'shipping_upgrade', 'loyalty_discount'], k=60)],
-    # 40 inside window
-    # lagged: exception_approval, shipping_upgrade (change practice at 400, doc at 550)
-    *[gen_task(random.choice(['exception_approval', 'shipping_upgrade']), 450, 'window', 'lagged') for _ in range(40)],
+    # 20 window_pre_detection
+    *[gen_task(p, random.randint(change_points[p]['t_practice'], change_points[p]['t_practice'] + get_delay(p) - 1), 'window_pre_detection', 'lagged') for p in random.choices(['exception_approval', 'shipping_upgrade'], k=20)],
+    # 20 window_detected_doc_stale
+    *[gen_task(p, random.randint(change_points[p]['t_practice'] + get_delay(p), change_points[p]['t_doc'] - 1), 'window_detected_doc_stale', 'lagged') for p in random.choices(['exception_approval', 'shipping_upgrade'], k=20)],
     # 80 post-detection on changed
     *[gen_task(p, 700, 'post-detection', policies[p]['type']) for p in random.choices(['refund_window', 'price_match_cap', 'exchange_eligibility', 'exception_approval', 'shipping_upgrade', 'loyalty_discount'], k=80)],
     # 60 unchanged
-    *[gen_task('cancellation_fee', random.randint(100, 800), 'post-detection', 'unchanged') for _ in range(60)]
+    *[gen_task(p, random.randint(100, 800), 'post-detection', 'unchanged') for p in random.choices(['cancellation_fee', 'gift_card_expiry'], k=60)]
 ]
 
 for i, t in enumerate(dist):
@@ -289,10 +310,12 @@ sys.path.append('detect')
 from conformance import calculate_fitness
 with open('data/canaries/golden_traces.json', 'r') as f:
     golden_traces = json.load(f)
-with open('data/policies/refund_window_v0.json', 'r') as f:
-    v0_policy = json.load(f)
 for gt in golden_traces:
+    with open(f"data/policies/{gt['policy_id']}_v0.json", 'r') as f:
+        v0_policy = json.load(f)
     fit = calculate_fitness(gt, v0_policy)
+    if abs(fit - gt['expected_fitness']) >= 0.01:
+        print(f"DEBUG: trace={gt} policy={v0_policy} fit={fit}")
     assert abs(fit - gt['expected_fitness']) < 0.01, f"G2c failed for {gt['trace_id']}: expected {gt['expected_fitness']}, got {fit}"
 
 for p, cp in change_points.items():
