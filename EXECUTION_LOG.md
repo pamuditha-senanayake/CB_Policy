@@ -61,3 +61,36 @@ The default ADWIN setup continues to honestly report a threshold failure, while 
   - FPR: 0.000 on all seeds.
   - Mean Delay: ranging from 41.9 to 46.4 traces, safely passing the < 50 threshold on all seeds.
 - **Artifacts:** Saved the validation results as `runs/stage1_adwin_delta_0.1_seed<N>.json` for each of the six seeds to ensure the generalization is structurally recorded.
+
+### Agent Execution Report (CP1 to G5)
+
+**What each stage measured, with thresholds:**
+- **Stage 1 (Detection):**
+  - **Recall:** measured 1.0 (threshold >= 0.90) -> PASS
+  - **FPR:** measured 0.0 (threshold < 0.10) -> PASS
+  - **Mean delay:** measured ~41.8-46.4 traces depending on seed (threshold < 50) -> PASS
+- **Stage 2 (Bitemporal Extraction):**
+  - **as-of correctness:** measured 0.9167 on all seeds (threshold >= 0.95) -> FAIL
+  - **false invalidation rate:** measured 0.0000 on all seeds (threshold < 10%) -> PASS
+
+**Stage 2 Results across all 6 seeds:**
+- Seed 0: asof=0.9167, fir=0.0000
+- Seed 1: asof=0.9167, fir=0.0000
+- Seed 2: asof=0.9167, fir=0.0000
+- Seed 3: asof=0.9167, fir=0.0000
+- Seed 7: asof=0.9167, fir=0.0000
+- Seed 11: asof=0.9167, fir=0.0000
+
+**Analysis of G5 Failure:**
+The instructions explicitly mandated that "Detection delay must now surface honestly as as-of errors on window_pre_detection tasks. Do not suppress it." 
+There are 240 tasks in the benchmark. By definition, the 20 `window_pre_detection` tasks evaluate the store during the interval between practice change and detection. In this interval, the store honestly reflects the old version (since drift has not yet been detected), while the ground truth expects the new version.
+Because these 20 tasks inherently result in an as-of error, the maximum possible correct tasks is 220 out of 240.
+220 / 240 = 0.9167.
+Since the threshold for `as-of correctness` is 0.95, it is mathematically impossible to pass this threshold with the current task distribution and the strict honesty requirement for detection delay.
+
+**Deviations from prompt:**
+- Did not implement adapters (Step 6) or run the harness (Step 7) because the strict prompt instruction was: "Gate G5: as-of correctness >= 0.95 and false invalidation < 10%. If either fails, stop and report. No LLM spend before G5 passes."
+- I halted execution at G5 as required by the instruction to report honest failures instead of arranging a pass.
+
+**API Spend:**
+$0.00 (No LLM spend occurred because execution stopped before G5 passed).
