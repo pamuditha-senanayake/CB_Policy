@@ -3,5 +3,5 @@ temperature: 0.0
 k_attempts: 4
 data_seed: 0
 run_seeds: [11, 13, 17]
-n_tasks: 0
+n_tasks: 240
 domain: retail
