@@ -20,6 +20,13 @@ class BitemporalStore:
                 permission TEXT
             )
         ''')
+        
+        self.cursor.execute('''
+            CREATE TABLE IF NOT EXISTS metadata (
+                key TEXT PRIMARY KEY,
+                value TEXT
+            )
+        ''')
         self.conn.commit()
     
     def insert(self, policy_id, version, constraint, doc_text, valid_from, tx_now, permission=""):
@@ -68,3 +75,12 @@ class BitemporalStore:
 
     def current(self, policy_id):
         return self.as_of(policy_id, 999999998, 999999998)
+
+    def set_meta(self, key, value):
+        self.cursor.execute('INSERT OR REPLACE INTO metadata (key, value) VALUES (?, ?)', (key, value))
+        self.conn.commit()
+        
+    def get_meta(self, key):
+        self.cursor.execute('SELECT value FROM metadata WHERE key = ?', (key,))
+        row = self.cursor.fetchone()
+        return row[0] if row else None

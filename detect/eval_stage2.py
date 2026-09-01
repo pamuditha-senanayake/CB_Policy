@@ -74,10 +74,10 @@ def retrospective_scan(buffer):
 seed = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 
 import os
-if os.path.exists(f'runs/store_seed{seed}.db'):
-    try: os.remove(f'runs/store_seed{seed}.db')
+if os.path.exists(f'runs/store_data{seed}.db'):
+    try: os.remove(f'runs/store_data{seed}.db')
     except: pass
-store = BitemporalStore(f'runs/store_seed{seed}.db')
+store = BitemporalStore(f'runs/store_data{seed}.db')
 detectors = {}
 drifts_detected = {}
 recent_traces = {}
@@ -157,6 +157,13 @@ for t in traces:
 with open("data/manifest.json", 'r') as f:
     manifest = json.load(f)
 change_points = manifest.get('change_points', {})
+
+
+import hashlib
+with open('data/manifest.json', 'r') as f:
+    man_content = f.read()
+    man_hash = hashlib.sha256(man_content.encode()).hexdigest()
+    store.set_meta('manifest_hash', man_hash)
 
 with open("data/tasks/tasks.json", 'r') as f:
     tasks = json.load(f)

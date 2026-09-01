@@ -39,7 +39,14 @@ from graph.bitemporal_store import BitemporalStore
 stores = {}
 
 if condition in ['bitemporal_drift', 'latest_timestamp', 'full_history_brute', 'plain_rag']:
-    stores['bitemporal'] = BitemporalStore(f"runs/store_seed{config_seed}.db")
+
+    stores['bitemporal'] = BitemporalStore(f"runs/store_data{config_seed}.db")
+    with open('data/manifest.json', 'r') as f:
+        man_hash = hashlib.sha256(f.read().encode()).hexdigest()
+    if stores['bitemporal'].get_meta('manifest_hash') != man_hash:
+        print("ERROR: store_data DB manifest hash mismatch!")
+        sys.exit(1)
+
 
 with open('data/tasks/tasks.json', 'r') as f:
     tasks = json.load(f)
@@ -68,7 +75,7 @@ TEMP = 0.6
 K_ATTEMPTS = 4
 
 os.makedirs("runs/cache", exist_ok=True)
-run_id = f"{condition}_rs{run_seed}_{int(time.time())}"
+run_id = f"{condition}_rs{run_seed}"
 os.makedirs(f"runs/raw/{run_id}", exist_ok=True)
 
 # To restrict actions per policy
@@ -163,6 +170,21 @@ with ThreadPoolExecutor(max_workers=30) as executor:
         if i % 10 == 0: print(f"Completed {i}/{len(tasks)} tasks")
 
 import subprocess
+import filecmp
 print("Computing metrics via extract/rescore.py...")
-subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), f"runs/{condition}_s{run_seed}.json"], check=True)
+out_json = f"runs/{condition}_s{run_seed}.json"
+subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), out_json], check=True)
+
+# Audit chain verify
+tmp_json = f"runs/tmp_audit_{condition}.json"
+subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), tmp_json], check=True)
+
+with open(out_json, 'r') as f1, open(tmp_json, 'r') as f2:
+    if f1.read() == f2.read():
+        print("Audit chain verify: Match")
+    else:
+        print("Audit chain verify: MISMATCH")
+        sys.exit(1)
+import os
+os.remove(tmp_json)
 print(f"Finished {condition} run_seed {run_seed}")

@@ -2,27 +2,27 @@
   "condition": "bitemporal_drift",
   "data_seed": 0,
   "run_seed": 11,
-  "pass1": 0.775,
-  "pass4": 0.675,
-  "stale_action_rate": 0.43125,
+  "pass1": 0.7583333333333333,
+  "pass4": 0.75,
+  "stale_action_rate": 0.38125,
   "stale_action_eligible_n": 480,
-  "changed_policy_pass1": 0.7,
+  "changed_policy_pass1": 0.6777777777777778,
   "unchanged_pass1": 1.0,
-  "tokens_per_task": 311.7125,
+  "tokens_per_task": 375.96666666666664,
   "unparseable_n": 0,
   "unparseable_rate": 0.0,
   "canary_flips": 0,
   "usage": {
-    "prompt_tokens": 71108,
-    "completion_tokens": 3703
+    "prompt_tokens": 86552,
+    "completion_tokens": 3680
   },
   "canary_usage": {
     "prompt_tokens": 3120,
     "completion_tokens": 108
   },
-  "slice_pre-change_changed": 0.8333333333333334,
+  "slice_pre-change_changed": 0.8666666666666667,
   "slice_window_pre_detection_changed": 0.0,
-  "slice_window_detected_doc_stale_changed": 1.0,
-  "slice_post-detection_changed": 0.7,
+  "slice_window_detected_doc_stale_changed": 0.95,
+  "slice_post-detection_changed": 0.6375,
   "slice_unchanged": 1.0
 }

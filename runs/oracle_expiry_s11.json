@@ -2,26 +2,26 @@
   "condition": "oracle_expiry",
   "data_seed": 0,
   "run_seed": 11,
-  "pass1": 0.95,
-  "pass4": 0.95,
-  "stale_action_rate": 0.0,
+  "pass1": 0.9625,
+  "pass4": 0.9541666666666667,
+  "stale_action_rate": 0.00625,
   "stale_action_eligible_n": 480,
-  "changed_policy_pass1": 0.9333333333333333,
+  "changed_policy_pass1": 0.95,
   "unchanged_pass1": 1.0,
-  "tokens_per_task": 360.975,
+  "tokens_per_task": 360.96666666666664,
   "unparseable_n": 0,
   "unparseable_rate": 0.0,
   "canary_flips": 0,
   "usage": {
     "prompt_tokens": 82952,
-    "completion_tokens": 3682
+    "completion_tokens": 3680
   },
   "canary_usage": {
     "prompt_tokens": 3120,
     "completion_tokens": 108
   },
-  "slice_pre-change_changed": 0.8,
-  "slice_window_pre_detection_changed": 1.0,
+  "slice_pre-change_changed": 0.8666666666666667,
+  "slice_window_pre_detection_changed": 0.95,
   "slice_window_detected_doc_stale_changed": 1.0,
   "slice_post-detection_changed": 1.0,
   "slice_unchanged": 1.0

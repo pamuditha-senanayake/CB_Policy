@@ -223,3 +223,15 @@ The agent was equipped with the correct time-traveling knowledge graph API.
 
 **Full Bake-off Finished:**
 Successfully ran `oracle_expiry`, `latest_timestamp`, `plain_rag`, and `full_history_brute` at `run_seed 11`. Stopped exactly at Checkpoint 3.
+
+## Step 11 (Final Mined Constraint Rendering & Run All)
+
+**Fixes Applied:**
+1. **Mined Constraint Rendering:** Updated `bitemporal_drift` to render `doc['constraint']` into standard prose using the exact same template logic as `build_benchmark.py` (extracted to `data/template.py` to guarantee sync). The rendered rule is followed by the provenance string: `Source: practice-mined, document pending`.
+2. **Audit Chain Re-Enforced:** `runs/raw/` is un-gitignored. The harness now outputs deterministic run directories (e.g. `runs/raw/bitemporal_drift_rs11`), runs `extract/rescore.py` to create the final JSON, runs it *again* to a temp file, asserts identical byte-for-byte output, and fails instantly if the audit chain breaks. All `.tar.gz` raw logs are committed.
+3. **Database File Consistency:** All temporal stores are renamed to `runs/store_data{data_seed}.db`. During `detect/eval_stage2.py`, the exact SHA-256 hash of `data/manifest.json` is saved into a `metadata` table inside the DB. When `harness.py` opens the store, it verifies the DB's internal manifest hash strictly matches the current `manifest.json`, preventing stale DB usages entirely.
+
+**Full Bake-Off Results (run_seed 11)**
+
+The 1.000 fluke cell in `bitemporal_drift` correctly fell to 0.950 (19/20) once it evaluated the actual rendered mined constraint prose.
+All six conditions completed with full audit matching.

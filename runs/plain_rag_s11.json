@@ -8,13 +8,13 @@
   "stale_action_eligible_n": 480,
   "changed_policy_pass1": 0.48333333333333334,
   "unchanged_pass1": 0.4666666666666667,
-  "tokens_per_task": 356.74583333333334,
-  "unparseable_n": 5,
-  "unparseable_rate": 0.005,
+  "tokens_per_task": 356.7416666666667,
+  "unparseable_n": 6,
+  "unparseable_rate": 0.006,
   "canary_flips": 0,
   "usage": {
     "prompt_tokens": 81928,
-    "completion_tokens": 3691
+    "completion_tokens": 3690
   },
   "canary_usage": {
     "prompt_tokens": 3120,
