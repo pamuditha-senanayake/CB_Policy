@@ -1,1 +1,6 @@
 .env
+.venv/
+scratch/
+runs/cache/
+runs/raw/
+__pycache__/
