@@ -1,1 +1,0 @@
-{"detection_recall": 1.0, "false_positive_rate": 0.0, "mean_delay_traces": 14.0, "per_change_delays": {"refund_window": 13, "price_match_cap": 14, "exchange_eligibility": 12, "exception_approval": 16, "shipping_upgrade": 15, "loyalty_discount": 14}, "canary_policy_untouched": true}
