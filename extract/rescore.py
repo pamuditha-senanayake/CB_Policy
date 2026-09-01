@@ -39,6 +39,7 @@ for file_path in glob.glob(f"{raw_dir}/*.json"):
         task_attempts[int(tid_str)].append((int(attempt_idx), data))
 
 total_usage = {"prompt_tokens": 0, "completion_tokens": 0}
+canary_usage = {"prompt_tokens": 0, "completion_tokens": 0}
 correct = 0
 pass4_count = 0
 stale_action_count = 0
@@ -62,8 +63,14 @@ for t in tasks:
     attempts = [a[1] for a in sorted(task_attempts[tid], key=lambda x: x[0])]
     
     for a in attempts:
-        total_usage['prompt_tokens'] += a.get('usage', {}).get('prompt_tokens', 0)
-        total_usage['completion_tokens'] += a.get('usage', {}).get('completion_tokens', 0)
+        p_tok = a.get('usage', {}).get('prompt_tokens', 0)
+        c_tok = a.get('usage', {}).get('completion_tokens', 0)
+        if t.get('is_canary'):
+            canary_usage['prompt_tokens'] += p_tok
+            canary_usage['completion_tokens'] += c_tok
+        else:
+            total_usage['prompt_tokens'] += p_tok
+            total_usage['completion_tokens'] += c_tok
         
     ans1_norm = normalize_action(attempts[0]['response'])
     t_correct_norm = normalize_action(t['correct_action'])
@@ -139,7 +146,8 @@ out_data = {
     "unparseable_n": unparseable_n,
     "unparseable_rate": unparseable_rate,
     "canary_flips": canary_flips,
-    "usage": total_usage
+    "usage": total_usage,
+    "canary_usage": canary_usage
 }
 
 for pos, data in slices.items():
