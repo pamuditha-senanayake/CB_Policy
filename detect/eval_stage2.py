@@ -166,7 +166,7 @@ error_traces = []
 for p in policies:
     cp = change_points.get(p)
     if cp and est_change_points[p]:
-        if p == 'loyalty_discount' and len(est_change_points[p]) >= 2:
+        if 't_rollback' in cp and len(est_change_points[p]) >= 2:
             err1 = abs(est_change_points[p][0] - cp['t_practice'])
             err2 = abs(est_change_points[p][1] - cp['t_rollback'])
             error_traces.extend([err1, err2])
@@ -179,7 +179,7 @@ per_policy_errors = {}
 for p in policies:
     cp = change_points.get(p)
     if cp and est_change_points[p]:
-        if p == 'loyalty_discount' and len(est_change_points[p]) >= 2:
+        if 't_rollback' in cp and len(est_change_points[p]) >= 2:
             per_policy_errors[p] = [abs(est_change_points[p][0] - cp['t_practice']), abs(est_change_points[p][1] - cp['t_rollback'])]
         else:
             per_policy_errors[p] = abs(est_change_points[p][0] - cp['t_practice'])
@@ -226,7 +226,7 @@ for t in tasks:
 
     is_post = False
     if detection_timestamps[p]:
-        if p == 'loyalty_discount' and len(detection_timestamps[p]) >= 2:
+        if cp and 't_rollback' in cp and len(detection_timestamps[p]) >= 2:
             if ts >= detection_timestamps[p][0] and ts < cp['t_rollback']:
                 is_post = True
             elif ts >= detection_timestamps[p][1]:
@@ -240,7 +240,7 @@ for t in tasks:
         if ans_v_retro == gt_v:
             correct_post += 1
             
-    if p in ['cancellation_fee', 'gift_card_expiry']:
+    if cp is None:
         unchanged_count += 1
         if ans_v_online != 0:
             false_inv += 1
