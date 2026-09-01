@@ -15,4 +15,5 @@ class DriftDetector:
                 return True
             elif self.state == 0.0 and avg >= 0.7:
                 self.state = 1.0
+                return True
         return False
