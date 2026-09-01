@@ -1,0 +1,7 @@
+model_id: ""
+temperature: 0.0
+k_attempts: 4
+data_seed: 0
+run_seeds: [11, 13, 17]
+n_tasks: 0
+domain: retail
