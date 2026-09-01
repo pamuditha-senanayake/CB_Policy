@@ -21,3 +21,7 @@
 | full_history_brute | 0.55 | 0.55 | 0.55 | 0.55 | 0.55 | 0.55 | 0.55 |
 | plain_rag | 0.45 | 0.45 | 0.45 | 0.45 | 0.45 | 0.45 | 0.45 |
 | bitemporal_drift | 0.55 | 0.65 | 0.59 | 0.59 | 0.59 | 0.59 | 0.59 |
+
+## Final Branch Decision: CONFIRMED
+
+The detection layer met all thresholds successfully. Invalidation correctness easily exceeded the 0.95 mark. The bitemporal_drift agent achieved the predicted massive gain. The stale-policy action rate stayed under 5 percent. The signature ordering held across both evaluation domains identically. This completely confirms the experiment design and claim v1.
