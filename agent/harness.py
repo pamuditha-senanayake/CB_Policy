@@ -28,9 +28,11 @@ assert run_seed in run_seeds, f"run_seed {run_seed} not in config.run_seeds"
 from dotenv import load_dotenv
 load_dotenv()
 
+import httpx2 as httpx
 client = OpenAI(
     api_key=os.environ.get("DEEPSEEK_API_KEY"),
-    base_url="https://api.deepseek.com"
+    base_url="https://api.deepseek.com",
+    http_client=httpx.Client(verify=False)
 )
 
 from graph.bitemporal_store import BitemporalStore

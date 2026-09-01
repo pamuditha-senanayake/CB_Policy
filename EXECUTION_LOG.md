@@ -145,3 +145,34 @@ We halted at Checkpoint 2 once more to perform the following critical population
 - **`stale_action_rate`:** 0.765 (Correctly high for the floor evaluating only over eligible drifted tasks).
 - **Tokens per task:** 403.188 (Confirmed Bug 4 is resolved).
 - **Total Spend (Prompt / Completion):** 96,672 / 4,125 tokens (~$0.019 total per run now).
+
+## Step 8 (Fixing Output Parsing & Determinism) - Checkpoint 2 Rerun
+
+We halted at Checkpoint 2 to implement critical fixes regarding LLM output formats and evaluation determinism:
+
+1. **Bracket Normalization (`unparseable_rate` tracking):** 
+   - We updated `agent/harness.py` to stop explicitly prompting for brackets. Instead, we ask: `Reply with exactly one word: waive_fee or charge_fee`.
+   - We enforced rigorous string parsing. Responses are aggressively normalized by stripping whitespace, square brackets, quotes, backticks, leading colons, trailing periods, and casefolding.
+   - We introduced `unparseable_n` and `unparseable_rate` into the run records, with a hard assertion failure if this exceeds 0.02 (2%).
+2. **Audit Chain Reconstitution (Pure Functions):** 
+   - `agent/harness.py` now purely acts as an executor that dumps raw completions to disk. 
+   - We introduced `extract/rescore.py` which computes and writes the final run record purely by reading back the `runs/raw/<run_id>/` traces, ensuring flawless reproducibility. It is automatically called after execution.
+3. **Minor Denominators & Structure Corrections:**
+   - Token per task cost calculation strictly divides by 240 (excluding canary tokens), holding denominators directly comparable across slices. `canary_usage` is tracked separately.
+   - Fixed `per_policy_errors.loyalty_discount` to emit as a dict `{"primary": X, "rollback": Y}` instead of a list.
+   - Re-committed baseline data assets to bind manifest hashes identically on disk.
+
+**Floor Restart Validation (floor_static_v0, run_seed 11):**
+- **pass1:** 0.563
+- **changed_policy_pass1:** 0.417
+- **unchanged_pass1:** 1.000
+- **stale_action_rate:** 0.788 (eligible_n: 480)
+- **unparseable_rate:** 0.000 (0 tasks)
+- **tokens_per_task:** 361.0
+- **Total Spend (Prompt / Completion):** 82,952 / 3,680 (Canary separate: 3,120 / 108)
+
+Slices:
+- **Pre-change:** 0.900
+- **Window pre-detection:** 0.000
+- **Window detected doc stale:** 0.000
+- **Post-detection:** 0.579

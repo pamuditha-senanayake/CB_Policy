@@ -32,11 +32,23 @@ with open('data/manifest.json', 'r') as f:
 from collections import defaultdict
 task_attempts = defaultdict(list)
 for file_path in glob.glob(f"{raw_dir}/*.json"):
-    filename = os.path.basename(file_path)
-    tid_str, attempt_idx = filename.replace('.json', '').split('_')
+    filename = os.path.basename(file_path).replace('.json', '')
+    parts = filename.rsplit('_', 1)
+    tid_str = parts[0]
+    attempt_idx = parts[1]
+    
+    # Actually wait! The tasks logic: tasks.json has `task_id` for canaries as `"canary_X"`.
+    # Let me check if tid is int in `tasks.json`.
+    
     with open(file_path, 'r') as f:
         data = json.load(f)
-        task_attempts[int(tid_str)].append((int(attempt_idx), data))
+        
+    try:
+        tid = int(tid_str)
+    except:
+        tid = tid_str
+        
+    task_attempts[tid].append((int(attempt_idx), data))
 
 total_usage = {"prompt_tokens": 0, "completion_tokens": 0}
 canary_usage = {"prompt_tokens": 0, "completion_tokens": 0}
@@ -84,14 +96,12 @@ for t in tasks:
     valid_actions = [t_correct_norm]
     if t_stale_norm:
         valid_actions.append(t_stale_norm)
-    else:
-        # Get from policy
-        try:
-            with open(f"data/policies/{t['policy_id']}_v0.json", 'r') as f:
-                v0 = json.load(f)
-                valid_actions.extend([normalize_action(v0['action_true']), normalize_action(v0['action_false'])])
-        except:
-            pass
+    try:
+        with open(f"data/policies/{t['policy_id']}_v0.json", 'r') as f:
+            v0 = json.load(f)
+            valid_actions.extend([normalize_action(v0['action_true']), normalize_action(v0['action_false'])])
+    except:
+        pass
             
     for a in attempts:
         ans_norm = normalize_action(a['response'])
