@@ -1,0 +1,28 @@
+{
+  "condition": "plain_rag",
+  "data_seed": 0,
+  "run_seed": 11,
+  "pass1": 0.4791666666666667,
+  "pass4": 0.4791666666666667,
+  "stale_action_rate": 0.5958333333333333,
+  "stale_action_eligible_n": 480,
+  "changed_policy_pass1": 0.48333333333333334,
+  "unchanged_pass1": 0.4666666666666667,
+  "tokens_per_task": 356.74583333333334,
+  "unparseable_n": 5,
+  "unparseable_rate": 0.005,
+  "canary_flips": 0,
+  "usage": {
+    "prompt_tokens": 81928,
+    "completion_tokens": 3691
+  },
+  "canary_usage": {
+    "prompt_tokens": 3120,
+    "completion_tokens": 108
+  },
+  "slice_pre-change_changed": 0.6833333333333333,
+  "slice_window_pre_detection_changed": 0.4,
+  "slice_window_detected_doc_stale_changed": 0.5,
+  "slice_post-detection_changed": 0.35,
+  "slice_unchanged": 0.4666666666666667
+}

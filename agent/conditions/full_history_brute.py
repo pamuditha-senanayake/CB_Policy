@@ -5,20 +5,20 @@ def build_context(task, stores):
     ts = task['ts']
     store = stores['bitemporal']
     
-    # Get all versions up to ts
-    store.cursor.execute('''
-        SELECT version, constraint_text, doc_text, valid_from, valid_to, tx_from
-        FROM policies 
-        WHERE policy_id = ? AND tx_from <= ? 
-        ORDER BY tx_from ASC
-    ''', (policy_id, ts))
-    rows = store.cursor.fetchall()
+    with store.lock:
+        cursor = store.conn.cursor()
+        cursor.execute('''
+            SELECT version, constraint_text, doc_text, valid_from, valid_to, tx_from
+            FROM policies 
+            WHERE policy_id = ? AND tx_from <= ? 
+            ORDER BY tx_from ASC
+        ''', (policy_id, ts))
+        rows = cursor.fetchall()
     
     context = "Document History:\n"
     for r in rows:
         context += f"Version {r[0]} (written at {r[5]}, valid {r[3]} to {r[4]}): {r[2]}\n"
         
-    # Get recent traces
     try:
         with open(f"data/event_logs/{policy_id}_log.json", 'r') as f:
             traces = json.load(f)

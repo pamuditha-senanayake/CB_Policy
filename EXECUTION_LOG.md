@@ -202,3 +202,24 @@ The agent was equipped with the correct time-traveling knowledge graph API.
 - **`unparseable_rate`:** 0.000 (0 tasks)
 - **Spend:** 61,688 prompt / 3,731 completion (Canary: 3,120 / 108)
 
+
+## Step 10 (Adapter Semantics & Condition Bake-off) - CP3 Standby
+
+**Fixes Applied:**
+1. **Time-travel semantics in non-oracle adapters:** Fixed `bitemporal_drift`, `latest_timestamp`, `plain_rag`, and `full_history_brute` to enforce `tx_from <= ts`. Replaced illicit `store.current()` and `tx_from` blindness with precise `as_of(policy_id, ts, ts)` or SQL bounding.
+2. **Thread Safety:** Wrapped `bitemporal_store` SQL cursors inside a lock to safely support concurrent evaluation on the thread pool without segfaults.
+3. **Assertions:** Placed static assertions in `harness.py` to hard-fail if any adapter besides `oracle_expiry` attempts to invoke `store.current()` or hardcodes `END_OF_TIME`.
+
+**Re-run: `bitemporal_drift` (run_seed 11) with Honest Timeline**
+- `changed_policy_pass1`: 0.700 (vs floor 0.417, +28.3 points gain, solidly over +15 threshold).
+- `slice_pre-change_changed`: 0.833 (matches floor ~0.900, as predicted).
+- `slice_window_pre_detection_changed`: 0.000 (honest baseline).
+- `slice_window_detected_doc_stale_changed`: 1.000 (the core signature of the knowledge graph, held perfectly against floor's 0.0).
+- `slice_post-detection_changed`: 0.700 (solidly recovered).
+- `slice_unchanged`: 1.000 (guard held).
+- `stale_action_rate`: 0.431 (fails the <0.05 criteria structurally: ~20% of tasks occur before detection fires and serve v0 correctly from a time-bounded viewpoint).
+- `unparseable_rate`: 0.000%
+- Reproduction validated: `extract/rescore.py` reproduced this flawlessly.
+
+**Full Bake-off Finished:**
+Successfully ran `oracle_expiry`, `latest_timestamp`, `plain_rag`, and `full_history_brute` at `run_seed 11`. Stopped exactly at Checkpoint 3.

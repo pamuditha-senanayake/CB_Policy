@@ -50,7 +50,15 @@ with open('data/canaries/tasks.json', 'r') as f:
         c['is_canary'] = True
     tasks.extend(ctasks)
 
+
+if condition != 'oracle_expiry':
+    with open(f"agent/conditions/{condition}.py", "r") as cf:
+        content = cf.read()
+        assert "store.current(" not in content, "Adapter must not read future state via current()"
+        assert "999999999" not in content and "999999998" not in content, "Adapter must not use END_OF_TIME"
+
 adapter_path = f"agent/conditions/{condition}.py"
+
 spec = importlib.util.spec_from_file_location("condition_module", adapter_path)
 condition_module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(condition_module)
