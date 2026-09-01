@@ -2,6 +2,17 @@ import json
 import hashlib
 import os
 import random
+def make_prose(attr, op, val, action_t, action_f):
+    op_map = {
+        '<=': 'less than or equal to',
+        '>=': 'greater than or equal to',
+        '<': 'strictly less than',
+        '>': 'strictly greater than',
+        '==': 'exactly'
+    }
+    op_str = op_map.get(op, op)
+    return f"If {attr} is {op_str} {val}, then the action must be {action_t}. Otherwise, if it does not meet this condition, the action must be {action_f}."
+
 import yaml
 
 def hash_file(path):
@@ -31,7 +42,7 @@ random.seed(seed)
 policies = {
     'refund_window': {
         'type': 'documented',
-        'attr': 'days_since_purchase',
+        'attr': 'days_since_purchase', 'op': '<=',
         'v0': {'val': 30}, 'v1': {'val': 14},
         'eval': lambda attr, val: attr <= val,
         'action_true': 'approve_refund', 'action_false': 'deny_refund',
@@ -39,7 +50,7 @@ policies = {
     },
     'price_match_cap': {
         'type': 'documented',
-        'attr': 'amount',
+        'attr': 'amount', 'op': '<=',
         'v0': {'val': 50}, 'v1': {'val': 100},
         'eval': lambda attr, val: attr <= val,
         'action_true': 'approve_match', 'action_false': 'deny_match',
@@ -47,7 +58,7 @@ policies = {
     },
     'exchange_eligibility': {
         'type': 'documented',
-        'attr': 'has_item',
+        'attr': 'has_item', 'op': '==',
         'v0': {'val': 'receipt'}, 'v1': {'val': 'tags'},
         'eval': lambda attr, val: attr == val,
         'action_true': 'approve_exchange', 'action_false': 'deny_exchange',
@@ -55,7 +66,7 @@ policies = {
     },
     'exception_approval': {
         'type': 'lagged',
-        'attr': 'approver',
+        'attr': 'approver', 'op': '==',
         'v0': {'val': 'manager'}, 'v1': {'val': 'supervisor'},
         'eval': lambda attr, val: attr == val,
         'action_true': 'approve_exception', 'action_false': 'deny_exception',
@@ -63,7 +74,7 @@ policies = {
     },
     'shipping_upgrade': {
         'type': 'lagged',
-        'attr': 'cart_total',
+        'attr': 'cart_total', 'op': '>=',
         'v0': {'val': 50}, 'v1': {'val': 100},
         'eval': lambda attr, val: attr >= val,
         'action_true': 'upgrade_shipping', 'action_false': 'deny_upgrade',
@@ -71,7 +82,7 @@ policies = {
     },
     'loyalty_discount': {
         'type': 'rollback',
-        'attr': 'tier',
+        'attr': 'tier', 'op': '==',
         'v0': {'val': 'gold'}, 'v1': {'val': 'platinum'},
         'eval': lambda attr, val: attr == val,
         'action_true': 'apply_15_percent', 'action_false': 'apply_10_percent',
@@ -79,7 +90,7 @@ policies = {
     },
     'cancellation_fee': {
         'type': 'unchanged',
-        'attr': 'hours_notice',
+        'attr': 'hours_notice', 'op': '>=',
         'v0': {'val': 24}, 'v1': None,
         'eval': lambda attr, val: attr >= val,
         'action_true': 'waive_fee', 'action_false': 'charge_fee',
@@ -87,7 +98,7 @@ policies = {
     },
     'id_verification': {
         'type': 'canary',
-        'attr': 'id_type',
+        'attr': 'id_type', 'op': '==',
         'v0': {'val': 'photo_id'}, 'v1': None,
         'eval': lambda attr, val: attr == val,
         'action_true': 'verify_pass', 'action_false': 'verify_fail',
@@ -95,7 +106,7 @@ policies = {
     },
     'gift_card_expiry': {
         'type': 'unchanged',
-        'attr': 'years_since_issue',
+        'attr': 'years_since_issue', 'op': '<=',
         'v0': {'val': 5}, 'v1': None,
         'eval': lambda attr, val: attr <= val,
         'action_true': 'accept_card', 'action_false': 'reject_card',
@@ -107,37 +118,38 @@ manifest = {}
 change_points = {}
 
 for p, pdata in policies.items():
-    cond_str_v0 = f"{pdata['attr']} == '{pdata['v0']['val']}'" if isinstance(pdata['v0']['val'], str) else f"{pdata['attr']} {'<=' if p in ['refund_window','price_match_cap'] else '>=' if p in ['shipping_upgrade','cancellation_fee'] else '=='} {pdata['v0']['val']}"
+    cond_str_v0 = f"{pdata['attr']} == '{pdata['v0']['val']}'" if isinstance(pdata['v0']['val'], str) else f"{pdata['attr']} {pdata['op']} {pdata['v0']['val']}"
     with open(f"data/policies/{p}_v0.json", 'w') as f:
         json.dump({
             'policy_id': p, 'version': 0, 
-            'prose': f"Policy {p} is {pdata['v0']['val']}", 
+            'prose': make_prose(pdata['attr'], pdata['op'], pdata['v0']['val'], pdata['action_true'], pdata['action_false']), 
             'constraint': cond_str_v0, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']
         }, f)
 
     if pdata['type'] == 'documented':
         change_points[p] = {'t_practice': 400, 't_doc': 400}
-        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {'<=' if p in ['refund_window','price_match_cap'] else '>=' if p in ['shipping_upgrade','cancellation_fee'] else '=='} {pdata['v1']['val']}"
+        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {pdata['op']} {pdata['v1']['val']}"
         with open(f"data/policies/{p}_v1.json", 'w') as f:
-            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
+            json.dump({'policy_id': p, 'version': 1, 'prose': make_prose(pdata['attr'], pdata['op'], pdata['v1']['val'], pdata['action_true'], pdata['action_false']), 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
     elif pdata['type'] == 'lagged':
         change_points[p] = {'t_practice': 400, 't_doc': 550}
-        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {'<=' if p in ['refund_window','price_match_cap'] else '>=' if p in ['shipping_upgrade','cancellation_fee'] else '=='} {pdata['v1']['val']}"
+        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {pdata['op']} {pdata['v1']['val']}"
         with open(f"data/policies/{p}_v1.json", 'w') as f:
-            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
+            json.dump({'policy_id': p, 'version': 1, 'prose': make_prose(pdata['attr'], pdata['op'], pdata['v1']['val'], pdata['action_true'], pdata['action_false']), 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
     elif pdata['type'] == 'rollback':
         change_points[p] = {'t_practice': 300, 't_doc': 300, 't_rollback': 600}
-        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {'<=' if p in ['refund_window','price_match_cap'] else '>=' if p in ['shipping_upgrade','cancellation_fee'] else '=='} {pdata['v1']['val']}"
+        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {pdata['op']} {pdata['v1']['val']}"
         with open(f"data/policies/{p}_v1.json", 'w') as f:
-            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
+            json.dump({'policy_id': p, 'version': 1, 'prose': make_prose(pdata['attr'], pdata['op'], pdata['v1']['val'], pdata['action_true'], pdata['action_false']), 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
         with open(f"data/policies/{p}_v2.json", 'w') as f:
-            json.dump({'policy_id': p, 'version': 2, 'prose': f"Policy {p} is {pdata['v0']['val']}", 'constraint': cond_str_v0}, f)
+            json.dump({'policy_id': p, 'version': 2, 'prose': make_prose(pdata['attr'], pdata['op'], pdata['v0']['val'], pdata['action_true'], pdata['action_false']), 'constraint': cond_str_v0}, f)
     else:
         change_points[p] = None
 
 # We need to save the change_points into manifest.json
 manifest['change_points'] = change_points
 manifest['data_seed'] = seed
+
 
 # Generator for random attr based on policy
 def get_random_attr(p):

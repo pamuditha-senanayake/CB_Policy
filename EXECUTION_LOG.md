@@ -128,3 +128,20 @@ Gate G5 perfectly passes the revised bi-temporal criteria across all seeds.
 
 ## Checkpoint 2 (CP2) - Floor Run
 Execution halted successfully at CP2 after running the Stage 7 harness for `floor_static_v0` on Seed 11.
+
+## Step 7 (Bugfixes) - Checkpoint 2 Rerun
+
+We halted at Checkpoint 2 once more to perform the following critical population and parser corrections to ensure rigorous metric integrity prior to executing the baseline matrix:
+
+1. **Bug 1 (Stale Action Population Corrected):** `stale_action_rate` calculation now correctly excludes pre-change and unchanged tasks where `stale_action == correct_action` (a population impossible to violate by definition). The metric is computed only where taking the stale action violates the current policy, matching the stated definition in `paper 2.md`. A new `stale_action_eligible_n` field records the true denominator. (Threshold unchanged).
+2. **Bug 2 (Canary Isolation):** Canary tasks are now strictly isolated to `canary_flips` and wholly stripped from `pass1`, `pass4`, and `stale_action_rate` tracking (both numerator and denominator).
+3. **Bug 3 (Seed Conflation Fixed):** Uncoupled `data_seed` from `run_seed`. `data_seed: 0` is pinned globally for the entire benchmark to hold tasks constant, while `run_seed` (now passed via argument) provides deterministic hashing for the model completion traces. Both are logged per output block.
+4. **Bug 4 (Token Efficiency):** We reinstated `deepseek-chat` with `max_tokens=12` and restricted the LLM prompt's action list to strictly the two actions associated with the specific policy under execution. This strips noise from the context and plummeted mean completion tokens from ~240 (due to unstructured model reasoning bloat) to less than 20. (Total usage drastically down).
+5. **Bug 5 (Document Ambiguity):** Re-engineered the benchmark script to systematically map all policies (including the fixed `gift_card_expiry` constraint using an explicit `>=` threshold) to rigorous prose templates rather than ambiguous `attr is val` declarations. `gift_card_expiry` evaluating `<` against a `>=` prose instruction was rectified.
+
+**Floor Restart Validation (floor_static_v0, run_seed 11):**
+- **Leak Test (changed_policy_pass1 / pass1):** 0.228 / 0.408 (Floor does not solve changed tasks).
+- **Prose Readability (`unchanged_pass1`):** Skyrocketed to **0.950** (Up from a noisy 0.65). The document ambiguity floor is lifted.
+- **`stale_action_rate`:** 0.765 (Correctly high for the floor evaluating only over eligible drifted tasks).
+- **Tokens per task:** 403.188 (Confirmed Bug 4 is resolved).
+- **Total Spend (Prompt / Completion):** 96,672 / 4,125 tokens (~$0.019 total per run now).

@@ -42,3 +42,6 @@ This refines the preregistered S2 axis without moving any thresholds, which the 
 ### Appendix B: Stage 2 Metrics Correction (2026-09-02)
 
 The Stage 2 gated population is corrected to exclusively evaluate post-detection queries, strictly matching criterion 2 from `paper 2.md`. The 0.95 threshold is unchanged. Two additional ungated diagnostics (`asof_correctness_retrospective` and `asof_correctness_online`) have been added to honestly measure valid-time recovery and raw online detection lag.
+
+### Bug Fix: Stale Action Rate Population Correction
+The `stale_action_rate` calculation was found to improperly evaluate against pre-change and unchanged tasks where the "stale" action is logically identical to the correct current action. The population measured has been corrected to exactly reflect the definition given in `paper 2.md` criterion 3 ("the fraction of agent actions that satisfy an expired policy but violate the current one"). The underlying threshold of <5% remains completely unchanged.
