@@ -1,28 +1,58 @@
 {
-  "data/event_logs/loyalty_discount_log.json": "05ba5c15479d40d2670ac88854f093ebfe9c82e42b02733072e0c15a2396908d",
-  "data/event_logs/id_verification_log.json": "d2f38dd4844c792a5a486e54753bced1a039c09c60dbc8ffff80615e1940fee6",
-  "data/event_logs/shipping_upgrade_log.json": "464443caa824dd7e62b38f993f4804d2642fa414533759e9a8b5df9cb86b5337",
-  "data/event_logs/exchange_eligibility_log.json": "e6e95add8bb4619a3fc2ef4dace3aee970a30f5bdbdd605a3b166d06b568092c",
-  "data/event_logs/refund_window_log.json": "e7c8635cdf42fc3536ac4abdcac03daa066389786fbad6099c38810c790516b9",
-  "data/event_logs/exception_approval_log.json": "7381e9638702827ec30e0d41cc39826546e0f567889655ffceb801386e87586b",
-  "data/event_logs/price_match_cap_log.json": "2b8eb5926b687a57d45a4589d9315d4a31ca22e284443861a3b873e392993ade",
-  "data/event_logs/cancellation_fee_log.json": "2dd8e671e1fbd482281139993e9d48c3c91df9df598e39200e5a4d69319c525f",
-  "data/tasks/tasks.json": "bc805d3804a96ed8df85a5636b442ce5aa613c1cf76fe578013406bb8c474bde",
-  "data/policies/loyalty_discount_v0.json": "c410aac2ada73fad499939a934b8bf2e0c2f0b970b7a5553a97fb6aa0c3855e5",
-  "data/policies/cancellation_fee_v0.json": "ce80ef2ce8d1272ad468876526b86aec4afeb2d834c2b530c1d06d9d2b0b30ca",
-  "data/policies/price_match_cap_v1.json": "51d26516cb62a1d19661b6cc071d0c4995299221667481890c90ac29de08f345",
-  "data/policies/price_match_cap_v0.json": "bfd89243ba10dfa52a3410ec49071f18aa825235174152f1b4675e1920cd42d3",
-  "data/policies/loyalty_discount_v1.json": "577d6e5b860edb98fce6703c01b99c7ffde1ce76cdf4def9e15387e2fdd4e159",
-  "data/policies/refund_window_v1.json": "8d2fdb71b0128ca946611908967888a8d11d48cbae7fbd21a691d9693896bfee",
-  "data/policies/loyalty_discount_v2.json": "47a82bec7a1b338cad097d39eff2c97181d997d22c26fa81b893ba8582469187",
-  "data/policies/exchange_eligibility_v0.json": "0fbb9f49b467e08e6f59db537aacfac4820f86a59557c1288472326077c5f37e",
-  "data/policies/shipping_upgrade_v0.json": "bf8dd55d9ffd5186cc540af8fc45ff40176443782fbafbd63ca073ef5762a972",
-  "data/policies/id_verification_v0.json": "cd5b70f9f73822d76486f30d96b37c90cd8c213b8befe18ed6cd1442380ad812",
-  "data/policies/shipping_upgrade_v1.json": "9c324d3b23f837a731dfa5e2fd81797fb0c044c4d225ca9edf44b378b0f3fe51",
-  "data/policies/exchange_eligibility_v1.json": "b6a870f393e4c0375de05c87311858c3943f03b0dc4a3c19cb5d8c20386f3ac1",
-  "data/policies/refund_window_v0.json": "144a77128383801c0e06e119550a51f71dbcf3dfe46d68f9c9ab067fbd7bb2b2",
-  "data/policies/exception_approval_v1.json": "b909fb129f20920d4852d1f91954a7bcee631ee934c88072ce874e00b2678ec6",
-  "data/policies/exception_approval_v0.json": "c1de8c22cbf5ed7c30907173320ed81f90bbde85479710d3f2c50b0a1cf4a527",
-  "data/canaries/golden_traces.json": "6687e4948e596bcd5156b74bda3bb51e7664514c2fd33381e61531a9bedfaf72",
-  "data/canaries/tasks.json": "53cfea5756021c3b0559baf1cf54dcec23b854eb7f3170c7137800cf835fb022"
+  "change_points": {
+    "refund_window": {
+      "t_practice": 400,
+      "t_doc": 400
+    },
+    "price_match_cap": {
+      "t_practice": 400,
+      "t_doc": 400
+    },
+    "exchange_eligibility": {
+      "t_practice": 400,
+      "t_doc": 400
+    },
+    "exception_approval": {
+      "t_practice": 400,
+      "t_doc": 550
+    },
+    "shipping_upgrade": {
+      "t_practice": 400,
+      "t_doc": 550
+    },
+    "loyalty_discount": {
+      "t_practice": 300,
+      "t_doc": 300,
+      "t_rollback": 600
+    },
+    "cancellation_fee": null,
+    "id_verification": null
+  },
+  "data/.DS_Store": "11335568e8ac5378d156b3a5dcdafd7bd7232818d1d42f38618538d0a2f56a54",
+  "data/event_logs/loyalty_discount_log.json": "c163fc0d6668aa2706d6049dc96a98331e799208b972b204647aa0fc3d504ca7",
+  "data/event_logs/id_verification_log.json": "c0a8a7604d303bf27cd78229df78e04bbac85dfa39684cde3be57002482480f5",
+  "data/event_logs/shipping_upgrade_log.json": "d46389935f81f837980c0e5e06b17d854aad7b3c236be7d7067a8884040c933d",
+  "data/event_logs/exchange_eligibility_log.json": "e43e6eb518bfe5ee5a063844c577a90484b1c2efd784c090c893149adb2f3285",
+  "data/event_logs/refund_window_log.json": "9a04a50a9a73e95fe70b99b2f49593b6917ad3e4626ef4791a0dcde17125a482",
+  "data/event_logs/exception_approval_log.json": "13e9010ffdd1d44e9797f6c13c850460bcf0ca01bff109c1dbc469bb96eeeba0",
+  "data/event_logs/price_match_cap_log.json": "339f15accda58ccc2aec5c57f0bedef1752402ccc6b9e02e11737c223d1bf3e3",
+  "data/event_logs/cancellation_fee_log.json": "080061a705b0f496c5db20b34a1cfd4a8916fbddce27f309f0d8dc4aaca597cb",
+  "data/tasks/tasks.json": "4bf994fbd65c2dfcba6cfa203fff377c3557746286a29fd44d1dd825e0327603",
+  "data/policies/loyalty_discount_v0.json": "cc165fe6878d04915c9f1641239fba532843f8353ebfe6c3c12865c830225eac",
+  "data/policies/cancellation_fee_v0.json": "224224f14e3d9f0da12ca78448fde83d508b5b9ad02828402d042c71f490899b",
+  "data/policies/price_match_cap_v1.json": "69d641330728164b3abb074983baf1396aa8bb2c3bf0bccc1641be39f7a81e4d",
+  "data/policies/price_match_cap_v0.json": "19e645f1cb831663a724cc8fe79ec1f8d9dcf92bf6c604cc6b1451a6b548e8d2",
+  "data/policies/loyalty_discount_v1.json": "be2410bfc9ba77430921de56efdb4259ebfa24ed6d200e460fe9ee04be247fe7",
+  "data/policies/refund_window_v1.json": "af555f02e9ed5ee1839f0c0755e23197ce2e001708ea86bb95093f1878bb2473",
+  "data/policies/loyalty_discount_v2.json": "6ad9c4c0902c7817ca4fe5f7eb48e9603233c54324d24ba867f6ca6db3aba73b",
+  "data/policies/exchange_eligibility_v0.json": "129a23e9d78e6d737950980e3a1273719884e48c3b2bdfc4572dd9363d689a39",
+  "data/policies/shipping_upgrade_v0.json": "18c14e483a39912d591a2f50a45060e628f62c0e799cc254c189e778ed1dcbaf",
+  "data/policies/id_verification_v0.json": "6c5d6b77b6b4451cff37bfb0098d1eb3b386056ccc2169075f30cf895807ca51",
+  "data/policies/shipping_upgrade_v1.json": "b2f41e25c03d8ad3f0eff31ad7a97354d90b672f788ab8294a0315934eec47e6",
+  "data/policies/exchange_eligibility_v1.json": "e177aad67ffb9ddd93093b18f62bf00313d5cc68ded76bfbd2c2006670d5dfbe",
+  "data/policies/refund_window_v0.json": "7c757b1b825da6586065d995e4d656c12289c9916992f64738b85bfe38dac79d",
+  "data/policies/exception_approval_v1.json": "8edd172a2172181d4b3f0bf654d8a83cdd481cc00f63abf1eae290c4b8f3e22f",
+  "data/policies/exception_approval_v0.json": "11b206d79141e9d629c3509a7965b1911b2b355a1b613f1673c18de557db4a08",
+  "data/canaries/golden_traces.json": "897d63e928363c22591a95a065e48968a68beb8f01a4667b07ba5a237f5e8298",
+  "data/canaries/tasks.json": "64bd820ab3ea314ca1864fa473bc08ec266d9c561653be5f0786e3a7af43e2de"
 }

@@ -1,1 +1,1 @@
-{"policy_id": "shipping_upgrade", "version": 1, "prose": "Policy shipping_upgrade is 100", "constraint": "cart_total >= 100"}
+{"policy_id": "shipping_upgrade", "version": 1, "prose": "Policy shipping_upgrade is 100", "constraint": "cart_total >= 100", "action_true": "upgrade_shipping", "action_false": "deny_upgrade"}

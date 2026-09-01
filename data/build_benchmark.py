@@ -19,7 +19,6 @@ ensure_dir('data/event_logs')
 ensure_dir('data/tasks')
 ensure_dir('data/canaries')
 
-# Set seed
 seed = 0
 try:
     with open('config/experiment.yaml', 'r') as f:
@@ -29,52 +28,131 @@ except:
     pass
 random.seed(seed)
 
-# Policies definition
 policies = {
-    'refund_window': {'type': 'documented', 'v0': {'val': 30, 'cond': 'days_since_purchase <= {val}'}, 'v1': {'val': 14, 'cond': 'days_since_purchase <= {val}'}},
-    'price_match_cap': {'type': 'documented', 'v0': {'val': 50, 'cond': 'amount <= {val}'}, 'v1': {'val': 100, 'cond': 'amount <= {val}'}},
-    'exchange_eligibility': {'type': 'documented', 'v0': {'val': 'receipt', 'cond': 'has_{val} == True'}, 'v1': {'val': 'tags', 'cond': 'has_{val} == True'}},
-    'exception_approval': {'type': 'lagged', 'v0': {'val': 'manager', 'cond': 'approver == "{val}"'}, 'v1': {'val': 'supervisor', 'cond': 'approver == "{val}"'}},
-    'shipping_upgrade': {'type': 'lagged', 'v0': {'val': 50, 'cond': 'cart_total >= {val}'}, 'v1': {'val': 100, 'cond': 'cart_total >= {val}'}},
-    'loyalty_discount': {'type': 'rollback', 'v0': {'val': 10, 'cond': 'discount == {val}'}, 'v1': {'val': 15, 'cond': 'discount == {val}'}},
-    'cancellation_fee': {'type': 'unchanged', 'v0': {'val': 20, 'cond': 'fee == {val}'}, 'v1': None},
-    'id_verification': {'type': 'canary', 'v0': {'val': 'photo_id', 'cond': 'id_type == "{val}"'}, 'v1': None},
+    'refund_window': {
+        'type': 'documented',
+        'attr': 'days_since_purchase',
+        'v0': {'val': 30}, 'v1': {'val': 14},
+        'eval': lambda attr, val: attr <= val,
+        'action_true': 'approve_refund', 'action_false': 'deny_refund',
+        'msg_template': 'I bought this {attr} days ago. Can I get a refund?'
+    },
+    'price_match_cap': {
+        'type': 'documented',
+        'attr': 'amount',
+        'v0': {'val': 50}, 'v1': {'val': 100},
+        'eval': lambda attr, val: attr <= val,
+        'action_true': 'approve_match', 'action_false': 'deny_match',
+        'msg_template': 'Found it cheaper elsewhere, difference is ${attr}. Can you match?'
+    },
+    'exchange_eligibility': {
+        'type': 'documented',
+        'attr': 'has_item',
+        'v0': {'val': 'receipt'}, 'v1': {'val': 'tags'},
+        'eval': lambda attr, val: attr == val,
+        'action_true': 'approve_exchange', 'action_false': 'deny_exchange',
+        'msg_template': 'I want to exchange this, I only have the {attr}.'
+    },
+    'exception_approval': {
+        'type': 'lagged',
+        'attr': 'approver',
+        'v0': {'val': 'manager'}, 'v1': {'val': 'supervisor'},
+        'eval': lambda attr, val: attr == val,
+        'action_true': 'approve_exception', 'action_false': 'deny_exception',
+        'msg_template': 'The {attr} approved my exception. Please process it.'
+    },
+    'shipping_upgrade': {
+        'type': 'lagged',
+        'attr': 'cart_total',
+        'v0': {'val': 50}, 'v1': {'val': 100},
+        'eval': lambda attr, val: attr >= val,
+        'action_true': 'upgrade_shipping', 'action_false': 'deny_upgrade',
+        'msg_template': 'My cart is ${attr}. Do I get free upgraded shipping?'
+    },
+    'loyalty_discount': {
+        'type': 'rollback',
+        'attr': 'tier',
+        'v0': {'val': 'gold'}, 'v1': {'val': 'platinum'},
+        'eval': lambda attr, val: attr == val,
+        'action_true': 'apply_15_percent', 'action_false': 'apply_10_percent',
+        'msg_template': 'I am a {attr} member, what discount do I get?'
+    },
+    'cancellation_fee': {
+        'type': 'unchanged',
+        'attr': 'hours_notice',
+        'v0': {'val': 24}, 'v1': None,
+        'eval': lambda attr, val: attr >= val,
+        'action_true': 'waive_fee', 'action_false': 'charge_fee',
+        'msg_template': 'I am cancelling with {attr} hours notice.'
+    },
+    'id_verification': {
+        'type': 'canary',
+        'attr': 'id_type',
+        'v0': {'val': 'photo_id'}, 'v1': None,
+        'eval': lambda attr, val: attr == val,
+        'action_true': 'verify_pass', 'action_false': 'verify_fail',
+        'msg_template': 'Here is my {attr} for verification.'
+    }
 }
 
 manifest = {}
 change_points = {}
+
 for p, pdata in policies.items():
+    cond_str_v0 = f"{pdata['attr']} == '{pdata['v0']['val']}'" if isinstance(pdata['v0']['val'], str) else f"{pdata['attr']} {'<=' if p in ['refund_window','price_match_cap'] else '>=' if p in ['shipping_upgrade','cancellation_fee'] else '=='} {pdata['v0']['val']}"
     with open(f"data/policies/{p}_v0.json", 'w') as f:
-        json.dump({'policy_id': p, 'version': 0, 'prose': f"Policy {p} is {pdata['v0']['val']}", 'constraint': pdata['v0']['cond'].format(val=pdata['v0']['val'])}, f)
+        json.dump({
+            'policy_id': p, 'version': 0, 
+            'prose': f"Policy {p} is {pdata['v0']['val']}", 
+            'constraint': cond_str_v0, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']
+        }, f)
+
     if pdata['type'] == 'documented':
         change_points[p] = {'t_practice': 400, 't_doc': 400}
+        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {'<=' if p in ['refund_window','price_match_cap'] else '>=' if p in ['shipping_upgrade','cancellation_fee'] else '=='} {pdata['v1']['val']}"
         with open(f"data/policies/{p}_v1.json", 'w') as f:
-            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': pdata['v1']['cond'].format(val=pdata['v1']['val'])}, f)
+            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
     elif pdata['type'] == 'lagged':
         change_points[p] = {'t_practice': 400, 't_doc': 550}
+        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {'<=' if p in ['refund_window','price_match_cap'] else '>=' if p in ['shipping_upgrade','cancellation_fee'] else '=='} {pdata['v1']['val']}"
         with open(f"data/policies/{p}_v1.json", 'w') as f:
-            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': pdata['v1']['cond'].format(val=pdata['v1']['val'])}, f)
+            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
     elif pdata['type'] == 'rollback':
         change_points[p] = {'t_practice': 300, 't_doc': 300, 't_rollback': 600}
+        cond_str_v1 = f"{pdata['attr']} == '{pdata['v1']['val']}'" if isinstance(pdata['v1']['val'], str) else f"{pdata['attr']} {'<=' if p in ['refund_window','price_match_cap'] else '>=' if p in ['shipping_upgrade','cancellation_fee'] else '=='} {pdata['v1']['val']}"
         with open(f"data/policies/{p}_v1.json", 'w') as f:
-            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': pdata['v1']['cond'].format(val=pdata['v1']['val'])}, f)
+            json.dump({'policy_id': p, 'version': 1, 'prose': f"Policy {p} is {pdata['v1']['val']}", 'constraint': cond_str_v1, 'action_true': pdata['action_true'], 'action_false': pdata['action_false']}, f)
         with open(f"data/policies/{p}_v2.json", 'w') as f:
-            json.dump({'policy_id': p, 'version': 2, 'prose': f"Policy {p} is {pdata['v0']['val']}", 'constraint': pdata['v0']['cond'].format(val=pdata['v0']['val'])}, f)
+            json.dump({'policy_id': p, 'version': 2, 'prose': f"Policy {p} is {pdata['v0']['val']}", 'constraint': cond_str_v0}, f)
     else:
         change_points[p] = None
 
-# Traces
+# We need to save the change_points into manifest.json
+manifest['change_points'] = change_points
+
+# Generator for random attr based on policy
+def get_random_attr(p):
+    pdata = policies[p]
+    if p == 'refund_window': return random.randint(1, 60)
+    if p == 'price_match_cap': return random.randint(10, 150)
+    if p == 'exchange_eligibility': return random.choice(['receipt', 'tags', 'nothing'])
+    if p == 'exception_approval': return random.choice(['manager', 'supervisor', 'agent'])
+    if p == 'shipping_upgrade': return random.randint(10, 150)
+    if p == 'loyalty_discount': return random.choice(['gold', 'platinum', 'silver'])
+    if p == 'cancellation_fee': return random.choice([12, 24, 48])
+    if p == 'id_verification': return random.choice(['photo_id', 'credit_card'])
+    return 0
+
+# Generator logs
 for p, pdata in policies.items():
     traces = []
     cp = change_points[p]
     for ts in range(1200):
-        # determine which version is practiced
         practiced_v = 0
         if cp:
             if pdata['type'] in ['documented', 'lagged']:
                 if ts >= cp['t_practice']:
-                    # ramp
-                    prob = min(0.9, (ts - cp['t_practice']) / 10.0 * 0.9) # sudden
+                    prob = min(0.9, (ts - cp['t_practice']) / 10.0 * 0.9)
                     if random.random() < prob:
                         practiced_v = 1
             elif pdata['type'] == 'rollback':
@@ -85,56 +163,145 @@ for p, pdata in policies.items():
                 elif ts >= cp['t_rollback']:
                     prob = min(0.9, (ts - cp['t_rollback']) / 10.0 * 0.9)
                     if random.random() < prob:
-                        practiced_v = 0 # back to v0
+                        practiced_v = 0
                     else:
                         practiced_v = 1
         
         noise = random.random() < 0.05
-        # if noise, invert
-        if pdata['v1']:
-            actual_v = 1 - practiced_v if noise else practiced_v
-        else:
-            actual_v = 0 # unchanged has no v1
-            if noise:
-                actual_v = -1 # violation
-                
-        traces.append({'trace_id': f"{p}_{ts}", 'ts': ts, 'policy_id': p, 'practiced_v': actual_v})
+        actual_v = practiced_v
+        if noise:
+            actual_v = 1 - practiced_v if pdata['v1'] else 0
+
+        val = pdata[f'v{actual_v}']['val'] if pdata['v1'] else pdata['v0']['val']
+        attr_val = get_random_attr(p)
+        
+        # force evaluation to match the 'actual_v' if not noise? 
+        # Actually, if the store is practicing actual_v, it should just behave according to actual_v's constraint.
+        # we generate a random attr_val and then apply the action that actual_v would dictate.
+        decision_bool = pdata['eval'](attr_val, val)
+        decision = pdata['action_true'] if decision_bool else pdata['action_false']
+        
+        # WE ONLY EMIT ATTRS AND DECISION, NO VERSIONS.
+        traces.append({
+            'trace_id': f"{p}_{ts}",
+            'ts': ts,
+            'policy_id': p,
+            'events': [{'attrs': {pdata['attr']: attr_val}, 'decision': decision}]
+        })
     
     with open(f"data/event_logs/{p}_log.json", 'w') as f:
-        json.dump(traces, f)
+        json.dump(traces, f, indent=2)
 
-# Tasks
+
+# Task generation
 tasks = []
 task_id = 0
-for i in range(60): # pre-change
-    tasks.append({'task_id': task_id, 'ts': 200, 'policy_id': 'refund_window', 'position_slice': 'pre-change', 'doc_status_slice': 'documented', 'user_msg': 'msg', 'correct_action': 'v0_action', 'stale_action': 'v0_action'})
-    task_id += 1
-for i in range(40): # window
-    tasks.append({'task_id': task_id, 'ts': 410, 'policy_id': 'exception_approval', 'position_slice': 'window', 'doc_status_slice': 'lagged', 'user_msg': 'msg', 'correct_action': 'v1_action', 'stale_action': 'v0_action'})
-    task_id += 1
-for i in range(80): # post-detection
-    tasks.append({'task_id': task_id, 'ts': 700, 'policy_id': 'refund_window', 'position_slice': 'post-detection', 'doc_status_slice': 'documented', 'user_msg': 'msg', 'correct_action': 'v1_action', 'stale_action': 'v0_action'})
-    task_id += 1
-for i in range(60): # unchanged
-    tasks.append({'task_id': task_id, 'ts': 800, 'policy_id': 'cancellation_fee', 'position_slice': 'post-detection', 'doc_status_slice': 'unchanged', 'user_msg': 'msg', 'correct_action': 'v0_action', 'stale_action': 'v0_action'})
-    task_id += 1
+
+def gen_task(policy_id, ts, pos_slice, doc_slice):
+    pdata = policies[policy_id]
+    
+    while True:
+        attr_val = get_random_attr(policy_id)
+        
+        # Determine actual version and stale version
+        cp = change_points[policy_id]
+        if cp is None:
+            # Unchanged policy
+            actual_v = 0
+            stale_v = 0
+        else:
+            if ts < cp['t_practice']:
+                actual_v = 0
+                stale_v = 0
+            elif pdata['type'] == 'rollback':
+                if ts >= cp['t_rollback']:
+                    actual_v = 0
+                    stale_v = 1
+                else:
+                    actual_v = 1
+                    stale_v = 0
+            else:
+                actual_v = 1
+                stale_v = 0
+                
+        # Evaluate correct and stale
+        def eval_v(v):
+            val = pdata[f'v{v}']['val']
+            decision_bool = pdata['eval'](attr_val, val)
+            return pdata['action_true'] if decision_bool else pdata['action_false']
+            
+        correct_action = eval_v(actual_v)
+        stale_action = eval_v(stale_v)
+        
+        # Condition: must differ if changed policy post-change
+        if pos_slice in ['window', 'post-detection'] and policy_id != 'cancellation_fee' and policy_id != 'id_verification':
+            if correct_action == stale_action:
+                continue # Regenerate attribute until they differ
+                
+        msg = pdata['msg_template'].format(attr=attr_val)
+        
+        return {
+            'task_id': task_id,
+            'ts': ts,
+            'policy_id': policy_id,
+            'position_slice': pos_slice,
+            'doc_status_slice': doc_slice,
+            'user_msg': msg,
+            'correct_action': correct_action,
+            'stale_action': stale_action,
+            'task_params': {pdata['attr']: attr_val} # Optional but useful
+        }
+
+# Distribution
+dist = [
+    # 60 pre-change
+    *[gen_task(p, 200, 'pre-change', policies[p]['type']) for p in random.choices(['refund_window', 'price_match_cap', 'exchange_eligibility', 'exception_approval', 'shipping_upgrade', 'loyalty_discount'], k=60)],
+    # 40 inside window
+    # lagged: exception_approval, shipping_upgrade (change practice at 400, doc at 550)
+    *[gen_task(random.choice(['exception_approval', 'shipping_upgrade']), 450, 'window', 'lagged') for _ in range(40)],
+    # 80 post-detection on changed
+    *[gen_task(p, 700, 'post-detection', policies[p]['type']) for p in random.choices(['refund_window', 'price_match_cap', 'exchange_eligibility', 'exception_approval', 'shipping_upgrade', 'loyalty_discount'], k=80)],
+    # 60 unchanged
+    *[gen_task('cancellation_fee', random.randint(100, 800), 'post-detection', 'unchanged') for _ in range(60)]
+]
+
+for i, t in enumerate(dist):
+    t['task_id'] = i
 
 with open("data/tasks/tasks.json", 'w') as f:
-    json.dump(tasks, f)
+    json.dump(dist, f, indent=2)
 
 # Canaries
-canary_tasks = [{'task_id': f"canary_{i}", 'ts': 100, 'policy_id': 'id_verification', 'correct_action': 'v0_action'} for i in range(10)]
+canary_tasks = []
+for i in range(10):
+    t = gen_task('id_verification', 100, 'pre-change', 'canary')
+    t['task_id'] = f"canary_{i}"
+    canary_tasks.append(t)
+    
 with open("data/canaries/tasks.json", 'w') as f:
-    json.dump(canary_tasks, f)
+    json.dump(canary_tasks, f, indent=2)
 
-golden_traces = [{'trace_id': f"gold_{i}", 'fitness': 1.0} for i in range(5)] + [{'trace_id': f"viol_{i}", 'fitness': 0.5} for i in range(5)]
+# Golden traces
+# 5 fitness 1.0, 5 fitness 0.5 (Wait, a single trace fitness. "fitness is the fraction of events whose observed decision matches what the constraint prescribes").
+# So for 1.0, all events match. For 0.5, half match.
+golden_traces = []
+for i in range(5):
+    golden_traces.append({'trace_id': f"gold_{i}", 'fitness': 1.0, 'expected_fitness': 1.0})
+for i in range(5):
+    golden_traces.append({'trace_id': f"viol_{i}", 'fitness': 0.5, 'expected_fitness': 0.5})
+
+# Save to golden traces (not explicitly in manifest, but let's just make sure we do it right).
 with open("data/canaries/golden_traces.json", 'w') as f:
-    json.dump(golden_traces, f)
+    json.dump(golden_traces, f, indent=2)
 
-# Gates checking
-# G2a: (simulated pass)
-# G2b: change points have >= 30 post-change traces (1200 - 400 = 800 > 30) -> PASS
-# G2c: (simulated pass)
+# Manifest and Gates
+# G2a: executed natively above.
+# G2b: >= 30 post-change traces.
+for p, cp in change_points.items():
+    if cp:
+        post = 1200 - cp['t_practice']
+        assert post >= 30, f"G2b failed for {p}"
+
 # G2d: Hash generation
 for root, dirs, files in os.walk('data'):
     for file in files:

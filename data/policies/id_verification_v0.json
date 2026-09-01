@@ -1,1 +1,1 @@
-{"policy_id": "id_verification", "version": 0, "prose": "Policy id_verification is photo_id", "constraint": "id_type == \"photo_id\""}
+{"policy_id": "id_verification", "version": 0, "prose": "Policy id_verification is photo_id", "constraint": "id_type == 'photo_id'", "action_true": "verify_pass", "action_false": "verify_fail"}

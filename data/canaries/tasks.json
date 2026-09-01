@@ -1,1 +1,132 @@
-[{"task_id": "canary_0", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_1", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_2", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_3", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_4", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_5", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_6", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_7", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_8", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}, {"task_id": "canary_9", "ts": 100, "policy_id": "id_verification", "correct_action": "v0_action"}]
+[
+  {
+    "task_id": "canary_0",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my photo_id for verification.",
+    "correct_action": "verify_pass",
+    "stale_action": "verify_pass",
+    "task_params": {
+      "id_type": "photo_id"
+    }
+  },
+  {
+    "task_id": "canary_1",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my photo_id for verification.",
+    "correct_action": "verify_pass",
+    "stale_action": "verify_pass",
+    "task_params": {
+      "id_type": "photo_id"
+    }
+  },
+  {
+    "task_id": "canary_2",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my photo_id for verification.",
+    "correct_action": "verify_pass",
+    "stale_action": "verify_pass",
+    "task_params": {
+      "id_type": "photo_id"
+    }
+  },
+  {
+    "task_id": "canary_3",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my credit_card for verification.",
+    "correct_action": "verify_fail",
+    "stale_action": "verify_fail",
+    "task_params": {
+      "id_type": "credit_card"
+    }
+  },
+  {
+    "task_id": "canary_4",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my credit_card for verification.",
+    "correct_action": "verify_fail",
+    "stale_action": "verify_fail",
+    "task_params": {
+      "id_type": "credit_card"
+    }
+  },
+  {
+    "task_id": "canary_5",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my credit_card for verification.",
+    "correct_action": "verify_fail",
+    "stale_action": "verify_fail",
+    "task_params": {
+      "id_type": "credit_card"
+    }
+  },
+  {
+    "task_id": "canary_6",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my credit_card for verification.",
+    "correct_action": "verify_fail",
+    "stale_action": "verify_fail",
+    "task_params": {
+      "id_type": "credit_card"
+    }
+  },
+  {
+    "task_id": "canary_7",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my credit_card for verification.",
+    "correct_action": "verify_fail",
+    "stale_action": "verify_fail",
+    "task_params": {
+      "id_type": "credit_card"
+    }
+  },
+  {
+    "task_id": "canary_8",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my photo_id for verification.",
+    "correct_action": "verify_pass",
+    "stale_action": "verify_pass",
+    "task_params": {
+      "id_type": "photo_id"
+    }
+  },
+  {
+    "task_id": "canary_9",
+    "ts": 100,
+    "policy_id": "id_verification",
+    "position_slice": "pre-change",
+    "doc_status_slice": "canary",
+    "user_msg": "Here is my credit_card for verification.",
+    "correct_action": "verify_fail",
+    "stale_action": "verify_fail",
+    "task_params": {
+      "id_type": "credit_card"
+    }
+  }
+]

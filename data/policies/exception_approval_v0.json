@@ -1,1 +1,1 @@
-{"policy_id": "exception_approval", "version": 0, "prose": "Policy exception_approval is manager", "constraint": "approver == \"manager\""}
+{"policy_id": "exception_approval", "version": 0, "prose": "Policy exception_approval is manager", "constraint": "approver == 'manager'", "action_true": "approve_exception", "action_false": "deny_exception"}

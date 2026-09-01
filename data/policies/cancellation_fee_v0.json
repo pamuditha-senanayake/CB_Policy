@@ -1,1 +1,1 @@
-{"policy_id": "cancellation_fee", "version": 0, "prose": "Policy cancellation_fee is 20", "constraint": "fee == 20"}
+{"policy_id": "cancellation_fee", "version": 0, "prose": "Policy cancellation_fee is 24", "constraint": "hours_notice >= 24", "action_true": "waive_fee", "action_false": "charge_fee"}

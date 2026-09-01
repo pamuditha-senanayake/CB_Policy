@@ -1,1 +1,1 @@
-{"policy_id": "price_match_cap", "version": 1, "prose": "Policy price_match_cap is 100", "constraint": "amount <= 100"}
+{"policy_id": "price_match_cap", "version": 1, "prose": "Policy price_match_cap is 100", "constraint": "amount <= 100", "action_true": "approve_match", "action_false": "deny_match"}
