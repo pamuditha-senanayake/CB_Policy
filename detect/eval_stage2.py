@@ -163,6 +163,7 @@ with open("data/tasks/tasks.json", 'r') as f:
 
 # Evaluate valid_time_error_traces
 error_traces = []
+per_policy_errors = {}
 for p in policies:
     cp = change_points.get(p)
     if cp and est_change_points[p]:
@@ -170,19 +171,13 @@ for p in policies:
             err1 = abs(est_change_points[p][0] - cp['t_practice'])
             err2 = abs(est_change_points[p][1] - cp['t_rollback'])
             error_traces.extend([err1, err2])
+            per_policy_errors[p] = {"primary": err1, "rollback": err2}
         else:
             err = abs(est_change_points[p][0] - cp['t_practice'])
             error_traces.append(err)
+            per_policy_errors[p] = err
             
 valid_time_error = sum(error_traces) / len(error_traces) if error_traces else 0
-per_policy_errors = {}
-for p in policies:
-    cp = change_points.get(p)
-    if cp and est_change_points[p]:
-        if 't_rollback' in cp and len(est_change_points[p]) >= 2:
-            per_policy_errors[p] = [abs(est_change_points[p][0] - cp['t_practice']), abs(est_change_points[p][1] - cp['t_rollback'])]
-        else:
-            per_policy_errors[p] = abs(est_change_points[p][0] - cp['t_practice'])
 
 correct_post = 0
 total_post = 0

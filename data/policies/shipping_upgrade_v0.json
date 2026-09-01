@@ -1,1 +1,1 @@
-{"policy_id": "shipping_upgrade", "version": 0, "prose": "Policy shipping_upgrade is 50", "constraint": "cart_total >= 50", "action_true": "upgrade_shipping", "action_false": "deny_upgrade"}
+{"policy_id": "shipping_upgrade", "version": 0, "prose": "If cart_total is greater than or equal to 50, then the action must be upgrade_shipping. Otherwise, if it does not meet this condition, the action must be deny_upgrade.", "constraint": "cart_total >= 50", "action_true": "upgrade_shipping", "action_false": "deny_upgrade"}

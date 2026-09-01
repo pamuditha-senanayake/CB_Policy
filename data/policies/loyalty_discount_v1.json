@@ -1,1 +1,1 @@
-{"policy_id": "loyalty_discount", "version": 1, "prose": "Policy loyalty_discount is platinum", "constraint": "tier == 'platinum'", "action_true": "apply_15_percent", "action_false": "apply_10_percent"}
+{"policy_id": "loyalty_discount", "version": 1, "prose": "If tier is exactly platinum, then the action must be apply_15_percent. Otherwise, if it does not meet this condition, the action must be apply_10_percent.", "constraint": "tier == 'platinum'", "action_true": "apply_15_percent", "action_false": "apply_10_percent"}

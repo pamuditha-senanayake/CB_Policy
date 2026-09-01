@@ -127,16 +127,16 @@ def process_task(t):
     ctx = condition_module.build_context(t, stores)
     actions = policy_actions.get(t['policy_id'], [])
     if actions:
-        action_str = f"[{actions[0]}, {actions[1]}]"
+        action_str = f"{actions[0]} or {actions[1]}"
     else:
-        action_str = "[approve_refund, deny_refund, ...]" # Fallback
+        action_str = "approve_refund or deny_refund"
         
-    prompt = f"Given the following policy document or context:\n{ctx}\n\nUser request: {t['user_msg']}\n\nWhat action should be taken? Reply with EXACTLY ONE of the following actions, and nothing else:\n{action_str}\nAction:"
+    prompt = f"Given the following policy document or context:\n{ctx}\n\nUser request: {t['user_msg']}\n\nWhat action should be taken? Reply with exactly one word: {action_str}\nAction:"
     
     attempts = []
     for k in range(K_ATTEMPTS):
         res = call_llm(prompt, k)
-        ans = res['answer'].replace('Action:', '').strip()
+        ans = res['answer']
         
         raw_path = f"runs/raw/{run_id}/{t['task_id']}_{k}.json"
         with open(raw_path, 'w') as f:
@@ -152,87 +152,7 @@ with ThreadPoolExecutor(max_workers=30) as executor:
         results.append(fut.result())
         if i % 10 == 0: print(f"Completed {i}/{len(tasks)} tasks")
 
-# Metrics
-total_usage = {"prompt_tokens": 0, "completion_tokens": 0}
-for r in results:
-    for a in r['attempts']:
-        total_usage['prompt_tokens'] += a['usage']['prompt_tokens']
-        total_usage['completion_tokens'] += a['usage']['completion_tokens']
-
-correct = 0
-pass4_count = 0
-stale_action_count = 0
-stale_action_eligible_n = 0
-
-changed_policy_correct = 0
-changed_policy_total = 0
-unchanged_correct = 0
-unchanged_total = 0
-
-canary_flips = 0
-real_tasks_count = 0
-
-slices = {}
-
-for r in results:
-    t = r['task']
-    ans1 = r['attempts'][0]['answer']
-    is_correct1 = (ans1 == t['correct_action'])
-    is_pass4 = all(a['answer'] == t['correct_action'] for a in r['attempts'])
-    
-    if t.get('is_canary'):
-        if not is_correct1:
-            canary_flips += 1
-        continue
-        
-    # Real task
-    real_tasks_count += 1
-    
-    if is_correct1: correct += 1
-    if is_pass4: pass4_count += 1
-    
-    # Stale action logic
-    if t.get('stale_action') and t.get('stale_action') != t['correct_action']:
-        stale_action_eligible_n += K_ATTEMPTS
-        for a in r['attempts']:
-            if a['answer'] == t['stale_action']:
-                stale_action_count += 1
-                
-    p_type = manifest['change_points'].get(t['policy_id'])
-    if p_type is None:
-        unchanged_total += 1
-        if is_correct1: unchanged_correct += 1
-    else:
-        changed_policy_total += 1
-        if is_correct1: changed_policy_correct += 1
-        
-    pos = t['position_slice']
-    if pos not in slices:
-        slices[pos] = {'correct': 0, 'total': 0}
-    slices[pos]['total'] += 1
-    if is_correct1:
-        slices[pos]['correct'] += 1
-
-out_data = {
-    "condition": condition,
-    "data_seed": config_seed,
-    "run_seed": run_seed,
-    "pass1": correct / real_tasks_count if real_tasks_count else 0,
-    "pass4": pass4_count / real_tasks_count if real_tasks_count else 0,
-    "stale_action_rate": stale_action_count / stale_action_eligible_n if stale_action_eligible_n else 0,
-    "stale_action_eligible_n": stale_action_eligible_n,
-    "changed_policy_pass1": changed_policy_correct / changed_policy_total if changed_policy_total else 0,
-    "unchanged_pass1": unchanged_correct / unchanged_total if unchanged_total else 0,
-    "tokens_per_task": (total_usage['prompt_tokens'] + total_usage['completion_tokens']) / len(tasks),
-    "canary_flips": canary_flips,
-    "usage": total_usage
-}
-
-for pos, data in slices.items():
-    out_data[f"slice_{pos}"] = data['correct'] / data['total'] if data['total'] else 0
-
-out_path = f"runs/{condition}_s{run_seed}.json"
-with open(out_path, 'w') as f:
-    json.dump(out_data, f, indent=2)
-
+import subprocess
+print("Computing metrics via extract/rescore.py...")
+subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), f"runs/{condition}_s{run_seed}.json"], check=True)
 print(f"Finished {condition} run_seed {run_seed}")

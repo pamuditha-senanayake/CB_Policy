@@ -1,1 +1,1 @@
-{"policy_id": "exception_approval", "version": 0, "prose": "Policy exception_approval is manager", "constraint": "approver == 'manager'", "action_true": "approve_exception", "action_false": "deny_exception"}
+{"policy_id": "exception_approval", "version": 0, "prose": "If approver is exactly manager, then the action must be approve_exception. Otherwise, if it does not meet this condition, the action must be deny_exception.", "constraint": "approver == 'manager'", "action_true": "approve_exception", "action_false": "deny_exception"}

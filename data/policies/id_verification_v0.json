@@ -1,1 +1,1 @@
-{"policy_id": "id_verification", "version": 0, "prose": "Policy id_verification is photo_id", "constraint": "id_type == 'photo_id'", "action_true": "verify_pass", "action_false": "verify_fail"}
+{"policy_id": "id_verification", "version": 0, "prose": "If id_type is exactly photo_id, then the action must be verify_pass. Otherwise, if it does not meet this condition, the action must be verify_fail.", "constraint": "id_type == 'photo_id'", "action_true": "verify_pass", "action_false": "verify_fail"}

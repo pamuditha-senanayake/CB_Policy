@@ -1,1 +1,1 @@
-{"policy_id": "exchange_eligibility", "version": 0, "prose": "Policy exchange_eligibility is receipt", "constraint": "has_item == 'receipt'", "action_true": "approve_exchange", "action_false": "deny_exchange"}
+{"policy_id": "exchange_eligibility", "version": 0, "prose": "If has_item is exactly receipt, then the action must be approve_exchange. Otherwise, if it does not meet this condition, the action must be deny_exchange.", "constraint": "has_item == 'receipt'", "action_true": "approve_exchange", "action_false": "deny_exchange"}

@@ -6,9 +6,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -19,9 +19,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -32,7 +32,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -45,7 +45,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -58,9 +58,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -84,7 +84,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -97,9 +97,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -110,9 +110,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -136,9 +136,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -201,9 +201,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -214,7 +214,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -227,9 +227,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -240,9 +240,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -255,7 +255,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -266,7 +266,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -292,9 +292,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -305,7 +305,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -318,7 +318,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -357,7 +357,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -383,7 +383,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -396,9 +396,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -409,7 +409,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -422,9 +422,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -461,7 +461,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -474,7 +474,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -489,7 +489,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -500,9 +500,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -539,9 +539,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -552,7 +552,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -565,7 +565,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -580,7 +580,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -591,7 +591,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -604,9 +604,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -630,9 +630,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -643,9 +643,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -656,9 +656,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -669,9 +669,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -695,9 +695,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -708,7 +708,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -721,7 +721,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -734,9 +734,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -747,7 +747,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -760,7 +760,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -773,28 +773,15 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_60",
     "ts": 60,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "supervisor"
-        },
-        "decision": "deny_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_61",
-    "ts": 61,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -806,13 +793,26 @@
     ]
   },
   {
+    "trace_id": "exception_approval_61",
+    "ts": 61,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "agent"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
     "trace_id": "exception_approval_62",
     "ts": 62,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -825,9 +825,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -838,9 +838,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -851,9 +851,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -866,7 +866,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -877,9 +877,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -903,9 +903,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -942,7 +942,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -955,9 +955,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -968,7 +968,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -981,9 +981,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1020,67 +1020,15 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_79",
     "ts": 79,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_80",
-    "ts": 80,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_81",
-    "ts": 81,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_82",
-    "ts": 82,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_83",
-    "ts": 83,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -1092,8 +1040,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_84",
-    "ts": 84,
+    "trace_id": "exception_approval_80",
+    "ts": 80,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -1101,6 +1049,58 @@
           "approver": "supervisor"
         },
         "decision": "deny_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_81",
+    "ts": 81,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "agent"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_82",
+    "ts": 82,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "supervisor"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_83",
+    "ts": 83,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "manager"
+        },
+        "decision": "approve_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_84",
+    "ts": 84,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "manager"
+        },
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1124,9 +1124,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1137,7 +1137,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -1150,7 +1150,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -1189,9 +1189,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1241,9 +1241,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1254,7 +1254,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -1293,9 +1293,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1306,7 +1306,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -1319,9 +1319,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1345,7 +1345,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1358,9 +1358,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1371,9 +1371,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1384,7 +1384,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1397,9 +1397,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1410,9 +1410,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1423,9 +1423,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1436,7 +1436,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1449,9 +1449,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1462,7 +1462,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1475,9 +1475,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1488,7 +1488,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1514,7 +1514,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1527,9 +1527,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1540,9 +1540,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1553,7 +1553,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1566,7 +1566,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -1592,7 +1592,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1631,9 +1631,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1644,9 +1644,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1672,7 +1672,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1696,9 +1696,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1735,9 +1735,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1761,7 +1761,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -1787,9 +1787,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1802,7 +1802,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1813,7 +1813,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -1826,9 +1826,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1839,9 +1839,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1865,7 +1865,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -1891,7 +1891,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -1904,9 +1904,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1917,7 +1917,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -1930,9 +1930,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -1956,9 +1956,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -1995,7 +1995,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -2008,7 +2008,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -2021,7 +2021,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2034,9 +2034,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2060,9 +2060,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2073,7 +2073,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -2099,9 +2099,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2125,7 +2125,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -2138,9 +2138,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2151,9 +2151,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2166,7 +2166,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2177,7 +2177,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2203,9 +2203,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2216,9 +2216,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2229,7 +2229,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2244,7 +2244,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2255,7 +2255,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -2268,7 +2268,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -2281,7 +2281,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2294,9 +2294,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2307,9 +2307,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2320,9 +2320,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2333,9 +2333,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2359,9 +2359,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2372,7 +2372,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -2385,9 +2385,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2411,9 +2411,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2424,9 +2424,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2450,7 +2450,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2463,7 +2463,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2476,9 +2476,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2515,9 +2515,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2541,28 +2541,15 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_196",
     "ts": 196,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "supervisor"
-        },
-        "decision": "deny_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_197",
-    "ts": 197,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -2574,8 +2561,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_198",
-    "ts": 198,
+    "trace_id": "exception_approval_197",
+    "ts": 197,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -2587,15 +2574,28 @@
     ]
   },
   {
+    "trace_id": "exception_approval_198",
+    "ts": 198,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "manager"
+        },
+        "decision": "approve_exception"
+      }
+    ]
+  },
+  {
     "trace_id": "exception_approval_199",
     "ts": 199,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2632,7 +2632,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2645,9 +2645,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2658,7 +2658,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2671,9 +2671,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2684,9 +2684,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2697,7 +2697,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -2723,9 +2723,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2736,9 +2736,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2762,9 +2762,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2775,9 +2775,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2788,7 +2788,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -2801,9 +2801,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2814,9 +2814,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2853,7 +2853,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2866,9 +2866,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2905,9 +2905,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2918,9 +2918,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -2931,7 +2931,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -2944,9 +2944,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2970,9 +2970,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2983,9 +2983,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -2996,7 +2996,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3009,6 +3009,19 @@
     "events": [
       {
         "attrs": {
+          "approver": "manager"
+        },
+        "decision": "approve_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_232",
+    "ts": 232,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
           "approver": "supervisor"
         },
         "decision": "deny_exception"
@@ -3016,8 +3029,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_232",
-    "ts": 232,
+    "trace_id": "exception_approval_233",
+    "ts": 233,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -3029,28 +3042,15 @@
     ]
   },
   {
-    "trace_id": "exception_approval_233",
-    "ts": 233,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "agent"
-        },
-        "decision": "deny_exception"
-      }
-    ]
-  },
-  {
     "trace_id": "exception_approval_234",
     "ts": 234,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3061,9 +3061,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3087,7 +3087,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -3126,7 +3126,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -3139,9 +3139,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3152,9 +3152,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3167,7 +3167,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3178,9 +3178,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3191,7 +3191,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3204,9 +3204,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3217,9 +3217,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3230,7 +3230,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3243,9 +3243,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3308,9 +3308,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3321,9 +3321,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3334,9 +3334,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3347,7 +3347,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -3373,9 +3373,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3386,7 +3386,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3399,7 +3399,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3412,9 +3412,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3425,9 +3425,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3451,9 +3451,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3477,9 +3477,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3503,9 +3503,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3516,9 +3516,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3542,9 +3542,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3555,9 +3555,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3581,9 +3581,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3594,7 +3594,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3620,7 +3620,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3633,9 +3633,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3646,7 +3646,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -3672,7 +3672,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3698,7 +3698,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -3711,9 +3711,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3724,9 +3724,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3737,7 +3737,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3750,9 +3750,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3776,9 +3776,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3802,7 +3802,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -3817,7 +3817,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3828,9 +3828,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3867,7 +3867,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3880,9 +3880,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -3906,9 +3906,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3919,9 +3919,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3945,9 +3945,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -3958,7 +3958,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -3997,7 +3997,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -4010,9 +4010,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4036,9 +4036,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4049,7 +4049,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -4062,9 +4062,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4075,9 +4075,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4088,9 +4088,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4101,9 +4101,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4114,7 +4114,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -4127,9 +4127,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4140,9 +4140,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4166,9 +4166,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4179,9 +4179,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4205,9 +4205,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4233,7 +4233,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4244,9 +4244,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4257,9 +4257,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4270,7 +4270,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -4283,9 +4283,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4322,9 +4322,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4361,9 +4361,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4374,9 +4374,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4387,9 +4387,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4400,9 +4400,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4426,9 +4426,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4439,28 +4439,15 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
-        },
-        "decision": "deny_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_342",
-    "ts": 342,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
     ]
   },
   {
-    "trace_id": "exception_approval_343",
-    "ts": 343,
+    "trace_id": "exception_approval_342",
+    "ts": 342,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -4472,8 +4459,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_344",
-    "ts": 344,
+    "trace_id": "exception_approval_343",
+    "ts": 343,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -4481,6 +4468,19 @@
           "approver": "manager"
         },
         "decision": "approve_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_344",
+    "ts": 344,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "supervisor"
+        },
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4491,9 +4491,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4504,9 +4504,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4517,9 +4517,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4530,9 +4530,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4558,7 +4558,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4582,9 +4582,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4595,9 +4595,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4608,9 +4608,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4647,9 +4647,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4660,7 +4660,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -4686,9 +4686,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4699,7 +4699,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -4751,9 +4751,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4764,7 +4764,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -4803,7 +4803,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -4816,7 +4816,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -4829,9 +4829,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4842,7 +4842,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -4855,9 +4855,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4881,9 +4881,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4946,9 +4946,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4959,9 +4959,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4972,9 +4972,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -4985,9 +4985,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -4998,9 +4998,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5011,9 +5011,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5024,7 +5024,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -5063,9 +5063,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5076,7 +5076,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5102,9 +5102,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5115,9 +5115,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5128,7 +5128,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -5141,7 +5141,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -5167,7 +5167,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5193,9 +5193,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5234,7 +5234,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5245,9 +5245,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5258,9 +5258,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5284,9 +5284,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5299,7 +5299,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5323,9 +5323,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5336,7 +5336,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5375,7 +5375,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5388,9 +5388,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5401,9 +5401,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5414,9 +5414,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5427,9 +5427,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5453,9 +5453,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5481,7 +5481,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5505,9 +5505,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5518,9 +5518,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5557,7 +5557,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5583,9 +5583,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5609,7 +5609,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5635,9 +5635,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5648,9 +5648,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5661,9 +5661,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5687,7 +5687,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5700,9 +5700,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5713,7 +5713,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -5726,7 +5726,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -5739,7 +5739,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -5752,7 +5752,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -5767,7 +5767,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5778,9 +5778,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5791,9 +5791,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5804,9 +5804,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -5817,7 +5817,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -5830,9 +5830,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5843,9 +5843,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5856,7 +5856,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5869,7 +5869,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -5884,7 +5884,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5908,6 +5908,19 @@
     "events": [
       {
         "attrs": {
+          "approver": "agent"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_455",
+    "ts": 455,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
           "approver": "supervisor"
         },
         "decision": "approve_exception"
@@ -5915,8 +5928,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_455",
-    "ts": 455,
+    "trace_id": "exception_approval_456",
+    "ts": 456,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -5928,8 +5941,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_456",
-    "ts": 456,
+    "trace_id": "exception_approval_457",
+    "ts": 457,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -5937,19 +5950,6 @@
           "approver": "supervisor"
         },
         "decision": "approve_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_457",
-    "ts": 457,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "deny_exception"
       }
     ]
   },
@@ -5973,9 +5973,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -5999,7 +5999,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6012,7 +6012,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6025,9 +6025,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -6038,7 +6038,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6090,9 +6090,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6116,7 +6116,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6129,9 +6129,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6142,7 +6142,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6155,9 +6155,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -6168,9 +6168,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -6181,9 +6181,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6220,9 +6220,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6259,7 +6259,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -6285,7 +6285,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -6298,6 +6298,19 @@
     "events": [
       {
         "attrs": {
+          "approver": "agent"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_485",
+    "ts": 485,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
           "approver": "supervisor"
         },
         "decision": "approve_exception"
@@ -6305,8 +6318,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_485",
-    "ts": 485,
+    "trace_id": "exception_approval_486",
+    "ts": 486,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -6318,26 +6331,13 @@
     ]
   },
   {
-    "trace_id": "exception_approval_486",
-    "ts": 486,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "supervisor"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
     "trace_id": "exception_approval_487",
     "ts": 487,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6352,13 +6352,26 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_489",
     "ts": 489,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "supervisor"
+        },
+        "decision": "approve_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_490",
+    "ts": 490,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -6370,26 +6383,13 @@
     ]
   },
   {
-    "trace_id": "exception_approval_490",
-    "ts": 490,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
     "trace_id": "exception_approval_491",
     "ts": 491,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6415,9 +6415,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6428,9 +6428,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -6441,7 +6441,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6454,9 +6454,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6467,7 +6467,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6480,9 +6480,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6532,7 +6532,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6558,9 +6558,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6584,9 +6584,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6610,9 +6610,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -6623,7 +6623,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6636,9 +6636,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6649,9 +6649,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6662,7 +6662,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6675,9 +6675,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6688,9 +6688,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6701,9 +6701,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6753,9 +6753,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6768,7 +6768,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6779,7 +6779,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6805,7 +6805,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6818,7 +6818,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -6831,7 +6831,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6870,7 +6870,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6883,7 +6883,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -6896,7 +6896,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -6909,9 +6909,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6950,7 +6950,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -6961,9 +6961,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -6974,9 +6974,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7002,7 +7002,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7013,9 +7013,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7026,9 +7026,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7039,9 +7039,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7054,7 +7054,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7065,7 +7065,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7091,7 +7091,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7104,9 +7104,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7117,7 +7117,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7130,9 +7130,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7143,7 +7143,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -7156,9 +7156,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7169,7 +7169,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7182,9 +7182,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7208,9 +7208,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7221,9 +7221,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7234,9 +7234,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7247,7 +7247,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -7273,7 +7273,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7299,7 +7299,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7325,7 +7325,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -7338,9 +7338,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7351,7 +7351,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -7364,7 +7364,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -7377,7 +7377,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7390,9 +7390,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7403,7 +7403,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -7416,9 +7416,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7442,7 +7442,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7455,9 +7455,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7468,9 +7468,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7507,9 +7507,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7520,7 +7520,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -7533,7 +7533,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7559,7 +7559,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -7585,9 +7585,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7611,9 +7611,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7624,9 +7624,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7637,7 +7637,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7650,7 +7650,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7663,9 +7663,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7676,7 +7676,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7689,9 +7689,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7702,9 +7702,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7715,9 +7715,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7741,9 +7741,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7767,7 +7767,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -7780,9 +7780,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7793,9 +7793,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7806,7 +7806,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7821,7 +7821,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7832,7 +7832,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -7845,9 +7845,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -7860,7 +7860,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7910,7 +7910,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -7923,7 +7923,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -7936,7 +7936,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -7949,9 +7949,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -7962,9 +7962,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8001,7 +8001,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8079,9 +8079,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8092,9 +8092,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8105,9 +8105,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8118,9 +8118,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8144,7 +8144,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8157,7 +8157,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8170,7 +8170,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -8183,7 +8183,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -8209,9 +8209,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8222,9 +8222,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8248,9 +8248,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8261,7 +8261,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -8274,9 +8274,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8287,7 +8287,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -8300,9 +8300,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8313,7 +8313,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -8326,7 +8326,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8339,9 +8339,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8352,7 +8352,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -8378,7 +8378,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -8391,9 +8391,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8404,9 +8404,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8417,9 +8417,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8430,9 +8430,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8482,9 +8482,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8497,7 +8497,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8508,7 +8508,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -8523,7 +8523,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8534,7 +8534,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -8560,7 +8560,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -8573,9 +8573,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8586,7 +8586,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -8601,7 +8601,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8625,7 +8625,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -8640,7 +8640,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8651,9 +8651,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8664,9 +8664,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8679,7 +8679,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8703,9 +8703,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8729,9 +8729,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -8742,9 +8742,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8755,7 +8755,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -8768,9 +8768,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8783,7 +8783,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -8794,7 +8794,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8807,7 +8807,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8833,6 +8833,19 @@
     "events": [
       {
         "attrs": {
+          "approver": "supervisor"
+        },
+        "decision": "approve_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_680",
+    "ts": 680,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
           "approver": "agent"
         },
         "decision": "deny_exception"
@@ -8840,8 +8853,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_680",
-    "ts": 680,
+    "trace_id": "exception_approval_681",
+    "ts": 681,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -8853,26 +8866,13 @@
     ]
   },
   {
-    "trace_id": "exception_approval_681",
-    "ts": 681,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "deny_exception"
-      }
-    ]
-  },
-  {
     "trace_id": "exception_approval_682",
     "ts": 682,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -8885,7 +8885,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8898,7 +8898,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -8924,7 +8924,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8950,7 +8950,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -8963,7 +8963,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -8976,7 +8976,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -8989,9 +8989,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9002,7 +9002,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9015,7 +9015,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9054,9 +9054,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9069,7 +9069,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9080,7 +9080,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9093,9 +9093,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9106,9 +9106,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9119,7 +9119,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9132,9 +9132,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9145,7 +9145,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9158,9 +9158,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9171,9 +9171,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9184,7 +9184,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9210,7 +9210,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -9223,9 +9223,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9236,7 +9236,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9249,7 +9249,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9262,9 +9262,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9275,9 +9275,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9288,7 +9288,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9301,7 +9301,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9314,9 +9314,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9327,7 +9327,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9340,7 +9340,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -9353,7 +9353,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9379,7 +9379,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9392,9 +9392,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9405,7 +9405,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9418,9 +9418,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9431,9 +9431,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9444,9 +9444,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9470,28 +9470,15 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_729",
     "ts": 729,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "supervisor"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_730",
-    "ts": 730,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -9503,8 +9490,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_731",
-    "ts": 731,
+    "trace_id": "exception_approval_730",
+    "ts": 730,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -9516,8 +9503,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_732",
-    "ts": 732,
+    "trace_id": "exception_approval_731",
+    "ts": 731,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -9525,6 +9512,19 @@
           "approver": "manager"
         },
         "decision": "deny_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_732",
+    "ts": 732,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "supervisor"
+        },
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9548,7 +9548,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9561,9 +9561,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9587,7 +9587,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9652,9 +9652,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -9665,7 +9665,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9678,7 +9678,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9691,7 +9691,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -9704,7 +9704,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -9717,7 +9717,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9730,9 +9730,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9769,9 +9769,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9782,7 +9782,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -9821,7 +9821,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -9834,6 +9834,19 @@
     "events": [
       {
         "attrs": {
+          "approver": "agent"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_757",
+    "ts": 757,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
           "approver": "supervisor"
         },
         "decision": "approve_exception"
@@ -9841,8 +9854,8 @@
     ]
   },
   {
-    "trace_id": "exception_approval_757",
-    "ts": 757,
+    "trace_id": "exception_approval_758",
+    "ts": 758,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -9854,26 +9867,13 @@
     ]
   },
   {
-    "trace_id": "exception_approval_758",
-    "ts": 758,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "supervisor"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
     "trace_id": "exception_approval_759",
     "ts": 759,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9886,28 +9886,15 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_761",
     "ts": 761,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "deny_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_762",
-    "ts": 762,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -9919,13 +9906,26 @@
     ]
   },
   {
+    "trace_id": "exception_approval_762",
+    "ts": 762,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "manager"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
     "trace_id": "exception_approval_763",
     "ts": 763,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9938,7 +9938,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -9964,9 +9964,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -9977,7 +9977,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10003,9 +10003,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10016,7 +10016,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10029,7 +10029,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10042,9 +10042,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10055,7 +10055,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10068,9 +10068,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10083,7 +10083,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10094,9 +10094,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10120,9 +10120,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10133,7 +10133,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10146,7 +10146,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -10159,7 +10159,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -10172,7 +10172,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10185,9 +10185,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10198,7 +10198,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10211,9 +10211,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10224,7 +10224,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -10237,7 +10237,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10250,9 +10250,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10263,9 +10263,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10315,7 +10315,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -10328,9 +10328,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10341,7 +10341,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10354,7 +10354,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -10395,7 +10395,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10419,7 +10419,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -10432,9 +10432,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10445,7 +10445,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10471,7 +10471,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -10499,7 +10499,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10510,9 +10510,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10525,7 +10525,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10536,7 +10536,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -10575,7 +10575,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -10588,9 +10588,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10601,9 +10601,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10627,9 +10627,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10640,7 +10640,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -10692,9 +10692,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -10718,9 +10718,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10731,9 +10731,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10757,7 +10757,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10770,7 +10770,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10796,9 +10796,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10809,7 +10809,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10835,7 +10835,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10850,26 +10850,13 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_835",
     "ts": 835,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "agent"
-        },
-        "decision": "deny_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_836",
-    "ts": 836,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -10881,13 +10868,26 @@
     ]
   },
   {
+    "trace_id": "exception_approval_836",
+    "ts": 836,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "agent"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
     "trace_id": "exception_approval_837",
     "ts": 837,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10900,7 +10900,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -10913,7 +10913,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -10939,9 +10939,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10965,9 +10965,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -10991,7 +10991,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -11017,7 +11017,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11043,7 +11043,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11056,9 +11056,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11069,7 +11069,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11082,9 +11082,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11108,9 +11108,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11121,9 +11121,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11134,9 +11134,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11147,9 +11147,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11160,7 +11160,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -11186,7 +11186,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11199,9 +11199,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11212,7 +11212,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -11238,9 +11238,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11251,9 +11251,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11264,7 +11264,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11303,9 +11303,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11318,13 +11318,26 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_871",
     "ts": 871,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "manager"
+        },
+        "decision": "approve_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_872",
+    "ts": 872,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -11336,28 +11349,15 @@
     ]
   },
   {
-    "trace_id": "exception_approval_872",
-    "ts": 872,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "manager"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
     "trace_id": "exception_approval_873",
     "ts": 873,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11368,9 +11368,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11381,9 +11381,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11407,9 +11407,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11433,7 +11433,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11459,9 +11459,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11485,7 +11485,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -11498,7 +11498,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11524,7 +11524,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -11537,9 +11537,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11550,9 +11550,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11615,9 +11615,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11628,7 +11628,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -11641,9 +11641,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11667,9 +11667,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11680,7 +11680,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11706,9 +11706,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11745,9 +11745,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11784,9 +11784,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11810,9 +11810,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11849,9 +11849,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -11875,7 +11875,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11901,7 +11901,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11940,7 +11940,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11953,9 +11953,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -11966,7 +11966,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -11979,7 +11979,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -12044,7 +12044,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -12057,9 +12057,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12070,9 +12070,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12096,7 +12096,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -12135,9 +12135,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12148,9 +12148,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12174,9 +12174,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12200,7 +12200,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -12213,9 +12213,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12226,7 +12226,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -12239,9 +12239,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12252,9 +12252,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12265,7 +12265,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -12291,9 +12291,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12317,41 +12317,15 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_948",
-    "ts": 948,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "supervisor"
-        },
-        "decision": "approve_exception"
-      }
-    ]
-  },
-  {
-    "trace_id": "exception_approval_949",
-    "ts": 949,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
     ]
   },
   {
-    "trace_id": "exception_approval_950",
-    "ts": 950,
+    "trace_id": "exception_approval_948",
+    "ts": 948,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -12363,15 +12337,41 @@
     ]
   },
   {
+    "trace_id": "exception_approval_949",
+    "ts": 949,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "supervisor"
+        },
+        "decision": "approve_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_950",
+    "ts": 950,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "supervisor"
+        },
+        "decision": "approve_exception"
+      }
+    ]
+  },
+  {
     "trace_id": "exception_approval_951",
     "ts": 951,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12395,9 +12395,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12408,9 +12408,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12447,7 +12447,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -12486,7 +12486,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -12512,9 +12512,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12538,9 +12538,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12551,9 +12551,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12564,7 +12564,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -12577,7 +12577,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -12590,9 +12590,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12642,9 +12642,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12668,9 +12668,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12681,7 +12681,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -12694,9 +12694,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12720,9 +12720,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12733,7 +12733,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -12759,7 +12759,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -12772,7 +12772,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -12785,9 +12785,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12798,9 +12798,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12811,7 +12811,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -12837,9 +12837,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12850,9 +12850,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12863,7 +12863,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -12889,9 +12889,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -12915,9 +12915,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12928,9 +12928,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -12954,7 +12954,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -12980,7 +12980,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -12993,7 +12993,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -13019,7 +13019,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -13032,9 +13032,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13045,7 +13045,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -13058,7 +13058,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -13073,7 +13073,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13097,7 +13097,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -13110,9 +13110,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13136,7 +13136,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -13149,7 +13149,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -13162,9 +13162,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13175,9 +13175,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13201,9 +13201,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13214,9 +13214,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13227,7 +13227,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -13240,7 +13240,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -13253,9 +13253,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13279,9 +13279,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13292,7 +13292,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -13305,9 +13305,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13331,9 +13331,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13344,7 +13344,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -13357,9 +13357,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13383,9 +13383,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13396,9 +13396,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13409,9 +13409,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13422,9 +13422,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13474,7 +13474,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -13487,9 +13487,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13500,7 +13500,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -13513,9 +13513,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13539,9 +13539,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13578,9 +13578,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13604,7 +13604,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -13617,7 +13617,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -13630,9 +13630,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13643,9 +13643,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13656,9 +13656,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13669,9 +13669,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13682,9 +13682,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13695,9 +13695,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13723,7 +13723,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13734,9 +13734,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13747,9 +13747,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13760,9 +13760,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13773,9 +13773,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13786,7 +13786,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -13799,7 +13799,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -13812,9 +13812,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13825,7 +13825,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -13840,7 +13840,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13851,9 +13851,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -13864,9 +13864,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13916,7 +13916,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -13929,9 +13929,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -13955,15 +13955,28 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
   {
     "trace_id": "exception_approval_1074",
     "ts": 1074,
+    "policy_id": "exception_approval",
+    "events": [
+      {
+        "attrs": {
+          "approver": "manager"
+        },
+        "decision": "deny_exception"
+      }
+    ]
+  },
+  {
+    "trace_id": "exception_approval_1075",
+    "ts": 1075,
     "policy_id": "exception_approval",
     "events": [
       {
@@ -13975,26 +13988,13 @@
     ]
   },
   {
-    "trace_id": "exception_approval_1075",
-    "ts": 1075,
-    "policy_id": "exception_approval",
-    "events": [
-      {
-        "attrs": {
-          "approver": "agent"
-        },
-        "decision": "deny_exception"
-      }
-    ]
-  },
-  {
     "trace_id": "exception_approval_1076",
     "ts": 1076,
     "policy_id": "exception_approval",
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14007,7 +14007,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -14033,9 +14033,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14059,7 +14059,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -14072,7 +14072,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14085,9 +14085,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14098,9 +14098,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14111,7 +14111,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14124,9 +14124,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14137,9 +14137,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14150,9 +14150,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14176,9 +14176,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14189,9 +14189,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14202,7 +14202,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -14228,9 +14228,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14241,7 +14241,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -14280,9 +14280,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14293,9 +14293,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14345,9 +14345,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14358,9 +14358,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14371,9 +14371,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14384,9 +14384,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14410,9 +14410,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14423,9 +14423,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14438,7 +14438,7 @@
         "attrs": {
           "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14449,9 +14449,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14462,7 +14462,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -14475,9 +14475,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14488,9 +14488,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14501,7 +14501,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14514,9 +14514,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14527,7 +14527,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14540,7 +14540,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14553,9 +14553,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14579,9 +14579,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14592,9 +14592,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14605,9 +14605,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14618,9 +14618,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14683,7 +14683,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14696,9 +14696,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14709,9 +14709,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14722,9 +14722,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14735,7 +14735,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14748,9 +14748,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14761,9 +14761,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14776,7 +14776,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14787,7 +14787,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14800,7 +14800,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -14813,7 +14813,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -14826,7 +14826,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -14841,7 +14841,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14852,9 +14852,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14865,9 +14865,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14878,9 +14878,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14904,9 +14904,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14917,9 +14917,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14943,7 +14943,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -14956,7 +14956,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -14969,9 +14969,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -14982,9 +14982,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -14995,7 +14995,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
         "decision": "approve_exception"
       }
@@ -15021,9 +15021,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15034,7 +15034,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -15047,7 +15047,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -15060,9 +15060,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15073,7 +15073,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -15099,7 +15099,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -15112,9 +15112,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15125,9 +15125,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15138,9 +15138,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15151,9 +15151,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15166,7 +15166,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15190,7 +15190,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -15216,7 +15216,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -15229,9 +15229,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15242,9 +15242,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15268,9 +15268,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15294,7 +15294,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
         "decision": "deny_exception"
       }
@@ -15307,9 +15307,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15359,9 +15359,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15372,7 +15372,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "approve_exception"
       }
@@ -15385,9 +15385,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15398,9 +15398,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15411,7 +15411,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -15437,9 +15437,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15450,7 +15450,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -15463,9 +15463,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15476,9 +15476,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "manager"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15489,9 +15489,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15502,9 +15502,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "supervisor"
         },
-        "decision": "deny_exception"
+        "decision": "approve_exception"
       }
     ]
   },
@@ -15528,7 +15528,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "agent"
+          "approver": "manager"
         },
         "decision": "deny_exception"
       }
@@ -15541,7 +15541,7 @@
     "events": [
       {
         "attrs": {
-          "approver": "manager"
+          "approver": "agent"
         },
         "decision": "deny_exception"
       }
@@ -15556,7 +15556,7 @@
         "attrs": {
           "approver": "supervisor"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },
@@ -15567,9 +15567,9 @@
     "events": [
       {
         "attrs": {
-          "approver": "supervisor"
+          "approver": "agent"
         },
-        "decision": "approve_exception"
+        "decision": "deny_exception"
       }
     ]
   },

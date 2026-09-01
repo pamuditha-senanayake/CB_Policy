@@ -1,1 +1,1 @@
-{"policy_id": "gift_card_expiry", "version": 0, "prose": "Policy gift_card_expiry is 5", "constraint": "years_since_issue == 5", "action_true": "accept_card", "action_false": "reject_card"}
+{"policy_id": "gift_card_expiry", "version": 0, "prose": "If years_since_issue is less than or equal to 5, then the action must be accept_card. Otherwise, if it does not meet this condition, the action must be reject_card.", "constraint": "years_since_issue <= 5", "action_true": "accept_card", "action_false": "reject_card"}

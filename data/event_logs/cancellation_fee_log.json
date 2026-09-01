@@ -6,9 +6,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -19,9 +19,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -32,9 +32,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -45,9 +45,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -58,7 +58,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -97,9 +97,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -110,7 +110,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -123,9 +123,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -136,7 +136,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -149,9 +149,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -175,9 +175,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -188,9 +188,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -227,9 +227,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -240,7 +240,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -292,9 +292,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -305,7 +305,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -331,7 +331,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -344,7 +344,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -409,7 +409,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -422,9 +422,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -435,9 +435,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -448,7 +448,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -474,9 +474,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -487,9 +487,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -500,7 +500,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -513,9 +513,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -526,9 +526,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -565,7 +565,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -578,7 +578,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -591,6 +591,19 @@
     "events": [
       {
         "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_46",
+    "ts": 46,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
           "hours_notice": 24
         },
         "decision": "waive_fee"
@@ -598,8 +611,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_46",
-    "ts": 46,
+    "trace_id": "cancellation_fee_47",
+    "ts": 47,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -611,26 +624,13 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_47",
-    "ts": 47,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
     "trace_id": "cancellation_fee_48",
     "ts": 48,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -669,9 +669,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -695,9 +695,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -708,7 +708,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -721,28 +721,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_56",
     "ts": 56,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_57",
-    "ts": 57,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -754,8 +741,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_58",
-    "ts": 58,
+    "trace_id": "cancellation_fee_57",
+    "ts": 57,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -767,15 +754,28 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_58",
+    "ts": 58,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_59",
     "ts": 59,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -812,9 +812,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -825,9 +825,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -838,9 +838,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -851,28 +851,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_66",
     "ts": 66,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_67",
-    "ts": 67,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -884,13 +871,26 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_67",
+    "ts": 67,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 48
+        },
+        "decision": "waive_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_68",
     "ts": 68,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -942,9 +942,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -955,9 +955,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1007,9 +1007,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1020,9 +1020,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1033,9 +1033,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1059,9 +1059,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1072,9 +1072,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1098,9 +1098,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1111,7 +1111,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1124,7 +1124,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1137,7 +1137,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1163,7 +1163,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1176,9 +1176,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1189,9 +1189,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1215,7 +1215,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -1254,9 +1254,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1267,9 +1267,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1280,9 +1280,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1293,7 +1293,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -1306,9 +1306,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1332,7 +1332,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -1358,9 +1358,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1371,9 +1371,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1397,7 +1397,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1410,9 +1410,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1423,7 +1423,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -1436,9 +1436,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1449,9 +1449,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1475,9 +1475,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1488,7 +1488,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1501,9 +1501,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1527,9 +1527,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1553,9 +1553,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1579,9 +1579,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1592,9 +1592,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1605,9 +1605,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1618,9 +1618,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1644,7 +1644,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -1670,7 +1670,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -1683,9 +1683,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1709,9 +1709,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1722,7 +1722,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -1735,9 +1735,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1748,9 +1748,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1761,9 +1761,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1774,9 +1774,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1800,7 +1800,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1826,9 +1826,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1852,9 +1852,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1865,7 +1865,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -1878,9 +1878,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1891,9 +1891,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1904,9 +1904,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -1917,7 +1917,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1943,7 +1943,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1969,7 +1969,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -1982,9 +1982,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -1995,9 +1995,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2008,7 +2008,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2034,9 +2034,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2099,28 +2099,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_162",
     "ts": 162,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 48
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_163",
-    "ts": 163,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -2132,13 +2119,26 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_163",
+    "ts": 163,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 24
+        },
+        "decision": "waive_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_164",
     "ts": 164,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2164,9 +2164,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2177,7 +2177,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2190,7 +2190,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2203,7 +2203,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2216,9 +2216,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2229,9 +2229,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2242,9 +2242,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2255,9 +2255,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2320,7 +2320,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2333,7 +2333,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -2346,9 +2346,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2359,9 +2359,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2372,9 +2372,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2385,9 +2385,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2398,9 +2398,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2424,9 +2424,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2437,7 +2437,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2450,9 +2450,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2463,9 +2463,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2476,9 +2476,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2489,9 +2489,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2515,9 +2515,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2528,9 +2528,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2554,7 +2554,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -2567,7 +2567,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -2593,9 +2593,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2606,7 +2606,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2619,9 +2619,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2632,7 +2632,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2645,9 +2645,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2658,7 +2658,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2697,9 +2697,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2749,7 +2749,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2762,9 +2762,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2775,7 +2775,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -2801,9 +2801,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2827,9 +2827,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2853,9 +2853,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2866,9 +2866,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -2892,9 +2892,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2905,7 +2905,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -2918,28 +2918,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_225",
     "ts": 225,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 48
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_226",
-    "ts": 226,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -2951,15 +2938,28 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_226",
+    "ts": 226,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 48
+        },
+        "decision": "waive_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_227",
     "ts": 227,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -2970,9 +2970,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3009,7 +3009,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3022,9 +3022,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3035,9 +3035,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -3048,7 +3048,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3061,9 +3061,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3113,7 +3113,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3139,9 +3139,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3152,9 +3152,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3191,9 +3191,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3230,9 +3230,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3243,9 +3243,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -3282,9 +3282,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -3308,7 +3308,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3334,9 +3334,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3373,9 +3373,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3399,9 +3399,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3425,6 +3425,19 @@
     "events": [
       {
         "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_264",
+    "ts": 264,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
           "hours_notice": 24
         },
         "decision": "waive_fee"
@@ -3432,8 +3445,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_264",
-    "ts": 264,
+    "trace_id": "cancellation_fee_265",
+    "ts": 265,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -3445,26 +3458,13 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_265",
-    "ts": 265,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
     "trace_id": "cancellation_fee_266",
     "ts": 266,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3477,7 +3477,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3490,9 +3490,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3503,7 +3503,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3516,9 +3516,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3529,9 +3529,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3542,9 +3542,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3568,7 +3568,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3581,7 +3581,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3594,9 +3594,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -3620,9 +3620,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -3646,9 +3646,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3672,7 +3672,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3711,7 +3711,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3737,7 +3737,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3750,9 +3750,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3776,9 +3776,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -3802,7 +3802,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3815,7 +3815,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3841,7 +3841,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3854,7 +3854,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3880,9 +3880,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -3906,7 +3906,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -3919,9 +3919,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -3932,9 +3932,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -3958,7 +3958,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3971,7 +3971,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3984,7 +3984,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -3997,7 +3997,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4010,9 +4010,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4023,9 +4023,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4036,7 +4036,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4049,9 +4049,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4062,7 +4062,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4088,9 +4088,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4101,9 +4101,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4114,7 +4114,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4140,9 +4140,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4153,7 +4153,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4166,7 +4166,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4205,7 +4205,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4270,9 +4270,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4296,9 +4296,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4309,19 +4309,6 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_332",
-    "ts": 332,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
           "hours_notice": 12
         },
         "decision": "charge_fee"
@@ -4329,8 +4316,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_333",
-    "ts": 333,
+    "trace_id": "cancellation_fee_332",
+    "ts": 332,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -4342,8 +4329,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_334",
-    "ts": 334,
+    "trace_id": "cancellation_fee_333",
+    "ts": 333,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -4355,13 +4342,26 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_334",
+    "ts": 334,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 24
+        },
+        "decision": "waive_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_335",
     "ts": 335,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4387,7 +4387,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4413,9 +4413,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4426,7 +4426,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4439,9 +4439,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4452,9 +4452,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4465,9 +4465,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4491,7 +4491,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4504,9 +4504,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4530,7 +4530,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4543,9 +4543,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4569,7 +4569,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4582,7 +4582,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4621,9 +4621,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4634,9 +4634,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4647,9 +4647,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4660,7 +4660,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4673,9 +4673,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4699,9 +4699,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4712,9 +4712,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4738,9 +4738,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4751,9 +4751,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4764,9 +4764,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4777,9 +4777,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4790,7 +4790,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4816,7 +4816,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4829,7 +4829,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -4842,9 +4842,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4855,7 +4855,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -4868,9 +4868,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4881,9 +4881,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4907,9 +4907,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4920,9 +4920,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -4959,9 +4959,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4985,9 +4985,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -4998,7 +4998,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -5037,9 +5037,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5063,9 +5063,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5076,9 +5076,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5089,7 +5089,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -5102,9 +5102,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5115,9 +5115,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5128,9 +5128,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5141,9 +5141,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5154,9 +5154,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5167,7 +5167,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -5232,7 +5232,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -5258,9 +5258,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5284,7 +5284,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -5297,9 +5297,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5310,9 +5310,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5336,9 +5336,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5349,9 +5349,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5401,28 +5401,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_416",
     "ts": 416,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_417",
-    "ts": 417,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -5434,8 +5421,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_418",
-    "ts": 418,
+    "trace_id": "cancellation_fee_417",
+    "ts": 417,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -5443,6 +5430,19 @@
           "hours_notice": 48
         },
         "decision": "waive_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_418",
+    "ts": 418,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5453,9 +5453,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5466,7 +5466,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -5479,7 +5479,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -5492,9 +5492,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5505,9 +5505,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5531,9 +5531,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5544,7 +5544,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -5557,7 +5557,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -5570,9 +5570,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5583,9 +5583,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5609,9 +5609,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5661,7 +5661,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -5674,7 +5674,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -5700,7 +5700,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -5713,9 +5713,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5726,9 +5726,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5739,9 +5739,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5765,9 +5765,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5778,7 +5778,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -5791,9 +5791,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5843,9 +5843,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5856,9 +5856,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5882,9 +5882,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5895,7 +5895,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -5908,9 +5908,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -5921,9 +5921,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5947,9 +5947,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -5999,7 +5999,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6012,7 +6012,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6025,9 +6025,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6051,9 +6051,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6064,9 +6064,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6077,7 +6077,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6090,28 +6090,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_469",
     "ts": 469,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_470",
-    "ts": 470,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -6123,8 +6110,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_471",
-    "ts": 471,
+    "trace_id": "cancellation_fee_470",
+    "ts": 470,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -6136,13 +6123,26 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_471",
+    "ts": 471,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_472",
     "ts": 472,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6155,9 +6155,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6181,7 +6181,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6194,9 +6194,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6233,9 +6233,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6246,7 +6246,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6259,7 +6259,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6272,9 +6272,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6285,9 +6285,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6298,9 +6298,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6311,9 +6311,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6324,7 +6324,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6337,9 +6337,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6350,9 +6350,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6363,9 +6363,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6376,9 +6376,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6389,9 +6389,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6415,7 +6415,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6441,9 +6441,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6454,7 +6454,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6467,7 +6467,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6480,9 +6480,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6493,9 +6493,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6506,9 +6506,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6519,9 +6519,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6545,9 +6545,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6558,7 +6558,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6571,7 +6571,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6597,9 +6597,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6610,7 +6610,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6623,7 +6623,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6636,9 +6636,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6662,9 +6662,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6675,9 +6675,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6688,7 +6688,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -6701,7 +6701,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6727,9 +6727,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6753,9 +6753,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6766,7 +6766,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6779,9 +6779,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6792,9 +6792,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6831,9 +6831,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6870,9 +6870,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6883,9 +6883,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6909,7 +6909,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6922,9 +6922,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -6948,9 +6948,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -6961,7 +6961,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -6987,9 +6987,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7000,7 +7000,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7026,9 +7026,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7052,9 +7052,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7065,7 +7065,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7104,9 +7104,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7117,9 +7117,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7156,9 +7156,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7182,7 +7182,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7195,9 +7195,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7208,7 +7208,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7260,7 +7260,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7273,9 +7273,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7299,7 +7299,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7312,7 +7312,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7364,7 +7364,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7377,7 +7377,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7390,9 +7390,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7403,7 +7403,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7416,7 +7416,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7442,7 +7442,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7468,7 +7468,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7481,9 +7481,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7507,9 +7507,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7520,7 +7520,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7546,7 +7546,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7559,7 +7559,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7572,9 +7572,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7585,7 +7585,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7598,9 +7598,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7637,7 +7637,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7650,9 +7650,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7663,7 +7663,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7676,6 +7676,19 @@
     "events": [
       {
         "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_591",
+    "ts": 591,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
           "hours_notice": 24
         },
         "decision": "waive_fee"
@@ -7683,8 +7696,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_591",
-    "ts": 591,
+    "trace_id": "cancellation_fee_592",
+    "ts": 592,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -7696,28 +7709,15 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_592",
-    "ts": 592,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 48
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
     "trace_id": "cancellation_fee_593",
     "ts": 593,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7728,9 +7728,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7754,9 +7754,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7767,7 +7767,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7780,9 +7780,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7793,7 +7793,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7806,9 +7806,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -7832,7 +7832,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7845,7 +7845,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -7858,9 +7858,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7897,7 +7897,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7910,9 +7910,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7936,9 +7936,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7949,7 +7949,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -7975,9 +7975,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -7988,9 +7988,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8001,9 +8001,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8027,9 +8027,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8040,7 +8040,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8053,7 +8053,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8066,7 +8066,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8079,9 +8079,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8092,7 +8092,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8105,9 +8105,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8118,7 +8118,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8144,9 +8144,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8157,9 +8157,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8170,7 +8170,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8183,9 +8183,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8209,9 +8209,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8222,9 +8222,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8235,9 +8235,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8261,7 +8261,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8274,7 +8274,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8287,9 +8287,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8313,9 +8313,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8339,9 +8339,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8352,7 +8352,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8391,7 +8391,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8404,9 +8404,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8417,7 +8417,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8430,9 +8430,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8456,7 +8456,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8482,9 +8482,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8495,7 +8495,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8508,7 +8508,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8521,9 +8521,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8534,7 +8534,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8560,9 +8560,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8586,7 +8586,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8599,7 +8599,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8612,9 +8612,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8638,9 +8638,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8651,9 +8651,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8690,9 +8690,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8703,7 +8703,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8716,9 +8716,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8729,7 +8729,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8755,9 +8755,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8768,7 +8768,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -8794,9 +8794,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8807,9 +8807,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8820,9 +8820,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -8833,9 +8833,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -8846,6 +8846,19 @@
     "events": [
       {
         "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_681",
+    "ts": 681,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
           "hours_notice": 48
         },
         "decision": "waive_fee"
@@ -8853,8 +8866,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_681",
-    "ts": 681,
+    "trace_id": "cancellation_fee_682",
+    "ts": 682,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -8866,26 +8879,13 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_682",
-    "ts": 682,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
     "trace_id": "cancellation_fee_683",
     "ts": 683,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8911,7 +8911,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -8937,6 +8937,19 @@
     "events": [
       {
         "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_688",
+    "ts": 688,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
           "hours_notice": 24
         },
         "decision": "waive_fee"
@@ -8944,8 +8957,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_688",
-    "ts": 688,
+    "trace_id": "cancellation_fee_689",
+    "ts": 689,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -8957,26 +8970,13 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_689",
-    "ts": 689,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
     "trace_id": "cancellation_fee_690",
     "ts": 690,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9002,9 +9002,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9028,7 +9028,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9054,9 +9054,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9080,9 +9080,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9093,7 +9093,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -9106,9 +9106,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9119,7 +9119,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9132,9 +9132,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9145,9 +9145,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9158,9 +9158,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9197,9 +9197,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9210,7 +9210,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9236,7 +9236,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9249,7 +9249,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -9288,9 +9288,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9327,9 +9327,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9353,9 +9353,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9366,9 +9366,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9379,7 +9379,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -9392,9 +9392,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9418,7 +9418,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9431,9 +9431,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9470,9 +9470,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9496,7 +9496,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9509,9 +9509,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9548,7 +9548,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9561,9 +9561,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9574,7 +9574,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9587,7 +9587,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9600,7 +9600,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -9626,7 +9626,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -9652,9 +9652,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9665,9 +9665,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9691,9 +9691,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9743,9 +9743,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9769,9 +9769,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9795,7 +9795,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -9808,7 +9808,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9821,7 +9821,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9834,9 +9834,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9847,7 +9847,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9860,9 +9860,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -9873,7 +9873,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9899,7 +9899,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -9912,7 +9912,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -9938,9 +9938,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -9964,7 +9964,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10003,7 +10003,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10016,9 +10016,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10029,9 +10029,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10055,9 +10055,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10068,6 +10068,19 @@
     "events": [
       {
         "attrs": {
+          "hours_notice": 48
+        },
+        "decision": "waive_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_775",
+    "ts": 775,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
           "hours_notice": 12
         },
         "decision": "charge_fee"
@@ -10075,8 +10088,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_775",
-    "ts": 775,
+    "trace_id": "cancellation_fee_776",
+    "ts": 776,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -10088,26 +10101,13 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_776",
-    "ts": 776,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 12
-        },
-        "decision": "charge_fee"
-      }
-    ]
-  },
-  {
     "trace_id": "cancellation_fee_777",
     "ts": 777,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -10120,28 +10120,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_779",
     "ts": 779,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 48
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_780",
-    "ts": 780,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -10153,13 +10140,26 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_780",
+    "ts": 780,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 48
+        },
+        "decision": "waive_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_781",
     "ts": 781,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -10185,7 +10185,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10224,9 +10224,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10237,9 +10237,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10250,9 +10250,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10263,9 +10263,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10289,7 +10289,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10341,7 +10341,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10354,7 +10354,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10367,9 +10367,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10419,7 +10419,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10432,9 +10432,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10445,7 +10445,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10484,9 +10484,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10497,9 +10497,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10510,28 +10510,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_809",
     "ts": 809,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 48
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_810",
-    "ts": 810,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -10543,8 +10530,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_811",
-    "ts": 811,
+    "trace_id": "cancellation_fee_810",
+    "ts": 810,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -10552,6 +10539,19 @@
           "hours_notice": 24
         },
         "decision": "waive_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_811",
+    "ts": 811,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10562,9 +10562,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10575,7 +10575,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10588,9 +10588,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10601,7 +10601,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -10614,7 +10614,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -10640,7 +10640,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10679,7 +10679,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10692,9 +10692,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10705,9 +10705,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10718,9 +10718,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10731,7 +10731,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -10744,7 +10744,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10757,7 +10757,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10770,7 +10770,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -10783,7 +10783,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -10835,9 +10835,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10848,9 +10848,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -10861,7 +10861,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -10926,9 +10926,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10939,9 +10939,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -10978,7 +10978,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -10991,9 +10991,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11017,7 +11017,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -11030,7 +11030,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -11082,7 +11082,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -11121,9 +11121,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11147,9 +11147,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11186,9 +11186,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -11225,9 +11225,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11238,9 +11238,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11251,7 +11251,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -11264,9 +11264,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11290,9 +11290,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11329,7 +11329,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -11355,9 +11355,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -11368,9 +11368,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11381,7 +11381,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -11394,28 +11394,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_877",
     "ts": 877,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 24
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_878",
-    "ts": 878,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -11427,13 +11414,26 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_878",
+    "ts": 878,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 48
+        },
+        "decision": "waive_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_879",
     "ts": 879,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -11446,9 +11446,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11459,9 +11459,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11472,9 +11472,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11485,9 +11485,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -11498,9 +11498,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -11524,7 +11524,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -11550,9 +11550,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11576,9 +11576,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11589,9 +11589,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -11628,9 +11628,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11641,9 +11641,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11680,7 +11680,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -11693,9 +11693,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -11732,9 +11732,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11745,9 +11745,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11758,9 +11758,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11771,9 +11771,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11823,7 +11823,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -11836,9 +11836,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11849,9 +11849,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11862,7 +11862,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -11888,7 +11888,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -11901,9 +11901,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -11914,7 +11914,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -11927,9 +11927,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -11953,9 +11953,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -11966,7 +11966,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -11979,7 +11979,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -11992,9 +11992,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12005,9 +12005,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12018,7 +12018,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12044,9 +12044,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12057,9 +12057,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12122,9 +12122,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12135,9 +12135,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12148,9 +12148,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12161,7 +12161,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -12174,9 +12174,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12187,9 +12187,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12200,7 +12200,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12226,9 +12226,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12239,9 +12239,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12252,7 +12252,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12265,9 +12265,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12278,9 +12278,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12291,7 +12291,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12317,28 +12317,15 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
   {
     "trace_id": "cancellation_fee_948",
     "ts": 948,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 48
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
-    "trace_id": "cancellation_fee_949",
-    "ts": 949,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -12350,15 +12337,28 @@
     ]
   },
   {
+    "trace_id": "cancellation_fee_949",
+    "ts": 949,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
+          "hours_notice": 48
+        },
+        "decision": "waive_fee"
+      }
+    ]
+  },
+  {
     "trace_id": "cancellation_fee_950",
     "ts": 950,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12395,9 +12395,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12434,9 +12434,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12473,7 +12473,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12525,9 +12525,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12538,7 +12538,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12577,7 +12577,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12590,9 +12590,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12603,7 +12603,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12629,9 +12629,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12655,7 +12655,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12707,7 +12707,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12733,7 +12733,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -12746,9 +12746,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12759,9 +12759,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12772,7 +12772,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12785,9 +12785,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -12798,9 +12798,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12811,7 +12811,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -12837,7 +12837,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -12889,9 +12889,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12928,9 +12928,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12967,9 +12967,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -12980,9 +12980,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13006,7 +13006,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13019,7 +13019,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13032,9 +13032,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13071,7 +13071,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13097,9 +13097,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13110,7 +13110,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13123,7 +13123,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13136,6 +13136,19 @@
     "events": [
       {
         "attrs": {
+          "hours_notice": 12
+        },
+        "decision": "charge_fee"
+      }
+    ]
+  },
+  {
+    "trace_id": "cancellation_fee_1011",
+    "ts": 1011,
+    "policy_id": "cancellation_fee",
+    "events": [
+      {
+        "attrs": {
           "hours_notice": 48
         },
         "decision": "waive_fee"
@@ -13143,8 +13156,8 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_1011",
-    "ts": 1011,
+    "trace_id": "cancellation_fee_1012",
+    "ts": 1012,
     "policy_id": "cancellation_fee",
     "events": [
       {
@@ -13156,26 +13169,13 @@
     ]
   },
   {
-    "trace_id": "cancellation_fee_1012",
-    "ts": 1012,
-    "policy_id": "cancellation_fee",
-    "events": [
-      {
-        "attrs": {
-          "hours_notice": 48
-        },
-        "decision": "waive_fee"
-      }
-    ]
-  },
-  {
     "trace_id": "cancellation_fee_1013",
     "ts": 1013,
     "policy_id": "cancellation_fee",
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13188,7 +13188,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13214,7 +13214,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13227,9 +13227,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13240,9 +13240,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13279,7 +13279,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13292,9 +13292,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13305,7 +13305,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13318,9 +13318,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13331,7 +13331,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13344,9 +13344,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13383,7 +13383,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13396,9 +13396,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13409,7 +13409,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13422,7 +13422,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13435,9 +13435,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13500,9 +13500,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13513,7 +13513,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13552,7 +13552,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13565,9 +13565,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13591,7 +13591,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13604,9 +13604,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13617,9 +13617,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13630,9 +13630,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13643,7 +13643,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13656,9 +13656,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13669,9 +13669,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13682,9 +13682,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13695,9 +13695,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13708,9 +13708,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13747,9 +13747,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13773,9 +13773,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13786,7 +13786,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13799,9 +13799,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13812,7 +13812,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13825,9 +13825,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13838,7 +13838,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13851,9 +13851,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13864,7 +13864,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13877,9 +13877,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13903,7 +13903,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -13916,7 +13916,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -13929,9 +13929,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -13955,9 +13955,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -13968,9 +13968,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14033,9 +14033,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14046,9 +14046,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14072,7 +14072,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14085,7 +14085,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14098,9 +14098,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14111,9 +14111,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14137,9 +14137,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14150,9 +14150,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14163,7 +14163,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14176,7 +14176,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14189,7 +14189,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14202,9 +14202,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14215,9 +14215,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14228,9 +14228,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14241,9 +14241,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14254,9 +14254,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14267,9 +14267,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14280,7 +14280,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14293,7 +14293,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14306,7 +14306,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14332,9 +14332,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14358,9 +14358,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14384,9 +14384,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14397,9 +14397,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14410,7 +14410,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14449,9 +14449,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14462,7 +14462,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14475,7 +14475,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14540,9 +14540,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14566,9 +14566,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14592,9 +14592,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14605,7 +14605,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14631,7 +14631,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14644,9 +14644,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14657,9 +14657,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14670,9 +14670,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14683,7 +14683,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14696,9 +14696,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14735,9 +14735,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14748,7 +14748,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14761,9 +14761,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14774,9 +14774,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14787,9 +14787,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14800,7 +14800,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14813,9 +14813,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14839,9 +14839,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -14852,7 +14852,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -14865,9 +14865,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14878,7 +14878,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14891,9 +14891,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14904,9 +14904,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14917,9 +14917,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14930,7 +14930,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -14943,9 +14943,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14956,9 +14956,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14969,9 +14969,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -14982,9 +14982,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15008,7 +15008,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -15034,9 +15034,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15047,9 +15047,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -15060,9 +15060,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -15086,9 +15086,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15099,9 +15099,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15112,7 +15112,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -15151,9 +15151,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15177,9 +15177,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -15190,7 +15190,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -15203,7 +15203,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -15255,7 +15255,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -15268,7 +15268,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -15307,9 +15307,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -15320,7 +15320,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -15333,9 +15333,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 24
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -15346,9 +15346,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15359,7 +15359,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -15372,9 +15372,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -15385,7 +15385,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 48
         },
         "decision": "waive_fee"
       }
@@ -15437,9 +15437,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -15450,9 +15450,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15463,9 +15463,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15502,7 +15502,7 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 48
+          "hours_notice": 24
         },
         "decision": "waive_fee"
       }
@@ -15541,9 +15541,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15554,9 +15554,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 24
+          "hours_notice": 12
         },
-        "decision": "waive_fee"
+        "decision": "charge_fee"
       }
     ]
   },
@@ -15567,9 +15567,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   },
@@ -15593,9 +15593,9 @@
     "events": [
       {
         "attrs": {
-          "hours_notice": 12
+          "hours_notice": 48
         },
-        "decision": "charge_fee"
+        "decision": "waive_fee"
       }
     ]
   }

@@ -1,1 +1,1 @@
-{"policy_id": "cancellation_fee", "version": 0, "prose": "Policy cancellation_fee is 24", "constraint": "hours_notice >= 24", "action_true": "waive_fee", "action_false": "charge_fee"}
+{"policy_id": "cancellation_fee", "version": 0, "prose": "If hours_notice is greater than or equal to 24, then the action must be waive_fee. Otherwise, if it does not meet this condition, the action must be charge_fee.", "constraint": "hours_notice >= 24", "action_true": "waive_fee", "action_false": "charge_fee"}

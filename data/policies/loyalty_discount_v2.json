@@ -1,1 +1,1 @@
-{"policy_id": "loyalty_discount", "version": 2, "prose": "Policy loyalty_discount is gold", "constraint": "tier == 'gold'"}
+{"policy_id": "loyalty_discount", "version": 2, "prose": "If tier is exactly gold, then the action must be apply_15_percent. Otherwise, if it does not meet this condition, the action must be apply_10_percent.", "constraint": "tier == 'gold'"}

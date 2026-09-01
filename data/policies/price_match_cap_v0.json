@@ -1,1 +1,1 @@
-{"policy_id": "price_match_cap", "version": 0, "prose": "Policy price_match_cap is 50", "constraint": "amount <= 50", "action_true": "approve_match", "action_false": "deny_match"}
+{"policy_id": "price_match_cap", "version": 0, "prose": "If amount is less than or equal to 50, then the action must be approve_match. Otherwise, if it does not meet this condition, the action must be deny_match.", "constraint": "amount <= 50", "action_true": "approve_match", "action_false": "deny_match"}

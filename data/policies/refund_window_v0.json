@@ -1,1 +1,1 @@
-{"policy_id": "refund_window", "version": 0, "prose": "Policy refund_window is 30", "constraint": "days_since_purchase <= 30", "action_true": "approve_refund", "action_false": "deny_refund"}
+{"policy_id": "refund_window", "version": 0, "prose": "If days_since_purchase is less than or equal to 30, then the action must be approve_refund. Otherwise, if it does not meet this condition, the action must be deny_refund.", "constraint": "days_since_purchase <= 30", "action_true": "approve_refund", "action_false": "deny_refund"}

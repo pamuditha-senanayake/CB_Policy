@@ -1,1 +1,1 @@
-{"policy_id": "exchange_eligibility", "version": 1, "prose": "Policy exchange_eligibility is tags", "constraint": "has_item == 'tags'", "action_true": "approve_exchange", "action_false": "deny_exchange"}
+{"policy_id": "exchange_eligibility", "version": 1, "prose": "If has_item is exactly tags, then the action must be approve_exchange. Otherwise, if it does not meet this condition, the action must be deny_exchange.", "constraint": "has_item == 'tags'", "action_true": "approve_exchange", "action_false": "deny_exchange"}
