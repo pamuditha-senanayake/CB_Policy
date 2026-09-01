@@ -5,8 +5,8 @@ class DriftDetector:
         self.method = method
         if method == "ADWIN":
             self.detector = ADWIN()
-        elif method == "ADWIN_delta_0.05":
-            self.detector = ADWIN(delta=0.05)
+        elif method == "ADWIN_delta_0.1":
+            self.detector = ADWIN(delta=0.1)
         else:
             self.detector = PageHinkley()
             

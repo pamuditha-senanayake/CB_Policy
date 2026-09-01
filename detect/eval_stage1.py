@@ -91,7 +91,7 @@ def run_evaluation(method, seed=0):
         "canary_policy_untouched": canary_untouched
     }
     
-    with open(f'runs/stage1_{method.lower()}_{seed}.json', 'w') as f:
+    with open(f'runs/stage1_{method.lower()}_seed{seed}.json', 'w') as f:
         json.dump(output, f, indent=2)
         
     return output
@@ -100,13 +100,22 @@ if __name__ == "__main__":
     if not os.path.exists('runs'):
         os.makedirs('runs')
         
-    adwin_out = run_evaluation('ADWIN', 0)
-    adwin_tuned_out = run_evaluation('ADWIN_delta_0.05', 0)
+    import yaml
+    seed = 0
+    try:
+        with open('config/experiment.yaml', 'r') as f:
+            conf = yaml.safe_load(f)
+            seed = conf.get('data_seed', 0)
+    except:
+        pass
+
+    adwin_out = run_evaluation('ADWIN', seed)
+    adwin_tuned_out = run_evaluation('ADWIN_delta_0.1', seed)
+    ph_out = run_evaluation('PageHinkley', seed)
+
     print("ADWIN Results:")
     print(json.dumps(adwin_out, indent=2))
-    print("ADWIN_delta_0.05 Results:")
+    print("ADWIN_delta_0.1 Results:")
     print(json.dumps(adwin_tuned_out, indent=2))
-    
-    ph_out = run_evaluation('PageHinkley', 0)
     print("PageHinkley Results:")
     print(json.dumps(ph_out, indent=2))

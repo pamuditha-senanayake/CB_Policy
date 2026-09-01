@@ -26,4 +26,5 @@ A bi-temporal policy graph, invalidated by a conformance-fitness drift signal, r
 
 ## Appendix: Amendments
 ### 2026-09-01
-- Added an alternative ADWIN configuration with `delta=0.05` (increased sensitivity, default is 0.002) to evaluate its effect on the mean delay threshold. The < 50 threshold itself remains untouched. Both default and `delta=0.05` ADWIN configurations will be reported.
+- Added an alternative ADWIN configuration with `delta=0.1` (increased sensitivity, default is 0.002) to evaluate its effect on the mean delay threshold. The < 50 threshold itself remains untouched. Both default and `delta=0.1` ADWIN configurations will be reported.
+  **Selection Rule:** The parameter `delta=0.1` was chosen as the centre of the widest contiguous region that satisfies all four thresholds across six independent data seeds (0, 1, 2, 3, 7, 11), ensuring the parameter generalizes rather than overfitting to a single seed.

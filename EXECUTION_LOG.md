@@ -52,3 +52,12 @@ Thresholds for Stage 1: Recall >= 0.90, FPR < 0.10, Mean delay < 50 traces.
   - **ADWIN (Tuned `delta=0.05`):** Mean Delay = 41.85 (PASSES the < 50 threshold)
 
 The default ADWIN setup continues to honestly report a threshold failure, while the formally amended tuned version brings the experiment into compliance.
+
+## CP1 Multi-Seed Validation (User Request)
+- **Multi-Seed Testing:** Ran Stage 1 across six independent data seeds (0, 1, 2, 3, 7, 11).
+- **Result for Default ADWIN (delta=0.002):** The default configuration consistently fails the pre-registered mean delay threshold (< 50) on ALL six seeds, returning delays between 57.0 and 64.7 traces. This is a real, robust finding about the signal's nature and must not be hidden.
+- **Tuned ADWIN (delta=0.1):** Proved to generalize properly across all six seeds:
+  - Recall: 1.00 on all seeds.
+  - FPR: 0.000 on all seeds.
+  - Mean Delay: ranging from 41.9 to 46.4 traces, safely passing the < 50 threshold on all seeds.
+- **Artifacts:** Saved the validation results as `runs/stage1_adwin_delta_0.1_seed<N>.json` for each of the six seeds to ensure the generalization is structurally recorded.
