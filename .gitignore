@@ -4,3 +4,5 @@ scratch/
 runs/cache/
 runs/raw/
 __pycache__/
+tmp_data_*/
+__pycache__/

@@ -1,5 +1,19 @@
 {
-  "asof_correctness": 0.9166666666666666,
+  "asof_correctness_postdetection": 1.0,
+  "asof_correctness_retrospective": 0.9833333333333333,
+  "asof_correctness_online": 0.9166666666666666,
+  "valid_time_error_traces": 15.857142857142858,
+  "per_policy_errors": {
+    "refund_window": 38,
+    "price_match_cap": 25,
+    "exchange_eligibility": 5,
+    "exception_approval": 5,
+    "shipping_upgrade": 20,
+    "loyalty_discount": {
+      "primary": 9,
+      "rollback": 9
+    }
+  },
   "false_invalidation_rate": 0.0,
   "rollback_handled": true,
   "canary_policy_still_valid": true
