@@ -1,11 +1,13 @@
 import sqlite3
+import threading
 
 class BitemporalStore:
     def __init__(self, db_path=':memory:'):
-        self.conn = sqlite3.connect(db_path)
+        self.lock = threading.Lock()
+        self.conn = sqlite3.connect(db_path, check_same_thread=False)
         self.cursor = self.conn.cursor()
         self.cursor.execute('''
-            CREATE TABLE policies (
+            CREATE TABLE IF NOT EXISTS policies (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 policy_id TEXT,
                 valid_from INTEGER,
@@ -48,7 +50,9 @@ class BitemporalStore:
             self.conn.commit()
 
     def as_of(self, policy_id, valid_time, tx_time):
-        self.cursor.execute('''
+        with self.lock:
+            cursor = self.conn.cursor()
+            cursor.execute('''
             SELECT version, constraint_text, doc_text, permission
             FROM policies
             WHERE policy_id = ? 
@@ -57,10 +61,10 @@ class BitemporalStore:
             ORDER BY tx_from DESC
             LIMIT 1
         ''', (policy_id, valid_time, valid_time, tx_time, tx_time))
-        row = self.cursor.fetchone()
-        if row:
-            return {'version': row[0], 'constraint': row[1], 'doc_text': row[2], 'permission': row[3]}
-        return None
+            row = cursor.fetchone()
+            if row:
+                return {'version': row[0], 'constraint': row[1], 'doc_text': row[2], 'permission': row[3]}
+            return None
 
     def current(self, policy_id):
         return self.as_of(policy_id, 999999998, 999999998)

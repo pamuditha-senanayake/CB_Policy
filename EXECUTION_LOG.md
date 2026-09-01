@@ -176,3 +176,29 @@ Slices:
 - **Window pre-detection:** 0.000
 - **Window detected doc stale:** 0.000
 - **Post-detection:** 0.579
+
+## Step 9 (Reporting Corrections & First Test Row) - Bitemporal Drift
+
+**Fixes Applied (No API Spend):**
+1. **Reporting Axes Unconflated:** We modified `extract/rescore.py` to completely separate the S2 (task position) and S3 (policy status) axes. Unchanged policies now drop into a pure `slice_unchanged` metric. Position slices (`slice_post-detection_changed`, etc.) strictly report on changed-policy tasks only, removing the unchanged-task dilution.
+2. **Housekeeping:**
+   - Deleted lingering `tmp_data_*/` scratch directories and added them to `.gitignore`.
+   - Removed `detect/__pycache__` from the repo and added it to `.gitignore`.
+   - Re-ran `detect/eval_stage2.py` for all seeds to correct the shape of `per_policy_errors.loyalty_discount` to a dictionary (e.g. `{"primary": 9, "rollback": 9}`).
+   - Completely committed the resulting floor row and fix data.
+   - Fixed an SQLite threading collision (Segment fault) in `graph/bitemporal_store.py` introduced by multi-threaded DB cursor generation, resolving crash traces on bitemporal launch.
+
+**Execution: `bitemporal_drift` (run_seed 11)**
+
+The agent was equipped with the correct time-traveling knowledge graph API.
+
+- **`window_detected_doc_stale` (Changed):** 1.000
+  *(Did it rise?)*
+- **`post-detection_changed`:** 0.738
+  *(Did it beat chance?)*
+- **`slice_unchanged`:** 1.000
+  *(Did the guard hold?)*
+- **`stale_action_rate`:** 0.248 (eligible_n=480)
+- **`unparseable_rate`:** 0.000 (0 tasks)
+- **Spend:** 61,688 prompt / 3,731 completion (Canary: 3,120 / 108)
+

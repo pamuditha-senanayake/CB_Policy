@@ -133,7 +133,11 @@ for t in tasks:
         changed_policy_total += 1
         if is_correct1: changed_policy_correct += 1
         
-    pos = t['position_slice']
+    if p_type is None:
+        pos = "unchanged"
+    else:
+        pos = t['position_slice'] + "_changed"
+        
     if pos not in slices:
         slices[pos] = {'correct': 0, 'total': 0}
     slices[pos]['total'] += 1
