@@ -284,19 +284,17 @@ with open("data/canaries/tasks.json", 'w') as f:
 # Golden traces
 # 5 fitness 1.0, 5 fitness 0.5 (Wait, a single trace fitness. "fitness is the fraction of events whose observed decision matches what the constraint prescribes").
 # So for 1.0, all events match. For 0.5, half match.
-golden_traces = []
-for i in range(5):
-    golden_traces.append({'trace_id': f"gold_{i}", 'fitness': 1.0, 'expected_fitness': 1.0})
-for i in range(5):
-    golden_traces.append({'trace_id': f"viol_{i}", 'fitness': 0.5, 'expected_fitness': 0.5})
+import sys
+sys.path.append('detect')
+from conformance import calculate_fitness
+with open('data/canaries/golden_traces.json', 'r') as f:
+    golden_traces = json.load(f)
+with open('data/policies/refund_window_v0.json', 'r') as f:
+    v0_policy = json.load(f)
+for gt in golden_traces:
+    fit = calculate_fitness(gt, v0_policy)
+    assert abs(fit - gt['expected_fitness']) < 0.01, f"G2c failed for {gt['trace_id']}: expected {gt['expected_fitness']}, got {fit}"
 
-# Save to golden traces (not explicitly in manifest, but let's just make sure we do it right).
-with open("data/canaries/golden_traces.json", 'w') as f:
-    json.dump(golden_traces, f, indent=2)
-
-# Manifest and Gates
-# G2a: executed natively above.
-# G2b: >= 30 post-change traces.
 for p, cp in change_points.items():
     if cp:
         post = 1200 - cp['t_practice']

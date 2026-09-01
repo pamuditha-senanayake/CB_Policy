@@ -53,6 +53,6 @@
   "data/policies/refund_window_v0.json": "7c757b1b825da6586065d995e4d656c12289c9916992f64738b85bfe38dac79d",
   "data/policies/exception_approval_v1.json": "8edd172a2172181d4b3f0bf654d8a83cdd481cc00f63abf1eae290c4b8f3e22f",
   "data/policies/exception_approval_v0.json": "11b206d79141e9d629c3509a7965b1911b2b355a1b613f1673c18de557db4a08",
-  "data/canaries/golden_traces.json": "897d63e928363c22591a95a065e48968a68beb8f01a4667b07ba5a237f5e8298",
+  "data/canaries/golden_traces.json": "6ec08a6aeac0bbdb36b7aa3bac5b46392dfe32870300febcd54d815ec2cdeef9",
   "data/canaries/tasks.json": "64bd820ab3ea314ca1864fa473bc08ec266d9c561653be5f0786e3a7af43e2de"
 }

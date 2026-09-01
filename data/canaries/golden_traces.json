@@ -1,52 +1,202 @@
 [
   {
     "trace_id": "gold_0",
-    "fitness": 1.0,
+    "ts": 0,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "approve_refund"
+      }
+    ],
     "expected_fitness": 1.0
   },
   {
     "trace_id": "gold_1",
-    "fitness": 1.0,
+    "ts": 1,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "approve_refund"
+      }
+    ],
     "expected_fitness": 1.0
   },
   {
     "trace_id": "gold_2",
-    "fitness": 1.0,
+    "ts": 2,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "approve_refund"
+      }
+    ],
     "expected_fitness": 1.0
   },
   {
     "trace_id": "gold_3",
-    "fitness": 1.0,
+    "ts": 3,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "approve_refund"
+      }
+    ],
     "expected_fitness": 1.0
   },
   {
     "trace_id": "gold_4",
-    "fitness": 1.0,
+    "ts": 4,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "approve_refund"
+      }
+    ],
     "expected_fitness": 1.0
   },
   {
     "trace_id": "viol_0",
-    "fitness": 0.5,
+    "ts": 5,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "deny_refund"
+      }
+    ],
     "expected_fitness": 0.5
   },
   {
     "trace_id": "viol_1",
-    "fitness": 0.5,
+    "ts": 6,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "deny_refund"
+      }
+    ],
     "expected_fitness": 0.5
   },
   {
     "trace_id": "viol_2",
-    "fitness": 0.5,
+    "ts": 7,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "deny_refund"
+      }
+    ],
     "expected_fitness": 0.5
   },
   {
     "trace_id": "viol_3",
-    "fitness": 0.5,
+    "ts": 8,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "deny_refund"
+      }
+    ],
     "expected_fitness": 0.5
   },
   {
     "trace_id": "viol_4",
-    "fitness": 0.5,
+    "ts": 9,
+    "policy_id": "refund_window",
+    "events": [
+      {
+        "attrs": {
+          "days_since_purchase": 10
+        },
+        "decision": "approve_refund"
+      },
+      {
+        "attrs": {
+          "days_since_purchase": 20
+        },
+        "decision": "deny_refund"
+      }
+    ],
     "expected_fitness": 0.5
   }
 ]

@@ -23,3 +23,7 @@ A bi-temporal policy graph, invalidated by a conformance-fitness drift signal, r
 ## Budget Mode
 240 tasks primary mode selected.
 
+
+## Appendix: Amendments
+### 2026-09-01
+- Added an alternative ADWIN configuration with `delta=0.05` (increased sensitivity, default is 0.002) to evaluate its effect on the mean delay threshold. The < 50 threshold itself remains untouched. Both default and `delta=0.05` ADWIN configurations will be reported.

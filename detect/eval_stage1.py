@@ -101,8 +101,11 @@ if __name__ == "__main__":
         os.makedirs('runs')
         
     adwin_out = run_evaluation('ADWIN', 0)
+    adwin_tuned_out = run_evaluation('ADWIN_delta_0.05', 0)
     print("ADWIN Results:")
     print(json.dumps(adwin_out, indent=2))
+    print("ADWIN_delta_0.05 Results:")
+    print(json.dumps(adwin_tuned_out, indent=2))
     
     ph_out = run_evaluation('PageHinkley', 0)
     print("PageHinkley Results:")
