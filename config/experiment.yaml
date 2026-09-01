@@ -1,5 +1,5 @@
-model_id: ""
-temperature: 0.0
+model_id: "deepseek-v4-flash"
+temperature: 0.6
 k_attempts: 4
 data_seed: 0
 run_seeds: [11, 13, 17]
