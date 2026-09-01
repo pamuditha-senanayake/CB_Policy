@@ -1,0 +1,1 @@
+{"policy_id": "shipping_upgrade", "version": 0, "prose": "Policy shipping_upgrade is 50", "constraint": "cart_total >= 50"}

@@ -1,0 +1,1 @@
+{"policy_id": "loyalty_discount", "version": 1, "prose": "Policy loyalty_discount is 15", "constraint": "discount == 15"}

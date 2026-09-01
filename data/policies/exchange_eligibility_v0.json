@@ -1,0 +1,1 @@
+{"policy_id": "exchange_eligibility", "version": 0, "prose": "Policy exchange_eligibility is receipt", "constraint": "has_receipt == True"}

@@ -1,0 +1,1 @@
+{"policy_id": "refund_window", "version": 1, "prose": "Policy refund_window is 14", "constraint": "days_since_purchase <= 14"}

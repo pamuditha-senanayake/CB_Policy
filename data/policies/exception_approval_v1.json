@@ -1,0 +1,1 @@
+{"policy_id": "exception_approval", "version": 1, "prose": "Policy exception_approval is supervisor", "constraint": "approver == \"supervisor\""}
