@@ -1,7 +1,1 @@
-model_id: "deepseek-v4-flash"
-temperature: 0.6
-k_attempts: 4
-data_seed: 0
-run_seeds: [11, 13, 17]
-n_tasks: 240
-domain: retail
+data_seed: 11

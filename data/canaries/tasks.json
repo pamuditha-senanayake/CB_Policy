@@ -83,11 +83,11 @@
     "policy_id": "id_verification",
     "position_slice": "pre-change",
     "doc_status_slice": "canary",
-    "user_msg": "Here is my credit_card for verification.",
-    "correct_action": "verify_fail",
-    "stale_action": "verify_fail",
+    "user_msg": "Here is my photo_id for verification.",
+    "correct_action": "verify_pass",
+    "stale_action": "verify_pass",
     "task_params": {
-      "id_type": "credit_card"
+      "id_type": "photo_id"
     }
   },
   {
@@ -96,11 +96,11 @@
     "policy_id": "id_verification",
     "position_slice": "pre-change",
     "doc_status_slice": "canary",
-    "user_msg": "Here is my photo_id for verification.",
-    "correct_action": "verify_pass",
-    "stale_action": "verify_pass",
+    "user_msg": "Here is my credit_card for verification.",
+    "correct_action": "verify_fail",
+    "stale_action": "verify_fail",
     "task_params": {
-      "id_type": "photo_id"
+      "id_type": "credit_card"
     }
   },
   {
@@ -109,11 +109,11 @@
     "policy_id": "id_verification",
     "position_slice": "pre-change",
     "doc_status_slice": "canary",
-    "user_msg": "Here is my photo_id for verification.",
-    "correct_action": "verify_pass",
-    "stale_action": "verify_pass",
+    "user_msg": "Here is my credit_card for verification.",
+    "correct_action": "verify_fail",
+    "stale_action": "verify_fail",
     "task_params": {
-      "id_type": "photo_id"
+      "id_type": "credit_card"
     }
   },
   {

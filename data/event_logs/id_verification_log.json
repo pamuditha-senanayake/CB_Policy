@@ -19,9 +19,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -32,9 +32,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -84,9 +84,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -97,9 +97,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -110,9 +110,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -123,9 +123,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -136,9 +136,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -162,9 +162,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -175,9 +175,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -201,9 +201,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -227,9 +227,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -253,9 +253,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -292,9 +292,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -318,9 +318,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -357,9 +357,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -370,9 +370,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -383,9 +383,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -448,9 +448,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -461,9 +461,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -474,9 +474,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -526,9 +526,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -565,9 +565,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -578,9 +578,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -617,9 +617,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -630,9 +630,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -669,9 +669,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -682,9 +682,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -734,9 +734,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -747,9 +747,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -773,9 +773,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -812,41 +812,15 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
   {
     "trace_id": "id_verification_63",
     "ts": 63,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "photo_id"
-        },
-        "decision": "verify_pass"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_64",
-    "ts": 64,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "photo_id"
-        },
-        "decision": "verify_pass"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_65",
-    "ts": 65,
     "policy_id": "id_verification",
     "events": [
       {
@@ -858,8 +832,21 @@
     ]
   },
   {
-    "trace_id": "id_verification_66",
-    "ts": 66,
+    "trace_id": "id_verification_64",
+    "ts": 64,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "credit_card"
+        },
+        "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_65",
+    "ts": 65,
     "policy_id": "id_verification",
     "events": [
       {
@@ -867,6 +854,19 @@
           "id_type": "photo_id"
         },
         "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_66",
+    "ts": 66,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "credit_card"
+        },
+        "decision": "verify_fail"
       }
     ]
   },
@@ -942,9 +942,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -968,9 +968,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1020,9 +1020,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1059,9 +1059,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1098,9 +1098,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1124,9 +1124,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1137,9 +1137,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1150,9 +1150,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1189,9 +1189,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1215,9 +1215,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1228,9 +1228,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1241,9 +1241,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1280,9 +1280,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1319,9 +1319,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1332,9 +1332,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1358,9 +1358,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1384,9 +1384,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1397,9 +1397,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1423,9 +1423,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1436,9 +1436,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1449,9 +1449,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1462,9 +1462,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1475,9 +1475,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1501,9 +1501,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1527,9 +1527,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1592,9 +1592,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1605,9 +1605,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1618,9 +1618,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1644,9 +1644,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1683,9 +1683,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1696,9 +1696,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1722,9 +1722,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1735,9 +1735,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1774,9 +1774,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1800,9 +1800,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1813,9 +1813,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1826,9 +1826,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1852,9 +1852,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1930,9 +1930,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -1995,9 +1995,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2021,9 +2021,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2034,9 +2034,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2060,9 +2060,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2073,9 +2073,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2138,9 +2138,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2164,9 +2164,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2190,9 +2190,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2203,9 +2203,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2229,9 +2229,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2242,9 +2242,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2268,9 +2268,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2281,9 +2281,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2320,9 +2320,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2333,9 +2333,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2372,9 +2372,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2385,9 +2385,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2398,9 +2398,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2450,9 +2450,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2463,9 +2463,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2502,9 +2502,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2541,9 +2541,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2567,9 +2567,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2619,9 +2619,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2645,9 +2645,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2658,9 +2658,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2684,9 +2684,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2723,9 +2723,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2736,9 +2736,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2762,9 +2762,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2788,9 +2788,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2801,9 +2801,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2814,9 +2814,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2853,9 +2853,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2931,9 +2931,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2944,9 +2944,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -2970,9 +2970,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -2983,9 +2983,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3061,9 +3061,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3074,9 +3074,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3087,9 +3087,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3113,9 +3113,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3126,9 +3126,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3191,9 +3191,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3204,9 +3204,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3217,9 +3217,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3230,9 +3230,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3256,9 +3256,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3269,9 +3269,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3334,9 +3334,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3360,9 +3360,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3373,9 +3373,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3386,9 +3386,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3425,9 +3425,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3438,9 +3438,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3451,9 +3451,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3464,9 +3464,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3490,9 +3490,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3503,9 +3503,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3581,9 +3581,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3620,9 +3620,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3672,9 +3672,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3698,9 +3698,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3750,9 +3750,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3763,9 +3763,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3776,9 +3776,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3828,9 +3828,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3841,9 +3841,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3854,9 +3854,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3893,9 +3893,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3906,9 +3906,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -3919,9 +3919,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -3958,41 +3958,15 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
   {
     "trace_id": "id_verification_305",
     "ts": 305,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_306",
-    "ts": 306,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_307",
-    "ts": 307,
     "policy_id": "id_verification",
     "events": [
       {
@@ -4004,8 +3978,21 @@
     ]
   },
   {
-    "trace_id": "id_verification_308",
-    "ts": 308,
+    "trace_id": "id_verification_306",
+    "ts": 306,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_307",
+    "ts": 307,
     "policy_id": "id_verification",
     "events": [
       {
@@ -4013,6 +4000,19 @@
           "id_type": "credit_card"
         },
         "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_308",
+    "ts": 308,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4036,9 +4036,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4049,9 +4049,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4075,9 +4075,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4088,9 +4088,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4114,9 +4114,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4127,9 +4127,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4153,9 +4153,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4179,9 +4179,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4192,9 +4192,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4205,9 +4205,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4231,9 +4231,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4270,9 +4270,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4283,9 +4283,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4322,9 +4322,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4387,9 +4387,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4413,9 +4413,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4439,9 +4439,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4465,9 +4465,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4556,9 +4556,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4569,9 +4569,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4582,9 +4582,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4595,9 +4595,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4647,9 +4647,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4660,9 +4660,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4673,9 +4673,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4699,9 +4699,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4712,9 +4712,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4725,9 +4725,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4751,9 +4751,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4764,9 +4764,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4777,9 +4777,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4816,9 +4816,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4842,9 +4842,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4855,9 +4855,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4868,9 +4868,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4920,9 +4920,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -4933,9 +4933,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4972,9 +4972,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -4985,9 +4985,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5011,9 +5011,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5050,9 +5050,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5063,9 +5063,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5076,9 +5076,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5154,9 +5154,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5180,9 +5180,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5193,9 +5193,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5206,9 +5206,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5219,9 +5219,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5232,9 +5232,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5284,9 +5284,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5297,9 +5297,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5323,9 +5323,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5336,9 +5336,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5349,9 +5349,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5388,9 +5388,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5401,9 +5401,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5414,9 +5414,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5427,9 +5427,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5466,6 +5466,19 @@
     "events": [
       {
         "attrs": {
+          "id_type": "credit_card"
+        },
+        "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_421",
+    "ts": 421,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
           "id_type": "photo_id"
         },
         "decision": "verify_pass"
@@ -5473,8 +5486,8 @@
     ]
   },
   {
-    "trace_id": "id_verification_421",
-    "ts": 421,
+    "trace_id": "id_verification_422",
+    "ts": 422,
     "policy_id": "id_verification",
     "events": [
       {
@@ -5486,28 +5499,15 @@
     ]
   },
   {
-    "trace_id": "id_verification_422",
-    "ts": 422,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "photo_id"
-        },
-        "decision": "verify_pass"
-      }
-    ]
-  },
-  {
     "trace_id": "id_verification_423",
     "ts": 423,
     "policy_id": "id_verification",
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5531,9 +5531,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5557,9 +5557,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5570,9 +5570,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5596,9 +5596,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5635,9 +5635,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5648,9 +5648,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5661,9 +5661,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5687,9 +5687,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5700,9 +5700,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5739,9 +5739,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5778,9 +5778,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5791,9 +5791,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5804,9 +5804,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5856,9 +5856,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5869,9 +5869,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5882,9 +5882,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5895,9 +5895,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5921,9 +5921,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -5934,9 +5934,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5960,9 +5960,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -5973,9 +5973,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6064,9 +6064,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6103,9 +6103,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6142,9 +6142,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6181,9 +6181,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6194,9 +6194,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6220,9 +6220,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6233,9 +6233,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6246,9 +6246,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6272,9 +6272,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6311,9 +6311,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6324,9 +6324,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6337,9 +6337,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6350,9 +6350,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6363,9 +6363,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6376,9 +6376,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6389,9 +6389,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6415,9 +6415,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6441,9 +6441,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6480,9 +6480,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6493,41 +6493,15 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
   {
     "trace_id": "id_verification_500",
     "ts": 500,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_501",
-    "ts": 501,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_502",
-    "ts": 502,
     "policy_id": "id_verification",
     "events": [
       {
@@ -6539,8 +6513,21 @@
     ]
   },
   {
-    "trace_id": "id_verification_503",
-    "ts": 503,
+    "trace_id": "id_verification_501",
+    "ts": 501,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_502",
+    "ts": 502,
     "policy_id": "id_verification",
     "events": [
       {
@@ -6548,6 +6535,19 @@
           "id_type": "credit_card"
         },
         "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_503",
+    "ts": 503,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6584,9 +6584,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6597,9 +6597,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6636,9 +6636,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6649,9 +6649,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6662,9 +6662,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6688,9 +6688,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6701,9 +6701,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6727,9 +6727,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6753,9 +6753,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6766,9 +6766,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6792,9 +6792,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6805,9 +6805,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6831,28 +6831,15 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
   {
     "trace_id": "id_verification_526",
     "ts": 526,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_527",
-    "ts": 527,
     "policy_id": "id_verification",
     "events": [
       {
@@ -6864,8 +6851,8 @@
     ]
   },
   {
-    "trace_id": "id_verification_528",
-    "ts": 528,
+    "trace_id": "id_verification_527",
+    "ts": 527,
     "policy_id": "id_verification",
     "events": [
       {
@@ -6873,6 +6860,19 @@
           "id_type": "credit_card"
         },
         "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_528",
+    "ts": 528,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6896,9 +6896,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -6922,9 +6922,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6948,9 +6948,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -6987,6 +6987,19 @@
     "events": [
       {
         "attrs": {
+          "id_type": "credit_card"
+        },
+        "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_538",
+    "ts": 538,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
           "id_type": "photo_id"
         },
         "decision": "verify_pass"
@@ -6994,8 +7007,8 @@
     ]
   },
   {
-    "trace_id": "id_verification_538",
-    "ts": 538,
+    "trace_id": "id_verification_539",
+    "ts": 539,
     "policy_id": "id_verification",
     "events": [
       {
@@ -7007,28 +7020,15 @@
     ]
   },
   {
-    "trace_id": "id_verification_539",
-    "ts": 539,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "photo_id"
-        },
-        "decision": "verify_pass"
-      }
-    ]
-  },
-  {
     "trace_id": "id_verification_540",
     "ts": 540,
     "policy_id": "id_verification",
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7039,9 +7039,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7104,9 +7104,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7130,9 +7130,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7169,9 +7169,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7221,9 +7221,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7234,9 +7234,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7247,9 +7247,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7260,9 +7260,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7286,9 +7286,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7299,9 +7299,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7312,9 +7312,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7338,9 +7338,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7364,9 +7364,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7377,9 +7377,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7390,9 +7390,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7416,9 +7416,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7429,9 +7429,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7442,9 +7442,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7481,9 +7481,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7559,9 +7559,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7585,9 +7585,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7611,9 +7611,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7650,9 +7650,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7676,9 +7676,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7689,9 +7689,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7702,9 +7702,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7728,9 +7728,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7780,9 +7780,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7806,9 +7806,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7819,9 +7819,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7845,9 +7845,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7871,9 +7871,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7884,9 +7884,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7910,9 +7910,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7923,9 +7923,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -7975,9 +7975,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -7988,9 +7988,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8014,9 +8014,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8040,9 +8040,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8053,9 +8053,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8066,9 +8066,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8092,9 +8092,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8118,28 +8118,15 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
   {
     "trace_id": "id_verification_625",
     "ts": 625,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "photo_id"
-        },
-        "decision": "verify_pass"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_626",
-    "ts": 626,
     "policy_id": "id_verification",
     "events": [
       {
@@ -8151,8 +8138,8 @@
     ]
   },
   {
-    "trace_id": "id_verification_627",
-    "ts": 627,
+    "trace_id": "id_verification_626",
+    "ts": 626,
     "policy_id": "id_verification",
     "events": [
       {
@@ -8160,6 +8147,19 @@
           "id_type": "photo_id"
         },
         "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_627",
+    "ts": 627,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "credit_card"
+        },
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8183,41 +8183,15 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
   {
     "trace_id": "id_verification_630",
     "ts": 630,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_631",
-    "ts": 631,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_632",
-    "ts": 632,
     "policy_id": "id_verification",
     "events": [
       {
@@ -8229,8 +8203,21 @@
     ]
   },
   {
-    "trace_id": "id_verification_633",
-    "ts": 633,
+    "trace_id": "id_verification_631",
+    "ts": 631,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_632",
+    "ts": 632,
     "policy_id": "id_verification",
     "events": [
       {
@@ -8238,6 +8225,19 @@
           "id_type": "credit_card"
         },
         "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_633",
+    "ts": 633,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8287,9 +8287,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8378,9 +8378,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8391,9 +8391,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8430,9 +8430,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8443,9 +8443,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8456,9 +8456,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8469,9 +8469,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8508,9 +8508,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8521,9 +8521,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8534,9 +8534,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8599,9 +8599,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8638,9 +8638,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8664,9 +8664,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8677,9 +8677,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8690,9 +8690,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8729,9 +8729,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8742,9 +8742,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8768,9 +8768,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8807,9 +8807,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8833,9 +8833,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8885,9 +8885,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -8924,9 +8924,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8950,9 +8950,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -8976,9 +8976,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9002,9 +9002,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9015,9 +9015,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9028,9 +9028,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9041,9 +9041,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9054,9 +9054,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9132,9 +9132,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9210,9 +9210,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9249,9 +9249,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9262,9 +9262,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9288,9 +9288,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9327,9 +9327,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9392,9 +9392,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9418,9 +9418,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9431,9 +9431,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9444,9 +9444,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9470,9 +9470,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9483,9 +9483,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9522,9 +9522,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9613,9 +9613,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9665,9 +9665,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9743,9 +9743,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9756,9 +9756,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9782,9 +9782,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9795,9 +9795,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9808,9 +9808,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9834,9 +9834,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9847,9 +9847,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9860,9 +9860,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9912,9 +9912,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9925,9 +9925,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -9964,9 +9964,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9977,9 +9977,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -9990,9 +9990,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10003,9 +10003,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10016,9 +10016,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10055,9 +10055,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10068,9 +10068,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10081,9 +10081,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10185,9 +10185,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10198,9 +10198,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10211,9 +10211,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10224,9 +10224,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10237,9 +10237,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10250,9 +10250,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10367,6 +10367,19 @@
     "events": [
       {
         "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_798",
+    "ts": 798,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
           "id_type": "credit_card"
         },
         "decision": "verify_fail"
@@ -10374,8 +10387,8 @@
     ]
   },
   {
-    "trace_id": "id_verification_798",
-    "ts": 798,
+    "trace_id": "id_verification_799",
+    "ts": 799,
     "policy_id": "id_verification",
     "events": [
       {
@@ -10387,28 +10400,15 @@
     ]
   },
   {
-    "trace_id": "id_verification_799",
-    "ts": 799,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
     "trace_id": "id_verification_800",
     "ts": 800,
     "policy_id": "id_verification",
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10432,9 +10432,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10471,9 +10471,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10510,9 +10510,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10523,9 +10523,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10562,9 +10562,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10575,9 +10575,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10614,9 +10614,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10627,9 +10627,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10640,9 +10640,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10653,9 +10653,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10692,9 +10692,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10705,9 +10705,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10783,9 +10783,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10809,9 +10809,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10861,9 +10861,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10874,9 +10874,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10900,9 +10900,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -10939,9 +10939,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -10952,9 +10952,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11004,9 +11004,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11017,9 +11017,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11030,9 +11030,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11043,6 +11043,19 @@
     "events": [
       {
         "attrs": {
+          "id_type": "credit_card"
+        },
+        "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_850",
+    "ts": 850,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
           "id_type": "photo_id"
         },
         "decision": "verify_pass"
@@ -11050,8 +11063,8 @@
     ]
   },
   {
-    "trace_id": "id_verification_850",
-    "ts": 850,
+    "trace_id": "id_verification_851",
+    "ts": 851,
     "policy_id": "id_verification",
     "events": [
       {
@@ -11063,28 +11076,15 @@
     ]
   },
   {
-    "trace_id": "id_verification_851",
-    "ts": 851,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "photo_id"
-        },
-        "decision": "verify_pass"
-      }
-    ]
-  },
-  {
     "trace_id": "id_verification_852",
     "ts": 852,
     "policy_id": "id_verification",
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11108,9 +11108,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11134,9 +11134,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11147,9 +11147,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11160,9 +11160,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11173,9 +11173,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11238,9 +11238,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11264,9 +11264,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11303,9 +11303,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11316,9 +11316,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11355,9 +11355,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11381,9 +11381,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11394,9 +11394,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11420,9 +11420,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11433,9 +11433,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11446,9 +11446,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11459,9 +11459,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11472,9 +11472,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11511,9 +11511,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11537,9 +11537,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11576,9 +11576,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11654,9 +11654,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11680,9 +11680,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11706,9 +11706,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11719,9 +11719,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11797,9 +11797,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11810,9 +11810,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11823,9 +11823,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11888,9 +11888,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11901,9 +11901,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11927,9 +11927,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11940,9 +11940,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -11966,9 +11966,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -11979,41 +11979,15 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
   {
     "trace_id": "id_verification_922",
     "ts": 922,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "photo_id"
-        },
-        "decision": "verify_pass"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_923",
-    "ts": 923,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "photo_id"
-        },
-        "decision": "verify_pass"
-      }
-    ]
-  },
-  {
-    "trace_id": "id_verification_924",
-    "ts": 924,
     "policy_id": "id_verification",
     "events": [
       {
@@ -12025,8 +11999,21 @@
     ]
   },
   {
-    "trace_id": "id_verification_925",
-    "ts": 925,
+    "trace_id": "id_verification_923",
+    "ts": 923,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "credit_card"
+        },
+        "decision": "verify_fail"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_924",
+    "ts": 924,
     "policy_id": "id_verification",
     "events": [
       {
@@ -12034,6 +12021,19 @@
           "id_type": "photo_id"
         },
         "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_925",
+    "ts": 925,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
+          "id_type": "credit_card"
+        },
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12070,9 +12070,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12083,9 +12083,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12096,9 +12096,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12109,9 +12109,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12122,9 +12122,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12278,9 +12278,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12291,9 +12291,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12304,9 +12304,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12317,9 +12317,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12330,9 +12330,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12356,9 +12356,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12395,9 +12395,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12434,9 +12434,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12473,9 +12473,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12486,9 +12486,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12499,9 +12499,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12551,9 +12551,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12564,9 +12564,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12577,9 +12577,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12603,9 +12603,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12642,9 +12642,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12668,9 +12668,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12681,9 +12681,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12694,9 +12694,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12707,9 +12707,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12733,9 +12733,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12772,9 +12772,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12785,9 +12785,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12798,9 +12798,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12811,9 +12811,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12824,9 +12824,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12876,9 +12876,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12902,9 +12902,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -12915,9 +12915,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12941,9 +12941,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -12954,9 +12954,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13084,9 +13084,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13110,9 +13110,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13123,9 +13123,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13136,9 +13136,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13149,9 +13149,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13175,9 +13175,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13188,9 +13188,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13201,9 +13201,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13214,9 +13214,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13253,9 +13253,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13292,9 +13292,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13305,9 +13305,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13331,9 +13331,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13357,9 +13357,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13370,9 +13370,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13409,9 +13409,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13461,9 +13461,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13474,9 +13474,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13500,9 +13500,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13513,9 +13513,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13552,9 +13552,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13604,9 +13604,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13656,9 +13656,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13669,6 +13669,19 @@
     "events": [
       {
         "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_1052",
+    "ts": 1052,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
           "id_type": "credit_card"
         },
         "decision": "verify_fail"
@@ -13676,8 +13689,8 @@
     ]
   },
   {
-    "trace_id": "id_verification_1052",
-    "ts": 1052,
+    "trace_id": "id_verification_1053",
+    "ts": 1053,
     "policy_id": "id_verification",
     "events": [
       {
@@ -13689,28 +13702,15 @@
     ]
   },
   {
-    "trace_id": "id_verification_1053",
-    "ts": 1053,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
     "trace_id": "id_verification_1054",
     "ts": 1054,
     "policy_id": "id_verification",
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13760,6 +13760,19 @@
     "events": [
       {
         "attrs": {
+          "id_type": "photo_id"
+        },
+        "decision": "verify_pass"
+      }
+    ]
+  },
+  {
+    "trace_id": "id_verification_1059",
+    "ts": 1059,
+    "policy_id": "id_verification",
+    "events": [
+      {
+        "attrs": {
           "id_type": "credit_card"
         },
         "decision": "verify_fail"
@@ -13767,8 +13780,8 @@
     ]
   },
   {
-    "trace_id": "id_verification_1059",
-    "ts": 1059,
+    "trace_id": "id_verification_1060",
+    "ts": 1060,
     "policy_id": "id_verification",
     "events": [
       {
@@ -13780,28 +13793,15 @@
     ]
   },
   {
-    "trace_id": "id_verification_1060",
-    "ts": 1060,
-    "policy_id": "id_verification",
-    "events": [
-      {
-        "attrs": {
-          "id_type": "credit_card"
-        },
-        "decision": "verify_fail"
-      }
-    ]
-  },
-  {
     "trace_id": "id_verification_1061",
     "ts": 1061,
     "policy_id": "id_verification",
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13825,9 +13825,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13864,9 +13864,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13903,9 +13903,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13929,9 +13929,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13942,9 +13942,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -13981,9 +13981,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -13994,9 +13994,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14033,9 +14033,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14059,9 +14059,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14072,9 +14072,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14176,9 +14176,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14189,9 +14189,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14228,9 +14228,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14241,9 +14241,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14254,9 +14254,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14267,9 +14267,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14332,9 +14332,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14345,9 +14345,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14358,9 +14358,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14397,9 +14397,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14423,9 +14423,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14436,9 +14436,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14449,9 +14449,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14475,9 +14475,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14488,9 +14488,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14540,9 +14540,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14579,9 +14579,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14605,9 +14605,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14618,9 +14618,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14631,9 +14631,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14644,9 +14644,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14657,9 +14657,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14670,9 +14670,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14761,9 +14761,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14774,9 +14774,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14813,9 +14813,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14826,9 +14826,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14852,9 +14852,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -14878,9 +14878,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14891,9 +14891,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14904,9 +14904,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14969,9 +14969,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -14982,9 +14982,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15008,9 +15008,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15021,9 +15021,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15034,9 +15034,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15047,9 +15047,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15073,9 +15073,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15086,9 +15086,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15099,9 +15099,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15125,9 +15125,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15138,9 +15138,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15242,9 +15242,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15255,9 +15255,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15268,9 +15268,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15307,9 +15307,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15372,9 +15372,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15398,9 +15398,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15437,9 +15437,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15463,9 +15463,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15476,9 +15476,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15502,9 +15502,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "credit_card"
+          "id_type": "photo_id"
         },
-        "decision": "verify_fail"
+        "decision": "verify_pass"
       }
     ]
   },
@@ -15541,9 +15541,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15567,9 +15567,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   },
@@ -15593,9 +15593,9 @@
     "events": [
       {
         "attrs": {
-          "id_type": "photo_id"
+          "id_type": "credit_card"
         },
-        "decision": "verify_pass"
+        "decision": "verify_fail"
       }
     ]
   }

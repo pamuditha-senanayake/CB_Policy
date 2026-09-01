@@ -30,16 +30,16 @@
     "gift_card_expiry": null
   },
   "data/.DS_Store": "11335568e8ac5378d156b3a5dcdafd7bd7232818d1d42f38618538d0a2f56a54",
-  "data/event_logs/loyalty_discount_log.json": "c163fc0d6668aa2706d6049dc96a98331e799208b972b204647aa0fc3d504ca7",
-  "data/event_logs/id_verification_log.json": "c0a8a7604d303bf27cd78229df78e04bbac85dfa39684cde3be57002482480f5",
-  "data/event_logs/shipping_upgrade_log.json": "d46389935f81f837980c0e5e06b17d854aad7b3c236be7d7067a8884040c933d",
-  "data/event_logs/gift_card_expiry_log.json": "0dcae55e094bdbab843ab530b4f14eb9cb5dcfe8472e4565a014e3269bdadd46",
-  "data/event_logs/exchange_eligibility_log.json": "e43e6eb518bfe5ee5a063844c577a90484b1c2efd784c090c893149adb2f3285",
-  "data/event_logs/refund_window_log.json": "9a04a50a9a73e95fe70b99b2f49593b6917ad3e4626ef4791a0dcde17125a482",
-  "data/event_logs/exception_approval_log.json": "13e9010ffdd1d44e9797f6c13c850460bcf0ca01bff109c1dbc469bb96eeeba0",
-  "data/event_logs/price_match_cap_log.json": "339f15accda58ccc2aec5c57f0bedef1752402ccc6b9e02e11737c223d1bf3e3",
-  "data/event_logs/cancellation_fee_log.json": "080061a705b0f496c5db20b34a1cfd4a8916fbddce27f309f0d8dc4aaca597cb",
-  "data/tasks/tasks.json": "bcad34fe4f0555ca2a2952001405c8a02a38d3c76a2825ac589515b4babd0a3f",
+  "data/event_logs/loyalty_discount_log.json": "5bbe59cfb9fd3a792edab47edfe44382c975bc9de8b8579bf492a818ef7b658b",
+  "data/event_logs/id_verification_log.json": "134059c82d8f1bc1ec03f0206f70ea7b1d105388542c1bb743dbe30043a00e70",
+  "data/event_logs/shipping_upgrade_log.json": "c23baa04f6c6b4bed4cd42d6e229504568597682cd70d7dd5dbe651d2f43cca4",
+  "data/event_logs/gift_card_expiry_log.json": "5c91d4d5a05503362c957213bf5194b78e7b2f7628ed614ae596cfb614ca77d1",
+  "data/event_logs/exchange_eligibility_log.json": "f021d8e3538afc18a68efbe1a735ca23c3a10bbb946b23dadd54f5c4c8fcc0bc",
+  "data/event_logs/refund_window_log.json": "b9cb03fcf83abbaeda1f9daa0298673837057b495f68e7267c486c37aaa6cece",
+  "data/event_logs/exception_approval_log.json": "6b4db931a2b5389e4ab40f7b5a5f6e8d5ada9a8b4c3eb3221daf81943f29c879",
+  "data/event_logs/price_match_cap_log.json": "9c5b570b4598390c39e5ba0bfff41a488ddcf8c961f50d60da96259890b3b4da",
+  "data/event_logs/cancellation_fee_log.json": "1b2f116d208edc9b91ff1e249368352624aa981ee4b4caf7adc83e94f7878881",
+  "data/tasks/tasks.json": "5ba8327b2d1753ecddd69c8bdbbcaf4935e80c067c8ddc1fb72c60cdf4a23318",
   "data/policies/gift_card_expiry_v0.json": "6da2ab76be70ab53553bbdde9e63de406c079000b7586ff92ad8d6bdbcd2692f",
   "data/policies/loyalty_discount_v0.json": "cc165fe6878d04915c9f1641239fba532843f8353ebfe6c3c12865c830225eac",
   "data/policies/cancellation_fee_v0.json": "224224f14e3d9f0da12ca78448fde83d508b5b9ad02828402d042c71f490899b",
@@ -57,5 +57,5 @@
   "data/policies/exception_approval_v1.json": "8edd172a2172181d4b3f0bf654d8a83cdd481cc00f63abf1eae290c4b8f3e22f",
   "data/policies/exception_approval_v0.json": "11b206d79141e9d629c3509a7965b1911b2b355a1b613f1673c18de557db4a08",
   "data/canaries/golden_traces.json": "5210c2f0b04864e8c7cb54a043b1c5ee94fd884e7821d7f3a72dcc50b0dba4cb",
-  "data/canaries/tasks.json": "5fd455eb7ea156cd7d94c8b2f3c043dc3e757a2fca0a452d65b8c06f0628064c"
+  "data/canaries/tasks.json": "e98e2d14b49811af29e18b98f8125b6d3de9bed15a7a3b0eed156090a148f9ee"
 }

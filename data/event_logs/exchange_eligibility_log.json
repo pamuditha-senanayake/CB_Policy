@@ -32,7 +32,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -58,7 +58,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -84,9 +84,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -110,9 +110,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -136,9 +136,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -149,9 +149,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -162,9 +162,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -188,7 +188,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -214,7 +214,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -227,9 +227,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -240,7 +240,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -253,9 +253,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -266,9 +266,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -294,7 +294,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -305,9 +305,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -331,9 +331,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -357,9 +357,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -370,9 +370,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -383,9 +383,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -396,7 +396,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -409,7 +409,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -422,7 +422,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -435,7 +435,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -448,9 +448,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -461,7 +461,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -474,7 +474,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -487,7 +487,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -500,6 +500,19 @@
     "events": [
       {
         "attrs": {
+          "has_item": "nothing"
+        },
+        "decision": "deny_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_39",
+    "ts": 39,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
           "has_item": "receipt"
         },
         "decision": "approve_exchange"
@@ -507,8 +520,21 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_39",
-    "ts": 39,
+    "trace_id": "exchange_eligibility_40",
+    "ts": 40,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "receipt"
+        },
+        "decision": "approve_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_41",
+    "ts": 41,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -520,39 +546,13 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_40",
-    "ts": 40,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "tags"
-        },
-        "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
-    "trace_id": "exchange_eligibility_41",
-    "ts": 41,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "receipt"
-        },
-        "decision": "approve_exchange"
-      }
-    ]
-  },
-  {
     "trace_id": "exchange_eligibility_42",
     "ts": 42,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -565,7 +565,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -580,7 +580,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -591,9 +591,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -604,9 +604,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -630,7 +630,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -645,7 +645,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -671,7 +671,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -682,9 +682,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -695,9 +695,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -708,9 +708,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -734,7 +734,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -747,9 +747,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -760,9 +760,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -775,7 +775,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -786,9 +786,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -799,7 +799,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -812,9 +812,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -825,9 +825,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -838,9 +838,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -851,9 +851,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -903,9 +903,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -916,7 +916,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -929,9 +929,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -957,7 +957,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -968,7 +968,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -981,9 +981,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -994,7 +994,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1007,7 +1007,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1020,7 +1020,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1059,7 +1059,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1085,7 +1085,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -1111,9 +1111,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1124,9 +1124,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1176,7 +1176,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1215,7 +1215,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -1241,9 +1241,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1254,9 +1254,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1267,7 +1267,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1319,9 +1319,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1332,7 +1332,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1345,9 +1345,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1358,9 +1358,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1423,9 +1423,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1436,7 +1436,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -1449,9 +1449,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1490,7 +1490,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1514,9 +1514,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1527,9 +1527,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1566,7 +1566,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -1579,9 +1579,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1592,9 +1592,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1618,9 +1618,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1631,9 +1631,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1670,9 +1670,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1696,7 +1696,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -1722,9 +1722,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1735,9 +1735,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1761,7 +1761,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -1774,7 +1774,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -1787,7 +1787,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1800,9 +1800,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1865,9 +1865,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1878,7 +1878,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -1891,9 +1891,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -1917,9 +1917,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1943,9 +1943,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1956,9 +1956,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -1995,9 +1995,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2021,9 +2021,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2047,7 +2047,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -2060,9 +2060,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2073,9 +2073,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2086,9 +2086,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2099,9 +2099,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2125,9 +2125,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2138,9 +2138,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2164,7 +2164,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -2190,7 +2190,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -2203,9 +2203,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2216,7 +2216,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -2268,6 +2268,19 @@
     "events": [
       {
         "attrs": {
+          "has_item": "tags"
+        },
+        "decision": "deny_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_175",
+    "ts": 175,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
           "has_item": "receipt"
         },
         "decision": "approve_exchange"
@@ -2275,8 +2288,21 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_175",
-    "ts": 175,
+    "trace_id": "exchange_eligibility_176",
+    "ts": 176,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "receipt"
+        },
+        "decision": "approve_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_177",
+    "ts": 177,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -2288,8 +2314,8 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_176",
-    "ts": 176,
+    "trace_id": "exchange_eligibility_178",
+    "ts": 178,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -2297,32 +2323,6 @@
           "has_item": "nothing"
         },
         "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
-    "trace_id": "exchange_eligibility_177",
-    "ts": 177,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "receipt"
-        },
-        "decision": "approve_exchange"
-      }
-    ]
-  },
-  {
-    "trace_id": "exchange_eligibility_178",
-    "ts": 178,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "receipt"
-        },
-        "decision": "approve_exchange"
       }
     ]
   },
@@ -2335,7 +2335,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2346,7 +2346,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -2372,7 +2372,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -2385,7 +2385,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -2437,9 +2437,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2478,7 +2478,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2541,9 +2541,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2554,7 +2554,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -2567,7 +2567,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -2580,9 +2580,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2606,9 +2606,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2619,9 +2619,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2632,7 +2632,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -2645,9 +2645,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2658,9 +2658,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2671,9 +2671,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2684,7 +2684,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -2697,9 +2697,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2723,7 +2723,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -2736,9 +2736,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2749,9 +2749,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2762,7 +2762,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -2775,9 +2775,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2801,9 +2801,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2827,9 +2827,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2840,7 +2840,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -2853,9 +2853,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2866,6 +2866,19 @@
     "events": [
       {
         "attrs": {
+          "has_item": "receipt"
+        },
+        "decision": "approve_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_221",
+    "ts": 221,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
           "has_item": "tags"
         },
         "decision": "deny_exchange"
@@ -2873,8 +2886,8 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_221",
-    "ts": 221,
+    "trace_id": "exchange_eligibility_222",
+    "ts": 222,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -2886,26 +2899,13 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_222",
-    "ts": 222,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "nothing"
-        },
-        "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
     "trace_id": "exchange_eligibility_223",
     "ts": 223,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -2918,9 +2918,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2931,9 +2931,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -2957,9 +2957,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2970,9 +2970,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -2996,9 +2996,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3009,7 +3009,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -3022,9 +3022,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3048,7 +3048,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -3061,7 +3061,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -3100,7 +3100,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -3139,9 +3139,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3152,7 +3152,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -3178,9 +3178,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3191,9 +3191,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3204,7 +3204,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -3230,7 +3230,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -3243,9 +3243,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3269,9 +3269,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3282,7 +3282,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -3295,9 +3295,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3308,9 +3308,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3321,9 +3321,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3347,9 +3347,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3360,7 +3360,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -3373,9 +3373,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3401,7 +3401,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3425,9 +3425,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3438,7 +3438,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -3451,9 +3451,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3477,7 +3477,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -3490,7 +3490,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -3503,9 +3503,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3516,9 +3516,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3568,9 +3568,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3596,7 +3596,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3622,7 +3622,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3659,9 +3659,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3672,9 +3672,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3685,9 +3685,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3700,7 +3700,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3737,7 +3737,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -3750,9 +3750,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3789,7 +3789,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -3802,9 +3802,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3815,7 +3815,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -3828,9 +3828,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3854,9 +3854,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3880,7 +3880,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -3906,7 +3906,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -3921,7 +3921,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3932,9 +3932,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3945,9 +3945,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -3958,9 +3958,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -3971,9 +3971,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4010,9 +4010,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4023,7 +4023,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -4038,7 +4038,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4049,7 +4049,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -4062,7 +4062,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -4075,9 +4075,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4088,19 +4088,6 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
-        },
-        "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
-    "trace_id": "exchange_eligibility_315",
-    "ts": 315,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
           "has_item": "receipt"
         },
         "decision": "approve_exchange"
@@ -4108,8 +4095,8 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_316",
-    "ts": 316,
+    "trace_id": "exchange_eligibility_315",
+    "ts": 315,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -4121,15 +4108,28 @@
     ]
   },
   {
+    "trace_id": "exchange_eligibility_316",
+    "ts": 316,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "receipt"
+        },
+        "decision": "approve_exchange"
+      }
+    ]
+  },
+  {
     "trace_id": "exchange_eligibility_317",
     "ts": 317,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4179,7 +4179,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -4192,9 +4192,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4205,7 +4205,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -4218,9 +4218,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4231,9 +4231,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4257,7 +4257,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -4283,9 +4283,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4296,9 +4296,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4322,7 +4322,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -4348,9 +4348,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4426,7 +4426,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -4439,9 +4439,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4452,9 +4452,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4465,7 +4465,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -4478,9 +4478,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4491,7 +4491,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -4504,9 +4504,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4517,7 +4517,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -4530,7 +4530,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -4556,9 +4556,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4582,9 +4582,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4595,7 +4595,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -4634,9 +4634,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4647,7 +4647,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -4673,9 +4673,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4686,9 +4686,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4738,9 +4738,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4764,9 +4764,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4777,9 +4777,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4790,9 +4790,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4803,7 +4803,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -4816,9 +4816,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4829,7 +4829,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -4842,9 +4842,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4855,9 +4855,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4868,9 +4868,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4907,9 +4907,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -4920,7 +4920,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -4933,9 +4933,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4946,7 +4946,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -4972,9 +4972,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -4985,7 +4985,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -5011,9 +5011,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5024,9 +5024,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5050,9 +5050,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5078,7 +5078,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5089,7 +5089,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -5102,9 +5102,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5115,7 +5115,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -5128,9 +5128,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5141,7 +5141,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -5167,9 +5167,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5193,9 +5193,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5206,7 +5206,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -5219,9 +5219,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5232,7 +5232,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -5271,9 +5271,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5284,7 +5284,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -5297,9 +5297,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5310,7 +5310,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -5336,7 +5336,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -5362,9 +5362,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5375,9 +5375,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5388,9 +5388,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5414,9 +5414,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5429,7 +5429,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5440,7 +5440,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -5453,9 +5453,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5466,9 +5466,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5479,7 +5479,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -5505,9 +5505,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5518,7 +5518,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -5544,9 +5544,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5570,9 +5570,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5583,9 +5583,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5596,7 +5596,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -5609,9 +5609,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5635,7 +5635,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -5648,9 +5648,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5661,9 +5661,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5687,9 +5687,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5700,9 +5700,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5713,7 +5713,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -5728,7 +5728,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5739,9 +5739,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5752,7 +5752,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -5778,7 +5778,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -5791,9 +5791,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5806,7 +5806,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5832,7 +5832,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -5845,7 +5845,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5856,9 +5856,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5882,6 +5882,19 @@
     "events": [
       {
         "attrs": {
+          "has_item": "nothing"
+        },
+        "decision": "deny_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_453",
+    "ts": 453,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
           "has_item": "tags"
         },
         "decision": "approve_exchange"
@@ -5889,8 +5902,8 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_453",
-    "ts": 453,
+    "trace_id": "exchange_eligibility_454",
+    "ts": 454,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -5902,28 +5915,15 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_454",
-    "ts": 454,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "tags"
-        },
-        "decision": "approve_exchange"
-      }
-    ]
-  },
-  {
     "trace_id": "exchange_eligibility_455",
     "ts": 455,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5934,7 +5934,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -5947,9 +5947,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -5986,7 +5986,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -5999,9 +5999,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6012,9 +6012,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6040,7 +6040,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6051,9 +6051,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6066,7 +6066,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6090,9 +6090,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6103,7 +6103,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -6116,9 +6116,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6129,9 +6129,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6142,15 +6142,28 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
   {
     "trace_id": "exchange_eligibility_473",
     "ts": 473,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "receipt"
+        },
+        "decision": "deny_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_474",
+    "ts": 474,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -6162,26 +6175,13 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_474",
-    "ts": 474,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "receipt"
-        },
-        "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
     "trace_id": "exchange_eligibility_475",
     "ts": 475,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -6194,7 +6194,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6222,7 +6222,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6246,9 +6246,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6259,7 +6259,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6272,9 +6272,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6324,9 +6324,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6337,9 +6337,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6352,7 +6352,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6363,9 +6363,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6376,7 +6376,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6389,9 +6389,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6402,7 +6402,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -6417,7 +6417,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6428,9 +6428,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6441,7 +6441,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6454,7 +6454,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6480,7 +6480,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6493,9 +6493,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6519,7 +6519,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6532,7 +6532,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6547,7 +6547,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6558,9 +6558,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6571,9 +6571,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6584,9 +6584,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6599,7 +6599,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6610,9 +6610,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6636,7 +6636,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -6662,9 +6662,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6675,7 +6675,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -6703,7 +6703,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6714,9 +6714,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6727,7 +6727,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -6753,9 +6753,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6805,7 +6805,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -6818,9 +6818,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6831,9 +6831,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6844,9 +6844,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6870,9 +6870,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -6883,9 +6883,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6896,9 +6896,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6909,9 +6909,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6922,7 +6922,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -6948,9 +6948,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -6974,9 +6974,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7002,7 +7002,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7026,7 +7026,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7065,7 +7065,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7091,9 +7091,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7117,9 +7117,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7130,9 +7130,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7143,9 +7143,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7169,9 +7169,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7208,9 +7208,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7273,7 +7273,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7299,7 +7299,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -7338,9 +7338,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7377,9 +7377,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7390,9 +7390,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7403,7 +7403,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7416,9 +7416,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7429,9 +7429,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7455,7 +7455,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7468,9 +7468,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7481,9 +7481,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7507,9 +7507,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7520,7 +7520,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7533,7 +7533,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7546,7 +7546,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7559,7 +7559,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7585,9 +7585,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7598,7 +7598,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -7611,7 +7611,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -7624,15 +7624,28 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
   {
     "trace_id": "exchange_eligibility_587",
     "ts": 587,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "receipt"
+        },
+        "decision": "deny_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_588",
+    "ts": 588,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -7644,26 +7657,13 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_588",
-    "ts": 588,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "receipt"
-        },
-        "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
     "trace_id": "exchange_eligibility_589",
     "ts": 589,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -7676,7 +7676,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7689,7 +7689,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7715,9 +7715,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7728,9 +7728,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7767,9 +7767,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7793,7 +7793,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7819,7 +7819,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7832,7 +7832,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7845,7 +7845,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7871,7 +7871,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -7884,9 +7884,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -7897,9 +7897,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7910,9 +7910,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7936,7 +7936,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -7949,9 +7949,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -7962,7 +7962,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7975,7 +7975,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -7988,9 +7988,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8001,7 +8001,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -8016,7 +8016,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8027,9 +8027,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8053,9 +8053,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8066,9 +8066,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8081,7 +8081,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8092,9 +8092,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8131,7 +8131,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -8144,9 +8144,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8157,7 +8157,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -8183,9 +8183,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8209,9 +8209,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8222,9 +8222,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8235,7 +8235,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -8300,9 +8300,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8313,7 +8313,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -8326,9 +8326,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8352,9 +8352,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8365,9 +8365,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8378,9 +8378,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8391,7 +8391,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -8406,7 +8406,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8417,9 +8417,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8430,9 +8430,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8443,9 +8443,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8456,9 +8456,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8469,9 +8469,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8547,9 +8547,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8573,9 +8573,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8599,9 +8599,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8625,9 +8625,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8664,9 +8664,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8690,7 +8690,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -8703,9 +8703,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8729,7 +8729,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -8755,9 +8755,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8768,9 +8768,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8781,9 +8781,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8794,9 +8794,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8807,7 +8807,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -8820,7 +8820,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -8833,7 +8833,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -8872,7 +8872,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -8885,7 +8885,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -8898,7 +8898,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -8911,9 +8911,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -8937,9 +8937,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -8950,7 +8950,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -8963,7 +8963,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -9002,9 +9002,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9015,9 +9015,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9041,9 +9041,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9054,9 +9054,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9067,9 +9067,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9080,7 +9080,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -9093,9 +9093,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9106,9 +9106,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9119,7 +9119,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9145,9 +9145,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9171,7 +9171,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9184,7 +9184,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -9197,9 +9197,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9210,9 +9210,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9236,7 +9236,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -9249,7 +9249,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -9262,7 +9262,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -9275,7 +9275,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9288,7 +9288,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -9314,7 +9314,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -9353,9 +9353,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9366,7 +9366,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9379,9 +9379,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9392,7 +9392,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -9405,7 +9405,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9431,9 +9431,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9446,7 +9446,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9470,9 +9470,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9483,9 +9483,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9496,7 +9496,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9509,9 +9509,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9548,9 +9548,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9561,7 +9561,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9600,7 +9600,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9652,9 +9652,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9665,7 +9665,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -9678,9 +9678,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9691,9 +9691,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9704,9 +9704,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9717,9 +9717,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9730,9 +9730,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9743,9 +9743,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9756,7 +9756,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9769,9 +9769,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9782,7 +9782,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -9795,9 +9795,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9808,9 +9808,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9821,7 +9821,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9834,7 +9834,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -9847,7 +9847,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9860,9 +9860,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -9873,9 +9873,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -9899,7 +9899,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -9912,7 +9912,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -9925,7 +9925,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -9938,7 +9938,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -9964,7 +9964,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -9977,9 +9977,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10003,9 +10003,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10016,7 +10016,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -10029,7 +10029,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10042,9 +10042,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10055,7 +10055,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10068,9 +10068,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10081,9 +10081,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10094,7 +10094,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -10109,7 +10109,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10120,7 +10120,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10146,9 +10146,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10161,7 +10161,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10185,9 +10185,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10211,7 +10211,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -10224,9 +10224,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10237,9 +10237,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10252,7 +10252,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10263,9 +10263,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10276,7 +10276,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -10289,7 +10289,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -10315,7 +10315,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10328,7 +10328,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -10343,7 +10343,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10354,9 +10354,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10367,7 +10367,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10380,7 +10380,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -10393,9 +10393,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10406,9 +10406,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10421,7 +10421,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10432,7 +10432,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10458,9 +10458,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10471,7 +10471,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10510,7 +10510,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -10525,7 +10525,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10536,9 +10536,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10575,7 +10575,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -10588,7 +10588,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -10603,7 +10603,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10640,7 +10640,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10653,9 +10653,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10707,7 +10707,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10718,9 +10718,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10731,9 +10731,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10757,7 +10757,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10770,7 +10770,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -10783,7 +10783,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -10796,7 +10796,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -10809,9 +10809,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10822,7 +10822,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -10835,7 +10835,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -10874,9 +10874,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10913,9 +10913,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10926,9 +10926,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10941,7 +10941,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10952,9 +10952,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -10965,9 +10965,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -10991,9 +10991,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11004,7 +11004,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -11019,7 +11019,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11043,7 +11043,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -11056,7 +11056,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -11069,9 +11069,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11082,9 +11082,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11095,7 +11095,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -11108,7 +11108,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -11121,9 +11121,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11147,9 +11147,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11160,9 +11160,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11173,7 +11173,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -11186,9 +11186,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11212,9 +11212,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11225,9 +11225,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11253,7 +11253,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11264,9 +11264,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11279,7 +11279,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11290,9 +11290,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11316,7 +11316,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "approve_exchange"
       }
@@ -11329,9 +11329,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11342,9 +11342,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11368,7 +11368,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -11381,9 +11381,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11394,7 +11394,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -11407,9 +11407,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11420,9 +11420,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11446,9 +11446,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11459,9 +11459,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11472,9 +11472,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11498,7 +11498,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -11511,9 +11511,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11524,7 +11524,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -11589,9 +11589,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11604,7 +11604,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11615,9 +11615,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11641,7 +11641,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -11667,9 +11667,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11693,9 +11693,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11719,9 +11719,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11732,7 +11732,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -11747,7 +11747,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11771,9 +11771,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11784,9 +11784,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11797,9 +11797,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11810,7 +11810,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -11849,9 +11849,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11875,7 +11875,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -11888,9 +11888,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11901,15 +11901,28 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
   {
     "trace_id": "exchange_eligibility_916",
     "ts": 916,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "nothing"
+        },
+        "decision": "deny_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_917",
+    "ts": 917,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -11921,8 +11934,8 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_917",
-    "ts": 917,
+    "trace_id": "exchange_eligibility_918",
+    "ts": 918,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -11934,26 +11947,13 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_918",
-    "ts": 918,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "receipt"
-        },
-        "decision": "approve_exchange"
-      }
-    ]
-  },
-  {
     "trace_id": "exchange_eligibility_919",
     "ts": 919,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -11966,9 +11966,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -11981,7 +11981,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -11992,7 +11992,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -12005,9 +12005,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12018,9 +12018,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12033,7 +12033,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12044,9 +12044,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12083,7 +12083,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -12096,7 +12096,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12109,9 +12109,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12124,7 +12124,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12135,9 +12135,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12148,7 +12148,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -12174,7 +12174,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -12200,9 +12200,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12213,9 +12213,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12226,9 +12226,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12241,7 +12241,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12252,9 +12252,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12265,7 +12265,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -12304,41 +12304,15 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
   {
     "trace_id": "exchange_eligibility_947",
     "ts": 947,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "nothing"
-        },
-        "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
-    "trace_id": "exchange_eligibility_948",
-    "ts": 948,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "receipt"
-        },
-        "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
-    "trace_id": "exchange_eligibility_949",
-    "ts": 949,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -12350,8 +12324,21 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_950",
-    "ts": 950,
+    "trace_id": "exchange_eligibility_948",
+    "ts": 948,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "tags"
+        },
+        "decision": "approve_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_949",
+    "ts": 949,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -12363,13 +12350,26 @@
     ]
   },
   {
+    "trace_id": "exchange_eligibility_950",
+    "ts": 950,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "tags"
+        },
+        "decision": "approve_exchange"
+      }
+    ]
+  },
+  {
     "trace_id": "exchange_eligibility_951",
     "ts": 951,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -12395,7 +12395,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12408,9 +12408,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12434,9 +12434,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12447,7 +12447,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12486,7 +12486,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12501,7 +12501,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12512,7 +12512,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -12525,9 +12525,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12538,9 +12538,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12577,7 +12577,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12590,7 +12590,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -12603,7 +12603,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12616,9 +12616,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12629,7 +12629,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -12657,7 +12657,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12681,9 +12681,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12694,7 +12694,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -12709,7 +12709,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12720,9 +12720,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12759,9 +12759,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12785,9 +12785,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12811,7 +12811,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -12824,9 +12824,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12837,9 +12837,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12850,7 +12850,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12863,9 +12863,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -12889,9 +12889,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12902,7 +12902,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -12928,9 +12928,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12941,7 +12941,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12954,7 +12954,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -12967,9 +12967,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12980,9 +12980,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -12993,9 +12993,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13019,9 +13019,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13032,9 +13032,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13045,9 +13045,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13071,9 +13071,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13097,7 +13097,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -13110,6 +13110,19 @@
     "events": [
       {
         "attrs": {
+          "has_item": "tags"
+        },
+        "decision": "approve_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_1009",
+    "ts": 1009,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
           "has_item": "receipt"
         },
         "decision": "deny_exchange"
@@ -13117,8 +13130,8 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_1009",
-    "ts": 1009,
+    "trace_id": "exchange_eligibility_1010",
+    "ts": 1010,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -13130,26 +13143,13 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_1010",
-    "ts": 1010,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "nothing"
-        },
-        "decision": "deny_exchange"
-      }
-    ]
-  },
-  {
     "trace_id": "exchange_eligibility_1011",
     "ts": 1011,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -13162,7 +13162,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13175,9 +13175,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13201,9 +13201,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13227,7 +13227,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -13242,7 +13242,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13253,9 +13253,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13266,7 +13266,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13279,9 +13279,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13294,7 +13294,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13307,7 +13307,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13318,7 +13318,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13331,9 +13331,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13344,7 +13344,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13370,9 +13370,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13383,7 +13383,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -13409,9 +13409,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13422,9 +13422,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13474,9 +13474,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13487,9 +13487,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13500,9 +13500,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13526,7 +13526,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13539,7 +13539,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -13552,7 +13552,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -13565,7 +13565,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -13578,7 +13578,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13591,9 +13591,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13604,9 +13604,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13619,7 +13619,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13630,9 +13630,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13643,9 +13643,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13695,9 +13695,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13708,9 +13708,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13721,7 +13721,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -13747,7 +13747,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13760,7 +13760,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13773,9 +13773,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13786,7 +13786,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -13825,9 +13825,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13838,9 +13838,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13851,7 +13851,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13864,7 +13864,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -13890,9 +13890,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13916,9 +13916,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -13929,7 +13929,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -13942,9 +13942,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13983,7 +13983,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -13994,7 +13994,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -14007,9 +14007,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14020,7 +14020,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14059,7 +14059,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -14072,7 +14072,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -14098,7 +14098,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14111,9 +14111,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14124,9 +14124,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14137,9 +14137,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14163,7 +14163,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -14176,9 +14176,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14202,7 +14202,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14215,9 +14215,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14230,7 +14230,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14241,7 +14241,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -14254,7 +14254,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14267,7 +14267,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -14280,7 +14280,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -14306,7 +14306,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14319,9 +14319,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14345,7 +14345,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14373,7 +14373,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14384,9 +14384,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14397,7 +14397,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "approve_exchange"
       }
@@ -14436,9 +14436,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14490,7 +14490,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14514,9 +14514,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14529,7 +14529,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14540,9 +14540,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14553,7 +14553,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -14568,7 +14568,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14579,7 +14579,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -14605,15 +14605,28 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
   {
     "trace_id": "exchange_eligibility_1124",
     "ts": 1124,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "receipt"
+        },
+        "decision": "approve_exchange"
+      }
+    ]
+  },
+  {
+    "trace_id": "exchange_eligibility_1125",
+    "ts": 1125,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -14625,28 +14638,15 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_1125",
-    "ts": 1125,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "tags"
-        },
-        "decision": "approve_exchange"
-      }
-    ]
-  },
-  {
     "trace_id": "exchange_eligibility_1126",
     "ts": 1126,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14657,9 +14657,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14672,7 +14672,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14683,7 +14683,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14696,9 +14696,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14709,9 +14709,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14722,7 +14722,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14735,9 +14735,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14748,7 +14748,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14763,7 +14763,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14787,7 +14787,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14813,9 +14813,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14865,7 +14865,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14878,9 +14878,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14917,7 +14917,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14930,7 +14930,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -14943,9 +14943,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -14956,9 +14956,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -14969,7 +14969,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -14982,28 +14982,15 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
   {
     "trace_id": "exchange_eligibility_1153",
     "ts": 1153,
-    "policy_id": "exchange_eligibility",
-    "events": [
-      {
-        "attrs": {
-          "has_item": "tags"
-        },
-        "decision": "approve_exchange"
-      }
-    ]
-  },
-  {
-    "trace_id": "exchange_eligibility_1154",
-    "ts": 1154,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -15015,8 +15002,8 @@
     ]
   },
   {
-    "trace_id": "exchange_eligibility_1155",
-    "ts": 1155,
+    "trace_id": "exchange_eligibility_1154",
+    "ts": 1154,
     "policy_id": "exchange_eligibility",
     "events": [
       {
@@ -15028,13 +15015,26 @@
     ]
   },
   {
+    "trace_id": "exchange_eligibility_1155",
+    "ts": 1155,
+    "policy_id": "exchange_eligibility",
+    "events": [
+      {
+        "attrs": {
+          "has_item": "receipt"
+        },
+        "decision": "deny_exchange"
+      }
+    ]
+  },
+  {
     "trace_id": "exchange_eligibility_1156",
     "ts": 1156,
     "policy_id": "exchange_eligibility",
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -15047,9 +15047,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15062,7 +15062,7 @@
         "attrs": {
           "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -15073,7 +15073,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -15099,7 +15099,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -15125,9 +15125,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -15151,9 +15151,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -15177,9 +15177,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -15190,7 +15190,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
         "decision": "deny_exchange"
       }
@@ -15216,7 +15216,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -15229,7 +15229,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -15242,9 +15242,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -15296,7 +15296,7 @@
         "attrs": {
           "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15333,9 +15333,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15346,7 +15346,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -15359,9 +15359,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -15385,7 +15385,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "receipt"
         },
         "decision": "deny_exchange"
       }
@@ -15398,9 +15398,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15411,9 +15411,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15437,9 +15437,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15476,9 +15476,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15515,9 +15515,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "nothing"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   },
@@ -15528,7 +15528,7 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
         "decision": "deny_exchange"
       }
@@ -15541,9 +15541,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "nothing"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15567,9 +15567,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "tags"
+          "has_item": "receipt"
         },
-        "decision": "approve_exchange"
+        "decision": "deny_exchange"
       }
     ]
   },
@@ -15593,9 +15593,9 @@
     "events": [
       {
         "attrs": {
-          "has_item": "receipt"
+          "has_item": "tags"
         },
-        "decision": "deny_exchange"
+        "decision": "approve_exchange"
       }
     ]
   }

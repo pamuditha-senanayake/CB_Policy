@@ -19,9 +19,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -32,9 +32,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -45,28 +45,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_4",
     "ts": 4,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "gold"
-        },
-        "decision": "apply_15_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_5",
-    "ts": 5,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -78,13 +65,26 @@
     ]
   },
   {
+    "trace_id": "loyalty_discount_5",
+    "ts": 5,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
+      }
+    ]
+  },
+  {
     "trace_id": "loyalty_discount_6",
     "ts": 6,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -99,7 +99,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -110,9 +110,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -123,9 +123,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -149,28 +149,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_12",
     "ts": 12,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "platinum"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_13",
-    "ts": 13,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -182,15 +169,28 @@
     ]
   },
   {
+    "trace_id": "loyalty_discount_13",
+    "ts": 13,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "platinum"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
     "trace_id": "loyalty_discount_14",
     "ts": 14,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -214,7 +214,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -240,7 +240,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -253,9 +253,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -266,9 +266,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -305,7 +305,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -331,7 +331,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -344,9 +344,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -357,9 +357,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -383,9 +383,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -396,9 +396,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -422,9 +422,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -435,9 +435,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -474,9 +474,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -487,9 +487,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -513,9 +513,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -539,9 +539,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -552,9 +552,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -578,9 +578,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -617,7 +617,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -630,9 +630,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -643,7 +643,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -656,7 +656,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -669,9 +669,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -682,9 +682,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -721,9 +721,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -747,7 +747,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -773,7 +773,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -786,9 +786,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -838,9 +838,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -851,9 +851,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -877,7 +877,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -890,9 +890,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -903,7 +903,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -916,9 +916,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -929,7 +929,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -968,9 +968,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -981,7 +981,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -1007,9 +1007,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1046,9 +1046,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1059,7 +1059,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -1072,9 +1072,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1098,7 +1098,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -1111,67 +1111,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_86",
     "ts": 86,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "gold"
-        },
-        "decision": "apply_15_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_87",
-    "ts": 87,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "platinum"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_88",
-    "ts": 88,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "platinum"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_89",
-    "ts": 89,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "platinum"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_90",
-    "ts": 90,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -1183,15 +1131,67 @@
     ]
   },
   {
+    "trace_id": "loyalty_discount_87",
+    "ts": 87,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_88",
+    "ts": 88,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_89",
+    "ts": 89,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_90",
+    "ts": 90,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
+      }
+    ]
+  },
+  {
     "trace_id": "loyalty_discount_91",
     "ts": 91,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1202,9 +1202,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1228,9 +1228,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1241,9 +1241,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1293,7 +1293,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -1306,7 +1306,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -1345,7 +1345,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -1358,7 +1358,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -1371,9 +1371,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1410,9 +1410,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1423,9 +1423,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1438,7 +1438,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1451,7 +1451,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1462,7 +1462,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -1475,9 +1475,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1501,7 +1501,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -1514,7 +1514,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -1527,7 +1527,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -1540,9 +1540,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1553,9 +1553,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1579,7 +1579,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -1592,7 +1592,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -1618,9 +1618,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1631,9 +1631,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1644,9 +1644,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1657,9 +1657,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1722,9 +1722,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1735,9 +1735,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1748,9 +1748,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1761,7 +1761,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -1800,9 +1800,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1813,9 +1813,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1826,7 +1826,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -1852,9 +1852,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1865,7 +1865,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -1878,9 +1878,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -1893,7 +1893,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1917,7 +1917,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -1956,9 +1956,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1969,9 +1969,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1982,9 +1982,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -1995,7 +1995,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -2034,7 +2034,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -2047,7 +2047,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -2099,9 +2099,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2112,9 +2112,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2125,9 +2125,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2164,9 +2164,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2177,9 +2177,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2203,9 +2203,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2229,9 +2229,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2268,9 +2268,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2281,9 +2281,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2294,9 +2294,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2320,9 +2320,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2333,9 +2333,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2346,7 +2346,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -2359,7 +2359,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -2372,7 +2372,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -2385,9 +2385,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2398,7 +2398,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -2424,9 +2424,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2437,9 +2437,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2450,9 +2450,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2465,7 +2465,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2476,9 +2476,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2502,7 +2502,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -2515,9 +2515,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2528,9 +2528,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2556,7 +2556,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2580,7 +2580,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -2593,7 +2593,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -2608,7 +2608,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2619,9 +2619,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2658,7 +2658,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -2671,7 +2671,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -2684,9 +2684,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2697,9 +2697,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2723,9 +2723,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2736,9 +2736,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2749,7 +2749,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -2762,9 +2762,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2788,9 +2788,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2814,9 +2814,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2829,7 +2829,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -2840,9 +2840,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2866,9 +2866,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2879,9 +2879,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -2892,7 +2892,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -2918,7 +2918,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -2931,7 +2931,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -2970,7 +2970,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -2983,9 +2983,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3009,7 +3009,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3022,7 +3022,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3035,9 +3035,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3061,9 +3061,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3074,9 +3074,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3089,7 +3089,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3113,9 +3113,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3126,9 +3126,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3152,9 +3152,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3165,7 +3165,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3217,9 +3217,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3230,9 +3230,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3243,7 +3243,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3256,9 +3256,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3269,7 +3269,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3282,7 +3282,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3321,9 +3321,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3334,7 +3334,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3347,9 +3347,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3360,7 +3360,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3373,7 +3373,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3386,7 +3386,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -3399,9 +3399,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3412,7 +3412,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3438,7 +3438,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3451,15 +3451,28 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_266",
     "ts": 266,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "silver"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_267",
+    "ts": 267,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -3471,28 +3484,15 @@
     ]
   },
   {
-    "trace_id": "loyalty_discount_267",
-    "ts": 267,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "platinum"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
     "trace_id": "loyalty_discount_268",
     "ts": 268,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3503,7 +3503,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3516,9 +3516,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3529,9 +3529,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3568,9 +3568,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3581,9 +3581,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3594,9 +3594,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3620,9 +3620,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3633,9 +3633,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3646,7 +3646,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3672,7 +3672,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3685,9 +3685,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3698,9 +3698,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3711,9 +3711,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3724,7 +3724,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3737,9 +3737,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3763,9 +3763,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3776,9 +3776,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3789,9 +3789,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3802,7 +3802,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3817,7 +3817,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3841,7 +3841,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3880,9 +3880,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3893,7 +3893,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -3919,7 +3919,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -3945,9 +3945,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3960,7 +3960,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -3971,9 +3971,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3986,7 +3986,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -3997,7 +3997,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -4023,9 +4023,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4036,9 +4036,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4062,9 +4062,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4077,13 +4077,26 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_314",
     "ts": 314,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_315",
+    "ts": 315,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -4095,26 +4108,13 @@
     ]
   },
   {
-    "trace_id": "loyalty_discount_315",
-    "ts": 315,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "silver"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
     "trace_id": "loyalty_discount_316",
     "ts": 316,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4127,9 +4127,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4140,7 +4140,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4153,9 +4153,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4166,7 +4166,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4179,9 +4179,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4257,9 +4257,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4270,7 +4270,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4283,9 +4283,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4296,9 +4296,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4322,7 +4322,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4348,7 +4348,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -4374,9 +4374,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4387,9 +4387,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4400,9 +4400,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4413,7 +4413,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4439,9 +4439,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4452,7 +4452,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4478,7 +4478,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4491,9 +4491,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4504,9 +4504,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4517,9 +4517,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4530,7 +4530,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4545,7 +4545,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4569,7 +4569,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4582,9 +4582,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4595,9 +4595,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4608,7 +4608,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4621,7 +4621,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4634,9 +4634,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4647,9 +4647,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4686,9 +4686,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4699,9 +4699,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4712,7 +4712,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4725,7 +4725,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4738,9 +4738,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4764,7 +4764,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4803,7 +4803,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -4829,7 +4829,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -4842,9 +4842,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4855,9 +4855,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4881,7 +4881,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4894,9 +4894,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4907,7 +4907,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4933,9 +4933,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -4946,7 +4946,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -4959,9 +4959,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -4972,7 +4972,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -5011,9 +5011,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5024,9 +5024,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5037,7 +5037,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -5063,7 +5063,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -5091,7 +5091,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5115,7 +5115,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5128,7 +5128,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -5141,9 +5141,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5167,7 +5167,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -5180,7 +5180,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5206,9 +5206,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5219,7 +5219,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5232,9 +5232,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5258,7 +5258,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -5273,7 +5273,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5284,9 +5284,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5299,7 +5299,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5323,9 +5323,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5336,9 +5336,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5351,7 +5351,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5362,7 +5362,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -5375,9 +5375,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5388,7 +5388,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5401,7 +5401,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5416,7 +5416,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5427,7 +5427,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5440,9 +5440,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5453,9 +5453,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5479,9 +5479,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5492,7 +5492,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5505,7 +5505,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5544,9 +5544,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5557,9 +5557,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5583,9 +5583,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5596,9 +5596,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5609,7 +5609,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5622,9 +5622,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5661,9 +5661,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5687,9 +5687,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5700,9 +5700,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5713,7 +5713,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5739,7 +5739,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5752,7 +5752,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5765,9 +5765,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5778,7 +5778,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5791,9 +5791,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5804,9 +5804,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5843,9 +5843,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5869,7 +5869,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -5882,9 +5882,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5895,7 +5895,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5908,9 +5908,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -5934,7 +5934,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5947,7 +5947,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5960,7 +5960,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -5986,9 +5986,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -5999,7 +5999,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -6012,9 +6012,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6025,7 +6025,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -6038,9 +6038,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6051,7 +6051,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6064,9 +6064,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6077,7 +6077,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6090,9 +6090,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6103,7 +6103,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6118,7 +6118,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6129,9 +6129,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6142,9 +6142,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6155,7 +6155,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -6168,7 +6168,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6181,9 +6181,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6194,7 +6194,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6220,7 +6220,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -6233,7 +6233,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6246,9 +6246,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6272,9 +6272,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6311,7 +6311,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6324,7 +6324,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6337,7 +6337,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6350,9 +6350,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6363,7 +6363,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6402,9 +6402,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6428,7 +6428,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -6441,9 +6441,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6454,7 +6454,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6467,9 +6467,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6493,9 +6493,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6506,7 +6506,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6532,7 +6532,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6545,7 +6545,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6558,9 +6558,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6584,9 +6584,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6597,7 +6597,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6610,7 +6610,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6636,9 +6636,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6649,9 +6649,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -6688,7 +6688,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6714,7 +6714,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6753,7 +6753,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -6766,9 +6766,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6792,7 +6792,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -6818,9 +6818,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6831,7 +6831,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6846,7 +6846,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6857,7 +6857,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6870,7 +6870,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6883,7 +6883,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -6909,7 +6909,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6922,9 +6922,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6935,7 +6935,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -6948,7 +6948,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -6961,9 +6961,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6974,9 +6974,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -6987,7 +6987,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -7000,9 +7000,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7013,9 +7013,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7026,7 +7026,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -7052,9 +7052,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7065,9 +7065,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7091,9 +7091,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7104,9 +7104,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7117,9 +7117,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7130,9 +7130,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7143,7 +7143,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -7158,7 +7158,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7208,9 +7208,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7221,9 +7221,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7234,9 +7234,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7249,7 +7249,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7273,9 +7273,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7312,9 +7312,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7351,9 +7351,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7364,9 +7364,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7377,9 +7377,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7390,9 +7390,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7416,9 +7416,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7442,9 +7442,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7455,7 +7455,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -7494,7 +7494,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -7507,7 +7507,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -7535,7 +7535,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7546,9 +7546,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7585,9 +7585,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7611,9 +7611,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7624,7 +7624,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -7637,7 +7637,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -7652,7 +7652,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7676,9 +7676,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7689,7 +7689,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -7715,9 +7715,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7767,9 +7767,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7780,7 +7780,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -7793,7 +7793,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -7832,7 +7832,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -7845,7 +7845,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -7871,9 +7871,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7884,9 +7884,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -7897,7 +7897,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -7910,9 +7910,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7923,7 +7923,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -7936,9 +7936,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -7949,7 +7949,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -7962,7 +7962,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -7988,7 +7988,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8003,7 +8003,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8014,9 +8014,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8027,7 +8027,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -8053,9 +8053,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8066,9 +8066,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8079,7 +8079,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8092,7 +8092,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8105,7 +8105,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8118,9 +8118,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8131,7 +8131,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8157,9 +8157,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8183,7 +8183,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8196,9 +8196,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8209,7 +8209,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -8222,9 +8222,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8235,9 +8235,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8248,7 +8248,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -8261,7 +8261,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8276,7 +8276,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8287,9 +8287,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8300,9 +8300,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8339,7 +8339,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8352,7 +8352,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8365,9 +8365,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8378,9 +8378,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8391,9 +8391,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8404,9 +8404,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8456,9 +8456,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8482,9 +8482,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8497,7 +8497,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8508,9 +8508,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8534,9 +8534,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8547,9 +8547,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8575,7 +8575,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8586,9 +8586,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8599,7 +8599,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8612,7 +8612,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -8627,7 +8627,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8651,9 +8651,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8664,9 +8664,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8690,7 +8690,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8716,9 +8716,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8729,9 +8729,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8742,7 +8742,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8755,7 +8755,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8781,7 +8781,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8833,7 +8833,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8846,7 +8846,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -8872,9 +8872,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -8885,7 +8885,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -8898,7 +8898,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -8937,9 +8937,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -8963,6 +8963,19 @@
     "events": [
       {
         "attrs": {
+          "tier": "silver"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_690",
+    "ts": 690,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
           "tier": "gold"
         },
         "decision": "apply_15_percent"
@@ -8970,8 +8983,8 @@
     ]
   },
   {
-    "trace_id": "loyalty_discount_690",
-    "ts": 690,
+    "trace_id": "loyalty_discount_691",
+    "ts": 691,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -8983,28 +8996,15 @@
     ]
   },
   {
-    "trace_id": "loyalty_discount_691",
-    "ts": 691,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "gold"
-        },
-        "decision": "apply_15_percent"
-      }
-    ]
-  },
-  {
     "trace_id": "loyalty_discount_692",
     "ts": 692,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -9015,9 +9015,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -9041,7 +9041,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -9054,9 +9054,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9067,7 +9067,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9080,28 +9080,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_699",
     "ts": 699,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "platinum"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_700",
-    "ts": 700,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -9113,13 +9100,26 @@
     ]
   },
   {
+    "trace_id": "loyalty_discount_700",
+    "ts": 700,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "silver"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
     "trace_id": "loyalty_discount_701",
     "ts": 701,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9158,9 +9158,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9184,7 +9184,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -9197,9 +9197,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9210,7 +9210,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -9223,7 +9223,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9236,9 +9236,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -9262,9 +9262,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -9275,9 +9275,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9288,9 +9288,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9301,7 +9301,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9314,9 +9314,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9327,7 +9327,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9379,9 +9379,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9405,7 +9405,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9431,9 +9431,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9459,7 +9459,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9496,9 +9496,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9509,9 +9509,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -9522,7 +9522,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9548,7 +9548,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9574,9 +9574,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9602,7 +9602,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -9626,9 +9626,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9639,7 +9639,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -9678,9 +9678,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9717,7 +9717,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -9730,9 +9730,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9743,9 +9743,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9756,7 +9756,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9782,7 +9782,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -9821,9 +9821,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -9847,7 +9847,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -9888,7 +9888,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9899,7 +9899,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -9912,9 +9912,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -9925,7 +9925,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -9951,7 +9951,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -9964,9 +9964,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10003,9 +10003,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10016,9 +10016,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10029,9 +10029,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10055,7 +10055,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -10081,9 +10081,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10094,7 +10094,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10109,7 +10109,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10146,7 +10146,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -10159,9 +10159,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10172,9 +10172,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10185,9 +10185,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10198,7 +10198,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10211,7 +10211,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -10224,7 +10224,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10250,9 +10250,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10263,9 +10263,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10278,7 +10278,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10302,9 +10302,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10315,7 +10315,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10328,9 +10328,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10341,9 +10341,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10354,9 +10354,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10367,7 +10367,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -10380,7 +10380,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10393,7 +10393,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -10419,9 +10419,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10458,7 +10458,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10471,9 +10471,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10497,7 +10497,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -10536,9 +10536,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10601,9 +10601,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10614,9 +10614,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10627,7 +10627,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -10640,9 +10640,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10653,7 +10653,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -10679,9 +10679,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10694,7 +10694,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10705,7 +10705,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -10718,7 +10718,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10731,9 +10731,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10744,7 +10744,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -10757,7 +10757,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -10770,7 +10770,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -10783,9 +10783,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10796,9 +10796,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10822,7 +10822,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10848,9 +10848,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -10861,41 +10861,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_836",
     "ts": 836,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "gold"
-        },
-        "decision": "apply_15_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_837",
-    "ts": 837,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "gold"
-        },
-        "decision": "apply_15_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_838",
-    "ts": 838,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -10907,8 +10881,8 @@
     ]
   },
   {
-    "trace_id": "loyalty_discount_839",
-    "ts": 839,
+    "trace_id": "loyalty_discount_837",
+    "ts": 837,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -10916,6 +10890,32 @@
           "tier": "silver"
         },
         "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_838",
+    "ts": 838,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_839",
+    "ts": 839,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -10952,7 +10952,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -10965,7 +10965,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -10991,9 +10991,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11004,9 +11004,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11017,7 +11017,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11030,9 +11030,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11043,7 +11043,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11095,7 +11095,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11136,7 +11136,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11147,9 +11147,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11160,7 +11160,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11173,9 +11173,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11186,9 +11186,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11199,9 +11199,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11212,7 +11212,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11238,9 +11238,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11251,7 +11251,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11277,9 +11277,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11290,9 +11290,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11303,7 +11303,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11329,9 +11329,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11342,7 +11342,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11355,7 +11355,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -11368,9 +11368,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11381,9 +11381,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11394,7 +11394,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -11407,7 +11407,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11420,7 +11420,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11433,7 +11433,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11446,7 +11446,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11459,9 +11459,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11472,9 +11472,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11485,9 +11485,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11498,9 +11498,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11513,7 +11513,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11550,7 +11550,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11563,9 +11563,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11576,7 +11576,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11602,9 +11602,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11617,7 +11617,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11628,7 +11628,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11641,9 +11641,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11654,9 +11654,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11680,7 +11680,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11693,7 +11693,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11706,9 +11706,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11719,7 +11719,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11732,9 +11732,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11745,9 +11745,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11758,9 +11758,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11784,9 +11784,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11797,7 +11797,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11810,9 +11810,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11823,9 +11823,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11849,9 +11849,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11862,9 +11862,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11875,7 +11875,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11888,9 +11888,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -11914,7 +11914,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -11927,9 +11927,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11940,7 +11940,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -11953,9 +11953,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -11966,7 +11966,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -11979,9 +11979,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12005,7 +12005,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -12018,7 +12018,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -12031,9 +12031,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12070,9 +12070,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12083,41 +12083,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_930",
     "ts": 930,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "silver"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_931",
-    "ts": 931,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "silver"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_932",
-    "ts": 932,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -12129,13 +12103,39 @@
     ]
   },
   {
+    "trace_id": "loyalty_discount_931",
+    "ts": 931,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_932",
+    "ts": 932,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "platinum"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
     "trace_id": "loyalty_discount_933",
     "ts": 933,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12148,9 +12148,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12161,7 +12161,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12174,7 +12174,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12187,7 +12187,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12200,7 +12200,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12226,9 +12226,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12239,9 +12239,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12265,7 +12265,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12278,9 +12278,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12304,7 +12304,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12317,7 +12317,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -12330,9 +12330,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12343,7 +12343,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12369,41 +12369,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_952",
-    "ts": 952,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "platinum"
-        },
-        "decision": "apply_10_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_953",
-    "ts": 953,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
     ]
   },
   {
-    "trace_id": "loyalty_discount_954",
-    "ts": 954,
+    "trace_id": "loyalty_discount_952",
+    "ts": 952,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -12415,15 +12389,41 @@
     ]
   },
   {
+    "trace_id": "loyalty_discount_953",
+    "ts": 953,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "silver"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
+    "trace_id": "loyalty_discount_954",
+    "ts": 954,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "silver"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
     "trace_id": "loyalty_discount_955",
     "ts": 955,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12447,7 +12447,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -12460,9 +12460,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12475,7 +12475,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12486,7 +12486,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12501,7 +12501,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12512,7 +12512,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12525,7 +12525,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12538,9 +12538,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12551,9 +12551,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12590,7 +12590,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -12603,9 +12603,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12616,9 +12616,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12629,9 +12629,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12655,9 +12655,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12668,9 +12668,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12694,7 +12694,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -12720,9 +12720,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12735,7 +12735,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12746,9 +12746,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12759,7 +12759,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12774,7 +12774,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12785,7 +12785,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12811,9 +12811,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12837,7 +12837,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12850,7 +12850,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12863,9 +12863,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12876,9 +12876,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12902,9 +12902,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -12915,7 +12915,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -12928,7 +12928,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -12941,9 +12941,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -12980,7 +12980,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -12993,9 +12993,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13006,9 +13006,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13019,9 +13019,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13032,9 +13032,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13045,7 +13045,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -13071,9 +13071,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13097,7 +13097,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13110,9 +13110,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13138,7 +13138,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13175,9 +13175,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13188,9 +13188,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13214,7 +13214,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -13253,9 +13253,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13266,7 +13266,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13279,7 +13279,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13292,7 +13292,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13318,9 +13318,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13370,7 +13370,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13383,9 +13383,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13396,9 +13396,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13422,9 +13422,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13435,7 +13435,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -13450,7 +13450,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13461,7 +13461,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -13474,7 +13474,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -13513,9 +13513,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13565,9 +13565,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13578,9 +13578,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13591,7 +13591,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13604,9 +13604,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13617,9 +13617,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13656,9 +13656,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13669,9 +13669,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13682,7 +13682,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -13695,7 +13695,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -13721,28 +13721,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_1056",
     "ts": 1056,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "gold"
-        },
-        "decision": "apply_15_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_1057",
-    "ts": 1057,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -13754,8 +13741,8 @@
     ]
   },
   {
-    "trace_id": "loyalty_discount_1058",
-    "ts": 1058,
+    "trace_id": "loyalty_discount_1057",
+    "ts": 1057,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -13767,13 +13754,26 @@
     ]
   },
   {
+    "trace_id": "loyalty_discount_1058",
+    "ts": 1058,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "silver"
+        },
+        "decision": "apply_10_percent"
+      }
+    ]
+  },
+  {
     "trace_id": "loyalty_discount_1059",
     "ts": 1059,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13786,9 +13786,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13799,7 +13799,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13812,9 +13812,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13825,7 +13825,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13840,7 +13840,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13851,9 +13851,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13864,7 +13864,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -13877,9 +13877,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13890,7 +13890,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -13916,9 +13916,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13929,9 +13929,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -13942,7 +13942,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -13955,7 +13955,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -13970,7 +13970,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -13981,7 +13981,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14046,9 +14046,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14072,7 +14072,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14087,7 +14087,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14098,7 +14098,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -14111,9 +14111,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14137,9 +14137,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14152,7 +14152,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14163,7 +14163,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14189,9 +14189,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14215,7 +14215,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14230,7 +14230,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14241,9 +14241,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14267,9 +14267,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14280,7 +14280,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14293,7 +14293,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -14306,9 +14306,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14319,7 +14319,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14332,9 +14332,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14345,9 +14345,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14384,7 +14384,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14397,9 +14397,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14410,7 +14410,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -14436,9 +14436,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14449,9 +14449,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14462,7 +14462,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -14475,7 +14475,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -14488,9 +14488,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14527,9 +14527,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14540,7 +14540,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14566,9 +14566,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14579,7 +14579,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -14592,9 +14592,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14605,7 +14605,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -14618,9 +14618,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14631,9 +14631,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14644,9 +14644,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14696,9 +14696,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14709,7 +14709,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -14722,7 +14722,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -14748,9 +14748,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14761,9 +14761,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14774,9 +14774,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14800,9 +14800,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14839,9 +14839,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14891,9 +14891,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14904,9 +14904,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14917,7 +14917,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -14930,9 +14930,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -14943,9 +14943,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14969,9 +14969,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14982,9 +14982,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -14995,7 +14995,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -15010,7 +15010,7 @@
         "attrs": {
           "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -15021,9 +15021,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -15047,28 +15047,15 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
   {
     "trace_id": "loyalty_discount_1158",
     "ts": 1158,
-    "policy_id": "loyalty_discount",
-    "events": [
-      {
-        "attrs": {
-          "tier": "gold"
-        },
-        "decision": "apply_15_percent"
-      }
-    ]
-  },
-  {
-    "trace_id": "loyalty_discount_1159",
-    "ts": 1159,
     "policy_id": "loyalty_discount",
     "events": [
       {
@@ -15080,13 +15067,26 @@
     ]
   },
   {
+    "trace_id": "loyalty_discount_1159",
+    "ts": 1159,
+    "policy_id": "loyalty_discount",
+    "events": [
+      {
+        "attrs": {
+          "tier": "gold"
+        },
+        "decision": "apply_15_percent"
+      }
+    ]
+  },
+  {
     "trace_id": "loyalty_discount_1160",
     "ts": 1160,
     "policy_id": "loyalty_discount",
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -15125,7 +15125,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -15138,9 +15138,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -15151,9 +15151,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -15164,7 +15164,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -15190,9 +15190,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -15229,9 +15229,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -15244,7 +15244,7 @@
         "attrs": {
           "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -15255,7 +15255,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
         "decision": "apply_15_percent"
       }
@@ -15268,7 +15268,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -15281,9 +15281,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "silver"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -15320,7 +15320,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -15333,7 +15333,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -15346,9 +15346,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -15359,9 +15359,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -15372,9 +15372,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -15385,9 +15385,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -15411,9 +15411,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -15424,7 +15424,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -15437,7 +15437,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
         "decision": "apply_15_percent"
       }
@@ -15450,9 +15450,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -15476,7 +15476,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -15489,7 +15489,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -15502,7 +15502,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
         "decision": "apply_10_percent"
       }
@@ -15515,7 +15515,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }
@@ -15528,7 +15528,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "platinum"
         },
         "decision": "apply_10_percent"
       }
@@ -15541,9 +15541,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "gold"
+          "tier": "platinum"
         },
-        "decision": "apply_15_percent"
+        "decision": "apply_10_percent"
       }
     ]
   },
@@ -15567,9 +15567,9 @@
     "events": [
       {
         "attrs": {
-          "tier": "silver"
+          "tier": "gold"
         },
-        "decision": "apply_10_percent"
+        "decision": "apply_15_percent"
       }
     ]
   },
@@ -15580,7 +15580,7 @@
     "events": [
       {
         "attrs": {
-          "tier": "platinum"
+          "tier": "silver"
         },
         "decision": "apply_10_percent"
       }

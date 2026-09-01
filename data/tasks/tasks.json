@@ -2,14 +2,14 @@
   {
     "task_id": 0,
     "ts": 200,
-    "policy_id": "shipping_upgrade",
+    "policy_id": "price_match_cap",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $88. Do I get free upgraded shipping?",
-    "correct_action": "upgrade_shipping",
-    "stale_action": "upgrade_shipping",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $136. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
     "task_params": {
-      "cart_total": 88
+      "amount": 136
     }
   },
   {
@@ -18,54 +18,15 @@
     "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $85. Do I get free upgraded shipping?",
-    "correct_action": "upgrade_shipping",
-    "stale_action": "upgrade_shipping",
+    "user_msg": "My cart is $37. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "deny_upgrade",
     "task_params": {
-      "cart_total": 85
+      "cart_total": 37
     }
   },
   {
     "task_id": 2,
-    "ts": 200,
-    "policy_id": "price_match_cap",
-    "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $54. Can you match?",
-    "correct_action": "deny_match",
-    "stale_action": "deny_match",
-    "task_params": {
-      "amount": 54
-    }
-  },
-  {
-    "task_id": 3,
-    "ts": 200,
-    "policy_id": "loyalty_discount",
-    "position_slice": "pre-change",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a silver member, what discount do I get?",
-    "correct_action": "apply_10_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "silver"
-    }
-  },
-  {
-    "task_id": 4,
-    "ts": 200,
-    "policy_id": "refund_window",
-    "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 3 days ago. Can I get a refund?",
-    "correct_action": "approve_refund",
-    "stale_action": "approve_refund",
-    "task_params": {
-      "days_since_purchase": 3
-    }
-  },
-  {
-    "task_id": 5,
     "ts": 200,
     "policy_id": "exception_approval",
     "position_slice": "pre-change",
@@ -78,7 +39,20 @@
     }
   },
   {
-    "task_id": 6,
+    "task_id": 3,
+    "ts": 200,
+    "policy_id": "price_match_cap",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $147. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 147
+    }
+  },
+  {
+    "task_id": 4,
     "ts": 200,
     "policy_id": "exchange_eligibility",
     "position_slice": "pre-change",
@@ -91,85 +65,59 @@
     }
   },
   {
+    "task_id": 5,
+    "ts": 200,
+    "policy_id": "exchange_eligibility",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the tags.",
+    "correct_action": "deny_exchange",
+    "stale_action": "deny_exchange",
+    "task_params": {
+      "has_item": "tags"
+    }
+  },
+  {
+    "task_id": 6,
+    "ts": 200,
+    "policy_id": "refund_window",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 25 days ago. Can I get a refund?",
+    "correct_action": "approve_refund",
+    "stale_action": "approve_refund",
+    "task_params": {
+      "days_since_purchase": 25
+    }
+  },
+  {
     "task_id": 7,
     "ts": 200,
     "policy_id": "exception_approval",
     "position_slice": "pre-change",
     "doc_status_slice": "lagged",
-    "user_msg": "The agent approved my exception. Please process it.",
+    "user_msg": "The supervisor approved my exception. Please process it.",
     "correct_action": "deny_exception",
     "stale_action": "deny_exception",
     "task_params": {
-      "approver": "agent"
+      "approver": "supervisor"
     }
   },
   {
     "task_id": 8,
     "ts": 200,
-    "policy_id": "exception_approval",
+    "policy_id": "refund_window",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The agent approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "deny_exception",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 8 days ago. Can I get a refund?",
+    "correct_action": "approve_refund",
+    "stale_action": "approve_refund",
     "task_params": {
-      "approver": "agent"
+      "days_since_purchase": 8
     }
   },
   {
     "task_id": 9,
-    "ts": 200,
-    "policy_id": "refund_window",
-    "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 35 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "deny_refund",
-    "task_params": {
-      "days_since_purchase": 35
-    }
-  },
-  {
-    "task_id": 10,
-    "ts": 200,
-    "policy_id": "loyalty_discount",
-    "position_slice": "pre-change",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a platinum member, what discount do I get?",
-    "correct_action": "apply_10_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "platinum"
-    }
-  },
-  {
-    "task_id": 11,
-    "ts": 200,
-    "policy_id": "exception_approval",
-    "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "approve_exception",
-    "task_params": {
-      "approver": "manager"
-    }
-  },
-  {
-    "task_id": 12,
-    "ts": 200,
-    "policy_id": "exception_approval",
-    "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "approve_exception",
-    "task_params": {
-      "approver": "manager"
-    }
-  },
-  {
-    "task_id": 13,
     "ts": 200,
     "policy_id": "loyalty_discount",
     "position_slice": "pre-change",
@@ -182,59 +130,46 @@
     }
   },
   {
-    "task_id": 14,
+    "task_id": 10,
+    "ts": 200,
+    "policy_id": "loyalty_discount",
+    "position_slice": "pre-change",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a silver member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_10_percent",
+    "task_params": {
+      "tier": "silver"
+    }
+  },
+  {
+    "task_id": 11,
+    "ts": 200,
+    "policy_id": "refund_window",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 46 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "deny_refund",
+    "task_params": {
+      "days_since_purchase": 46
+    }
+  },
+  {
+    "task_id": 12,
     "ts": 200,
     "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $109. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $103. Do I get free upgraded shipping?",
     "correct_action": "upgrade_shipping",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 109
+      "cart_total": 103
     }
   },
   {
-    "task_id": 15,
-    "ts": 200,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $97. Do I get free upgraded shipping?",
-    "correct_action": "upgrade_shipping",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 97
-    }
-  },
-  {
-    "task_id": 16,
-    "ts": 200,
-    "policy_id": "exception_approval",
-    "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The agent approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "deny_exception",
-    "task_params": {
-      "approver": "agent"
-    }
-  },
-  {
-    "task_id": 17,
-    "ts": 200,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $34. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "deny_upgrade",
-    "task_params": {
-      "cart_total": 34
-    }
-  },
-  {
-    "task_id": 18,
+    "task_id": 13,
     "ts": 200,
     "policy_id": "exchange_eligibility",
     "position_slice": "pre-change",
@@ -247,20 +182,20 @@
     }
   },
   {
-    "task_id": 19,
+    "task_id": 14,
     "ts": 200,
-    "policy_id": "exception_approval",
+    "policy_id": "refund_window",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The agent approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "deny_exception",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 34 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "deny_refund",
     "task_params": {
-      "approver": "agent"
+      "days_since_purchase": 34
     }
   },
   {
-    "task_id": 20,
+    "task_id": 15,
     "ts": 200,
     "policy_id": "exchange_eligibility",
     "position_slice": "pre-change",
@@ -273,7 +208,46 @@
     }
   },
   {
-    "task_id": 21,
+    "task_id": 16,
+    "ts": 200,
+    "policy_id": "exception_approval",
+    "position_slice": "pre-change",
+    "doc_status_slice": "lagged",
+    "user_msg": "The supervisor approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "deny_exception",
+    "task_params": {
+      "approver": "supervisor"
+    }
+  },
+  {
+    "task_id": 17,
+    "ts": 200,
+    "policy_id": "exchange_eligibility",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the nothing.",
+    "correct_action": "deny_exchange",
+    "stale_action": "deny_exchange",
+    "task_params": {
+      "has_item": "nothing"
+    }
+  },
+  {
+    "task_id": 18,
+    "ts": 200,
+    "policy_id": "price_match_cap",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $80. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 80
+    }
+  },
+  {
+    "task_id": 19,
     "ts": 200,
     "policy_id": "loyalty_discount",
     "position_slice": "pre-change",
@@ -283,6 +257,32 @@
     "stale_action": "apply_10_percent",
     "task_params": {
       "tier": "silver"
+    }
+  },
+  {
+    "task_id": 20,
+    "ts": 200,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "pre-change",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $86. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 86
+    }
+  },
+  {
+    "task_id": 21,
+    "ts": 200,
+    "policy_id": "refund_window",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 59 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "deny_refund",
+    "task_params": {
+      "days_since_purchase": 59
     }
   },
   {
@@ -301,40 +301,40 @@
   {
     "task_id": 23,
     "ts": 200,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "refund_window",
     "position_slice": "pre-change",
     "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "deny_exchange",
-    "stale_action": "deny_exchange",
+    "user_msg": "I bought this 45 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "deny_refund",
     "task_params": {
-      "has_item": "tags"
+      "days_since_purchase": 45
     }
   },
   {
     "task_id": 24,
     "ts": 200,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the receipt.",
-    "correct_action": "approve_exchange",
-    "stale_action": "approve_exchange",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $51. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "has_item": "receipt"
+      "cart_total": 51
     }
   },
   {
     "task_id": 25,
     "ts": 200,
-    "policy_id": "exception_approval",
+    "policy_id": "price_match_cap",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The agent approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "deny_exception",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $51. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
     "task_params": {
-      "approver": "agent"
+      "amount": 51
     }
   },
   {
@@ -343,41 +343,54 @@
     "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $88. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $74. Do I get free upgraded shipping?",
     "correct_action": "upgrade_shipping",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 88
+      "cart_total": 74
     }
   },
   {
     "task_id": 27,
     "ts": 200,
-    "policy_id": "refund_window",
+    "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 42 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "deny_refund",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $139. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "days_since_purchase": 42
+      "cart_total": 139
     }
   },
   {
     "task_id": 28,
     "ts": 200,
-    "policy_id": "exception_approval",
+    "policy_id": "loyalty_discount",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The agent approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "deny_exception",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a gold member, what discount do I get?",
+    "correct_action": "apply_15_percent",
+    "stale_action": "apply_15_percent",
     "task_params": {
-      "approver": "agent"
+      "tier": "gold"
     }
   },
   {
     "task_id": 29,
+    "ts": 200,
+    "policy_id": "price_match_cap",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $132. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 132
+    }
+  },
+  {
+    "task_id": 30,
     "ts": 200,
     "policy_id": "exchange_eligibility",
     "position_slice": "pre-change",
@@ -390,55 +403,42 @@
     }
   },
   {
-    "task_id": 30,
-    "ts": 200,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $150. Do I get free upgraded shipping?",
-    "correct_action": "upgrade_shipping",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 150
-    }
-  },
-  {
     "task_id": 31,
     "ts": 200,
     "policy_id": "price_match_cap",
     "position_slice": "pre-change",
     "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $103. Can you match?",
+    "user_msg": "Found it cheaper elsewhere, difference is $85. Can you match?",
     "correct_action": "deny_match",
     "stale_action": "deny_match",
     "task_params": {
-      "amount": 103
+      "amount": 85
     }
   },
   {
     "task_id": 32,
     "ts": 200,
-    "policy_id": "exception_approval",
+    "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
     "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "approve_exception",
+    "user_msg": "My cart is $65. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "manager"
+      "cart_total": 65
     }
   },
   {
     "task_id": 33,
     "ts": 200,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the receipt.",
-    "correct_action": "approve_exchange",
-    "stale_action": "approve_exchange",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $65. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "has_item": "receipt"
+      "cart_total": 65
     }
   },
   {
@@ -457,53 +457,53 @@
   {
     "task_id": 35,
     "ts": 200,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "exception_approval",
     "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "deny_exchange",
-    "stale_action": "deny_exchange",
+    "doc_status_slice": "lagged",
+    "user_msg": "The agent approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "deny_exception",
     "task_params": {
-      "has_item": "tags"
+      "approver": "agent"
     }
   },
   {
     "task_id": 36,
     "ts": 200,
-    "policy_id": "price_match_cap",
+    "policy_id": "loyalty_discount",
     "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $72. Can you match?",
-    "correct_action": "deny_match",
-    "stale_action": "deny_match",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a platinum member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_10_percent",
     "task_params": {
-      "amount": 72
+      "tier": "platinum"
     }
   },
   {
     "task_id": 37,
     "ts": 200,
-    "policy_id": "shipping_upgrade",
+    "policy_id": "refund_window",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $42. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "deny_upgrade",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 1 days ago. Can I get a refund?",
+    "correct_action": "approve_refund",
+    "stale_action": "approve_refund",
     "task_params": {
-      "cart_total": 42
+      "days_since_purchase": 1
     }
   },
   {
     "task_id": 38,
     "ts": 200,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "price_match_cap",
     "position_slice": "pre-change",
     "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the receipt.",
-    "correct_action": "approve_exchange",
-    "stale_action": "approve_exchange",
+    "user_msg": "Found it cheaper elsewhere, difference is $18. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "approve_match",
     "task_params": {
-      "has_item": "receipt"
+      "amount": 18
     }
   },
   {
@@ -512,41 +512,54 @@
     "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $148. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $145. Do I get free upgraded shipping?",
     "correct_action": "upgrade_shipping",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 148
+      "cart_total": 145
     }
   },
   {
     "task_id": 40,
     "ts": 200,
-    "policy_id": "price_match_cap",
+    "policy_id": "shipping_upgrade",
     "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $114. Can you match?",
-    "correct_action": "deny_match",
-    "stale_action": "deny_match",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $101. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "amount": 114
+      "cart_total": 101
     }
   },
   {
     "task_id": 41,
     "ts": 200,
-    "policy_id": "refund_window",
+    "policy_id": "price_match_cap",
     "position_slice": "pre-change",
     "doc_status_slice": "documented",
-    "user_msg": "I bought this 15 days ago. Can I get a refund?",
-    "correct_action": "approve_refund",
-    "stale_action": "approve_refund",
+    "user_msg": "Found it cheaper elsewhere, difference is $88. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
     "task_params": {
-      "days_since_purchase": 15
+      "amount": 88
     }
   },
   {
     "task_id": 42,
+    "ts": 200,
+    "policy_id": "exception_approval",
+    "position_slice": "pre-change",
+    "doc_status_slice": "lagged",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "approve_exception",
+    "stale_action": "approve_exception",
+    "task_params": {
+      "approver": "manager"
+    }
+  },
+  {
+    "task_id": 43,
     "ts": 200,
     "policy_id": "loyalty_discount",
     "position_slice": "pre-change",
@@ -559,29 +572,16 @@
     }
   },
   {
-    "task_id": 43,
-    "ts": 200,
-    "policy_id": "exception_approval",
-    "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The agent approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "deny_exception",
-    "task_params": {
-      "approver": "agent"
-    }
-  },
-  {
     "task_id": 44,
     "ts": 200,
-    "policy_id": "exception_approval",
+    "policy_id": "refund_window",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The agent approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "deny_exception",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 44 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "deny_refund",
     "task_params": {
-      "approver": "agent"
+      "days_since_purchase": 44
     }
   },
   {
@@ -600,109 +600,18 @@
   {
     "task_id": 46,
     "ts": 200,
-    "policy_id": "price_match_cap",
+    "policy_id": "refund_window",
     "position_slice": "pre-change",
     "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $113. Can you match?",
-    "correct_action": "deny_match",
-    "stale_action": "deny_match",
+    "user_msg": "I bought this 14 days ago. Can I get a refund?",
+    "correct_action": "approve_refund",
+    "stale_action": "approve_refund",
     "task_params": {
-      "amount": 113
+      "days_since_purchase": 14
     }
   },
   {
     "task_id": 47,
-    "ts": 200,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $33. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "deny_upgrade",
-    "task_params": {
-      "cart_total": 33
-    }
-  },
-  {
-    "task_id": 48,
-    "ts": 200,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "deny_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 49,
-    "ts": 200,
-    "policy_id": "loyalty_discount",
-    "position_slice": "pre-change",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_15_percent",
-    "task_params": {
-      "tier": "gold"
-    }
-  },
-  {
-    "task_id": 50,
-    "ts": 200,
-    "policy_id": "loyalty_discount",
-    "position_slice": "pre-change",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a silver member, what discount do I get?",
-    "correct_action": "apply_10_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "silver"
-    }
-  },
-  {
-    "task_id": 51,
-    "ts": 200,
-    "policy_id": "price_match_cap",
-    "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $73. Can you match?",
-    "correct_action": "deny_match",
-    "stale_action": "deny_match",
-    "task_params": {
-      "amount": 73
-    }
-  },
-  {
-    "task_id": 52,
-    "ts": 200,
-    "policy_id": "refund_window",
-    "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 11 days ago. Can I get a refund?",
-    "correct_action": "approve_refund",
-    "stale_action": "approve_refund",
-    "task_params": {
-      "days_since_purchase": 11
-    }
-  },
-  {
-    "task_id": 53,
-    "ts": 200,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "pre-change",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "deny_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 54,
     "ts": 200,
     "policy_id": "loyalty_discount",
     "position_slice": "pre-change",
@@ -715,99 +624,190 @@
     }
   },
   {
-    "task_id": 55,
+    "task_id": 48,
+    "ts": 200,
+    "policy_id": "price_match_cap",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $79. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 79
+    }
+  },
+  {
+    "task_id": 49,
+    "ts": 200,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "pre-change",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $117. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 117
+    }
+  },
+  {
+    "task_id": 50,
+    "ts": 200,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "pre-change",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $68. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 68
+    }
+  },
+  {
+    "task_id": 51,
+    "ts": 200,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "pre-change",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $134. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 134
+    }
+  },
+  {
+    "task_id": 52,
+    "ts": 200,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "pre-change",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $71. Do I get free upgraded shipping?",
+    "correct_action": "upgrade_shipping",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 71
+    }
+  },
+  {
+    "task_id": 53,
     "ts": 200,
     "policy_id": "refund_window",
     "position_slice": "pre-change",
     "doc_status_slice": "documented",
-    "user_msg": "I bought this 6 days ago. Can I get a refund?",
+    "user_msg": "I bought this 10 days ago. Can I get a refund?",
     "correct_action": "approve_refund",
     "stale_action": "approve_refund",
     "task_params": {
-      "days_since_purchase": 6
+      "days_since_purchase": 10
+    }
+  },
+  {
+    "task_id": 54,
+    "ts": 200,
+    "policy_id": "exchange_eligibility",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the nothing.",
+    "correct_action": "deny_exchange",
+    "stale_action": "deny_exchange",
+    "task_params": {
+      "has_item": "nothing"
+    }
+  },
+  {
+    "task_id": 55,
+    "ts": 200,
+    "policy_id": "price_match_cap",
+    "position_slice": "pre-change",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $73. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 73
     }
   },
   {
     "task_id": 56,
     "ts": 200,
-    "policy_id": "exception_approval",
+    "policy_id": "price_match_cap",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "deny_exception",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $100. Can you match?",
+    "correct_action": "deny_match",
+    "stale_action": "deny_match",
     "task_params": {
-      "approver": "supervisor"
+      "amount": 100
     }
   },
   {
     "task_id": 57,
     "ts": 200,
-    "policy_id": "shipping_upgrade",
+    "policy_id": "refund_window",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $112. Do I get free upgraded shipping?",
-    "correct_action": "upgrade_shipping",
-    "stale_action": "upgrade_shipping",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 12 days ago. Can I get a refund?",
+    "correct_action": "approve_refund",
+    "stale_action": "approve_refund",
     "task_params": {
-      "cart_total": 112
+      "days_since_purchase": 12
     }
   },
   {
     "task_id": 58,
     "ts": 200,
-    "policy_id": "refund_window",
+    "policy_id": "exchange_eligibility",
     "position_slice": "pre-change",
     "doc_status_slice": "documented",
-    "user_msg": "I bought this 30 days ago. Can I get a refund?",
-    "correct_action": "approve_refund",
-    "stale_action": "approve_refund",
+    "user_msg": "I want to exchange this, I only have the tags.",
+    "correct_action": "deny_exchange",
+    "stale_action": "deny_exchange",
     "task_params": {
-      "days_since_purchase": 30
+      "has_item": "tags"
     }
   },
   {
     "task_id": 59,
     "ts": 200,
-    "policy_id": "shipping_upgrade",
+    "policy_id": "loyalty_discount",
     "position_slice": "pre-change",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $65. Do I get free upgraded shipping?",
-    "correct_action": "upgrade_shipping",
-    "stale_action": "upgrade_shipping",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a platinum member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_10_percent",
     "task_params": {
-      "cart_total": 65
+      "tier": "platinum"
     }
   },
   {
     "task_id": 60,
-    "ts": 414,
-    "policy_id": "exception_approval",
+    "ts": 409,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
+    "user_msg": "My cart is $69. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "manager"
+      "cart_total": 69
     }
   },
   {
     "task_id": 61,
-    "ts": 416,
-    "policy_id": "exception_approval",
+    "ts": 429,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
+    "user_msg": "My cart is $80. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "supervisor"
+      "cart_total": 80
     }
   },
   {
     "task_id": 62,
-    "ts": 410,
+    "ts": 407,
     "policy_id": "exception_approval",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
@@ -824,146 +824,146 @@
     "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $57. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $56. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 57
+      "cart_total": 56
     }
   },
   {
     "task_id": 64,
-    "ts": 428,
+    "ts": 407,
     "policy_id": "exception_approval",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
     "task_params": {
-      "approver": "supervisor"
+      "approver": "manager"
     }
   },
   {
     "task_id": 65,
-    "ts": 401,
+    "ts": 430,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $58. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $56. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 58
+      "cart_total": 56
     }
   },
   {
     "task_id": 66,
-    "ts": 405,
+    "ts": 415,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $94. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $64. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 94
+      "cart_total": 64
     }
   },
   {
     "task_id": 67,
-    "ts": 416,
+    "ts": 400,
     "policy_id": "exception_approval",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
     "task_params": {
-      "approver": "supervisor"
+      "approver": "manager"
     }
   },
   {
     "task_id": 68,
-    "ts": 424,
+    "ts": 439,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $79. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $75. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 79
+      "cart_total": 75
     }
   },
   {
     "task_id": 69,
-    "ts": 420,
+    "ts": 444,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $95. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $69. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 95
+      "cart_total": 69
     }
   },
   {
     "task_id": 70,
-    "ts": 431,
+    "ts": 420,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $70. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $80. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 70
+      "cart_total": 80
     }
   },
   {
     "task_id": 71,
-    "ts": 445,
-    "policy_id": "exception_approval",
+    "ts": 440,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
+    "user_msg": "My cart is $73. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "manager"
+      "cart_total": 73
     }
   },
   {
     "task_id": 72,
-    "ts": 444,
-    "policy_id": "exception_approval",
+    "ts": 416,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
+    "user_msg": "My cart is $64. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "manager"
+      "cart_total": 64
     }
   },
   {
     "task_id": 73,
-    "ts": 423,
-    "policy_id": "exception_approval",
+    "ts": 422,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
+    "user_msg": "My cart is $86. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "supervisor"
+      "cart_total": 86
     }
   },
   {
     "task_id": 74,
-    "ts": 442,
+    "ts": 409,
     "policy_id": "exception_approval",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
@@ -976,20 +976,20 @@
   },
   {
     "task_id": 75,
-    "ts": 420,
+    "ts": 411,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $96. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $70. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 96
+      "cart_total": 70
     }
   },
   {
     "task_id": 76,
-    "ts": 442,
+    "ts": 406,
     "policy_id": "exception_approval",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
@@ -1002,48 +1002,35 @@
   },
   {
     "task_id": 77,
-    "ts": 402,
+    "ts": 419,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $75. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $53. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 75
+      "cart_total": 53
     }
   },
   {
     "task_id": 78,
-    "ts": 408,
-    "policy_id": "exception_approval",
+    "ts": 413,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
+    "user_msg": "My cart is $94. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "manager"
+      "cart_total": 94
     }
   },
   {
     "task_id": 79,
-    "ts": 417,
-    "policy_id": "exception_approval",
-    "position_slice": "window_pre_detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
-    "task_params": {
-      "approver": "supervisor"
-    }
-  },
-  {
-    "task_id": 80,
-    "ts": 451,
+    "ts": 423,
     "policy_id": "shipping_upgrade",
-    "position_slice": "window_detected_doc_stale",
+    "position_slice": "window_pre_detection",
     "doc_status_slice": "lagged",
     "user_msg": "My cart is $76. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
@@ -1053,60 +1040,21 @@
     }
   },
   {
+    "task_id": 80,
+    "ts": 498,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "window_detected_doc_stale",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $50. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 50
+    }
+  },
+  {
     "task_id": 81,
-    "ts": 531,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "window_detected_doc_stale",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $55. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 55
-    }
-  },
-  {
-    "task_id": 82,
-    "ts": 451,
-    "policy_id": "exception_approval",
-    "position_slice": "window_detected_doc_stale",
-    "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
-    "task_params": {
-      "approver": "supervisor"
-    }
-  },
-  {
-    "task_id": 83,
-    "ts": 494,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "window_detected_doc_stale",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $57. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 57
-    }
-  },
-  {
-    "task_id": 84,
-    "ts": 473,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "window_detected_doc_stale",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $91. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 91
-    }
-  },
-  {
-    "task_id": 85,
-    "ts": 500,
+    "ts": 459,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
@@ -1118,8 +1066,47 @@
     }
   },
   {
-    "task_id": 86,
-    "ts": 546,
+    "task_id": 82,
+    "ts": 521,
+    "policy_id": "exception_approval",
+    "position_slice": "window_detected_doc_stale",
+    "doc_status_slice": "lagged",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
+    "task_params": {
+      "approver": "manager"
+    }
+  },
+  {
+    "task_id": 83,
+    "ts": 457,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "window_detected_doc_stale",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $99. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 99
+    }
+  },
+  {
+    "task_id": 84,
+    "ts": 452,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "window_detected_doc_stale",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $89. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 89
+    }
+  },
+  {
+    "task_id": 85,
+    "ts": 549,
     "policy_id": "exception_approval",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
@@ -1131,21 +1118,34 @@
     }
   },
   {
-    "task_id": 87,
-    "ts": 487,
-    "policy_id": "shipping_upgrade",
+    "task_id": 86,
+    "ts": 475,
+    "policy_id": "exception_approval",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $54. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
     "task_params": {
-      "cart_total": 54
+      "approver": "manager"
+    }
+  },
+  {
+    "task_id": 87,
+    "ts": 524,
+    "policy_id": "exception_approval",
+    "position_slice": "window_detected_doc_stale",
+    "doc_status_slice": "lagged",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
+    "task_params": {
+      "approver": "manager"
     }
   },
   {
     "task_id": 88,
-    "ts": 521,
+    "ts": 476,
     "policy_id": "exception_approval",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
@@ -1158,7 +1158,7 @@
   },
   {
     "task_id": 89,
-    "ts": 485,
+    "ts": 456,
     "policy_id": "exception_approval",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
@@ -1171,20 +1171,20 @@
   },
   {
     "task_id": 90,
-    "ts": 548,
+    "ts": 453,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $88. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $95. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 88
+      "cart_total": 95
     }
   },
   {
     "task_id": 91,
-    "ts": 488,
+    "ts": 431,
     "policy_id": "exception_approval",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
@@ -1197,110 +1197,214 @@
   },
   {
     "task_id": 92,
-    "ts": 490,
-    "policy_id": "exception_approval",
+    "ts": 510,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
+    "user_msg": "My cart is $99. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "manager"
+      "cart_total": 99
     }
   },
   {
     "task_id": 93,
-    "ts": 469,
+    "ts": 534,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $70. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $61. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 70
+      "cart_total": 61
     }
   },
   {
     "task_id": 94,
-    "ts": 464,
+    "ts": 481,
     "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $91. Do I get free upgraded shipping?",
+    "user_msg": "My cart is $65. Do I get free upgraded shipping?",
     "correct_action": "deny_upgrade",
     "stale_action": "upgrade_shipping",
     "task_params": {
-      "cart_total": 91
+      "cart_total": 65
     }
   },
   {
     "task_id": 95,
-    "ts": 506,
-    "policy_id": "exception_approval",
+    "ts": 511,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
+    "user_msg": "My cart is $72. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "supervisor"
+      "cart_total": 72
     }
   },
   {
     "task_id": 96,
-    "ts": 469,
-    "policy_id": "shipping_upgrade",
+    "ts": 503,
+    "policy_id": "exception_approval",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "My cart is $79. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
     "task_params": {
-      "cart_total": 79
+      "approver": "manager"
     }
   },
   {
     "task_id": 97,
-    "ts": 453,
-    "policy_id": "exception_approval",
+    "ts": 525,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
+    "user_msg": "My cart is $78. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "manager"
+      "cart_total": 78
     }
   },
   {
     "task_id": 98,
-    "ts": 471,
-    "policy_id": "exception_approval",
+    "ts": 498,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
+    "user_msg": "My cart is $59. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "supervisor"
+      "cart_total": 59
     }
   },
   {
     "task_id": 99,
-    "ts": 469,
-    "policy_id": "exception_approval",
+    "ts": 451,
+    "policy_id": "shipping_upgrade",
     "position_slice": "window_detected_doc_stale",
     "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
+    "user_msg": "My cart is $89. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "approver": "manager"
+      "cart_total": 89
     }
   },
   {
     "task_id": 100,
+    "ts": 700,
+    "policy_id": "exchange_eligibility",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the receipt.",
+    "correct_action": "deny_exchange",
+    "stale_action": "approve_exchange",
+    "task_params": {
+      "has_item": "receipt"
+    }
+  },
+  {
+    "task_id": 101,
+    "ts": 700,
+    "policy_id": "exchange_eligibility",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the receipt.",
+    "correct_action": "deny_exchange",
+    "stale_action": "approve_exchange",
+    "task_params": {
+      "has_item": "receipt"
+    }
+  },
+  {
+    "task_id": 102,
+    "ts": 700,
+    "policy_id": "refund_window",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 25 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "approve_refund",
+    "task_params": {
+      "days_since_purchase": 25
+    }
+  },
+  {
+    "task_id": 103,
+    "ts": 700,
+    "policy_id": "price_match_cap",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $51. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 51
+    }
+  },
+  {
+    "task_id": 104,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $73. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 73
+    }
+  },
+  {
+    "task_id": 105,
+    "ts": 700,
+    "policy_id": "refund_window",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 25 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "approve_refund",
+    "task_params": {
+      "days_since_purchase": 25
+    }
+  },
+  {
+    "task_id": 106,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $89. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 89
+    }
+  },
+  {
+    "task_id": 107,
+    "ts": 700,
+    "policy_id": "loyalty_discount",
+    "position_slice": "post-detection",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a gold member, what discount do I get?",
+    "correct_action": "apply_15_percent",
+    "stale_action": "apply_10_percent",
+    "task_params": {
+      "tier": "gold"
+    }
+  },
+  {
+    "task_id": 108,
     "ts": 700,
     "policy_id": "loyalty_discount",
     "position_slice": "post-detection",
@@ -1313,120 +1417,16 @@
     }
   },
   {
-    "task_id": 101,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "gold"
-    }
-  },
-  {
-    "task_id": 102,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "gold"
-    }
-  },
-  {
-    "task_id": 103,
-    "ts": 700,
-    "policy_id": "refund_window",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 23 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
-    "task_params": {
-      "days_since_purchase": 23
-    }
-  },
-  {
-    "task_id": 104,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the receipt.",
-    "correct_action": "deny_exchange",
-    "stale_action": "approve_exchange",
-    "task_params": {
-      "has_item": "receipt"
-    }
-  },
-  {
-    "task_id": 105,
-    "ts": 700,
-    "policy_id": "exception_approval",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
-    "task_params": {
-      "approver": "manager"
-    }
-  },
-  {
-    "task_id": 106,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "gold"
-    }
-  },
-  {
-    "task_id": 107,
-    "ts": 700,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $88. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 88
-    }
-  },
-  {
-    "task_id": 108,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "gold"
-    }
-  },
-  {
     "task_id": 109,
     "ts": 700,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "price_match_cap",
     "position_slice": "post-detection",
     "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the receipt.",
-    "correct_action": "deny_exchange",
-    "stale_action": "approve_exchange",
+    "user_msg": "Found it cheaper elsewhere, difference is $77. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
     "task_params": {
-      "has_item": "receipt"
+      "amount": 77
     }
   },
   {
@@ -1445,31 +1445,18 @@
   {
     "task_id": 111,
     "ts": 700,
-    "policy_id": "refund_window",
+    "policy_id": "loyalty_discount",
     "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 27 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a gold member, what discount do I get?",
+    "correct_action": "apply_15_percent",
+    "stale_action": "apply_10_percent",
     "task_params": {
-      "days_since_purchase": 27
+      "tier": "gold"
     }
   },
   {
     "task_id": 112,
-    "ts": 700,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $54. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 54
-    }
-  },
-  {
-    "task_id": 113,
     "ts": 700,
     "policy_id": "refund_window",
     "position_slice": "post-detection",
@@ -1482,55 +1469,68 @@
     }
   },
   {
+    "task_id": 113,
+    "ts": 700,
+    "policy_id": "price_match_cap",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $64. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 64
+    }
+  },
+  {
     "task_id": 114,
     "ts": 700,
     "policy_id": "price_match_cap",
     "position_slice": "post-detection",
     "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $93. Can you match?",
+    "user_msg": "Found it cheaper elsewhere, difference is $86. Can you match?",
     "correct_action": "approve_match",
     "stale_action": "deny_match",
     "task_params": {
-      "amount": 93
+      "amount": 86
     }
   },
   {
     "task_id": 115,
     "ts": 700,
-    "policy_id": "exception_approval",
+    "policy_id": "loyalty_discount",
     "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a platinum member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_15_percent",
     "task_params": {
-      "approver": "supervisor"
+      "tier": "platinum"
     }
   },
   {
     "task_id": 116,
     "ts": 700,
-    "policy_id": "shipping_upgrade",
+    "policy_id": "exchange_eligibility",
     "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $91. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the receipt.",
+    "correct_action": "deny_exchange",
+    "stale_action": "approve_exchange",
     "task_params": {
-      "cart_total": 91
+      "has_item": "receipt"
     }
   },
   {
     "task_id": 117,
     "ts": 700,
-    "policy_id": "refund_window",
+    "policy_id": "exception_approval",
     "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 30 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
+    "doc_status_slice": "lagged",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
     "task_params": {
-      "days_since_purchase": 30
+      "approver": "manager"
     }
   },
   {
@@ -1549,6 +1549,32 @@
   {
     "task_id": 119,
     "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $54. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 54
+    }
+  },
+  {
+    "task_id": 120,
+    "ts": 700,
+    "policy_id": "price_match_cap",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $65. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 65
+    }
+  },
+  {
+    "task_id": 121,
+    "ts": 700,
     "policy_id": "exception_approval",
     "position_slice": "post-detection",
     "doc_status_slice": "lagged",
@@ -1560,59 +1586,20 @@
     }
   },
   {
-    "task_id": 120,
-    "ts": 700,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $60. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 60
-    }
-  },
-  {
-    "task_id": 121,
-    "ts": 700,
-    "policy_id": "exception_approval",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
-    "task_params": {
-      "approver": "manager"
-    }
-  },
-  {
     "task_id": 122,
     "ts": 700,
-    "policy_id": "loyalty_discount",
+    "policy_id": "price_match_cap",
     "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $98. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
     "task_params": {
-      "tier": "gold"
+      "amount": 98
     }
   },
   {
     "task_id": 123,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a platinum member, what discount do I get?",
-    "correct_action": "apply_10_percent",
-    "stale_action": "apply_15_percent",
-    "task_params": {
-      "tier": "platinum"
-    }
-  },
-  {
-    "task_id": 124,
     "ts": 700,
     "policy_id": "refund_window",
     "position_slice": "post-detection",
@@ -1625,176 +1612,46 @@
     }
   },
   {
+    "task_id": 124,
+    "ts": 700,
+    "policy_id": "exception_approval",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
+    "task_params": {
+      "approver": "manager"
+    }
+  },
+  {
     "task_id": 125,
     "ts": 700,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "shipping_upgrade",
     "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $51. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "has_item": "tags"
+      "cart_total": 51
     }
   },
   {
     "task_id": 126,
     "ts": 700,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "price_match_cap",
     "position_slice": "post-detection",
     "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
+    "user_msg": "Found it cheaper elsewhere, difference is $58. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
     "task_params": {
-      "has_item": "tags"
+      "amount": 58
     }
   },
   {
     "task_id": 127,
-    "ts": 700,
-    "policy_id": "exception_approval",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
-    "task_params": {
-      "approver": "manager"
-    }
-  },
-  {
-    "task_id": 128,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 129,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 130,
-    "ts": 700,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $61. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 61
-    }
-  },
-  {
-    "task_id": 131,
-    "ts": 700,
-    "policy_id": "shipping_upgrade",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "My cart is $52. Do I get free upgraded shipping?",
-    "correct_action": "deny_upgrade",
-    "stale_action": "upgrade_shipping",
-    "task_params": {
-      "cart_total": 52
-    }
-  },
-  {
-    "task_id": 132,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a platinum member, what discount do I get?",
-    "correct_action": "apply_10_percent",
-    "stale_action": "apply_15_percent",
-    "task_params": {
-      "tier": "platinum"
-    }
-  },
-  {
-    "task_id": 133,
-    "ts": 700,
-    "policy_id": "exception_approval",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
-    "task_params": {
-      "approver": "manager"
-    }
-  },
-  {
-    "task_id": 134,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the receipt.",
-    "correct_action": "deny_exchange",
-    "stale_action": "approve_exchange",
-    "task_params": {
-      "has_item": "receipt"
-    }
-  },
-  {
-    "task_id": 135,
-    "ts": 700,
-    "policy_id": "exception_approval",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
-    "task_params": {
-      "approver": "manager"
-    }
-  },
-  {
-    "task_id": 136,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "gold"
-    }
-  },
-  {
-    "task_id": 137,
-    "ts": 700,
-    "policy_id": "price_match_cap",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $87. Can you match?",
-    "correct_action": "approve_match",
-    "stale_action": "deny_match",
-    "task_params": {
-      "amount": 87
-    }
-  },
-  {
-    "task_id": 138,
     "ts": 700,
     "policy_id": "price_match_cap",
     "position_slice": "post-detection",
@@ -1807,7 +1664,111 @@
     }
   },
   {
-    "task_id": 139,
+    "task_id": 128,
+    "ts": 700,
+    "policy_id": "loyalty_discount",
+    "position_slice": "post-detection",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a platinum member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_15_percent",
+    "task_params": {
+      "tier": "platinum"
+    }
+  },
+  {
+    "task_id": 129,
+    "ts": 700,
+    "policy_id": "exception_approval",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "The supervisor approved my exception. Please process it.",
+    "correct_action": "approve_exception",
+    "stale_action": "deny_exception",
+    "task_params": {
+      "approver": "supervisor"
+    }
+  },
+  {
+    "task_id": 130,
+    "ts": 700,
+    "policy_id": "loyalty_discount",
+    "position_slice": "post-detection",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a gold member, what discount do I get?",
+    "correct_action": "apply_15_percent",
+    "stale_action": "apply_10_percent",
+    "task_params": {
+      "tier": "gold"
+    }
+  },
+  {
+    "task_id": 131,
+    "ts": 700,
+    "policy_id": "price_match_cap",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $54. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 54
+    }
+  },
+  {
+    "task_id": 132,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $66. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 66
+    }
+  },
+  {
+    "task_id": 133,
+    "ts": 700,
+    "policy_id": "price_match_cap",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $66. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 66
+    }
+  },
+  {
+    "task_id": 134,
+    "ts": 700,
+    "policy_id": "refund_window",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 25 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "approve_refund",
+    "task_params": {
+      "days_since_purchase": 25
+    }
+  },
+  {
+    "task_id": 135,
+    "ts": 700,
+    "policy_id": "refund_window",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 22 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "approve_refund",
+    "task_params": {
+      "days_since_purchase": 22
+    }
+  },
+  {
+    "task_id": 136,
     "ts": 700,
     "policy_id": "exception_approval",
     "position_slice": "post-detection",
@@ -1820,111 +1781,7 @@
     }
   },
   {
-    "task_id": 140,
-    "ts": 700,
-    "policy_id": "refund_window",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 17 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
-    "task_params": {
-      "days_since_purchase": 17
-    }
-  },
-  {
-    "task_id": 141,
-    "ts": 700,
-    "policy_id": "exception_approval",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
-    "task_params": {
-      "approver": "supervisor"
-    }
-  },
-  {
-    "task_id": 142,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 143,
-    "ts": 700,
-    "policy_id": "exception_approval",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
-    "task_params": {
-      "approver": "supervisor"
-    }
-  },
-  {
-    "task_id": 144,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 145,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 146,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 147,
-    "ts": 700,
-    "policy_id": "price_match_cap",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $90. Can you match?",
-    "correct_action": "approve_match",
-    "stale_action": "deny_match",
-    "task_params": {
-      "amount": 90
-    }
-  },
-  {
-    "task_id": 148,
+    "task_id": 137,
     "ts": 700,
     "policy_id": "loyalty_discount",
     "position_slice": "post-detection",
@@ -1937,59 +1794,7 @@
     }
   },
   {
-    "task_id": 149,
-    "ts": 700,
-    "policy_id": "refund_window",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 24 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
-    "task_params": {
-      "days_since_purchase": 24
-    }
-  },
-  {
-    "task_id": 150,
-    "ts": 700,
-    "policy_id": "price_match_cap",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $77. Can you match?",
-    "correct_action": "approve_match",
-    "stale_action": "deny_match",
-    "task_params": {
-      "amount": 77
-    }
-  },
-  {
-    "task_id": 151,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a platinum member, what discount do I get?",
-    "correct_action": "apply_10_percent",
-    "stale_action": "apply_15_percent",
-    "task_params": {
-      "tier": "platinum"
-    }
-  },
-  {
-    "task_id": 152,
-    "ts": 700,
-    "policy_id": "refund_window",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 27 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
-    "task_params": {
-      "days_since_purchase": 27
-    }
-  },
-  {
-    "task_id": 153,
+    "task_id": 138,
     "ts": 700,
     "policy_id": "exchange_eligibility",
     "position_slice": "post-detection",
@@ -2002,59 +1807,20 @@
     }
   },
   {
-    "task_id": 154,
+    "task_id": 139,
     "ts": 700,
     "policy_id": "loyalty_discount",
     "position_slice": "post-detection",
     "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
+    "user_msg": "I am a platinum member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_15_percent",
     "task_params": {
-      "tier": "gold"
+      "tier": "platinum"
     }
   },
   {
-    "task_id": 155,
-    "ts": 700,
-    "policy_id": "price_match_cap",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $52. Can you match?",
-    "correct_action": "approve_match",
-    "stale_action": "deny_match",
-    "task_params": {
-      "amount": 52
-    }
-  },
-  {
-    "task_id": 156,
-    "ts": 700,
-    "policy_id": "refund_window",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 19 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
-    "task_params": {
-      "days_since_purchase": 19
-    }
-  },
-  {
-    "task_id": 157,
-    "ts": 700,
-    "policy_id": "loyalty_discount",
-    "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
-    "task_params": {
-      "tier": "gold"
-    }
-  },
-  {
-    "task_id": 158,
+    "task_id": 140,
     "ts": 700,
     "policy_id": "exception_approval",
     "position_slice": "post-detection",
@@ -2067,16 +1833,250 @@
     }
   },
   {
+    "task_id": 141,
+    "ts": 700,
+    "policy_id": "exchange_eligibility",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the tags.",
+    "correct_action": "approve_exchange",
+    "stale_action": "deny_exchange",
+    "task_params": {
+      "has_item": "tags"
+    }
+  },
+  {
+    "task_id": 142,
+    "ts": 700,
+    "policy_id": "loyalty_discount",
+    "position_slice": "post-detection",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a platinum member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_15_percent",
+    "task_params": {
+      "tier": "platinum"
+    }
+  },
+  {
+    "task_id": 143,
+    "ts": 700,
+    "policy_id": "loyalty_discount",
+    "position_slice": "post-detection",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a platinum member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_15_percent",
+    "task_params": {
+      "tier": "platinum"
+    }
+  },
+  {
+    "task_id": 144,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $88. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 88
+    }
+  },
+  {
+    "task_id": 145,
+    "ts": 700,
+    "policy_id": "exception_approval",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "The supervisor approved my exception. Please process it.",
+    "correct_action": "approve_exception",
+    "stale_action": "deny_exception",
+    "task_params": {
+      "approver": "supervisor"
+    }
+  },
+  {
+    "task_id": 146,
+    "ts": 700,
+    "policy_id": "refund_window",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 24 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "approve_refund",
+    "task_params": {
+      "days_since_purchase": 24
+    }
+  },
+  {
+    "task_id": 147,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $51. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 51
+    }
+  },
+  {
+    "task_id": 148,
+    "ts": 700,
+    "policy_id": "price_match_cap",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $96. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 96
+    }
+  },
+  {
+    "task_id": 149,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $77. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 77
+    }
+  },
+  {
+    "task_id": 150,
+    "ts": 700,
+    "policy_id": "loyalty_discount",
+    "position_slice": "post-detection",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a platinum member, what discount do I get?",
+    "correct_action": "apply_10_percent",
+    "stale_action": "apply_15_percent",
+    "task_params": {
+      "tier": "platinum"
+    }
+  },
+  {
+    "task_id": 151,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $87. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 87
+    }
+  },
+  {
+    "task_id": 152,
+    "ts": 700,
+    "policy_id": "loyalty_discount",
+    "position_slice": "post-detection",
+    "doc_status_slice": "rollback",
+    "user_msg": "I am a gold member, what discount do I get?",
+    "correct_action": "apply_15_percent",
+    "stale_action": "apply_10_percent",
+    "task_params": {
+      "tier": "gold"
+    }
+  },
+  {
+    "task_id": 153,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $55. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 55
+    }
+  },
+  {
+    "task_id": 154,
+    "ts": 700,
+    "policy_id": "price_match_cap",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $94. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 94
+    }
+  },
+  {
+    "task_id": 155,
+    "ts": 700,
+    "policy_id": "exception_approval",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "The manager approved my exception. Please process it.",
+    "correct_action": "deny_exception",
+    "stale_action": "approve_exception",
+    "task_params": {
+      "approver": "manager"
+    }
+  },
+  {
+    "task_id": 156,
+    "ts": 700,
+    "policy_id": "exception_approval",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "The supervisor approved my exception. Please process it.",
+    "correct_action": "approve_exception",
+    "stale_action": "deny_exception",
+    "task_params": {
+      "approver": "supervisor"
+    }
+  },
+  {
+    "task_id": 157,
+    "ts": 700,
+    "policy_id": "refund_window",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 22 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "approve_refund",
+    "task_params": {
+      "days_since_purchase": 22
+    }
+  },
+  {
+    "task_id": 158,
+    "ts": 700,
+    "policy_id": "price_match_cap",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $51. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
+    "task_params": {
+      "amount": 51
+    }
+  },
+  {
     "task_id": 159,
     "ts": 700,
     "policy_id": "price_match_cap",
     "position_slice": "post-detection",
     "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $54. Can you match?",
+    "user_msg": "Found it cheaper elsewhere, difference is $61. Can you match?",
     "correct_action": "approve_match",
     "stale_action": "deny_match",
     "task_params": {
-      "amount": 54
+      "amount": 61
     }
   },
   {
@@ -2095,57 +2095,31 @@
   {
     "task_id": 161,
     "ts": 700,
-    "policy_id": "loyalty_discount",
+    "policy_id": "price_match_cap",
     "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a gold member, what discount do I get?",
-    "correct_action": "apply_15_percent",
-    "stale_action": "apply_10_percent",
+    "doc_status_slice": "documented",
+    "user_msg": "Found it cheaper elsewhere, difference is $60. Can you match?",
+    "correct_action": "approve_match",
+    "stale_action": "deny_match",
     "task_params": {
-      "tier": "gold"
+      "amount": 60
     }
   },
   {
     "task_id": 162,
     "ts": 700,
-    "policy_id": "loyalty_discount",
+    "policy_id": "exchange_eligibility",
     "position_slice": "post-detection",
-    "doc_status_slice": "rollback",
-    "user_msg": "I am a platinum member, what discount do I get?",
-    "correct_action": "apply_10_percent",
-    "stale_action": "apply_15_percent",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the receipt.",
+    "correct_action": "deny_exchange",
+    "stale_action": "approve_exchange",
     "task_params": {
-      "tier": "platinum"
+      "has_item": "receipt"
     }
   },
   {
     "task_id": 163,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 164,
-    "ts": 700,
-    "policy_id": "exchange_eligibility",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the tags.",
-    "correct_action": "approve_exchange",
-    "stale_action": "deny_exchange",
-    "task_params": {
-      "has_item": "tags"
-    }
-  },
-  {
-    "task_id": 165,
     "ts": 700,
     "policy_id": "loyalty_discount",
     "position_slice": "post-detection",
@@ -2155,6 +2129,32 @@
     "stale_action": "apply_10_percent",
     "task_params": {
       "tier": "gold"
+    }
+  },
+  {
+    "task_id": 164,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $92. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 92
+    }
+  },
+  {
+    "task_id": 165,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $86. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 86
     }
   },
   {
@@ -2163,50 +2163,50 @@
     "policy_id": "price_match_cap",
     "position_slice": "post-detection",
     "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $64. Can you match?",
+    "user_msg": "Found it cheaper elsewhere, difference is $77. Can you match?",
     "correct_action": "approve_match",
     "stale_action": "deny_match",
     "task_params": {
-      "amount": 64
+      "amount": 77
     }
   },
   {
     "task_id": 167,
     "ts": 700,
-    "policy_id": "price_match_cap",
+    "policy_id": "exchange_eligibility",
     "position_slice": "post-detection",
     "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $68. Can you match?",
-    "correct_action": "approve_match",
-    "stale_action": "deny_match",
+    "user_msg": "I want to exchange this, I only have the receipt.",
+    "correct_action": "deny_exchange",
+    "stale_action": "approve_exchange",
     "task_params": {
-      "amount": 68
+      "has_item": "receipt"
     }
   },
   {
     "task_id": 168,
     "ts": 700,
-    "policy_id": "refund_window",
+    "policy_id": "exception_approval",
     "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 23 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
+    "doc_status_slice": "lagged",
+    "user_msg": "The supervisor approved my exception. Please process it.",
+    "correct_action": "approve_exception",
+    "stale_action": "deny_exception",
     "task_params": {
-      "days_since_purchase": 23
+      "approver": "supervisor"
     }
   },
   {
     "task_id": 169,
     "ts": 700,
-    "policy_id": "refund_window",
+    "policy_id": "exchange_eligibility",
     "position_slice": "post-detection",
     "doc_status_slice": "documented",
-    "user_msg": "I bought this 16 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
+    "user_msg": "I want to exchange this, I only have the receipt.",
+    "correct_action": "deny_exchange",
+    "stale_action": "approve_exchange",
     "task_params": {
-      "days_since_purchase": 16
+      "has_item": "receipt"
     }
   },
   {
@@ -2225,14 +2225,14 @@
   {
     "task_id": 171,
     "ts": 700,
-    "policy_id": "exception_approval",
+    "policy_id": "refund_window",
     "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The manager approved my exception. Please process it.",
-    "correct_action": "deny_exception",
-    "stale_action": "approve_exception",
+    "doc_status_slice": "documented",
+    "user_msg": "I bought this 23 days ago. Can I get a refund?",
+    "correct_action": "deny_refund",
+    "stale_action": "approve_refund",
     "task_params": {
-      "approver": "manager"
+      "days_since_purchase": 23
     }
   },
   {
@@ -2251,70 +2251,18 @@
   {
     "task_id": 173,
     "ts": 700,
-    "policy_id": "exchange_eligibility",
+    "policy_id": "shipping_upgrade",
     "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I want to exchange this, I only have the receipt.",
-    "correct_action": "deny_exchange",
-    "stale_action": "approve_exchange",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $54. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
     "task_params": {
-      "has_item": "receipt"
+      "cart_total": 54
     }
   },
   {
     "task_id": 174,
-    "ts": 700,
-    "policy_id": "refund_window",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "I bought this 20 days ago. Can I get a refund?",
-    "correct_action": "deny_refund",
-    "stale_action": "approve_refund",
-    "task_params": {
-      "days_since_purchase": 20
-    }
-  },
-  {
-    "task_id": 175,
-    "ts": 700,
-    "policy_id": "exception_approval",
-    "position_slice": "post-detection",
-    "doc_status_slice": "lagged",
-    "user_msg": "The supervisor approved my exception. Please process it.",
-    "correct_action": "approve_exception",
-    "stale_action": "deny_exception",
-    "task_params": {
-      "approver": "supervisor"
-    }
-  },
-  {
-    "task_id": 176,
-    "ts": 700,
-    "policy_id": "price_match_cap",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $94. Can you match?",
-    "correct_action": "approve_match",
-    "stale_action": "deny_match",
-    "task_params": {
-      "amount": 94
-    }
-  },
-  {
-    "task_id": 177,
-    "ts": 700,
-    "policy_id": "price_match_cap",
-    "position_slice": "post-detection",
-    "doc_status_slice": "documented",
-    "user_msg": "Found it cheaper elsewhere, difference is $83. Can you match?",
-    "correct_action": "approve_match",
-    "stale_action": "deny_match",
-    "task_params": {
-      "amount": 83
-    }
-  },
-  {
-    "task_id": 178,
     "ts": 700,
     "policy_id": "exception_approval",
     "position_slice": "post-detection",
@@ -2327,7 +2275,7 @@
     }
   },
   {
-    "task_id": 179,
+    "task_id": 175,
     "ts": 700,
     "policy_id": "loyalty_discount",
     "position_slice": "post-detection",
@@ -2340,21 +2288,73 @@
     }
   },
   {
+    "task_id": 176,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $85. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 85
+    }
+  },
+  {
+    "task_id": 177,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $69. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 69
+    }
+  },
+  {
+    "task_id": 178,
+    "ts": 700,
+    "policy_id": "shipping_upgrade",
+    "position_slice": "post-detection",
+    "doc_status_slice": "lagged",
+    "user_msg": "My cart is $59. Do I get free upgraded shipping?",
+    "correct_action": "deny_upgrade",
+    "stale_action": "upgrade_shipping",
+    "task_params": {
+      "cart_total": 59
+    }
+  },
+  {
+    "task_id": 179,
+    "ts": 700,
+    "policy_id": "exchange_eligibility",
+    "position_slice": "post-detection",
+    "doc_status_slice": "documented",
+    "user_msg": "I want to exchange this, I only have the receipt.",
+    "correct_action": "deny_exchange",
+    "stale_action": "approve_exchange",
+    "task_params": {
+      "has_item": "receipt"
+    }
+  },
+  {
     "task_id": 180,
-    "ts": 198,
-    "policy_id": "cancellation_fee",
+    "ts": 740,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 12 hours notice.",
-    "correct_action": "charge_fee",
-    "stale_action": "charge_fee",
+    "user_msg": "This gift card was issued 3 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
     "task_params": {
-      "hours_notice": 12
+      "years_since_issue": 3
     }
   },
   {
     "task_id": 181,
-    "ts": 176,
+    "ts": 156,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2367,7 +2367,7 @@
   },
   {
     "task_id": 182,
-    "ts": 364,
+    "ts": 120,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2380,20 +2380,20 @@
   },
   {
     "task_id": 183,
-    "ts": 410,
-    "policy_id": "cancellation_fee",
+    "ts": 397,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "This gift card was issued 9 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
     "task_params": {
-      "hours_notice": 48
+      "years_since_issue": 9
     }
   },
   {
     "task_id": 184,
-    "ts": 133,
+    "ts": 602,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2406,20 +2406,20 @@
   },
   {
     "task_id": 185,
-    "ts": 182,
-    "policy_id": "cancellation_fee",
+    "ts": 653,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 12 hours notice.",
-    "correct_action": "charge_fee",
-    "stale_action": "charge_fee",
+    "user_msg": "This gift card was issued 6 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
     "task_params": {
-      "hours_notice": 12
+      "years_since_issue": 6
     }
   },
   {
     "task_id": 186,
-    "ts": 652,
+    "ts": 429,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2432,33 +2432,72 @@
   },
   {
     "task_id": 187,
-    "ts": 141,
-    "policy_id": "cancellation_fee",
+    "ts": 467,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "This gift card was issued 3 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
     "task_params": {
-      "hours_notice": 48
+      "years_since_issue": 3
     }
   },
   {
     "task_id": 188,
-    "ts": 208,
-    "policy_id": "cancellation_fee",
+    "ts": 539,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 24 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "This gift card was issued 7 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
     "task_params": {
-      "hours_notice": 24
+      "years_since_issue": 7
     }
   },
   {
     "task_id": 189,
-    "ts": 674,
+    "ts": 495,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 6 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
+    "task_params": {
+      "years_since_issue": 6
+    }
+  },
+  {
+    "task_id": 190,
+    "ts": 276,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
+    "task_params": {
+      "hours_notice": 12
+    }
+  },
+  {
+    "task_id": 191,
+    "ts": 434,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 6 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
+    "task_params": {
+      "years_since_issue": 6
+    }
+  },
+  {
+    "task_id": 192,
+    "ts": 110,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2470,60 +2509,8 @@
     }
   },
   {
-    "task_id": 190,
-    "ts": 237,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 4 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 4
-    }
-  },
-  {
-    "task_id": 191,
-    "ts": 673,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 5 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 5
-    }
-  },
-  {
-    "task_id": 192,
-    "ts": 626,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 48
-    }
-  },
-  {
     "task_id": 193,
-    "ts": 497,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 48
-    }
-  },
-  {
-    "task_id": 194,
-    "ts": 248,
+    "ts": 737,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2535,34 +2522,47 @@
     }
   },
   {
-    "task_id": 195,
-    "ts": 609,
+    "task_id": 194,
+    "ts": 149,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 24 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
     "task_params": {
-      "hours_notice": 24
+      "hours_notice": 12
+    }
+  },
+  {
+    "task_id": 195,
+    "ts": 204,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
+    "task_params": {
+      "hours_notice": 12
     }
   },
   {
     "task_id": 196,
-    "ts": 699,
+    "ts": 597,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 24 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
     "task_params": {
-      "hours_notice": 24
+      "hours_notice": 12
     }
   },
   {
     "task_id": 197,
-    "ts": 556,
+    "ts": 722,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2575,33 +2575,33 @@
   },
   {
     "task_id": 198,
-    "ts": 592,
+    "ts": 693,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 4 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
+    "user_msg": "This gift card was issued 8 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
     "task_params": {
-      "years_since_issue": 4
+      "years_since_issue": 8
     }
   },
   {
     "task_id": 199,
-    "ts": 362,
+    "ts": 510,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 12 hours notice.",
-    "correct_action": "charge_fee",
-    "stale_action": "charge_fee",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
     "task_params": {
-      "hours_notice": 12
+      "hours_notice": 24
     }
   },
   {
     "task_id": 200,
-    "ts": 548,
+    "ts": 468,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2614,293 +2614,98 @@
   },
   {
     "task_id": 201,
-    "ts": 612,
-    "policy_id": "gift_card_expiry",
+    "ts": 746,
+    "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 5 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
     "task_params": {
-      "years_since_issue": 5
+      "hours_notice": 24
     }
   },
   {
     "task_id": 202,
-    "ts": 522,
-    "policy_id": "cancellation_fee",
+    "ts": 739,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 24 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "This gift card was issued 4 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
     "task_params": {
-      "hours_notice": 24
+      "years_since_issue": 4
     }
   },
   {
     "task_id": 203,
-    "ts": 293,
+    "ts": 537,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 4 years ago.",
+    "user_msg": "This gift card was issued 1 years ago.",
     "correct_action": "accept_card",
     "stale_action": "accept_card",
     "task_params": {
-      "years_since_issue": 4
+      "years_since_issue": 1
     }
   },
   {
     "task_id": 204,
-    "ts": 583,
-    "policy_id": "cancellation_fee",
+    "ts": 107,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 12 hours notice.",
-    "correct_action": "charge_fee",
-    "stale_action": "charge_fee",
+    "user_msg": "This gift card was issued 1 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
     "task_params": {
-      "hours_notice": 12
+      "years_since_issue": 1
     }
   },
   {
     "task_id": 205,
-    "ts": 326,
+    "ts": 299,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 1 years ago.",
+    "user_msg": "This gift card was issued 3 years ago.",
     "correct_action": "accept_card",
     "stale_action": "accept_card",
     "task_params": {
-      "years_since_issue": 1
+      "years_since_issue": 3
     }
   },
   {
     "task_id": 206,
-    "ts": 718,
+    "ts": 176,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
     "task_params": {
-      "hours_notice": 48
+      "hours_notice": 12
     }
   },
   {
     "task_id": 207,
-    "ts": 695,
-    "policy_id": "cancellation_fee",
+    "ts": 276,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "This gift card was issued 10 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
     "task_params": {
-      "hours_notice": 48
+      "years_since_issue": 10
     }
   },
   {
     "task_id": 208,
-    "ts": 124,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 24 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 24
-    }
-  },
-  {
-    "task_id": 209,
-    "ts": 614,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 24 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 24
-    }
-  },
-  {
-    "task_id": 210,
-    "ts": 188,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 24 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 24
-    }
-  },
-  {
-    "task_id": 211,
-    "ts": 735,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 12 hours notice.",
-    "correct_action": "charge_fee",
-    "stale_action": "charge_fee",
-    "task_params": {
-      "hours_notice": 12
-    }
-  },
-  {
-    "task_id": 212,
-    "ts": 207,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 12 hours notice.",
-    "correct_action": "charge_fee",
-    "stale_action": "charge_fee",
-    "task_params": {
-      "hours_notice": 12
-    }
-  },
-  {
-    "task_id": 213,
-    "ts": 227,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 6 years ago.",
-    "correct_action": "reject_card",
-    "stale_action": "reject_card",
-    "task_params": {
-      "years_since_issue": 6
-    }
-  },
-  {
-    "task_id": 214,
-    "ts": 790,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 24 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 24
-    }
-  },
-  {
-    "task_id": 215,
-    "ts": 459,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 4 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 4
-    }
-  },
-  {
-    "task_id": 216,
-    "ts": 285,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 48
-    }
-  },
-  {
-    "task_id": 217,
-    "ts": 551,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 4 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 4
-    }
-  },
-  {
-    "task_id": 218,
-    "ts": 649,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 4 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 4
-    }
-  },
-  {
-    "task_id": 219,
-    "ts": 229,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 12 hours notice.",
-    "correct_action": "charge_fee",
-    "stale_action": "charge_fee",
-    "task_params": {
-      "hours_notice": 12
-    }
-  },
-  {
-    "task_id": 220,
-    "ts": 370,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 4 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 4
-    }
-  },
-  {
-    "task_id": 221,
-    "ts": 504,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 1 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 1
-    }
-  },
-  {
-    "task_id": 222,
-    "ts": 157,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 5 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 5
-    }
-  },
-  {
-    "task_id": 223,
-    "ts": 104,
+    "ts": 268,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2912,8 +2717,34 @@
     }
   },
   {
-    "task_id": 224,
-    "ts": 616,
+    "task_id": 209,
+    "ts": 777,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
+    "task_params": {
+      "hours_notice": 12
+    }
+  },
+  {
+    "task_id": 210,
+    "ts": 179,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 6 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
+    "task_params": {
+      "years_since_issue": 6
+    }
+  },
+  {
+    "task_id": 211,
+    "ts": 702,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2925,8 +2756,177 @@
     }
   },
   {
+    "task_id": 212,
+    "ts": 746,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 5 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
+    "task_params": {
+      "years_since_issue": 5
+    }
+  },
+  {
+    "task_id": 213,
+    "ts": 334,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 24
+    }
+  },
+  {
+    "task_id": 214,
+    "ts": 601,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 48 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 48
+    }
+  },
+  {
+    "task_id": 215,
+    "ts": 567,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 24
+    }
+  },
+  {
+    "task_id": 216,
+    "ts": 189,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 24
+    }
+  },
+  {
+    "task_id": 217,
+    "ts": 130,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 24
+    }
+  },
+  {
+    "task_id": 218,
+    "ts": 434,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 48 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 48
+    }
+  },
+  {
+    "task_id": 219,
+    "ts": 526,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 48 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 48
+    }
+  },
+  {
+    "task_id": 220,
+    "ts": 722,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 5 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
+    "task_params": {
+      "years_since_issue": 5
+    }
+  },
+  {
+    "task_id": 221,
+    "ts": 474,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
+    "task_params": {
+      "hours_notice": 12
+    }
+  },
+  {
+    "task_id": 222,
+    "ts": 198,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 24
+    }
+  },
+  {
+    "task_id": 223,
+    "ts": 274,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
+    "task_params": {
+      "hours_notice": 24
+    }
+  },
+  {
+    "task_id": 224,
+    "ts": 286,
+    "policy_id": "cancellation_fee",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
+    "task_params": {
+      "hours_notice": 12
+    }
+  },
+  {
     "task_id": 225,
-    "ts": 415,
+    "ts": 800,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2939,33 +2939,20 @@
   },
   {
     "task_id": 226,
-    "ts": 536,
-    "policy_id": "gift_card_expiry",
+    "ts": 473,
+    "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 1 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
+    "user_msg": "I am cancelling with 48 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
     "task_params": {
-      "years_since_issue": 1
+      "hours_notice": 48
     }
   },
   {
     "task_id": 227,
-    "ts": 369,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 12 hours notice.",
-    "correct_action": "charge_fee",
-    "stale_action": "charge_fee",
-    "task_params": {
-      "hours_notice": 12
-    }
-  },
-  {
-    "task_id": 228,
-    "ts": 612,
+    "ts": 470,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2977,8 +2964,8 @@
     }
   },
   {
-    "task_id": 229,
-    "ts": 278,
+    "task_id": 228,
+    "ts": 660,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -2990,47 +2977,8 @@
     }
   },
   {
-    "task_id": 230,
-    "ts": 492,
-    "policy_id": "gift_card_expiry",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 3 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
-    "task_params": {
-      "years_since_issue": 3
-    }
-  },
-  {
-    "task_id": 231,
-    "ts": 379,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 48
-    }
-  },
-  {
-    "task_id": 232,
-    "ts": 795,
-    "policy_id": "cancellation_fee",
-    "position_slice": "post-detection",
-    "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
-    "task_params": {
-      "hours_notice": 48
-    }
-  },
-  {
-    "task_id": 233,
-    "ts": 313,
+    "task_id": 229,
+    "ts": 174,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
@@ -3042,73 +2990,125 @@
     }
   },
   {
-    "task_id": 234,
-    "ts": 755,
+    "task_id": 230,
+    "ts": 418,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 2 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
+    "task_params": {
+      "years_since_issue": 2
+    }
+  },
+  {
+    "task_id": 231,
+    "ts": 379,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 2 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
+    "task_params": {
+      "years_since_issue": 2
+    }
+  },
+  {
+    "task_id": 232,
+    "ts": 402,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "I am cancelling with 12 hours notice.",
+    "correct_action": "charge_fee",
+    "stale_action": "charge_fee",
     "task_params": {
-      "hours_notice": 48
+      "hours_notice": 12
+    }
+  },
+  {
+    "task_id": 233,
+    "ts": 636,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 6 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
+    "task_params": {
+      "years_since_issue": 6
+    }
+  },
+  {
+    "task_id": 234,
+    "ts": 135,
+    "policy_id": "gift_card_expiry",
+    "position_slice": "post-detection",
+    "doc_status_slice": "unchanged",
+    "user_msg": "This gift card was issued 3 years ago.",
+    "correct_action": "accept_card",
+    "stale_action": "accept_card",
+    "task_params": {
+      "years_since_issue": 3
     }
   },
   {
     "task_id": 235,
-    "ts": 468,
-    "policy_id": "gift_card_expiry",
+    "ts": 485,
+    "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 4 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
+    "user_msg": "I am cancelling with 24 hours notice.",
+    "correct_action": "waive_fee",
+    "stale_action": "waive_fee",
     "task_params": {
-      "years_since_issue": 4
+      "hours_notice": 24
     }
   },
   {
     "task_id": 236,
-    "ts": 161,
+    "ts": 184,
     "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "This gift card was issued 1 years ago.",
-    "correct_action": "accept_card",
-    "stale_action": "accept_card",
+    "user_msg": "This gift card was issued 9 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
     "task_params": {
-      "years_since_issue": 1
+      "years_since_issue": 9
     }
   },
   {
     "task_id": 237,
-    "ts": 641,
-    "policy_id": "cancellation_fee",
+    "ts": 191,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "This gift card was issued 7 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
     "task_params": {
-      "hours_notice": 48
+      "years_since_issue": 7
     }
   },
   {
     "task_id": 238,
-    "ts": 770,
-    "policy_id": "cancellation_fee",
+    "ts": 445,
+    "policy_id": "gift_card_expiry",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
-    "user_msg": "I am cancelling with 48 hours notice.",
-    "correct_action": "waive_fee",
-    "stale_action": "waive_fee",
+    "user_msg": "This gift card was issued 6 years ago.",
+    "correct_action": "reject_card",
+    "stale_action": "reject_card",
     "task_params": {
-      "hours_notice": 48
+      "years_since_issue": 6
     }
   },
   {
     "task_id": 239,
-    "ts": 765,
+    "ts": 399,
     "policy_id": "cancellation_fee",
     "position_slice": "post-detection",
     "doc_status_slice": "unchanged",
