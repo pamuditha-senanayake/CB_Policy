@@ -30,6 +30,7 @@ for cond in conditions:
             output_lines.append(f"{cond:<20} | {doc_docs:.3f}      | {doc_lag:.3f}  | {doc_roll:.3f}")
     except:
         pass
+output_lines.append("\n* Note: bitemporal_drift's 1.000 on the rollback slice occurs because the store collapsed both changes into one late detection (it skipped the perfectly-documented initial change and only detected the undocumented rollback).")
 
 output_lines.append("\n=== S2 Table: Task Position Slice (Changed Policies) ===")
 output_lines.append(f"{'Condition':<20} | Pre-Change | Win_Pre | Win_Stale | Post-Det")
