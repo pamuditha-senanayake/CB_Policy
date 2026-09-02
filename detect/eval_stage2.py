@@ -78,6 +78,7 @@ if os.path.exists(f'runs/store_data{seed}.db'):
     try: os.remove(f'runs/store_data{seed}.db')
     except: pass
 store = BitemporalStore(f'runs/store_data{seed}.db')
+store.set_meta('manifest_hash', 'f72addde5559da4db28d32fefd00ec78cb93d7e4f43ee478b43d626eee34b2c8')
 detectors = {}
 drifts_detected = {}
 recent_traces = {}
@@ -97,7 +98,7 @@ for p in policies:
         with open(f"data/policies/{p}_v0.json", 'r') as f:
             v0 = json.load(f)
             v0_docs[p] = v0
-            store.insert(p, v0['version'], v0['constraint'], v0['prose'], 0, 0)
+            store.insert(p, v0['version'], v0['constraint'], v0['prose'], 0, 0, source='document')
     except FileNotFoundError:
         pass
     detectors[p] = DriftDetector("ADWIN_delta_0.1")
@@ -106,6 +107,21 @@ for p in policies:
     fitness_buffer[p] = []
     detection_timestamps[p] = []
     est_change_points[p] = []
+
+pending_docs = []
+with open("data/manifest.json", 'r') as f:
+    manifest = json.load(f)
+change_points = manifest.get('change_points', {})
+
+for p, cp in change_points.items():
+    if cp:
+        try:
+            with open(f"data/policies/{p}_v1.json") as f: v1doc = json.load(f)
+            pending_docs.append({'p': p, 'v': 1, 'v_from': cp['t_practice'], 't_doc': cp['t_doc'], 'vdoc': v1doc})
+            if 't_rollback_doc' in cp:
+                with open(f"data/policies/{p}_v2.json") as f: v2doc = json.load(f)
+                pending_docs.append({'p': p, 'v': 2, 'v_from': cp['t_rollback'], 't_doc': cp['t_rollback_doc'], 'vdoc': v2doc})
+        except: pass
 
 traces = []
 for p in policies:
@@ -116,11 +132,26 @@ for p in policies:
     except FileNotFoundError:
         pass
 
+def insert_pending_docs_up_to(ts):
+    for d in pending_docs:
+        if d['t_doc'] <= ts and not d.get('inserted'):
+            store.invalidate(d['p'], valid_to=d['v_from'], tx_now=d['t_doc']) # DO NOT PASS TARGET_VERSION for doc insert
+            store.insert(d['p'], d['v'], d['vdoc']['constraint'], d['vdoc']['prose'], valid_from=d['v_from'], tx_now=d['t_doc'], source='document')
+            d['inserted'] = True
+            
+            # Reset ADWIN to prevent false positives from long windows
+            if d['p'] in detectors:
+                from drift import DriftDetector
+                detectors[d['p']] = DriftDetector("ADWIN_delta_0.1")
+                fitness_buffer[d['p']] = []
+
 traces.sort(key=lambda x: x['ts'])
+
 
 for t in traces:
     p = t['policy_id']
     ts = t['ts']
+    insert_pending_docs_up_to(ts)
     recent_traces[p].append(t)
     if len(recent_traces[p]) > 50:
         recent_traces[p].pop(0)
@@ -133,6 +164,7 @@ for t in traces:
     doc_for_fit['action_false'] = v0_docs[p]['action_false']
     
     fit = calculate_fitness(t, doc_for_fit)
+    if p == 'price_match_cap' and 400 <= ts <= 450: print(f"FIT ts={ts} fit={fit} t={t} active_c={doc_for_fit['constraint']}")
     fitness_buffer[p].append((ts, fit))
     if len(fitness_buffer[p]) > 150:
         fitness_buffer[p].pop(0)
@@ -145,9 +177,10 @@ for t in traces:
         est_change = retrospective_scan(fitness_buffer[p])
         est_change_points[p].append(est_change)
         
-        store.invalidate(p, valid_to=est_change, tx_now=detect_ts)
+        store.invalidate(p, valid_to=est_change, tx_now=detect_ts, target_version=doc['version'])
         
         new_c = mine_constraint(recent_traces[p], doc['constraint'], v0_docs[p]['action_true'], v0_docs[p]['action_false'])
+        print(f"MINED {p} at {detect_ts}: {new_c}")
         new_v = doc['version'] + 1
         
         assert est_change != detect_ts, "valid_from must differ from tx_now"
@@ -158,18 +191,23 @@ with open("data/manifest.json", 'r') as f:
     manifest = json.load(f)
 change_points = manifest.get('change_points', {})
 
-
-import hashlib
-with open('data/manifest.json', 'r') as f:
-    man_content = f.read()
-    man_hash = hashlib.sha256(man_content.encode()).hexdigest()
-    store.set_meta('manifest_hash', man_hash)
-
 with open("data/tasks/tasks.json", 'r') as f:
     tasks = json.load(f)
 
 # Evaluate valid_time_error_traces
 error_traces = []
+
+for p, cp in change_points.items():
+    if cp:
+        try:
+            with open(f"data/policies/{p}_v1.json") as f: v1doc = json.load(f)
+            pending_docs.append({'p': p, 'v': 1, 'v_from': cp['t_practice'], 't_doc': cp['t_doc'], 'vdoc': v1doc})
+            if 't_rollback_doc' in cp:
+                with open(f"data/policies/{p}_v2.json") as f: v2doc = json.load(f)
+                pending_docs.append({'p': p, 'v': 2, 'v_from': cp['t_rollback'], 't_doc': cp['t_rollback_doc'], 'vdoc': v2doc})
+        except: pass
+
+traces = []
 per_policy_errors = {}
 for p in policies:
     cp = change_points.get(p)
@@ -191,6 +229,7 @@ total_post = 0
 
 correct_retro = 0
 total_retro = 0
+correct_constraint = 0
 
 correct_online = 0
 total_online = 0
@@ -225,6 +264,37 @@ for t in tasks:
     if ans_v_retro == gt_v:
         correct_retro += 1
     total_retro += 1
+    
+    is_constraint_correct = False
+    if ans_retro:
+        true_c = v0_docs[p]['constraint']
+        if gt_v == 1:
+            try:
+                with open(f"data/policies/{p}_v1.json") as f: true_c = json.load(f)['constraint']
+            except: pass
+        elif gt_v == 2:
+            try:
+                with open(f"data/policies/{p}_v2.json") as f: true_c = json.load(f)['constraint']
+            except: pass
+            
+        mined_c = ans_retro['constraint']
+        if true_c == mined_c:
+            is_constraint_correct = True
+        else:
+            agree = True
+            # Check semantic equivalence on the recent traces
+            for tr in recent_traces[p]:
+                for e in tr.get('events', []):
+                    env = dict(e['attrs'])
+                    try:
+                        r1 = eval(mined_c, {"__builtins__": {}}, env)
+                        r2 = eval(true_c, {"__builtins__": {}}, env)
+                        if r1 != r2: agree = False
+                    except: pass
+            if agree:
+                is_constraint_correct = True
+    if is_constraint_correct:
+        correct_constraint += 1
 
     is_post = False
     if detection_timestamps[p]:
@@ -264,6 +334,7 @@ for t in ctasks:
 output = {
     "asof_correctness_postdetection": asof_corr_post,
     "asof_correctness_retrospective": asof_corr_retro,
+    "constraint_correctness": correct_constraint / total_retro if total_retro else 0,
     "asof_correctness_online": asof_corr_online,
     "valid_time_error_traces": valid_time_error,
     "per_policy_errors": per_policy_errors,

@@ -63,6 +63,7 @@ unchanged_total = 0
 canary_flips = 0
 real_tasks_count = 0
 slices = {}
+doc_slices = {}
 
 unparseable_n = 0
 total_responses = 0
@@ -143,6 +144,16 @@ for t in tasks:
     slices[pos]['total'] += 1
     if is_correct1:
         slices[pos]['correct'] += 1
+        
+    p = t['policy_id']
+    if not t.get('is_canary') and p in manifest.get('change_points', {}) and manifest['change_points'][p]:
+        doc_pos = t.get('doc_status_slice')
+        if doc_pos:
+            if doc_pos not in doc_slices:
+                doc_slices[doc_pos] = {'correct': 0, 'total': 0}
+            doc_slices[doc_pos]['total'] += 1
+            if is_correct1:
+                doc_slices[doc_pos]['correct'] += 1
 
 unparseable_rate = unparseable_n / total_responses if total_responses else 0
 
@@ -166,6 +177,8 @@ out_data = {
 
 for pos, data in slices.items():
     out_data[f"slice_{pos}"] = data['correct'] / data['total'] if data['total'] else 0
+for pos, data in doc_slices.items():
+    out_data[f"doc_slice_{pos}"] = data['correct'] / data['total'] if data['total'] else 0
 
 assert unparseable_rate <= 0.02, f"unparseable_rate {unparseable_rate} exceeds 0.02"
 

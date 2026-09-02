@@ -1,0 +1,35 @@
+Mining loyalty_discount: est_change=309, detect_ts=319, len=11
+new_c = tier == 'platinum', old_c = tier == 'gold'
+Mining refund_window: est_change=438, detect_ts=447, len=10
+new_c = days_since_purchase <= 9, old_c = days_since_purchase <= 30
+Mining price_match_cap: est_change=425, detect_ts=447, len=23
+new_c = amount <= 92, old_c = amount <= 50
+Mining exchange_eligibility: est_change=405, detect_ts=447, len=43
+new_c = has_item == 'tags', old_c = has_item == 'receipt'
+Mining exception_approval: est_change=405, detect_ts=447, len=43
+new_c = approver == 'supervisor', old_c = approver == 'manager'
+Mining shipping_upgrade: est_change=420, detect_ts=447, len=28
+new_c = cart_total >= 118, old_c = cart_total >= 50
+Mining loyalty_discount: est_change=654, detect_ts=671, len=18
+new_c = tier == 'gold', old_c = tier == 'platinum'
+{
+  "asof_correctness_postdetection": 0.79,
+  "asof_correctness_retrospective": 0.9125,
+  "constraint_correctness": 0.9125,
+  "asof_correctness_online": 0.8291666666666667,
+  "valid_time_error_traces": 22.285714285714285,
+  "per_policy_errors": {
+    "refund_window": 38,
+    "price_match_cap": 25,
+    "exchange_eligibility": 5,
+    "exception_approval": 5,
+    "shipping_upgrade": 20,
+    "loyalty_discount": {
+      "primary": 9,
+      "rollback": 54
+    }
+  },
+  "false_invalidation_rate": 0.0,
+  "rollback_handled": true,
+  "canary_policy_still_valid": true
+}

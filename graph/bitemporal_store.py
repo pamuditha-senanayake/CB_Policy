@@ -17,7 +17,8 @@ class BitemporalStore:
                 version INTEGER,
                 constraint_text TEXT,
                 doc_text TEXT,
-                permission TEXT
+                permission TEXT,
+                source TEXT
             )
         ''')
         
@@ -29,45 +30,58 @@ class BitemporalStore:
         ''')
         self.conn.commit()
     
-    def insert(self, policy_id, version, constraint, doc_text, valid_from, tx_now, permission=""):
+    def insert(self, policy_id, version, constraint, doc_text, valid_from, tx_now, permission="", source="mined"):
         self.cursor.execute('''
             INSERT INTO policies 
-            (policy_id, valid_from, valid_to, tx_from, tx_to, version, constraint_text, doc_text, permission)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-        ''', (policy_id, valid_from, 999999999, tx_now, 999999999, version, constraint, doc_text, permission))
+            (policy_id, valid_from, valid_to, tx_from, tx_to, version, constraint_text, doc_text, permission, source)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (policy_id, valid_from, 999999999, tx_now, 999999999, version, constraint, doc_text, permission, source))
         self.conn.commit()
         
-    def invalidate(self, policy_id, valid_to, tx_now):
+    def invalidate(self, policy_id, valid_to, tx_now, target_version=None):
         self.cursor.execute('''
-            SELECT id, valid_from, version, constraint_text, doc_text, permission 
+            SELECT id, valid_from, version, constraint_text, doc_text, permission, source
             FROM policies 
             WHERE policy_id = ? AND valid_to = 999999999 AND tx_to = 999999999
         ''', (policy_id,))
-        row = self.cursor.fetchone()
-        if row:
-            old_id, v_from, ver, constr, doc, perm = row
+        rows = self.cursor.fetchall()
+        for row in rows:
+            old_id, v_from, ver, constr, d, perm, src = row
+            if target_version is not None and ver != target_version:
+                continue
             self.cursor.execute('''
                 UPDATE policies SET tx_to = ? WHERE id = ?
             ''', (tx_now, old_id))
             self.cursor.execute('''
                 INSERT INTO policies 
-                (policy_id, valid_from, valid_to, tx_from, tx_to, version, constraint_text, doc_text, permission)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', (policy_id, v_from, valid_to, tx_now, 999999999, ver, constr, doc, perm))
-            self.conn.commit()
+                (policy_id, valid_from, valid_to, tx_from, tx_to, version, constraint_text, doc_text, permission, source)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (policy_id, v_from, valid_to, tx_now, 999999999, ver, constr, d, perm, src))
+        self.conn.commit()
 
-    def as_of(self, policy_id, valid_time, tx_time):
+    def as_of(self, policy_id, valid_time, tx_time, source=None):
         with self.lock:
             cursor = self.conn.cursor()
-            cursor.execute('''
-            SELECT version, constraint_text, doc_text, permission
-            FROM policies
-            WHERE policy_id = ? 
-              AND valid_from <= ? AND valid_to > ?
-              AND tx_from <= ? AND tx_to > ?
-            ORDER BY tx_from DESC
-            LIMIT 1
-        ''', (policy_id, valid_time, valid_time, tx_time, tx_time))
+            if source:
+                cursor.execute('''
+                SELECT version, constraint_text, doc_text, permission
+                FROM policies
+                WHERE policy_id = ? AND source = ?
+                  AND valid_from <= ? AND valid_to > ?
+                  AND tx_from <= ? AND tx_to > ?
+                ORDER BY tx_from DESC
+                LIMIT 1
+                ''', (policy_id, source, valid_time, valid_time, tx_time, tx_time))
+            else:
+                cursor.execute('''
+                SELECT version, constraint_text, doc_text, permission
+                FROM policies
+                WHERE policy_id = ? 
+                  AND valid_from <= ? AND valid_to > ?
+                  AND tx_from <= ? AND tx_to > ?
+                ORDER BY tx_from DESC
+                LIMIT 1
+                ''', (policy_id, valid_time, valid_time, tx_time, tx_time))
             row = cursor.fetchone()
             if row:
                 return {'version': row[0], 'constraint': row[1], 'doc_text': row[2], 'permission': row[3]}
