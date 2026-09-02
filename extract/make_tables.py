@@ -3,16 +3,23 @@ import glob
 
 conditions = ['floor_static_v0', 'bitemporal_drift', 'oracle_expiry', 'latest_timestamp', 'plain_rag', 'full_history_brute']
 
-print("=== Main Table (Pass 1) ===")
+output_lines = []
+output_lines.append("=== Main Table (Pass 1) ===")
+output_lines.append(f"{'Condition':<20} | pass1 | chg | unch | stale")
 for cond in conditions:
     try:
         with open(f"runs/{cond}_s11.json", 'r') as f:
             data = json.load(f)
-            print(f"{cond:<20} {data['pass1']:.3f}")
+            pass1 = data.get('pass1', 0)
+            chg = data.get('changed_policy_pass1', 0)
+            unch = data.get('unchanged_pass1', 0)
+            stale = data.get('stale_action_rate', 0)
+            output_lines.append(f"{cond:<20} | {pass1:.3f} | {chg:.3f} | {unch:.3f} | {stale:.3f}")
     except:
         pass
 
-print("\n=== S1 Table: Document Status Slice (Changed Policies) ===")
+output_lines.append("\n=== S1 Table: Document Status Slice (Changed Policies, Post-Change Only) ===")
+output_lines.append(f"{'Condition':<20} | Documented | Lagged | Rollback")
 for cond in conditions:
     try:
         with open(f"runs/{cond}_s11.json", 'r') as f:
@@ -20,39 +27,49 @@ for cond in conditions:
             doc_docs = data.get('doc_slice_documented', 0)
             doc_lag = data.get('doc_slice_lagged', 0)
             doc_roll = data.get('doc_slice_rollback', 0)
-            print(f"{cond:<20} | Documented: {doc_docs:.3f} | Lagged: {doc_lag:.3f} | Rollback: {doc_roll:.3f}")
+            output_lines.append(f"{cond:<20} | {doc_docs:.3f}      | {doc_lag:.3f}  | {doc_roll:.3f}")
     except:
         pass
 
-print("\n=== S2 Table: Task Position Slice (Changed Policies) ===")
+output_lines.append("\n=== S2 Table: Task Position Slice (Changed Policies) ===")
+output_lines.append(f"{'Condition':<20} | Pre-Change | Win_Pre | Win_Stale | Post-Det")
 for cond in conditions:
     try:
         with open(f"runs/{cond}_s11.json", 'r') as f:
             data = json.load(f)
             s_pre = data.get('slice_pre-change_changed', 0)
-            s_post = data.get('slice_post-change_changed', 0)
-            s_det = data.get('slice_post-detection_changed', 0)
-            print(f"{cond:<20} | Pre-Change: {s_pre:.3f} | Post-Change: {s_post:.3f} | Post-Detection: {s_det:.3f}")
+            s_win_pre = data.get('slice_window_pre_detection_changed', 0)
+            s_win_stale = data.get('slice_window_detected_doc_stale_changed', 0)
+            s_post = data.get('slice_post-detection_changed', 0)
+            output_lines.append(f"{cond:<20} | {s_pre:.3f}      | {s_win_pre:.3f}   | {s_win_stale:.3f}     | {s_post:.3f}")
     except:
         pass
 
-print("\n=== S3 Guard Column (Unchanged Policies) ===")
+output_lines.append("\n=== S3 Guard Column (Unchanged Policies) ===")
+output_lines.append(f"{'Condition':<20} | Unchanged")
 for cond in conditions:
     try:
         with open(f"runs/{cond}_s11.json", 'r') as f:
             data = json.load(f)
             s_unch = data.get('slice_unchanged', 0)
-            print(f"{cond:<20} | Unchanged: {s_unch:.3f}")
+            output_lines.append(f"{cond:<20} | {s_unch:.3f}")
     except:
         pass
 
-print("\n=== Stage 2 Correctness Metrics (bitemporal_drift) ===")
-for i in range(6):
+output_lines.append("\n=== Stage 2 Correctness Metrics (bitemporal_drift) ===")
+# Seeds are 0, 1, 2, 3, 7, 11
+for i in [0, 1, 2, 3, 7, 11]:
     try:
         with open(f"runs/stage2_seed{i}.json", 'r') as f:
             data = json.load(f)
             asof = data.get('asof_correctness_postdetection', 0)
             constr = data.get('constraint_correctness', 0)
-            print(f"Seed {i}: asof={asof:.3f}, constr={constr:.3f}")
+            output_lines.append(f"Seed {i}: asof={asof:.3f}, constr={constr:.3f}")
     except:
         pass
+
+final_text = "\n".join(output_lines)
+print(final_text)
+with open('final_results.md', 'w') as f:
+    f.write(final_text)
+

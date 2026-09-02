@@ -147,7 +147,10 @@ for t in tasks:
         
     p = t['policy_id']
     if not t.get('is_canary') and p in manifest.get('change_points', {}) and manifest['change_points'][p]:
-        doc_pos = t.get('doc_status_slice')
+        if t.get('position_slice') != 'pre-change':
+            doc_pos = t.get('doc_status_slice')
+        else:
+            doc_pos = None
         if doc_pos:
             if doc_pos not in doc_slices:
                 doc_slices[doc_pos] = {'correct': 0, 'total': 0}

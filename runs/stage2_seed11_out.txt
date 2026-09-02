@@ -1,0 +1,69 @@
+FIT ts=400 fit=0.0 t={'trace_id': 'price_match_cap_400', 'ts': 400, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 76}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=401 fit=1.0 t={'trace_id': 'price_match_cap_401', 'ts': 401, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 28}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=402 fit=0.0 t={'trace_id': 'price_match_cap_402', 'ts': 402, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 58}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=403 fit=1.0 t={'trace_id': 'price_match_cap_403', 'ts': 403, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 61}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=404 fit=1.0 t={'trace_id': 'price_match_cap_404', 'ts': 404, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 32}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=405 fit=1.0 t={'trace_id': 'price_match_cap_405', 'ts': 405, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 10}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=406 fit=0.0 t={'trace_id': 'price_match_cap_406', 'ts': 406, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 89}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=407 fit=0.0 t={'trace_id': 'price_match_cap_407', 'ts': 407, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 87}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=408 fit=1.0 t={'trace_id': 'price_match_cap_408', 'ts': 408, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 28}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=409 fit=1.0 t={'trace_id': 'price_match_cap_409', 'ts': 409, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 98}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=410 fit=1.0 t={'trace_id': 'price_match_cap_410', 'ts': 410, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 48}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=411 fit=1.0 t={'trace_id': 'price_match_cap_411', 'ts': 411, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 112}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=412 fit=1.0 t={'trace_id': 'price_match_cap_412', 'ts': 412, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 120}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=413 fit=1.0 t={'trace_id': 'price_match_cap_413', 'ts': 413, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 11}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=414 fit=1.0 t={'trace_id': 'price_match_cap_414', 'ts': 414, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 147}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=415 fit=1.0 t={'trace_id': 'price_match_cap_415', 'ts': 415, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 21}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=416 fit=1.0 t={'trace_id': 'price_match_cap_416', 'ts': 416, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 108}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=417 fit=1.0 t={'trace_id': 'price_match_cap_417', 'ts': 417, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 150}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=418 fit=1.0 t={'trace_id': 'price_match_cap_418', 'ts': 418, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 110}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=419 fit=1.0 t={'trace_id': 'price_match_cap_419', 'ts': 419, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 107}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=420 fit=1.0 t={'trace_id': 'price_match_cap_420', 'ts': 420, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 117}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=421 fit=1.0 t={'trace_id': 'price_match_cap_421', 'ts': 421, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 101}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=422 fit=1.0 t={'trace_id': 'price_match_cap_422', 'ts': 422, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 116}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=423 fit=1.0 t={'trace_id': 'price_match_cap_423', 'ts': 423, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 22}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=424 fit=1.0 t={'trace_id': 'price_match_cap_424', 'ts': 424, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 127}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=425 fit=1.0 t={'trace_id': 'price_match_cap_425', 'ts': 425, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 64}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=426 fit=1.0 t={'trace_id': 'price_match_cap_426', 'ts': 426, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 92}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=427 fit=1.0 t={'trace_id': 'price_match_cap_427', 'ts': 427, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 46}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=428 fit=1.0 t={'trace_id': 'price_match_cap_428', 'ts': 428, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 80}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=429 fit=1.0 t={'trace_id': 'price_match_cap_429', 'ts': 429, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 38}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=430 fit=1.0 t={'trace_id': 'price_match_cap_430', 'ts': 430, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 137}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=431 fit=1.0 t={'trace_id': 'price_match_cap_431', 'ts': 431, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 66}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=432 fit=1.0 t={'trace_id': 'price_match_cap_432', 'ts': 432, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 123}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=433 fit=1.0 t={'trace_id': 'price_match_cap_433', 'ts': 433, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 102}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=434 fit=1.0 t={'trace_id': 'price_match_cap_434', 'ts': 434, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 144}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=435 fit=1.0 t={'trace_id': 'price_match_cap_435', 'ts': 435, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 134}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=436 fit=1.0 t={'trace_id': 'price_match_cap_436', 'ts': 436, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 148}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=437 fit=1.0 t={'trace_id': 'price_match_cap_437', 'ts': 437, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 87}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=438 fit=1.0 t={'trace_id': 'price_match_cap_438', 'ts': 438, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 145}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=439 fit=1.0 t={'trace_id': 'price_match_cap_439', 'ts': 439, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 116}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=440 fit=1.0 t={'trace_id': 'price_match_cap_440', 'ts': 440, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 103}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=441 fit=1.0 t={'trace_id': 'price_match_cap_441', 'ts': 441, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 123}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=442 fit=1.0 t={'trace_id': 'price_match_cap_442', 'ts': 442, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 116}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=443 fit=1.0 t={'trace_id': 'price_match_cap_443', 'ts': 443, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 73}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=444 fit=1.0 t={'trace_id': 'price_match_cap_444', 'ts': 444, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 36}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=445 fit=1.0 t={'trace_id': 'price_match_cap_445', 'ts': 445, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 105}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=446 fit=1.0 t={'trace_id': 'price_match_cap_446', 'ts': 446, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 77}, 'decision': 'approve_match'}]} active_c=amount <= 100
+FIT ts=447 fit=1.0 t={'trace_id': 'price_match_cap_447', 'ts': 447, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 59}, 'decision': 'approve_match'}]} active_c=amount <= 100
+MINED exception_approval at 447: approver == 'supervisor'
+MINED shipping_upgrade at 447: cart_total >= 94
+FIT ts=448 fit=0.0 t={'trace_id': 'price_match_cap_448', 'ts': 448, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 61}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=449 fit=1.0 t={'trace_id': 'price_match_cap_449', 'ts': 449, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 146}, 'decision': 'deny_match'}]} active_c=amount <= 100
+FIT ts=450 fit=0.0 t={'trace_id': 'price_match_cap_450', 'ts': 450, 'policy_id': 'price_match_cap', 'events': [{'attrs': {'amount': 98}, 'decision': 'deny_match'}]} active_c=amount <= 100
+MINED loyalty_discount at 683: tier == 'gold'
+{
+  "asof_correctness_postdetection": 1.0,
+  "asof_correctness_retrospective": 1.0,
+  "constraint_correctness": 1.0,
+  "asof_correctness_online": 0.9166666666666666,
+  "valid_time_error_traces": 113.33333333333333,
+  "per_policy_errors": {
+    "exception_approval": 5,
+    "shipping_upgrade": 20,
+    "loyalty_discount": 315
+  },
+  "false_invalidation_rate": 0.0,
+  "rollback_handled": false,
+  "canary_policy_still_valid": true
+}

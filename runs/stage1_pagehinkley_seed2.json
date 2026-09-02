@@ -1,9 +1,7 @@
 {
-  "detection_recall": 0.14285714285714285,
-  "false_positive_rate": 0.75,
-  "mean_delay_traces": 95.0,
-  "per_change_delays": {
-    "exception_approval": 95
-  },
+  "detection_recall": 0.0,
+  "false_positive_rate": 0.875,
+  "mean_delay_traces": 0,
+  "per_change_delays": {},
   "canary_policy_untouched": true
 }

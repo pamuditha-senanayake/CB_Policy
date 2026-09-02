@@ -25,7 +25,7 @@
   "slice_window_detected_doc_stale_changed": 0.0,
   "slice_post-detection_changed": 0.2625,
   "slice_unchanged": 1.0,
-  "doc_slice_lagged": 0.19767441860465115,
-  "doc_slice_documented": 0.40625,
-  "doc_slice_rollback": 1.0
+  "doc_slice_lagged": 0.0,
+  "doc_slice_rollback": 1.0,
+  "doc_slice_documented": 0.0
 }

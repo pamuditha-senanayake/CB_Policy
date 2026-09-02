@@ -21,7 +21,7 @@ with open('data/manifest.json', 'r') as f:
 
 assert config_seed == manifest.get('data_seed', -1), f"Seed mismatch: config has {config_seed}, manifest has {manifest.get('data_seed')}"
 
-condition = sys.argv[1]
+print('STARTING'); condition = sys.argv[1]
 run_seed = int(sys.argv[2]) if len(sys.argv) > 2 else 11
 assert run_seed in run_seeds, f"run_seed {run_seed} not in config.run_seeds"
 
@@ -68,7 +68,24 @@ adapter_path = f"agent/conditions/{condition}.py"
 
 spec = importlib.util.spec_from_file_location("condition_module", adapter_path)
 condition_module = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(condition_module)
+print('EXEC MODULE'); spec.loader.exec_module(condition_module); print('EXEC MODULE DONE')
+
+# Unit test for latest_timestamp
+if condition == 'latest_timestamp':
+    test_manifest = json.load(open('data/manifest.json'))
+    for p_id, p_info in test_manifest['change_points'].items():
+        if not p_info: continue
+        t_doc = p_info.get('t_doc')
+        if t_doc is None: continue
+        task = {'policy_id': p_id, 'ts': t_doc + 1}
+        ctx = condition_module.build_context(task, stores)
+        with open(f"data/policies/{p_id}_v0.json", 'r') as f:
+            v0 = json.load(f)['prose']
+        with open(f"data/policies/{p_id}_v1.json", 'r') as f:
+            v1 = json.load(f)['prose']
+        assert v1 in ctx or ctx.strip() == v1, f"Adapter did not return v1 for {p_id} at ts {t_doc+1}"
+        assert v0 not in ctx, f"Adapter returned v0 for {p_id} at ts {t_doc+1}"
+
 
 MODEL = "deepseek-chat"
 TEMP = 0.6

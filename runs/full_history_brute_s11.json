@@ -2,11 +2,11 @@
   "condition": "full_history_brute",
   "data_seed": 0,
   "run_seed": 11,
-  "pass1": 0.8208333333333333,
+  "pass1": 0.8083333333333333,
   "pass4": 0.7916666666666666,
   "stale_action_rate": 0.30625,
   "stale_action_eligible_n": 480,
-  "changed_policy_pass1": 0.7611111111111111,
+  "changed_policy_pass1": 0.7444444444444445,
   "unchanged_pass1": 1.0,
   "tokens_per_task": 4901.483333333334,
   "unparseable_n": 0,
@@ -23,9 +23,9 @@
   "slice_pre-change_changed": 0.9833333333333333,
   "slice_window_pre_detection_changed": 0.4,
   "slice_window_detected_doc_stale_changed": 0.75,
-  "slice_post-detection_changed": 0.6875,
+  "slice_post-detection_changed": 0.65,
   "slice_unchanged": 1.0,
-  "doc_slice_lagged": 0.7325581395348837,
-  "doc_slice_documented": 0.796875,
-  "doc_slice_rollback": 0.7666666666666667
+  "doc_slice_lagged": 0.6229508196721312,
+  "doc_slice_rollback": 0.47619047619047616,
+  "doc_slice_documented": 0.7105263157894737
 }

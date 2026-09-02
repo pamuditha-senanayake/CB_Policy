@@ -2,30 +2,30 @@
   "condition": "plain_rag",
   "data_seed": 0,
   "run_seed": 11,
-  "pass1": 0.5666666666666667,
+  "pass1": 0.5791666666666667,
   "pass4": 0.5541666666666667,
   "stale_action_rate": 0.4354166666666667,
   "stale_action_eligible_n": 480,
-  "changed_policy_pass1": 0.6,
+  "changed_policy_pass1": 0.6166666666666667,
   "unchanged_pass1": 0.4666666666666667,
-  "tokens_per_task": 356.27916666666664,
-  "unparseable_n": 6,
-  "unparseable_rate": 0.006,
+  "tokens_per_task": 355.25,
+  "unparseable_n": 0,
+  "unparseable_rate": 0.0,
   "canary_flips": 0,
   "usage": {
-    "prompt_tokens": 81816,
-    "completion_tokens": 3691
+    "prompt_tokens": 81548,
+    "completion_tokens": 3712
   },
   "canary_usage": {
     "prompt_tokens": 3120,
     "completion_tokens": 108
   },
-  "slice_pre-change_changed": 0.6833333333333333,
+  "slice_pre-change_changed": 0.7333333333333333,
   "slice_window_pre_detection_changed": 0.4,
   "slice_window_detected_doc_stale_changed": 0.5,
   "slice_post-detection_changed": 0.6125,
   "slice_unchanged": 0.4666666666666667,
-  "doc_slice_lagged": 0.5348837209302325,
-  "doc_slice_documented": 0.75,
-  "doc_slice_rollback": 0.4666666666666667
+  "doc_slice_lagged": 0.4918032786885246,
+  "doc_slice_rollback": 0.5238095238095238,
+  "doc_slice_documented": 0.6842105263157895
 }

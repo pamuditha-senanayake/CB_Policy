@@ -8,7 +8,9 @@ def build_context(task, stores):
     with store.lock:
         cursor = store.conn.cursor()
         cursor.execute('''
-            SELECT doc_text FROM policies WHERE tx_from <= ?
+            SELECT doc_text FROM policies 
+            WHERE tx_from <= ? AND source = 'document'
+            ORDER BY tx_from DESC, id DESC
         ''', (ts,))
         docs = [row[0] for row in cursor.fetchall()]
     
@@ -21,6 +23,6 @@ def build_context(task, stores):
         query_vec = vectorizer.transform([task['user_msg']])
         sims = cosine_similarity(query_vec, tfidf_matrix).flatten()
         best_idx = sims.argmax()
-        return docs[best_idx]
+        print('Rag done'); return docs[best_idx]
     except ValueError:
         return docs[0]
