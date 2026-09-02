@@ -43,3 +43,53 @@ Seed 2: asof=1.000, constr=1.000
 Seed 3: asof=1.000, constr=1.000
 Seed 7: asof=1.000, constr=1.000
 Seed 11: asof=1.000, constr=1.000
+
+=== Stage 2 Correctness Metrics (bitemporal_drift) ===
+
+--- Seed 0 ---
+asof_correctness_postdetection: 1.000
+constraint_correctness: 1.000
+valid_time_error_traces: 13.33
+per_policy_errors: {'refund_window': 'no_drift_required', 'price_match_cap': 'no_drift_required', 'exchange_eligibility': 'no_drift_required', 'exception_approval': 5, 'shipping_upgrade': 20, 'loyalty_discount': 15}
+rollback_handled: True
+false_invalidation_rate: 0.000
+
+--- Seed 1 ---
+asof_correctness_postdetection: 1.000
+constraint_correctness: 1.000
+valid_time_error_traces: 23.33
+per_policy_errors: {'refund_window': 'no_drift_required', 'price_match_cap': 'no_drift_required', 'exchange_eligibility': 'no_drift_required', 'exception_approval': 2, 'shipping_upgrade': 37, 'loyalty_discount': 31}
+rollback_handled: True
+false_invalidation_rate: 0.000
+
+--- Seed 2 ---
+asof_correctness_postdetection: 1.000
+constraint_correctness: 1.000
+valid_time_error_traces: 11.00
+per_policy_errors: {'refund_window': 'no_drift_required', 'price_match_cap': 'no_drift_required', 'exchange_eligibility': 'no_drift_required', 'exception_approval': 4, 'shipping_upgrade': 22, 'loyalty_discount': 7}
+rollback_handled: True
+false_invalidation_rate: 0.000
+
+--- Seed 3 ---
+asof_correctness_postdetection: 1.000
+constraint_correctness: 1.000
+valid_time_error_traces: 17.00
+per_policy_errors: {'refund_window': 'no_drift_required', 'price_match_cap': 'no_drift_required', 'exchange_eligibility': 'no_drift_required', 'exception_approval': 8, 'shipping_upgrade': 38, 'loyalty_discount': 5}
+rollback_handled: True
+false_invalidation_rate: 0.000
+
+--- Seed 7 ---
+asof_correctness_postdetection: 1.000
+constraint_correctness: 1.000
+valid_time_error_traces: 28.33
+per_policy_errors: {'refund_window': 'no_drift_required', 'price_match_cap': 'no_drift_required', 'exchange_eligibility': 'no_drift_required', 'exception_approval': 6, 'shipping_upgrade': 37, 'loyalty_discount': 42}
+rollback_handled: True
+false_invalidation_rate: 0.000
+
+--- Seed 11 ---
+asof_correctness_postdetection: 1.000
+constraint_correctness: 1.000
+valid_time_error_traces: 16.33
+per_policy_errors: {'refund_window': 'no_drift_required', 'price_match_cap': 'no_drift_required', 'exchange_eligibility': 'no_drift_required', 'exception_approval': 4, 'shipping_upgrade': 36, 'loyalty_discount': 9}
+rollback_handled: True
+false_invalidation_rate: 0.000

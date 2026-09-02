@@ -74,3 +74,18 @@ print(final_text)
 with open('final_results.md', 'w') as f:
     f.write(final_text)
 
+print("\n=== Stage 2 Correctness Metrics (bitemporal_drift) ===")
+for seed in [0, 1, 2, 3, 7, 11]:
+    try:
+        with open(f"runs/stage2_seed{seed}.json", "r") as f:
+            import json
+            s2 = json.load(f)
+            print(f"\n--- Seed {seed} ---")
+            print(f"asof_correctness_postdetection: {s2.get('asof_correctness_postdetection', 0):.3f}")
+            print(f"constraint_correctness: {s2.get('constraint_correctness', 0):.3f}")
+            print(f"valid_time_error_traces: {s2.get('valid_time_error_traces', 0):.2f}")
+            print(f"per_policy_errors: {s2.get('per_policy_errors', {})}")
+            print(f"rollback_handled: {s2.get('rollback_handled', False)}")
+            print(f"false_invalidation_rate: {s2.get('false_invalidation_rate', 0):.3f}")
+    except Exception as e:
+        pass

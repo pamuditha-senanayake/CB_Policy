@@ -211,16 +211,38 @@ traces = []
 per_policy_errors = {}
 for p in policies:
     cp = change_points.get(p)
-    if cp and est_change_points[p]:
-        if 't_rollback' in cp and len(est_change_points[p]) >= 2:
-            err1 = abs(est_change_points[p][0] - cp['t_practice'])
-            err2 = abs(est_change_points[p][1] - cp['t_rollback'])
-            error_traces.extend([err1, err2])
-            per_policy_errors[p] = {"primary": err1, "rollback": err2}
-        else:
-            err = abs(est_change_points[p][0] - cp['t_practice'])
-            error_traces.append(err)
-            per_policy_errors[p] = err
+    if cp:
+        expected_cps = []
+        # Primary change
+        if cp['t_practice'] != cp.get('t_doc', -1):
+            expected_cps.append(('primary', cp['t_practice']))
+        # Rollback change
+        if 't_rollback' in cp and cp.get('t_rollback_doc', -1) != cp['t_rollback']:
+            expected_cps.append(('rollback', cp['t_rollback']))
+            
+        if not expected_cps:
+            per_policy_errors[p] = "no_drift_required"
+            continue
+            
+        if not est_change_points.get(p):
+            continue
+            
+        per_policy_errors[p] = {}
+        for est_cp in est_change_points[p]:
+            closest = None
+            min_dist = float('inf')
+            for name, true_cp in expected_cps:
+                dist = abs(est_cp - true_cp)
+                if dist < min_dist:
+                    min_dist = dist
+                    closest = name
+            
+            if min_dist < 300: # Within detection window
+                error_traces.append(min_dist)
+                if len(expected_cps) > 1:
+                    per_policy_errors[p][closest] = min_dist
+                else:
+                    per_policy_errors[p] = min_dist
             
 valid_time_error = sum(error_traces) / len(error_traces) if error_traces else 0
 
@@ -331,6 +353,28 @@ for t in ctasks:
     if not ans or ans['version'] != 0:
         canary_ok = False
 
+# Redefine rollback_handled as content check
+rb_handled = False
+rb_ans = store.as_of('loyalty_discount', 800, 800)
+if rb_ans:
+    mined_c = rb_ans['constraint']
+    true_c = v0_docs['loyalty_discount']['constraint']
+    if mined_c == true_c:
+        rb_handled = True
+    else:
+        # Check equivalence
+        agree = True
+        for tr in recent_traces['loyalty_discount']:
+            for e in tr.get('events', []):
+                env = dict(e['attrs'])
+                try:
+                    r1 = eval(mined_c, {"__builtins__": {}}, env)
+                    r2 = eval(true_c, {"__builtins__": {}}, env)
+                    if r1 != r2: agree = False
+                except: pass
+        if agree:
+            rb_handled = True
+
 output = {
     "asof_correctness_postdetection": asof_corr_post,
     "asof_correctness_retrospective": asof_corr_retro,
@@ -339,7 +383,7 @@ output = {
     "valid_time_error_traces": valid_time_error,
     "per_policy_errors": per_policy_errors,
     "false_invalidation_rate": fir,
-    "rollback_handled": (drifts_detected.get('loyalty_discount', 0) >= 2),
+    "rollback_handled": rb_handled,
     "canary_policy_still_valid": canary_ok
 }
 

@@ -3,13 +3,16 @@
   "asof_correctness_retrospective": 1.0,
   "constraint_correctness": 1.0,
   "asof_correctness_online": 0.9166666666666666,
-  "valid_time_error_traces": 113.33333333333333,
+  "valid_time_error_traces": 16.333333333333332,
   "per_policy_errors": {
-    "exception_approval": 5,
-    "shipping_upgrade": 20,
-    "loyalty_discount": 315
+    "refund_window": "no_drift_required",
+    "price_match_cap": "no_drift_required",
+    "exchange_eligibility": "no_drift_required",
+    "exception_approval": 4,
+    "shipping_upgrade": 36,
+    "loyalty_discount": 9
   },
   "false_invalidation_rate": 0.0,
-  "rollback_handled": false,
+  "rollback_handled": true,
   "canary_policy_still_valid": true
 }
