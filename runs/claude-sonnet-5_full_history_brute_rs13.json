@@ -1,0 +1,34 @@
+{
+  "condition": "full_history_brute",
+  "data_seed": 0,
+  "run_seed": 13,
+  "provider": "anthropic",
+  "model": "claude-sonnet-5",
+  "config_hash": "b1718c1449743ce931801b771b606738f0ab567a4e033253963e92d5e82127d6",
+  "pass1": 0.9166666666666666,
+  "pass4": 0.8875,
+  "stale_action_rate": 0.12916666666666668,
+  "stale_action_eligible_n": 480,
+  "changed_policy_pass1": 0.8888888888888888,
+  "unchanged_pass1": 1.0,
+  "tokens_per_task": 12848.7875,
+  "unparseable_n": 12,
+  "unparseable_rate": 0.012,
+  "canary_flips": 0,
+  "usage": {
+    "prompt_tokens": 2924291,
+    "completion_tokens": 159418
+  },
+  "canary_usage": {
+    "prompt_tokens": 70200,
+    "completion_tokens": 280
+  },
+  "slice_pre-change_changed": 1.0,
+  "slice_window_pre_detection_changed": 0.2,
+  "slice_window_detected_doc_stale_changed": 0.8,
+  "slice_post-detection_changed": 1.0,
+  "slice_unchanged": 1.0,
+  "doc_slice_lagged": 0.6721311475409836,
+  "doc_slice_rollback": 1.0,
+  "doc_slice_documented": 1.0
+}

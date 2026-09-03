@@ -1,0 +1,34 @@
+{
+  "condition": "full_history_brute",
+  "data_seed": 0,
+  "run_seed": 17,
+  "provider": "openai",
+  "model": "gpt-5.6-luna",
+  "config_hash": "e536f92325fb6fb4d3dd5b534df406919e1f2891a234b537a8537e553c8711ee",
+  "pass1": 0.9291666666666667,
+  "pass4": 0.7958333333333333,
+  "stale_action_rate": 0.19375,
+  "stale_action_eligible_n": 480,
+  "changed_policy_pass1": 0.9055555555555556,
+  "unchanged_pass1": 1.0,
+  "tokens_per_task": 7025.791666666667,
+  "unparseable_n": 4,
+  "unparseable_rate": 0.004,
+  "canary_flips": 0,
+  "usage": {
+    "prompt_tokens": 1596531,
+    "completion_tokens": 89659
+  },
+  "canary_usage": {
+    "prompt_tokens": 40160,
+    "completion_tokens": 200
+  },
+  "slice_pre-change_changed": 1.0,
+  "slice_window_pre_detection_changed": 0.4,
+  "slice_window_detected_doc_stale_changed": 0.75,
+  "slice_post-detection_changed": 1.0,
+  "slice_unchanged": 1.0,
+  "doc_slice_lagged": 0.7213114754098361,
+  "doc_slice_rollback": 1.0,
+  "doc_slice_documented": 1.0
+}

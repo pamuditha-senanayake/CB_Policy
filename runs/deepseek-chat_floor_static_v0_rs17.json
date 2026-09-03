@@ -1,0 +1,34 @@
+{
+  "condition": "floor_static_v0",
+  "data_seed": 0,
+  "run_seed": 17,
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "config_hash": "9e28f6164020829fe225b105cad5af9ecffcdb08a7b9b717f217624374b186bc",
+  "pass1": 0.5541666666666667,
+  "pass4": 0.5375,
+  "stale_action_rate": 0.7,
+  "stale_action_eligible_n": 480,
+  "changed_policy_pass1": 0.40555555555555556,
+  "unchanged_pass1": 1.0,
+  "tokens_per_task": 360.9916666666667,
+  "unparseable_n": 0,
+  "unparseable_rate": 0.0,
+  "canary_flips": 0,
+  "usage": {
+    "prompt_tokens": 82952,
+    "completion_tokens": 3686
+  },
+  "canary_usage": {
+    "prompt_tokens": 3120,
+    "completion_tokens": 108
+  },
+  "slice_pre-change_changed": 0.8666666666666667,
+  "slice_window_pre_detection_changed": 0.0,
+  "slice_window_detected_doc_stale_changed": 0.0,
+  "slice_post-detection_changed": 0.2625,
+  "slice_unchanged": 1.0,
+  "doc_slice_lagged": 0.0,
+  "doc_slice_rollback": 1.0,
+  "doc_slice_documented": 0.0
+}

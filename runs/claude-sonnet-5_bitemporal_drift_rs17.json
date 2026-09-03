@@ -1,0 +1,34 @@
+{
+  "condition": "bitemporal_drift",
+  "data_seed": 0,
+  "run_seed": 17,
+  "provider": "anthropic",
+  "model": "claude-sonnet-5",
+  "config_hash": "1e75a27e7ac67007779196672391069a3dbc5f3dded69dd23d85d273e6a79c7a",
+  "pass1": 0.875,
+  "pass4": 0.875,
+  "stale_action_rate": 0.25,
+  "stale_action_eligible_n": 480,
+  "changed_policy_pass1": 0.8333333333333334,
+  "unchanged_pass1": 1.0,
+  "tokens_per_task": 611.85,
+  "unparseable_n": 0,
+  "unparseable_rate": 0.0,
+  "canary_flips": 0,
+  "usage": {
+    "prompt_tokens": 132420,
+    "completion_tokens": 14424
+  },
+  "canary_usage": {
+    "prompt_tokens": 4640,
+    "completion_tokens": 280
+  },
+  "slice_pre-change_changed": 1.0,
+  "slice_window_pre_detection_changed": 0.0,
+  "slice_window_detected_doc_stale_changed": 0.5,
+  "slice_post-detection_changed": 1.0,
+  "slice_unchanged": 1.0,
+  "doc_slice_lagged": 0.5081967213114754,
+  "doc_slice_rollback": 1.0,
+  "doc_slice_documented": 1.0
+}

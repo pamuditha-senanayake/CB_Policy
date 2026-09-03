@@ -1,0 +1,34 @@
+{
+  "condition": "bitemporal_drift",
+  "data_seed": 0,
+  "run_seed": 11,
+  "provider": "openai",
+  "model": "gpt-5.6-luna",
+  "config_hash": "3e12c2c6e86e548d0744df4f116b1ab3794508774744c58854a76af485a9b6c9",
+  "pass1": 0.875,
+  "pass4": 0.875,
+  "stale_action_rate": 0.25,
+  "stale_action_eligible_n": 480,
+  "changed_policy_pass1": 0.8333333333333334,
+  "unchanged_pass1": 1.0,
+  "tokens_per_task": 468.8833333333333,
+  "unparseable_n": 0,
+  "unparseable_rate": 0.0,
+  "canary_flips": 0,
+  "usage": {
+    "prompt_tokens": 95518,
+    "completion_tokens": 17014
+  },
+  "canary_usage": {
+    "prompt_tokens": 3120,
+    "completion_tokens": 200
+  },
+  "slice_pre-change_changed": 1.0,
+  "slice_window_pre_detection_changed": 0.0,
+  "slice_window_detected_doc_stale_changed": 0.5,
+  "slice_post-detection_changed": 1.0,
+  "slice_unchanged": 1.0,
+  "doc_slice_lagged": 0.5081967213114754,
+  "doc_slice_rollback": 1.0,
+  "doc_slice_documented": 1.0
+}

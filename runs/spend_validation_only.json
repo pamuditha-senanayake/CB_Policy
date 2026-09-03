@@ -1,0 +1,45 @@
+{
+  "_note": "validation spend before sweep",
+  "_prior": {
+    "anthropic": {
+      "by_model": {
+        "claude-sonnet-5": {
+          "calls": 68,
+          "usd": 0.022376
+        }
+      },
+      "calls": 68,
+      "completion_tokens": 534,
+      "prompt_tokens": 8518,
+      "usd": 0.022376
+    },
+    "deepseek": {
+      "by_model": {
+        "deepseek-chat": {
+          "calls": 40,
+          "usd": 0.00104342
+        },
+        "deepseek-v4-flash": {
+          "calls": 40,
+          "usd": 0.0047506200000000005
+        }
+      },
+      "calls": 80,
+      "completion_tokens": 3050,
+      "prompt_tokens": 16118,
+      "usd": 0.005794040000000002
+    },
+    "openai": {
+      "by_model": {
+        "gpt-5.6-luna": {
+          "calls": 20,
+          "usd": 0.0034649999999999998
+        }
+      },
+      "calls": 20,
+      "completion_tokens": 135,
+      "prompt_tokens": 1692,
+      "usd": 0.0034649999999999998
+    }
+  }
+}

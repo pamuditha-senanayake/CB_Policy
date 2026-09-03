@@ -334,11 +334,18 @@ for p, cp in change_points.items():
         assert post >= 30, f"G2b failed for {p}"
 
 # G2d: Hash generation
+# Hash benchmark data only. OS and interpreter artifacts (.DS_Store,
+# __pycache__) change on their own and would otherwise flip the manifest
+# hash, tripping the store integrity guard while the data is identical.
+_SKIP_FILES = {'manifest.json', 'build_benchmark.py', '.DS_Store'}
+_SKIP_DIRS = {'__pycache__'}
 for root, dirs, files in os.walk('data'):
-    for file in files:
-        if file != 'manifest.json' and file != 'build_benchmark.py':
-            filepath = os.path.join(root, file)
-            manifest[filepath] = hash_file(filepath)
+    dirs[:] = [d for d in dirs if d not in _SKIP_DIRS]
+    for file in sorted(files):
+        if file in _SKIP_FILES or file.endswith('.pyc'):
+            continue
+        filepath = os.path.join(root, file)
+        manifest[filepath] = hash_file(filepath)
 
 with open('data/manifest.json', 'w') as f:
     json.dump(manifest, f, indent=2)
