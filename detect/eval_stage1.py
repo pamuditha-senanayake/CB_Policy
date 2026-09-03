@@ -7,6 +7,9 @@ sys.path.append(os.path.dirname(__file__))
 from conformance import calculate_fitness
 from drift import DriftDetector
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from protected_artifacts import check_writable
+
 policies = [
     'refund_window', 'price_match_cap', 'exchange_eligibility',
     'exception_approval', 'shipping_upgrade', 'loyalty_discount',
@@ -91,7 +94,9 @@ def run_evaluation(method, seed=0):
         "canary_policy_untouched": canary_untouched
     }
     
-    with open(f'runs/stage1_{method.lower()}_seed{seed}.json', 'w') as f:
+    _out_path = f'runs/stage1_{method.lower()}_seed{seed}.json'
+    check_writable(_out_path)
+    with open(_out_path, 'w') as f:
         json.dump(output, f, indent=2)
         
     return output
