@@ -1,0 +1,156 @@
+{
+  "per_seed": {
+    "0": {
+      "valid_time_error_traces": 59.0,
+      "asof_correctness_retrospective": 1.0,
+      "constraint_correctness": 1.0,
+      "asof_correctness_online": 0.9166666666666666
+    },
+    "1": {
+      "valid_time_error_traces": 37.666666666666664,
+      "asof_correctness_retrospective": 1.0,
+      "constraint_correctness": 1.0,
+      "asof_correctness_online": 0.9166666666666666
+    },
+    "2": {
+      "valid_time_error_traces": 48.333333333333336,
+      "asof_correctness_retrospective": 1.0,
+      "constraint_correctness": 1.0,
+      "asof_correctness_online": 0.9166666666666666
+    },
+    "3": {
+      "valid_time_error_traces": 48.333333333333336,
+      "asof_correctness_retrospective": 1.0,
+      "constraint_correctness": 1.0,
+      "asof_correctness_online": 0.9166666666666666
+    },
+    "7": {
+      "valid_time_error_traces": 48.333333333333336,
+      "asof_correctness_retrospective": 1.0,
+      "constraint_correctness": 1.0,
+      "asof_correctness_online": 0.9166666666666666
+    },
+    "11": {
+      "valid_time_error_traces": 37.666666666666664,
+      "asof_correctness_retrospective": 1.0,
+      "constraint_correctness": 1.0,
+      "asof_correctness_online": 0.9166666666666666
+    }
+  },
+  "store_collapse_check": {
+    "0": {
+      "mined_rows": 3,
+      "valid_from_eq_tx_from": 3,
+      "all_collapsed": true
+    },
+    "1": {
+      "mined_rows": 3,
+      "valid_from_eq_tx_from": 3,
+      "all_collapsed": true
+    },
+    "2": {
+      "mined_rows": 3,
+      "valid_from_eq_tx_from": 3,
+      "all_collapsed": true
+    },
+    "3": {
+      "mined_rows": 3,
+      "valid_from_eq_tx_from": 3,
+      "all_collapsed": true
+    },
+    "7": {
+      "mined_rows": 3,
+      "valid_from_eq_tx_from": 3,
+      "all_collapsed": true
+    },
+    "11": {
+      "mined_rows": 3,
+      "valid_from_eq_tx_from": 3,
+      "all_collapsed": true
+    }
+  },
+  "asof_correctness_predoc": {
+    "per_seed": {
+      "0": {
+        "baseline": {
+          "correct": 36,
+          "total": 40,
+          "rate": 0.9
+        },
+        "a1": {
+          "correct": 20,
+          "total": 40,
+          "rate": 0.5
+        }
+      },
+      "1": {
+        "baseline": {
+          "correct": 37,
+          "total": 40,
+          "rate": 0.925
+        },
+        "a1": {
+          "correct": 20,
+          "total": 40,
+          "rate": 0.5
+        }
+      },
+      "2": {
+        "baseline": {
+          "correct": 35,
+          "total": 40,
+          "rate": 0.875
+        },
+        "a1": {
+          "correct": 20,
+          "total": 40,
+          "rate": 0.5
+        }
+      },
+      "3": {
+        "baseline": {
+          "correct": 31,
+          "total": 40,
+          "rate": 0.775
+        },
+        "a1": {
+          "correct": 20,
+          "total": 40,
+          "rate": 0.5
+        }
+      },
+      "7": {
+        "baseline": {
+          "correct": 30,
+          "total": 40,
+          "rate": 0.75
+        },
+        "a1": {
+          "correct": 20,
+          "total": 40,
+          "rate": 0.5
+        }
+      },
+      "11": {
+        "baseline": {
+          "correct": 27,
+          "total": 40,
+          "rate": 0.675
+        },
+        "a1": {
+          "correct": 20,
+          "total": 40,
+          "rate": 0.5
+        }
+      }
+    },
+    "baseline_mean": 0.8166666666666668,
+    "a1_mean": 0.5
+  },
+  "mean": {
+    "valid_time_error_traces": 46.55555555555555,
+    "asof_correctness_retrospective": 1.0,
+    "constraint_correctness": 1.0,
+    "asof_correctness_online": 0.9166666666666666
+  }
+}

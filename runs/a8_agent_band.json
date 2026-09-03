@@ -1,0 +1,431 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "seed": 11,
+  "policy": "shipping_upgrade",
+  "mined_constraint": "cart_total >= 101",
+  "true_constraint": "cart_total >= 100",
+  "band": [
+    100,
+    101
+  ],
+  "n_calls": 40,
+  "n_values": 10,
+  "k_attempts": 4,
+  "agent_wrong_vs_true": 4,
+  "agent_wrong_rate": 0.1,
+  "agent_follows_mined": 40,
+  "agent_follows_mined_rate": 1.0,
+  "in_band": {
+    "n": 8,
+    "wrong": 4,
+    "rate": 0.5
+  },
+  "out_of_band": {
+    "n": 32,
+    "wrong": 0,
+    "rate": 0.0
+  },
+  "results": [
+    {
+      "cart_total": 96,
+      "in_band": false,
+      "attempt": 0,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 96,
+      "in_band": false,
+      "attempt": 1,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 96,
+      "in_band": false,
+      "attempt": 2,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 96,
+      "in_band": false,
+      "attempt": 3,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 97,
+      "in_band": false,
+      "attempt": 0,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 97,
+      "in_band": false,
+      "attempt": 1,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 97,
+      "in_band": false,
+      "attempt": 2,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 97,
+      "in_band": false,
+      "attempt": 3,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 98,
+      "in_band": false,
+      "attempt": 0,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 98,
+      "in_band": false,
+      "attempt": 1,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 98,
+      "in_band": false,
+      "attempt": 2,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 98,
+      "in_band": false,
+      "attempt": 3,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 99,
+      "in_band": false,
+      "attempt": 0,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 99,
+      "in_band": false,
+      "attempt": 1,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 99,
+      "in_band": false,
+      "attempt": 2,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 99,
+      "in_band": false,
+      "attempt": 3,
+      "response": "deny_upgrade",
+      "true_action": "deny_upgrade",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 100,
+      "in_band": true,
+      "attempt": 0,
+      "response": "deny_upgrade",
+      "true_action": "upgrade_shipping",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": false,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 100,
+      "in_band": true,
+      "attempt": 1,
+      "response": "deny_upgrade",
+      "true_action": "upgrade_shipping",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": false,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 100,
+      "in_band": true,
+      "attempt": 2,
+      "response": "deny_upgrade",
+      "true_action": "upgrade_shipping",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": false,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 100,
+      "in_band": true,
+      "attempt": 3,
+      "response": "deny_upgrade",
+      "true_action": "upgrade_shipping",
+      "mined_action": "deny_upgrade",
+      "agent_matches_true": false,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 101,
+      "in_band": true,
+      "attempt": 0,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 101,
+      "in_band": true,
+      "attempt": 1,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 101,
+      "in_band": true,
+      "attempt": 2,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 101,
+      "in_band": true,
+      "attempt": 3,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 102,
+      "in_band": false,
+      "attempt": 0,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 102,
+      "in_band": false,
+      "attempt": 1,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 102,
+      "in_band": false,
+      "attempt": 2,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 102,
+      "in_band": false,
+      "attempt": 3,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 103,
+      "in_band": false,
+      "attempt": 0,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 103,
+      "in_band": false,
+      "attempt": 1,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 103,
+      "in_band": false,
+      "attempt": 2,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 103,
+      "in_band": false,
+      "attempt": 3,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 104,
+      "in_band": false,
+      "attempt": 0,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 104,
+      "in_band": false,
+      "attempt": 1,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 104,
+      "in_band": false,
+      "attempt": 2,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 104,
+      "in_band": false,
+      "attempt": 3,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 105,
+      "in_band": false,
+      "attempt": 0,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 105,
+      "in_band": false,
+      "attempt": 1,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 105,
+      "in_band": false,
+      "attempt": 2,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    },
+    {
+      "cart_total": 105,
+      "in_band": false,
+      "attempt": 3,
+      "response": "upgrade_shipping",
+      "true_action": "upgrade_shipping",
+      "mined_action": "upgrade_shipping",
+      "agent_matches_true": true,
+      "agent_matches_mined": true
+    }
+  ]
+}

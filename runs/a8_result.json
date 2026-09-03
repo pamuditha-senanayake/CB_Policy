@@ -1,0 +1,566 @@
+{
+  "rows": [
+    {
+      "seed": 0,
+      "policy": "refund_window",
+      "true": "days_since_purchase <= 14",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 0,
+      "policy": "price_match_cap",
+      "true": "amount <= 100",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 0,
+      "policy": "exchange_eligibility",
+      "true": "has_item == 'tags'",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 0,
+      "policy": "exception_approval",
+      "true": "approver == 'supervisor'",
+      "enumerate": "approver == 'supervisor'",
+      "binary": "approver == 'supervisor'",
+      "enumerate_exact": true,
+      "binary_exact": true,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 0,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 94",
+      "binary": "cart_total >= 93",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": {
+        "gap": 6,
+        "band": [
+          94,
+          100
+        ],
+        "error_rate": 0.8571428571428571
+      },
+      "binary_band": {
+        "gap": 7,
+        "band": [
+          93,
+          100
+        ],
+        "error_rate": 0.875
+      }
+    },
+    {
+      "seed": 0,
+      "policy": "loyalty_discount",
+      "true": "tier == 'platinum'",
+      "enumerate": "tier == 'gold'",
+      "binary": "tier == 'gold'",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 1,
+      "policy": "refund_window",
+      "true": "days_since_purchase <= 14",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 1,
+      "policy": "price_match_cap",
+      "true": "amount <= 100",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 1,
+      "policy": "exchange_eligibility",
+      "true": "has_item == 'tags'",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 1,
+      "policy": "exception_approval",
+      "true": "approver == 'supervisor'",
+      "enumerate": "approver == 'manager'",
+      "binary": "approver == 'manager'",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 1,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 103",
+      "binary": "cart_total >= 98",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": {
+        "gap": 3,
+        "band": [
+          100,
+          103
+        ],
+        "error_rate": 0.75
+      },
+      "binary_band": {
+        "gap": 2,
+        "band": [
+          98,
+          100
+        ],
+        "error_rate": 0.6666666666666666
+      }
+    },
+    {
+      "seed": 1,
+      "policy": "loyalty_discount",
+      "true": "tier == 'platinum'",
+      "enumerate": "tier == 'gold'",
+      "binary": "tier == 'gold'",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 2,
+      "policy": "refund_window",
+      "true": "days_since_purchase <= 14",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 2,
+      "policy": "price_match_cap",
+      "true": "amount <= 100",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 2,
+      "policy": "exchange_eligibility",
+      "true": "has_item == 'tags'",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 2,
+      "policy": "exception_approval",
+      "true": "approver == 'supervisor'",
+      "enumerate": "approver == 'supervisor'",
+      "binary": "approver == 'supervisor'",
+      "enumerate_exact": true,
+      "binary_exact": true,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 2,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 99",
+      "binary": "cart_total >= 96",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": {
+        "gap": 1,
+        "band": [
+          99,
+          100
+        ],
+        "error_rate": 0.5
+      },
+      "binary_band": {
+        "gap": 4,
+        "band": [
+          96,
+          100
+        ],
+        "error_rate": 0.8
+      }
+    },
+    {
+      "seed": 2,
+      "policy": "loyalty_discount",
+      "true": "tier == 'platinum'",
+      "enumerate": "tier == 'gold'",
+      "binary": "tier == 'gold'",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 3,
+      "policy": "refund_window",
+      "true": "days_since_purchase <= 14",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 3,
+      "policy": "price_match_cap",
+      "true": "amount <= 100",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 3,
+      "policy": "exchange_eligibility",
+      "true": "has_item == 'tags'",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 3,
+      "policy": "exception_approval",
+      "true": "approver == 'supervisor'",
+      "enumerate": "approver == 'supervisor'",
+      "binary": "approver == 'supervisor'",
+      "enumerate_exact": true,
+      "binary_exact": true,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 3,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 103",
+      "binary": "cart_total >= 100",
+      "enumerate_exact": false,
+      "binary_exact": true,
+      "enumerate_band": {
+        "gap": 3,
+        "band": [
+          100,
+          103
+        ],
+        "error_rate": 0.75
+      },
+      "binary_band": {
+        "gap": 0,
+        "band": [],
+        "error_rate": 0.0
+      }
+    },
+    {
+      "seed": 3,
+      "policy": "loyalty_discount",
+      "true": "tier == 'platinum'",
+      "enumerate": "tier == 'gold'",
+      "binary": "tier == 'gold'",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 7,
+      "policy": "refund_window",
+      "true": "days_since_purchase <= 14",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 7,
+      "policy": "price_match_cap",
+      "true": "amount <= 100",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 7,
+      "policy": "exchange_eligibility",
+      "true": "has_item == 'tags'",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 7,
+      "policy": "exception_approval",
+      "true": "approver == 'supervisor'",
+      "enumerate": "approver == 'supervisor'",
+      "binary": "approver == 'supervisor'",
+      "enumerate_exact": true,
+      "binary_exact": true,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 7,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 104",
+      "binary": "cart_total >= 87",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": {
+        "gap": 4,
+        "band": [
+          100,
+          104
+        ],
+        "error_rate": 0.8
+      },
+      "binary_band": {
+        "gap": 13,
+        "band": [
+          87,
+          100
+        ],
+        "error_rate": 0.9285714285714286
+      }
+    },
+    {
+      "seed": 7,
+      "policy": "loyalty_discount",
+      "true": "tier == 'platinum'",
+      "enumerate": "tier == 'gold'",
+      "binary": "tier == 'gold'",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 11,
+      "policy": "refund_window",
+      "true": "days_since_purchase <= 14",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 11,
+      "policy": "price_match_cap",
+      "true": "amount <= 100",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 11,
+      "policy": "exchange_eligibility",
+      "true": "has_item == 'tags'",
+      "enumerate": null,
+      "binary": null,
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 11,
+      "policy": "exception_approval",
+      "true": "approver == 'supervisor'",
+      "enumerate": "approver == 'manager'",
+      "binary": "approver == 'manager'",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    },
+    {
+      "seed": 11,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 101",
+      "binary": "cart_total >= 101",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": {
+        "gap": 1,
+        "band": [
+          100,
+          101
+        ],
+        "error_rate": 0.5
+      },
+      "binary_band": {
+        "gap": 1,
+        "band": [
+          100,
+          101
+        ],
+        "error_rate": 0.5
+      }
+    },
+    {
+      "seed": 11,
+      "policy": "loyalty_discount",
+      "true": "tier == 'platinum'",
+      "enumerate": "tier == 'gold'",
+      "binary": "tier == 'gold'",
+      "enumerate_exact": false,
+      "binary_exact": false,
+      "enumerate_band": null,
+      "binary_band": null
+    }
+  ],
+  "exact_recovery": {
+    "enumerate": 4,
+    "binary": 5,
+    "n": 36
+  },
+  "adversarial_band": [
+    {
+      "seed": 0,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 94",
+      "gap": 6,
+      "band": [
+        94,
+        100
+      ],
+      "error_rate": 0.8571428571428571,
+      "benchmark_tasks_in_band": 4
+    },
+    {
+      "seed": 1,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 103",
+      "gap": 3,
+      "band": [
+        100,
+        103
+      ],
+      "error_rate": 0.75,
+      "benchmark_tasks_in_band": 0
+    },
+    {
+      "seed": 2,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 99",
+      "gap": 1,
+      "band": [
+        99,
+        100
+      ],
+      "error_rate": 0.5,
+      "benchmark_tasks_in_band": 0
+    },
+    {
+      "seed": 3,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 103",
+      "gap": 3,
+      "band": [
+        100,
+        103
+      ],
+      "error_rate": 0.75,
+      "benchmark_tasks_in_band": 0
+    },
+    {
+      "seed": 7,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 104",
+      "gap": 4,
+      "band": [
+        100,
+        104
+      ],
+      "error_rate": 0.8,
+      "benchmark_tasks_in_band": 0
+    },
+    {
+      "seed": 11,
+      "policy": "shipping_upgrade",
+      "true": "cart_total >= 100",
+      "enumerate": "cart_total >= 101",
+      "gap": 1,
+      "band": [
+        100,
+        101
+      ],
+      "error_rate": 0.5,
+      "benchmark_tasks_in_band": 0
+    }
+  ]
+}
