@@ -10,6 +10,9 @@ from bitemporal_store import BitemporalStore
 from conformance import calculate_fitness
 from drift import DriftDetector
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from protected_artifacts import check_writable
+
 def mine_constraint(recent_traces, v0_constraint, action_true, action_false):
     parts = v0_constraint.split(' ')
     attr = parts[0]
@@ -74,6 +77,12 @@ def retrospective_scan(buffer):
 seed = int(sys.argv[1]) if len(sys.argv) > 1 else 0
 
 import os
+# Check every artifact this script will destroy BEFORE destroying anything.
+# The guard used to sit at the json write site, by which point the store had
+# already been deleted and rebuilt.
+check_writable(f"runs/stage2_seed{seed}.json")
+check_writable(f'runs/store_data{seed}.db')
+
 if os.path.exists(f'runs/store_data{seed}.db'):
     try: os.remove(f'runs/store_data{seed}.db')
     except: pass
@@ -135,7 +144,10 @@ for p in policies:
 def insert_pending_docs_up_to(ts):
     for d in pending_docs:
         if d['t_doc'] <= ts and not d.get('inserted'):
-            store.invalidate(d['p'], valid_to=d['v_from'], tx_now=d['t_doc']) # DO NOT PASS TARGET_VERSION for doc insert
+            # The document is authoritative for this version's valid_from,
+            # so any mined estimate of the same version is retracted.
+            store.invalidate(d['p'], valid_to=d['v_from'], tx_now=d['t_doc'],
+                             incoming_version=d['v'])
             store.insert(d['p'], d['v'], d['vdoc']['constraint'], d['vdoc']['prose'], valid_from=d['v_from'], tx_now=d['t_doc'], source='document')
             d['inserted'] = True
             
@@ -175,6 +187,10 @@ for t in traces:
         detection_timestamps[p].append(detect_ts)
         
         est_change = retrospective_scan(fitness_buffer[p])
+        # Enforce valid_from <= valid_to (est_change must be >= doc['valid_from'])
+        est_change = max(est_change, doc['valid_from'])
+        # Enforce valid_from <= tx_from (est_change must be <= detect_ts)
+        est_change = min(est_change, detect_ts)
         est_change_points[p].append(est_change)
         
         store.invalidate(p, valid_to=est_change, tx_now=detect_ts, target_version=doc['version'])
@@ -387,7 +403,13 @@ output = {
     "canary_policy_still_valid": canary_ok
 }
 
+# Invariants must hold after every replay. Fail loudly rather than shipping
+# a store that violates the paper's own data model.
+store.verify_invariants(change_points)
+print("Store invariants: OK")
+
 out_file = f"runs/stage2_seed{seed}.json"
+check_writable(out_file)
 with open(out_file, "w") as f:
     json.dump(output, f, indent=2)
 
