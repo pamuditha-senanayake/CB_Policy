@@ -33,15 +33,41 @@ assert run_seed in run_seeds, f"run_seed {run_seed} not in config.run_seeds"
 from dotenv import load_dotenv
 load_dotenv()
 
-from agent.providers import complete
+from agent.providers import complete, EmptyResponse, ProviderUnavailable
+from agent.validate_models import is_validated
+from agent import spend
 provider = sys.argv[3] if len(sys.argv) > 3 else "deepseek"
 MODEL = sys.argv[4] if len(sys.argv) > 4 else "deepseek-v4-flash"
+
+# Refuse to spend anything on a model that has not passed validation recently.
+if os.environ.get("SKIP_VALIDATION_GATE") != "1":
+    ok, why = is_validated(provider, MODEL)
+    if not ok:
+        print(f"REFUSING TO RUN: {why}")
+        print("Run: python3 agent/validate_models.py --models "
+              f"{provider}/{MODEL}")
+        sys.exit(2)
+    print(f"Validation gate: {provider}/{MODEL} {why}")
+
+try:
+    spend.check_cap(provider)
+except spend.BudgetExceeded as e:
+    print(f"REFUSING TO RUN: {e}")
+    sys.exit(3)
 
 
 from graph.bitemporal_store import BitemporalStore
 stores = {}
 
-if condition in ['bitemporal_drift', 'latest_timestamp', 'full_history_brute', 'plain_rag']:
+# Any adapter that reads the bitemporal store needs it opened, including the
+# A2-A5 ablations. Detect from the adapter source rather than a hardcoded list.
+try:
+    _adapter_src = open(f"agent/conditions/{condition}.py").read()
+except FileNotFoundError:
+    _adapter_src = ""
+_needs_store = "stores['bitemporal']" in _adapter_src or 'stores["bitemporal"]' in _adapter_src
+
+if _needs_store:
 
     stores['bitemporal'] = BitemporalStore(f"runs/store_data{config_seed}.db")
     with open('data/manifest.json', 'r') as f:
@@ -66,10 +92,21 @@ with open('data/canaries/tasks.json', 'r') as f:
     tasks.extend(ctasks)
 
 
-if condition != 'oracle_expiry':
+# Conditions that are privileged by design (PREREG): oracle_expiry uses true
+# expiry dates; A3 uses oracle change timing with real mining; A4's definition
+# is "remove temporal indexing -- always serve the most recently mined rule",
+# which requires current(). Every other adapter must not read future state.
+ORACLE_PRIVILEGED = {'oracle_expiry', 'a3', 'a4'}
+
+if condition not in ORACLE_PRIVILEGED:
     with open(f"agent/conditions/{condition}.py", "r") as cf:
         content = cf.read()
         assert "store.current(" not in content, "Adapter must not read future state via current()"
+        assert "999999999" not in content and "999999998" not in content, "Adapter must not use END_OF_TIME"
+elif condition != 'oracle_expiry':
+    # Still forbid END_OF_TIME sentinels even in the privileged ablations.
+    with open(f"agent/conditions/{condition}.py", "r") as cf:
+        content = cf.read()
         assert "999999999" not in content and "999999998" not in content, "Adapter must not use END_OF_TIME"
 
 adapter_path = f"agent/conditions/{condition}.py"
@@ -98,9 +135,24 @@ if condition == 'latest_timestamp':
 
 TEMP = 0.6
 K_ATTEMPTS = 4
+# Answer is a single action word. 32 is ample for every validated model
+# (measured mean output: 6.5-7.9 tokens). Never raise this globally: an
+# oversized ceiling is what let reasoning models burn 1000 tokens and
+# return nothing. providers.complete() escalates per-call when a model
+# genuinely stops on `length` with no text.
+MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "32"))
+EXTRACTION_VERSION = "v2"
 
 os.makedirs("runs/cache", exist_ok=True)
-run_id = f"{condition}_rs{run_seed}"
+# Smoke-test mode: subsample tasks to prove the pipeline cheaply. Output is
+# namespaced with a SMOKE_ prefix so it can never overwrite a real run record.
+SMOKE_TASKS = int(os.environ.get("SMOKE_TASKS", "0"))
+if SMOKE_TASKS:
+    step = max(1, len(tasks) // SMOKE_TASKS)
+    tasks = tasks[::step][:SMOKE_TASKS]
+    print(f"SMOKE TEST MODE: {len(tasks)} tasks (not a valid run record)")
+
+run_id = f"{'SMOKE_' if SMOKE_TASKS else ''}{MODEL}_{condition}_rs{run_seed}"
 os.makedirs(f"runs/raw/{run_id}", exist_ok=True)
 
 # To restrict actions per policy
@@ -132,29 +184,65 @@ for p in ['cancellation_fee', 'id_verification', 'gift_card_expiry']:
         pass
 
 def call_llm(prompt, attempt_idx):
-    hash_str = f"{provider}_{MODEL}_{TEMP}_{run_seed}_{attempt_idx}_{prompt}"
+    # Cache key must pin everything that changes the answer, including the
+    # token ceiling and the extraction logic -- omitting them is what let
+    # empty 12-token responses from an earlier run be silently reused.
+    hash_str = (f"{provider}_{MODEL}_{TEMP}_{run_seed}_{attempt_idx}_"
+                f"{MAX_TOKENS}_{EXTRACTION_VERSION}_{prompt}")
     h = hashlib.sha256(hash_str.encode()).hexdigest()
     cache_path = f"runs/cache/{h}.json"
-    
+
     if os.path.exists(cache_path):
         with open(cache_path, 'r') as f:
-            return json.load(f)
-            
+            cached = json.load(f)
+        # Only reuse real answers. A cached failure would make a momentary
+        # network blip permanent for every task sharing this prompt.
+        if cached.get("answer", "").strip():
+            return cached
+
     try:
-        raw_res = complete(provider, MODEL, prompt, TEMP, 12, seed=run_seed)
+        raw_res = complete(provider, MODEL, prompt, TEMP, MAX_TOKENS, seed=run_seed)
         ans = raw_res['text']
         usage = {
             "prompt_tokens": raw_res['prompt_tokens'],
             "completion_tokens": raw_res['completion_tokens']
         }
-        res = {"answer": ans, "usage": usage}
+        res = {"answer": ans, "usage": usage,
+               "salvaged_from_reasoning": raw_res.get("salvaged_from_reasoning", False),
+               "escalated": raw_res.get("escalated", False)}
+    except EmptyResponse as e:
+        # Never score an empty answer as a wrong answer.
+        print(f"UNPARSEABLE (empty after escalation): {e}")
+        res = {"answer": "", "usage": {"prompt_tokens": 0, "completion_tokens": 0},
+               "unparseable": True, "reason": str(e)}
+    except ProviderUnavailable as e:
+        if getattr(e, "fatal", True):
+            # Auth, balance or unknown model: the provider is dead, stop now.
+            print(f"PROVIDER UNAVAILABLE (fatal), aborting run: {e}")
+            with open("failures.txt", "a") as f:
+                f.write(f"{provider}/{MODEL} on {condition} seed {run_seed}: {e}\n")
+            os._exit(4)
+        # Transient (connection reset, 5xx): lose the task, not the sweep.
+        print(f"TRANSIENT FAILURE, recording task as unparseable: {e}")
+        with open("failures.txt", "a") as f:
+            f.write(f"{provider}/{MODEL} on {condition} seed {run_seed} "
+                    f"(transient, task dropped): {e}\n")
+        res = {"answer": "", "usage": {"prompt_tokens": 0, "completion_tokens": 0},
+               "unparseable": True, "reason": f"transient: {e}"}
+
+    total = spend.record(provider, MODEL, res['usage']['prompt_tokens'],
+                         res['usage']['completion_tokens'])
+    cap = spend.CAPS.get(provider)
+    if cap is not None and total >= cap:
+        print(f"BUDGET CAP HIT: {provider} ${total:.2f} >= ${cap:.2f}, aborting")
+        with open("failures.txt", "a") as f:
+            f.write(f"{provider}/{MODEL} on {condition} seed {run_seed}: budget cap ${total:.2f}\n")
+        os._exit(3)
+
+    if not res.get("unparseable"):
         with open(cache_path, 'w') as f:
             json.dump(res, f)
-        return res
-    except Exception as e:
-        print("API Error:", e)
-        time.sleep(2)
-        return call_llm(prompt, attempt_idx)
+    return res
 
 results = []
 
@@ -175,13 +263,17 @@ def process_task(t):
         
         raw_path = f"runs/raw/{run_id}/{t['task_id']}_{k}.json"
         with open(raw_path, 'w') as f:
-            json.dump({"prompt": prompt, "response": ans, "usage": res['usage']}, f)
+            json.dump({"model": MODEL, "provider": provider, "prompt": prompt,
+                       "response": ans, "usage": res['usage'],
+                       "unparseable": res.get("unparseable", False),
+                       "salvaged_from_reasoning": res.get("salvaged_from_reasoning", False)}, f)
             
         attempts.append(res)
     return {"task": t, "attempts": attempts}
 
 print(f"Processing {len(tasks)} tasks...")
-with ThreadPoolExecutor(max_workers=30) as executor:
+MAX_WORKERS = int(os.environ.get('MAX_WORKERS', '12'))
+with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
     futures = {executor.submit(process_task, t): t for t in tasks}
     for i, fut in enumerate(as_completed(futures)):
         results.append(fut.result())
@@ -190,11 +282,11 @@ with ThreadPoolExecutor(max_workers=30) as executor:
 import subprocess
 import filecmp
 print("Computing metrics via extract/rescore.py...")
-out_json = f"runs/{condition}_s{run_seed}.json"
+out_json = f"runs/{'SMOKE_' if SMOKE_TASKS else ''}{MODEL}_{condition}_rs{run_seed}.json"
 subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), out_json, provider, MODEL, config_hash], check=True)
 
 # Audit chain verify
-tmp_json = f"runs/tmp_audit_{condition}.json"
+tmp_json = f"runs/tmp_audit_{MODEL}_{condition}.json"
 subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), tmp_json, provider, MODEL, config_hash], check=True)
 
 with open(out_json, 'r') as f1, open(tmp_json, 'r') as f2:
@@ -206,3 +298,5 @@ with open(out_json, 'r') as f1, open(tmp_json, 'r') as f2:
 import os
 os.remove(tmp_json)
 print(f"Finished {condition} run_seed {run_seed}")
+print("Cumulative spend:")
+print(spend.summary())
