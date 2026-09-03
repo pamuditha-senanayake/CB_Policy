@@ -1,2 +1,10 @@
 data_seed: 0
-run_seeds: [11]
+run_seeds: [11, 13, 17]
+temperature: 0.6
+k_attempts: 4
+n_tasks: 240
+domain: retail
+models:
+  - {provider: deepseek,  model: deepseek-v4-flash, primary: true}
+  - {provider: anthropic, model: claude-sonnet-5}
+  - {provider: openai,    model: gpt-5.6-luna}

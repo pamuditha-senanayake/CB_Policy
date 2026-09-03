@@ -16,6 +16,11 @@ with open('config/experiment.yaml', 'r') as f:
     config_seed = conf.get('data_seed', 0)
     run_seeds = conf.get('run_seeds', [])
 
+with open('config/experiment.yaml', 'rb') as f:
+    import hashlib
+    config_hash = hashlib.sha256(f.read()).hexdigest()
+
+
 with open('data/manifest.json', 'r') as f:
     manifest = json.load(f)
 
@@ -28,12 +33,10 @@ assert run_seed in run_seeds, f"run_seed {run_seed} not in config.run_seeds"
 from dotenv import load_dotenv
 load_dotenv()
 
-import httpx2 as httpx
-client = OpenAI(
-    api_key=os.environ.get("DEEPSEEK_API_KEY"),
-    base_url="https://api.deepseek.com",
-    http_client=httpx.Client(verify=False)
-)
+from agent.providers import complete
+provider = sys.argv[3] if len(sys.argv) > 3 else "deepseek"
+MODEL = sys.argv[4] if len(sys.argv) > 4 else "deepseek-v4-flash"
+
 
 from graph.bitemporal_store import BitemporalStore
 stores = {}
@@ -45,6 +48,11 @@ if condition in ['bitemporal_drift', 'latest_timestamp', 'full_history_brute', '
         man_hash = hashlib.sha256(f.read().encode()).hexdigest()
     if stores['bitemporal'].get_meta('manifest_hash') != man_hash:
         print("ERROR: store_data DB manifest hash mismatch!")
+        sys.exit(1)
+    # The requirement: "The harness must refuse to run if the config hash in the store metadata disagrees with the config on disk."
+    db_config_hash = stores['bitemporal'].get_meta('config_hash')
+    if db_config_hash and db_config_hash != config_hash:
+        print("ERROR: store_data DB config hash mismatch!")
         sys.exit(1)
 
 
@@ -87,7 +95,7 @@ if condition == 'latest_timestamp':
         assert v0 not in ctx, f"Adapter returned v0 for {p_id} at ts {t_doc+1}"
 
 
-MODEL = "deepseek-chat"
+
 TEMP = 0.6
 K_ATTEMPTS = 4
 
@@ -124,7 +132,7 @@ for p in ['cancellation_fee', 'id_verification', 'gift_card_expiry']:
         pass
 
 def call_llm(prompt, attempt_idx):
-    hash_str = f"{MODEL}_{TEMP}_{run_seed}_{attempt_idx}_{prompt}"
+    hash_str = f"{provider}_{MODEL}_{TEMP}_{run_seed}_{attempt_idx}_{prompt}"
     h = hashlib.sha256(hash_str.encode()).hexdigest()
     cache_path = f"runs/cache/{h}.json"
     
@@ -133,18 +141,11 @@ def call_llm(prompt, attempt_idx):
             return json.load(f)
             
     try:
-        resp = client.chat.completions.create(
-            model=MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=TEMP,
-            max_tokens=12,
-            stop=["\n"]
-            # seed=run_seed - if supported, deepseek-chat might support it? I won't pass it if it causes errors, but openai API supports seed. Let's pass it.
-        )
-        ans = resp.choices[0].message.content.strip()
+        raw_res = complete(provider, MODEL, prompt, TEMP, 12, seed=run_seed)
+        ans = raw_res['text']
         usage = {
-            "prompt_tokens": resp.usage.prompt_tokens,
-            "completion_tokens": resp.usage.completion_tokens
+            "prompt_tokens": raw_res['prompt_tokens'],
+            "completion_tokens": raw_res['completion_tokens']
         }
         res = {"answer": ans, "usage": usage}
         with open(cache_path, 'w') as f:
@@ -190,11 +191,11 @@ import subprocess
 import filecmp
 print("Computing metrics via extract/rescore.py...")
 out_json = f"runs/{condition}_s{run_seed}.json"
-subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), out_json], check=True)
+subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), out_json, provider, MODEL, config_hash], check=True)
 
 # Audit chain verify
 tmp_json = f"runs/tmp_audit_{condition}.json"
-subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), tmp_json], check=True)
+subprocess.run([sys.executable, "extract/rescore.py", f"runs/raw/{run_id}", condition, str(run_seed), str(config_seed), tmp_json, provider, MODEL, config_hash], check=True)
 
 with open(out_json, 'r') as f1, open(tmp_json, 'r') as f2:
     if f1.read() == f2.read():

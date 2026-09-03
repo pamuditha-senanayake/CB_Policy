@@ -45,3 +45,35 @@ The Stage 2 gated population is corrected to exclusively evaluate post-detection
 
 ### Bug Fix: Stale Action Rate Population Correction
 The `stale_action_rate` calculation was found to improperly evaluate against pre-change and unchanged tasks where the "stale" action is logically identical to the correct current action. The population measured has been corrected to exactly reflect the definition given in `paper 2.md` criterion 3 ("the fraction of agent actions that satisfy an expired policy but violate the current one"). The underlying threshold of <5% remains completely unchanged.
+
+## Multimodel Ablation Predictions
+
+**A1. Remove retrospective scan:** `valid_from = detect_ts`.
+Predicted: Online queries barely move, but `valid_time_error_traces` jumps from about 18 to about 45, and `asof_correctness_retrospective` falls.
+
+**A2. Remove constraint mining:** Serve "this policy has changed, current content unknown".
+Predicted: `window_detected_doc_stale` collapses toward the floor.
+
+**A3. Oracle timing, real mining:** True change dates from manifest, but mine constraint from behaviour.
+Predicted: Performance sits between our bitemporal row and the oracle timing row.
+
+**A4. Remove temporal indexing:** Always serve the most recently mined rule.
+Predicted: `pre-change` collapses from 0.867 toward chance while post change cells hold.
+
+**A5. Provenance tag variants:**
+- Absent
+- Neutral (`Source: internal policy record`)
+- Explicit (`Source: practice-mined, document pending`)
+Predicted: The explicit tag depresses `window_detected_doc_stale` by roughly 25 points relative to absent.
+
+**A6. Detector sweep:**
+ADWIN delta in {0.002, 0.01, 0.05, 0.1, 0.15, 0.2, 0.3}, plus Page-Hinkley and KSWIN on all six seeds.
+Emits mean delay against false positive rate as a frontier.
+
+**A7. Changepoint buffer length:**
+Tested at 50, 150, 300 traces.
+Predicted: 50 is too short and straddles the change, 300 is too long and dilutes the signal. 150 is optimal.
+
+**A8. Mining strategy on numeric attributes:**
+Binary search over attribute range instead of enumerating observed values.
+Predicted: Exact recovery on numeric thresholds (100) instead of current gap (94). Adversarial tasks inside the gap will show accuracy costs under enumeration, resolved by binary search.

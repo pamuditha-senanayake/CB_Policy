@@ -1,0 +1,38 @@
+{
+  "ADWIN_delta_0.002": {
+    "fpr": 0.0,
+    "mean_delay": 64.71428571428571
+  },
+  "ADWIN_delta_0.01": {
+    "fpr": 0.0,
+    "mean_delay": 60.142857142857146
+  },
+  "ADWIN_delta_0.05": {
+    "fpr": 0.0,
+    "mean_delay": 41.857142857142854
+  },
+  "ADWIN_delta_0.1": {
+    "fpr": 0.0,
+    "mean_delay": 41.857142857142854
+  },
+  "ADWIN_delta_0.15": {
+    "fpr": 0.0,
+    "mean_delay": 41.857142857142854
+  },
+  "ADWIN_delta_0.2": {
+    "fpr": 0.0,
+    "mean_delay": 41.857142857142854
+  },
+  "ADWIN_delta_0.3": {
+    "fpr": 0.125,
+    "mean_delay": 32.714285714285715
+  },
+  "PageHinkley": {
+    "fpr": 0.875,
+    "mean_delay": 0.0
+  },
+  "KSWIN": {
+    "fpr": 0.125,
+    "mean_delay": 27.958333333333332
+  }
+}

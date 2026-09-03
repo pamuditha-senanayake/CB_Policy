@@ -1,7 +1,7 @@
 def calculate_fitness(trace, policy_doc):
     events = trace.get('events', [])
     if not events:
-        return 1.0
+        return None
         
     matches = 0
     constraint = policy_doc['constraint']

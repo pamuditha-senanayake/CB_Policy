@@ -3,14 +3,14 @@
   "asof_correctness_retrospective": 1.0,
   "constraint_correctness": 1.0,
   "asof_correctness_online": 0.9166666666666666,
-  "valid_time_error_traces": 13.333333333333334,
+  "valid_time_error_traces": 26.333333333333332,
   "per_policy_errors": {
     "refund_window": "no_drift_required",
     "price_match_cap": "no_drift_required",
     "exchange_eligibility": "no_drift_required",
     "exception_approval": 5,
     "shipping_upgrade": 20,
-    "loyalty_discount": 15
+    "loyalty_discount": 54
   },
   "false_invalidation_rate": 0.0,
   "rollback_handled": true,

@@ -15,6 +15,10 @@ condition = sys.argv[2]
 run_seed = int(sys.argv[3])
 config_seed = int(sys.argv[4])
 expected_json_path = sys.argv[5]
+provider = sys.argv[6] if len(sys.argv) > 6 else "deepseek"
+model = sys.argv[7] if len(sys.argv) > 7 else "deepseek-chat"
+config_hash = sys.argv[8] if len(sys.argv) > 8 else ""
+
 
 with open('data/tasks/tasks.json', 'r') as f:
     tasks = json.load(f)
@@ -163,6 +167,10 @@ unparseable_rate = unparseable_n / total_responses if total_responses else 0
 out_data = {
     "condition": condition,
     "data_seed": config_seed,
+    "run_seed": run_seed,
+    "provider": provider,
+    "model": model,
+    "config_hash": config_hash,
     "run_seed": run_seed,
     "pass1": correct / real_tasks_count if real_tasks_count else 0,
     "pass4": pass4_count / real_tasks_count if real_tasks_count else 0,

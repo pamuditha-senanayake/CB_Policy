@@ -1,0 +1,21 @@
+--- extract/rescore.py
++++ extract/rescore.py
+@@ -16,6 +16,9 @@
+ run_seed = int(sys.argv[3])
+ config_seed = int(sys.argv[4])
+ expected_json_path = sys.argv[5]
++provider = sys.argv[6] if len(sys.argv) > 6 else "deepseek"
++model = sys.argv[7] if len(sys.argv) > 7 else "deepseek-chat"
++config_hash = sys.argv[8] if len(sys.argv) > 8 else ""
+ 
+ with open('data/tasks/tasks.json', 'r') as f:
+     tasks = json.load(f)
+@@ -163,6 +166,9 @@
+ out_data = {
+     "condition": condition,
+     "data_seed": config_seed,
++    "run_seed": run_seed,
++    "provider": provider,
++    "model": model,
++    "config_hash": config_hash,
+     "pass1": correct / real_tasks_count if real_tasks_count else 0,

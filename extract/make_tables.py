@@ -15,7 +15,11 @@ for cond in conditions:
             unch = data.get('unchanged_pass1', 0)
             stale = data.get('stale_action_rate', 0)
             output_lines.append(f"{cond:<20} | {pass1:.3f} | {chg:.3f} | {unch:.3f} | {stale:.3f}")
-    except:
+    except Exception as e:
+        print(f"Error reading stage2: {e}")
+        raise
+        print(f"Error reading {cond}: {e}")
+        raise
         pass
 
 output_lines.append("\n=== S1 Table: Document Status Slice (Changed Policies, Post-Change Only) ===")
@@ -28,7 +32,11 @@ for cond in conditions:
             doc_lag = data.get('doc_slice_lagged', 0)
             doc_roll = data.get('doc_slice_rollback', 0)
             output_lines.append(f"{cond:<20} | {doc_docs:.3f}      | {doc_lag:.3f}  | {doc_roll:.3f}")
-    except:
+    except Exception as e:
+        print(f"Error reading stage2: {e}")
+        raise
+        print(f"Error reading {cond}: {e}")
+        raise
         pass
 output_lines.append("\n* Note: bitemporal_drift's 1.000 on the rollback slice occurs because the store collapsed both changes into one late detection (it skipped the perfectly-documented initial change and only detected the undocumented rollback).")
 
@@ -43,7 +51,11 @@ for cond in conditions:
             s_win_stale = data.get('slice_window_detected_doc_stale_changed', 0)
             s_post = data.get('slice_post-detection_changed', 0)
             output_lines.append(f"{cond:<20} | {s_pre:.3f}      | {s_win_pre:.3f}   | {s_win_stale:.3f}     | {s_post:.3f}")
-    except:
+    except Exception as e:
+        print(f"Error reading stage2: {e}")
+        raise
+        print(f"Error reading {cond}: {e}")
+        raise
         pass
 
 output_lines.append("\n=== S3 Guard Column (Unchanged Policies) ===")
@@ -54,7 +66,11 @@ for cond in conditions:
             data = json.load(f)
             s_unch = data.get('slice_unchanged', 0)
             output_lines.append(f"{cond:<20} | {s_unch:.3f}")
-    except:
+    except Exception as e:
+        print(f"Error reading stage2: {e}")
+        raise
+        print(f"Error reading {cond}: {e}")
+        raise
         pass
 
 output_lines.append("\n=== Stage 2 Correctness Metrics (bitemporal_drift) ===")
@@ -66,7 +82,11 @@ for i in [0, 1, 2, 3, 7, 11]:
             asof = data.get('asof_correctness_postdetection', 0)
             constr = data.get('constraint_correctness', 0)
             output_lines.append(f"Seed {i}: asof={asof:.3f}, constr={constr:.3f}")
-    except:
+    except Exception as e:
+        print(f"Error reading stage2: {e}")
+        raise
+        print(f"Error reading {cond}: {e}")
+        raise
         pass
 
 final_text = "\n".join(output_lines)
@@ -88,4 +108,6 @@ for seed in [0, 1, 2, 3, 7, 11]:
             print(f"rollback_handled: {s2.get('rollback_handled', False)}")
             print(f"false_invalidation_rate: {s2.get('false_invalidation_rate', 0):.3f}")
     except Exception as e:
+        print(f"Error reading stage2: {e}")
+        raise
         pass
