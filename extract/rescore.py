@@ -4,11 +4,22 @@ import sys
 import glob
 import re
 
+
+
 def normalize_action(s):
     if not s: return ""
-    s = str(s).strip()
-    s = re.sub(r'[\'"`\[\]:\.]', '', s)
-    return s.strip().lower()
+    import re
+    s = str(s).strip().lower()
+    s = re.sub(r'[\'\"`\[\]:\.]', '', s)
+    return s.strip()
+
+def check_answer(response, expected):
+    if not response: return False
+    response = response.lower()
+    expected = expected.lower()
+    return expected in response
+
+
 
 raw_dir = sys.argv[1]
 condition = sys.argv[2]
@@ -111,8 +122,22 @@ for t in tasks:
     for a in attempts:
         ans_norm = normalize_action(a['response'])
         total_responses += 1
-        if ans_norm not in valid_actions:
-            unparseable_n += 1
+        # Parseability must use the same matching rule as correctness.
+        # check_answer() scores by substring, so an exact-match test here made a
+        # verbose but correct answer ("upgrade_shipping is correct") count as
+        # both correct and unparseable. A response is parseable when exactly one
+        # valid action appears in it; zero matches is unreadable and two is
+        # ambiguous, and both are unparseable.
+        distinct = {v for v in valid_actions if v}
+        if ans_norm in distinct:
+            pass  # bare action word, unambiguous
+        else:
+            subs = [v for v in distinct if v in ans_norm]
+            # ignore an action that is merely a substring of another match
+            maximal = [v for v in subs
+                       if not any(v != w and v in w for w in subs)]
+            if len(maximal) != 1:
+                unparseable_n += 1
     
     if t.get('is_canary'):
         if not is_correct1:
