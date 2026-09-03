@@ -30,3 +30,6 @@ detect/eval_stage2_a8_tmp.py
 runs/raw/deepseek-chat_*/
 runs/raw/gpt-5.6-luna_*/
 runs/raw/claude-sonnet-5_*/
+
+# Sweep console logs
+runs/*.log
